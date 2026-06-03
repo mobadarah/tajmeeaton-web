@@ -32,36 +32,20 @@
     "وسوم": "القرآن الكريم, اللغة عربية"
   },
   {
-    "Name": "HadithHouseApi",
-    "التقنيات": "Angular, Backend, Django, Elasticsearch, Grunt, Jenkins, PostgreSQL, Python, TypeScript",
-    "الرخصة": "MIT",
-    "الكود المصدري": "https://github.com/hadithhouse/HadithHouseApi",
-    "الوصف بالإنجليزية": "HadithHouseApi serves as the backend for the Hadith House project, which aims to collect and classify the sayings of Prophet Muhammad (Hadith). This project provides APIs that allow developers to access the Hadith database, including details of the chain of narration (Isnad) and the text (Matn), with capabilities for search and filtering.",
-    "الوصف بالعربية": "يُعد مشروع HadithHouseApi بمثابة الواجهة الخلفية لمشروع Hadith House، الذي يهدف إلى جمع وتصنيف الأحاديث النبوية الشريفة. يوفر هذا المشروع واجهات برمجة تطبيقات (APIs) تُمكّن المطورين من الوصول إلى قاعدة بيانات الأحاديث، بما في ذلك تفاصيل السند والمتن، مع إمكانية البحث والتصفية.",
-    "حالة البيانات": "اكتمل ✅",
-    "حالة المشروع": "ميت ☠️",
-    "روابط": "",
-    "زمن آخر تعديل": "٣ نوفمبر ٢٠٢٤ ٣:٢٣ م",
-    "مسؤول البيانات": "Abd El-Rahman Bayoumi",
-    "مفتوح المصدر": "Yes",
-    "نوع المبادرة": "RESTful API",
-    "وسوم": "إسلام, الحديث النبوي"
-  },
-  {
     "Name": "Alfanous",
     "التقنيات": "Python",
-    "الرخصة": "AGPL-3.0 License",
+    "الرخصة": "LGPL-3.0 License",
     "الكود المصدري": "https://github.com/Alfanous-team/alfanous",
-    "الوصف بالإنجليزية": "Alfanous is an Arabic search engine API provides the simple and advanced search in Quran , more features and many interfaces…",
-    "الوصف بالعربية": "الفانوس هو محرك بحث عربي يوفر API ادوات متقدمة للبحث في القرآن",
+    "الوصف بالإنجليزية": "Alfanous is a Quranic search engine API that provides simple and advanced search capabilities for the Holy Qur'an. It enables developers to build applications that search through Quranic text in Arabic, with support for Buckwalter transliteration, advanced query syntax, and rich metadata. Features include faceted search, morphological filtering, MCP server support, and a RESTful web service.",
+    "الوصف بالعربية": "الفانوس هو محرك بحث قرآني متقدم يوفر واجهة برمجية (API) للبحث في القرآن الكريم مع دعم البحث البسيط والمتقدم، والترجمة الصوتية (Buckwalter)، والاستعلامات المنطقية، والتصفية الصرفية. يمكن استخدامه كمكتبة بايثون أو خدمة ويب، ويدعم MCP للذكاء الاصطناعي.",
     "حالة البيانات": "اكتمل ✅",
-    "حالة المشروع": "متوقف صيانته 😑",
-    "روابط": "http://www.alfanous.org/",
+    "حالة المشروع": "نشط 🚀",
+    "روابط": "http://www.alfanous.org/, https://pypi.org/project/alfanous3/",
     "زمن آخر تعديل": "٢ نوفمبر ٢٠٢٤ ١:٥٨ م",
     "مسؤول البيانات": "ezz",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "CLI, تطبيق ويب, مكتبة برمجية",
-    "وسوم": "القرآن الكريم"
+    "وسوم": "القرآن الكريم, محرك بحث, بايثون, API"
   },
   {
     "Name": "مصحف البشير الالكتروني (مبني على مصحف عثمان الالكتروني)",
