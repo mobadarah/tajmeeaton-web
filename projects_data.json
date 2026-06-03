@@ -98,7 +98,7 @@
   {
     "Name": "قُطُوْف (Qutuf)",
     "التقنيات": "HTML, NLP, Python",
-    "الرخصة": "",
+    "الرخصة": "رخصة مخصصة (اتصل بالمؤلفين)",
     "الكود المصدري": "https://github.com/Qutuf/Qutuf",
     "الوصف بالإنجليزية": "An Arabic Morphological Analyzer and Part-Of-Speech Tagger, including stemming and root extraction, serving as the core for Arabic NLP framework.",
     "الوصف بالعربية": "نظام لتحليل الصرف العربي واستخراج الجذور وتحديد أجزاء الكلام، يُستخدم كإطار عمل شامل لمعالجة اللغة العربية",
