@@ -1,0 +1,883 @@
+[
+  {
+    "index": 5,
+    "name": "مصحف البشير الالكتروني (مبني على مصحف عثمان الالكتروني)",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 6,
+    "name": "قاعدة بيانات القرآن الكريم (Quran Database)",
+    "missing_fields": [
+      "الرخصة",
+      "روابط"
+    ]
+  },
+  {
+    "index": 7,
+    "name": "قُطُوْف (Qutuf)",
+    "missing_fields": [
+      "الرخصة",
+      "روابط"
+    ]
+  },
+  {
+    "index": 8,
+    "name": "quran-tajweed",
+    "missing_fields": [
+      "الرخصة",
+      "روابط"
+    ]
+  },
+  {
+    "index": 9,
+    "name": "اكتشاف الآيات (ayah-detection)",
+    "missing_fields": [
+      "الرخصة",
+      "روابط"
+    ]
+  },
+  {
+    "index": 10,
+    "name": "tajweed",
+    "missing_fields": [
+      "الرخصة",
+      "روابط"
+    ]
+  },
+  {
+    "index": 11,
+    "name": "Ahkam-Al-Tajweed - أحكام التجويد",
+    "missing_fields": [
+      "الرخصة"
+    ]
+  },
+  {
+    "index": 12,
+    "name": "othman",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 13,
+    "name": "Quran-App-Data",
+    "missing_fields": [
+      "الرخصة"
+    ]
+  },
+  {
+    "index": 14,
+    "name": "الْمُعْجَم الترددي لِلْحُرُوف الْعَرَبِيَّةِ فِي الْقُرْآنِ الْكَرِيمِ",
+    "missing_fields": [
+      "الرخصة"
+    ]
+  },
+  {
+    "index": 15,
+    "name": "tarteel-ml",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 16,
+    "name": "أفكار لمشاريع",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الكود المصدري",
+      "الوصف بالإنجليزية",
+      "الوصف بالعربية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 18,
+    "name": "Ayaaty",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 19,
+    "name": "قاعدة بيانات للقرآن الكريم SQLite",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 20,
+    "name": "Pray Times - حساب مواقيت الصلاة",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 22,
+    "name": "Adhan",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 24,
+    "name": "Masjid Times",
+    "missing_fields": [
+      "الرخصة",
+      "روابط"
+    ]
+  },
+  {
+    "index": 25,
+    "name": "تطبيق مواقيت الصلاة في بلفاست ولندن (Belfast Prayer Times)",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 26,
+    "name": "Next Prayer",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 27,
+    "name": "Mosque Prayer Display Screen (شاشة عرض مواقيت الصلاة للمسجد)",
+    "missing_fields": [
+      "الرخصة"
+    ]
+  },
+  {
+    "index": 30,
+    "name": "pyIslam - مكتبة إسلامية برمجية بلغة بايثون",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 31,
+    "name": "Tanafaso",
+    "missing_fields": [
+      "الرخصة",
+      "الوصف بالعربية",
+      "روابط",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 32,
+    "name": "BoycottFrensh",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 33,
+    "name": "IslamBot",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 34,
+    "name": "Muslim-App (Daily Muslim's Fortress App)",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالعربية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 35,
+    "name": "Iftar CLI",
+    "missing_fields": [
+      "الوصف بالعربية",
+      "روابط"
+    ]
+  },
+  {
+    "index": 36,
+    "name": "KhattSeen خطسين",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "روابط"
+    ]
+  },
+  {
+    "index": 37,
+    "name": "MathJax Arabic Extension",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالعربية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 38,
+    "name": "mostalah مصطلح aosus-dictionary",
+    "missing_fields": [
+      "الوصف بالإنجليزية",
+      "نوع المبادرة"
+    ]
+  },
+  {
+    "index": 39,
+    "name": "ArabTerm",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالعربية",
+      "روابط",
+      "نوع المبادرة"
+    ]
+  },
+  {
+    "index": 40,
+    "name": "i18n",
+    "missing_fields": [
+      "الوصف بالإنجليزية",
+      "روابط"
+    ]
+  },
+  {
+    "index": 41,
+    "name": "معجم المصطلحات التقنية العربية",
+    "missing_fields": [
+      "الرخصة",
+      "روابط"
+    ]
+  },
+  {
+    "index": 42,
+    "name": "نبراس هو قاموس فرنسي-عربي",
+    "missing_fields": [
+      "الرخصة"
+    ]
+  },
+  {
+    "index": 43,
+    "name": "جافاسكريبت بالعربية",
+    "missing_fields": [
+      "الرخصة",
+      "روابط"
+    ]
+  },
+  {
+    "index": 44,
+    "name": "لغة ألف",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 45,
+    "name": "لغة \"كلمات\"",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 46,
+    "name": "لغة الأسُس البرمجية (Alusus)",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 47,
+    "name": "Phoenix - لغة البرمجة العربية كائنية التوجه",
+    "missing_fields": [
+      "الرخصة",
+      "روابط"
+    ]
+  },
+  {
+    "index": 48,
+    "name": "لغة برمجة عمّوريا",
+    "missing_fields": [
+      "الرخصة"
+    ]
+  },
+  {
+    "index": 49,
+    "name": "مشاريع الخوارزم",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 50,
+    "name": "NabdJS",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 51,
+    "name": "ALB قلب",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 52,
+    "name": "Labiba لبيبة",
+    "missing_fields": [
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "الوصف بالعربية",
+      "روابط",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 53,
+    "name": "Mawrid Reader: Arabic dictionary interface",
+    "missing_fields": [
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "الوصف بالعربية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 54,
+    "name": "Noor programming language",
+    "missing_fields": [
+      "الرخصة",
+      "الوصف بالعربية",
+      "روابط",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 55,
+    "name": "Unnamed_Project_55",
+    "missing_fields": [
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط"
+    ]
+  },
+  {
+    "index": 56,
+    "name": "The Modern JavaScript Tutorial in Arabic",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 57,
+    "name": "Arabic NLP Tools and Resources Lists",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 58,
+    "name": "Adawat: Arabic Language Toolkit",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 59,
+    "name": "Python Arabic Reshaper",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 60,
+    "name": "LanguageTool",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 61,
+    "name": "tnkeeh",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 62,
+    "name": "arabert",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 63,
+    "name": "AyaSpell Arabic Dictionary for Spellchecking",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 64,
+    "name": "Arabic Named Entity Recognition: What Works and What’s Next",
+    "missing_fields": [
+      "الرخصة"
+    ]
+  },
+  {
+    "index": 65,
+    "name": "PyArabic",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 66,
+    "name": "ArabicTransliterator",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 67,
+    "name": "Arabic Word Embeddings Word2vec",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 68,
+    "name": "raqin",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 69,
+    "name": "Arabic_OCR",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 70,
+    "name": "ARBML",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 71,
+    "name": "Arabic NLP",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 72,
+    "name": "Arabic-OCR",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 73,
+    "name": "Arabic NER",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 74,
+    "name": "Arabic Handwriting Recognition Using Neural Network in MATLAB",
+    "missing_fields": [
+      "الرخصة",
+      "الوصف بالعربية",
+      "نوع المبادرة"
+    ]
+  },
+  {
+    "index": 75,
+    "name": "Arabic-NER",
+    "missing_fields": [
+      "الرخصة",
+      "روابط"
+    ]
+  },
+  {
+    "index": 77,
+    "name": "Arabic TTS ( الناطق العربي )",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 78,
+    "name": "Klaam",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 80,
+    "name": "arabic-tacotron-tts",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 81,
+    "name": "languagetool-tools-ar",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 82,
+    "name": "Ghalatawi, Arabic AutoCorrect",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 83,
+    "name": "duali",
+    "missing_fields": [
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 88,
+    "name": "jsastem",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "الوصف بالعربية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 92,
+    "name": "alankaa",
+    "missing_fields": [
+      "الرخصة"
+    ]
+  },
+  {
+    "index": 93,
+    "name": "Qutrub",
+    "missing_fields": [
+      "الرخصة"
+    ]
+  },
+  {
+    "index": 95,
+    "name": "Alif Type (حروف ألف)",
+    "missing_fields": [
+      "الرخصة"
+    ]
+  },
+  {
+    "index": 96,
+    "name": "Khotot",
+    "missing_fields": [
+      "التقنيات"
+    ]
+  },
+  {
+    "index": 97,
+    "name": "https://github.com/aiaf/nimra",
+    "missing_fields": [
+      "التقنيات",
+      "الوصف بالعربية"
+    ]
+  },
+  {
+    "index": 99,
+    "name": "خط أسس (خط للأكواد العربية)",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الكود المصدري"
+    ]
+  },
+  {
+    "index": 100,
+    "name": "Kawkab Mono",
+    "missing_fields": [
+      "التقنيات"
+    ]
+  },
+  {
+    "index": 101,
+    "name": "دليل أسلوب كتابة المحتوى (Content Style Guide)",
+    "missing_fields": [
+      "الوصف بالإنجليزية"
+    ]
+  },
+  {
+    "index": 102,
+    "name": "Arabic Initiative for User Experience (AIUX)",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "روابط"
+    ]
+  },
+  {
+    "index": 103,
+    "name": "Osman Readability Metric",
+    "missing_fields": [
+      "الرخصة"
+    ]
+  },
+  {
+    "index": 104,
+    "name": "مجتمع أسس",
+    "missing_fields": [
+      "الرخصة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 106,
+    "name": "اسماء.شبكة",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الكود المصدري",
+      "الوصف بالإنجليزية"
+    ]
+  },
+  {
+    "index": 107,
+    "name": "بالعربي.مصر",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الكود المصدري"
+    ]
+  },
+  {
+    "index": 108,
+    "name": "Ara",
+    "missing_fields": [
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط"
+    ]
+  },
+  {
+    "index": 109,
+    "name": "Tafqit",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 110,
+    "name": "Hillal Linux",
+    "missing_fields": [
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة"
+    ]
+  },
+  {
+    "index": 111,
+    "name": "Mujallad مجلّد",
+    "missing_fields": [
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط"
+    ]
+  },
+  {
+    "index": 112,
+    "name": "RTL Styling",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة"
+    ]
+  },
+  {
+    "index": 113,
+    "name": "Arabic APIs",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة"
+    ]
+  },
+  {
+    "index": 114,
+    "name": "SimpleMDE - Markdown Editor (RTL)",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الوصف بالإنجليزية",
+      "روابط",
+      "نوع المبادرة"
+    ]
+  },
+  {
+    "index": 115,
+    "name": "Arabic voices for Festival TTS",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 116,
+    "name": "https://sina.birzeit.edu/wojood/",
+    "missing_fields": [
+      "التقنيات",
+      "الرخصة",
+      "الكود المصدري",
+      "الوصف بالإنجليزية",
+      "الوصف بالعربية",
+      "روابط",
+      "نوع المبادرة",
+      "وسوم"
+    ]
+  },
+  {
+    "index": 120,
+    "name": "Dorar.net Hadith API",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 121,
+    "name": "Sunnah Hadith API",
+    "missing_fields": [
+      "روابط"
+    ]
+  },
+  {
+    "index": 122,
+    "name": "100 دعاء من الكتاب والسنة الصحيحة",
+    "missing_fields": [
+      "روابط"
+    ]
+  }
+]
