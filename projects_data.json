@@ -194,7 +194,7 @@
   {
     "Name": "Quran-App-Data",
     "التقنيات": "Dataset, JSON, SQL",
-    "الرخصة": "",
+    "الرخصة": "غير محددة",
     "الكود المصدري": "https://github.com/Mohamed-Nagdy/Quran-App-Data",
     "الوصف بالإنجليزية": "The \"Quran-App-Data\" project provides a comprehensive collection of data and resources for Quran applications and websites, including Hadith books in JSON format, complete JSON files for all Quranic Surahs, ordered images of all Quran pages, and JSON files containing all Azkar, the 99 names of Allah, and the names of Prophet Muhammad ﷺ.",
     "الوصف بالعربية": "يقدم مشروع \"Quran-App-Data\" مجموعة شاملة من البيانات والموارد لتطبيقات ومواقع القرآن الكريم، تشمل كتب الحديث بصيغة JSON، وملفات JSON لسور القرآن كاملة، وصور مرتبة لجميع صفحات المصحف، بالإضافة إلى ملفات JSON تحتوي على جميع الأذكار، وأسماء الله الحسنى، وأسماء النبي محمد ﷺ.",
