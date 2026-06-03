@@ -210,7 +210,7 @@
   {
     "Name": "الْمُعْجَم الترددي لِلْحُرُوف الْعَرَبِيَّةِ فِي الْقُرْآنِ الْكَرِيمِ",
     "التقنيات": "CSS, HTML, JavaScript, ReactJS",
-    "الرخصة": "",
+    "الرخصة": "غير محددة",
     "الكود المصدري": "https://github.com/moroclash/Visualization-Of-Quran",
     "الوصف بالإنجليزية": "An open-source tool designed to visualize the frequencies of characters and words in the Quran. It allows users to apply multiple filters based on Surah, Ayah, and characters, with the ability to customize the character system according to their needs.",
     "الوصف بالعربية": "أداة مفتوحة المصدر تهدف إلى تصور ترددات الحروف والكلمات في القرآن الكريم. تتيح للمستخدمين تطبيق فلاتر متعددة بناءً على السورة، الآية، والحروف، مع إمكانية تخصيص نظام الحروف وفقًا لاحتياجاتهم.",
