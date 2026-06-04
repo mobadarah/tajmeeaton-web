@@ -1,0 +1,4127 @@
+{
+  "projects": [
+    {
+      "name": "Iqra",
+      "technologies": "CSS, Express.JS, Flask, HTML, Java, JavaScript, Node.JS, Python, ReactJS, Speech recognition, Swift",
+      "license": "GPL-3.0 License, MIT",
+      "source_url": "https://github.com/Crescent-Labs",
+      "description_en": "Iqra is an open-source platform that allows users to search the Quran using speech recognition technology. The platform provides seamless access to Quranic texts through mobile and web applications.",
+      "description_ar": "منصة مفتوحة المصدر تمكّن المستخدمين من البحث في القرآن الكريم باستخدام تقنيات التعرف على الصوت عبر تطبيقات مختلفة للأجهزة المحمولة والويب. تتيح المنصة للمسلمين الوصول إلى النصوص القرآنية بسهولة عبر تكنولوجيا البحث الصوتي.",
+      "status": "ميت ☠️",
+      "links": "https://github.com/Crescent-Labs/iqra-web, https://github.com/Crescent-Labs/iqra-api, https://github.com/Crescent-Labs/iqra-ios, https://github.com/Crescent-Labs/iqra-android",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "RESTful API, تطبيق iOS, تطبيق أندرويد, تطبيق ويب",
+      "tags": "أصوات, القرآن الكريم",
+      "last_activity": "2023-02-27",
+      "slug": "iqra",
+      "technologies_list": [
+        "CSS",
+        "Express.JS",
+        "Flask",
+        "HTML",
+        "Java",
+        "JavaScript",
+        "Node.JS",
+        "Python",
+        "ReactJS",
+        "Speech recognition",
+        "Swift"
+      ],
+      "tags_list": [
+        "أصوات",
+        "القرآن الكريم"
+      ],
+      "initiative_type_list": [
+        "RESTful API",
+        "تطبيق iOS",
+        "تطبيق أندرويد",
+        "تطبيق ويب"
+      ],
+      "links_list": [
+        "https://github.com/Crescent-Labs/iqra-web",
+        "https://github.com/Crescent-Labs/iqra-api",
+        "https://github.com/Crescent-Labs/iqra-ios",
+        "https://github.com/Crescent-Labs/iqra-android"
+      ]
+    },
+    {
+      "name": "PyQuran",
+      "technologies": "Data Analysis, Python",
+      "license": "GNU General Public License v2.0",
+      "source_url": "https://github.com/hci-lab/PyQuran",
+      "description_en": "Python package that provides tools for Quranic analysis and Arabic texts. It allows users to retrieve Quranic text, perform advanced searches, transliterate between different alphabetical systems, and generate word frequency tables.",
+      "description_ar": "هي حزمة بايثون توفر أدوات لتحليل القرآن الكريم والنصوص العربية. تتيح للمستخدمين استرجاع نصوص القرآن، البحث المتقدم، التحويل بين أنظمة الأبجدية المختلفة، وإنشاء جداول تكرار الكلمات.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://hci-lab.github.io/PyQuran-Private/, https://pypi.org/project/pyquran/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "القرآن الكريم, اللغة عربية",
+      "last_activity": "2024-05-24",
+      "slug": "pyquran",
+      "technologies_list": [
+        "Data Analysis",
+        "Python"
+      ],
+      "tags_list": [
+        "القرآن الكريم",
+        "اللغة عربية"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://hci-lab.github.io/PyQuran-Private/",
+        "https://pypi.org/project/pyquran/"
+      ]
+    },
+    {
+      "name": "Alfanous",
+      "technologies": "Python",
+      "license": "LGPL-3.0 License",
+      "source_url": "https://github.com/Alfanous-team/alfanous",
+      "description_en": "Alfanous is a Quranic search engine API that provides simple and advanced search capabilities for the Holy Qur'an. It enables developers to build applications that search through Quranic text in Arabic, with support for Buckwalter transliteration, advanced query syntax, and rich metadata. Features include faceted search, morphological filtering, MCP server support, and a RESTful web service.",
+      "description_ar": "الفانوس هو محرك بحث قرآني متقدم يوفر واجهة برمجية (API) للبحث في القرآن الكريم مع دعم البحث البسيط والمتقدم، والترجمة الصوتية (Buckwalter)، والاستعلامات المنطقية، والتصفية الصرفية. يمكن استخدامه كمكتبة بايثون أو خدمة ويب، ويدعم MCP للذكاء الاصطناعي.",
+      "status": "نشط 🚀",
+      "links": "https://www.alfanous.ai/, https://pypi.org/project/alfanous3/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "CLI, تطبيق ويب, مكتبة برمجية",
+      "tags": "القرآن الكريم, محرك بحث, بايثون, API",
+      "last_activity": "2026-05-04",
+      "slug": "alfanous",
+      "technologies_list": [
+        "Python"
+      ],
+      "tags_list": [
+        "القرآن الكريم",
+        "محرك بحث",
+        "بايثون",
+        "API"
+      ],
+      "initiative_type_list": [
+        "CLI",
+        "تطبيق ويب",
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://www.alfanous.ai/",
+        "https://pypi.org/project/alfanous3/"
+      ]
+    },
+    {
+      "name": "مصحف البشير الالكتروني (مبني على مصحف عثمان الالكتروني)",
+      "technologies": "Python",
+      "license": "رخصة وقف من أعجوبة",
+      "source_url": "https://github.com/yucefsourani/albasheer-electronic-quran-browser",
+      "description_en": "Albasheer Electronic Quran Browser is an open-source application for displaying the Holy Quran, based on the Othman Electronic Quran Browser project. It features a modern user interface, dark mode support, customizable background and text colors, and supports audio recitations, translations, and tafsir.",
+      "description_ar": "مصحف البشير الإلكتروني هو تطبيق مفتوح المصدر لعرض القرآن الكريم، مبني على مشروع مصحف عثمان الإلكتروني. يتميز بواجهة مستخدم حديثة، دعم الوضع الليلي، إمكانية تغيير ألوان الخلفية والنص، ودعم التلاوة الصوتية والترجمات والتفاسير.",
+      "status": "نشط 🚀",
+      "links": "https://flathub.org/apps/com.github.yucefsourani.albasheer-electronic-quran-browser, https://copr.fedorainfracloud.org/coprs/youssefmsourani/albasheer/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "برنامج سطح المكتب 💻",
+      "tags": "القرآن الكريم",
+      "last_activity": "2026-01-17",
+      "slug": "",
+      "technologies_list": [
+        "Python"
+      ],
+      "tags_list": [
+        "القرآن الكريم"
+      ],
+      "initiative_type_list": [
+        "برنامج سطح المكتب 💻"
+      ],
+      "links_list": [
+        "https://flathub.org/apps/com.github.yucefsourani.albasheer-electronic-quran-browser",
+        "https://copr.fedorainfracloud.org/coprs/youssefmsourani/albasheer/"
+      ]
+    },
+    {
+      "name": "قاعدة بيانات القرآن الكريم (Quran Database)",
+      "technologies": "Database, SQLite",
+      "license": "حر (دعاء صالح)",
+      "source_url": "https://github.com/bilalbentoumi/quran-database",
+      "description_en": "This project offers a comprehensive SQLite database of the Holy Quran, including information about Surahs such as their Arabic names, English pronunciations, classifications (Meccan or Medinan), number of verses, and content.",
+      "description_ar": "يوفر هذا المشروع قاعدة بيانات شاملة للقرآن الكريم بصيغة SQLite، تحتوي على معلومات حول السور، بما في ذلك أسماؤها بالعربية، نطقها بالإنجليزية، تصنيفها (مكية أو مدنية)، عدد الآيات، ومحتوى السور.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/bilalbentoumi/quran-database",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "قاعدة بيانات, مصادر",
+      "tags": "القرآن الكريم",
+      "last_activity": "2020-05-12",
+      "slug": "quran-database",
+      "technologies_list": [
+        "Database",
+        "SQLite"
+      ],
+      "tags_list": [
+        "القرآن الكريم"
+      ],
+      "initiative_type_list": [
+        "قاعدة بيانات",
+        "مصادر"
+      ],
+      "links_list": [
+        "https://github.com/bilalbentoumi/quran-database"
+      ]
+    },
+    {
+      "name": "قُطُوْف (Qutuf)",
+      "technologies": "HTML, NLP, Python",
+      "license": "رخصة مخصصة (اتصل بالمؤلفين)",
+      "source_url": "https://github.com/Qutuf/Qutuf",
+      "description_en": "An Arabic Morphological Analyzer and Part-Of-Speech Tagger, including stemming and root extraction, serving as the core for Arabic NLP framework.",
+      "description_ar": "نظام لتحليل الصرف العربي واستخراج الجذور وتحديد أجزاء الكلام، يُستخدم كإطار عمل شامل لمعالجة اللغة العربية",
+      "status": "ميت ☠️",
+      "links": "http://Qutuf.com",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق ويب, مكتبة برمجية",
+      "tags": "القرآن الكريم, اللغة عربية, تحليل صرفي, قواعد لغوية, معالجة اللغة الطبيعية",
+      "last_activity": "2022-12-12",
+      "slug": "qutuf",
+      "technologies_list": [
+        "HTML",
+        "NLP",
+        "Python"
+      ],
+      "tags_list": [
+        "القرآن الكريم",
+        "اللغة عربية",
+        "تحليل صرفي",
+        "قواعد لغوية",
+        "معالجة اللغة الطبيعية"
+      ],
+      "initiative_type_list": [
+        "تطبيق ويب",
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "http://Qutuf.com"
+      ]
+    },
+    {
+      "name": "quran-tajweed",
+      "technologies": "Dataset, Decision trees, Python, Speech recognition",
+      "license": "CC BY 4.0",
+      "source_url": "https://github.com/cpfair/quran-tajweed",
+      "description_en": "Tajweed annotations for the Qur'an (riwayat hafs). The data is available as a JSON file with exact character indices for each rule, and as individual decision trees for each rule. You can use this data to display the Qur'an with tajweed highlighting, refine models for Qur'anic speech recognition, or - if you enjoy decision trees - improve your own recitation. This project is not actively maintained. An alternative to it is the https://quran.api-docs.io/v4/quran/get-uthmani-script-of-ayah instead.",
+      "description_ar": "توضيحات التجويد للقرآن (رواية حفص). تتوفر البيانات كملف JSON يحتوي على مواقع الحروف الدقيقة لكل قاعدة تجويد، وأيضًا كأشجار قرار منفصلة لكل قاعدة. يمكنك استخدام هذه البيانات لعرض القرآن مع تلوين التجويد، تحسين نماذج التعرف على الصوت القرآني، أو - إذا كنت تستمتع بأشجار القرار - تحسين تلاوتك. هذا المشروع توقف العمل عليه. والبديل له مثلا هو واجهة API الخاصة بموقع Quran.com.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/cpfair/quran-tajweed",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "سكريبت برمجي, قاعدة بيانات, مصادر",
+      "tags": "القرآن الكريم, تجويد, تعليم, قواعد لغوية, معالجة اللغة الطبيعية",
+      "last_activity": "2021-10-12",
+      "slug": "quran-tajweed",
+      "technologies_list": [
+        "Dataset",
+        "Decision trees",
+        "Python",
+        "Speech recognition"
+      ],
+      "tags_list": [
+        "القرآن الكريم",
+        "تجويد",
+        "تعليم",
+        "قواعد لغوية",
+        "معالجة اللغة الطبيعية"
+      ],
+      "initiative_type_list": [
+        "سكريبت برمجي",
+        "قاعدة بيانات",
+        "مصادر"
+      ],
+      "links_list": [
+        "https://github.com/cpfair/quran-tajweed"
+      ]
+    },
+    {
+      "name": "اكتشاف الآيات (ayah-detection)",
+      "technologies": "Image processing, Matplotlib, NumPy, OpenCV, Python",
+      "license": "غير محددة",
+      "source_url": "https://github.com/quran/ayah-detection",
+      "description_en": "A set of scripts for detecting ayah markers in Quran images. Tested on three sets of images: Shamerly, Qaloon, and Warsh.",
+      "description_ar": "مجموعة من السكريبتات لاكتشاف علامات الآيات في صور القرآن الكريم. تم اختبارها على ثلاث مجموعات من الصور: الشمرلي، قالون، وورش.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/quran/ayah-detection",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "سكريبت برمجي, مكتبة برمجية",
+      "tags": "القرآن الكريم",
+      "last_activity": "2023-04-02",
+      "slug": "ayah-detection",
+      "technologies_list": [
+        "Image processing",
+        "Matplotlib",
+        "NumPy",
+        "OpenCV",
+        "Python"
+      ],
+      "tags_list": [
+        "القرآن الكريم"
+      ],
+      "initiative_type_list": [
+        "سكريبت برمجي",
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/quran/ayah-detection"
+      ]
+    },
+    {
+      "name": "tajweed",
+      "technologies": "Java, Utility functions",
+      "license": "غير محددة",
+      "source_url": "https://github.com/quran/tajweed",
+      "description_en": "An open-source project to develop algorithms for highlighting Tajweed rules in Quranic text with color coding, similar to tajweed Mushafs. It supports both Madani and Naskh Mushaf styles and aims to provide educational tools for other projects, including data export options in text, image, and HTML formats.",
+      "description_ar": "مشروع مفتوح المصدر لتطوير خوارزميات تمييز أحكام التجويد في النصوص القرآنية بألوان مختلفة كما هو الحال في المصاحف التجويدية، مع دعم لمصحف المدينة ومصحف النسخ. يهدف المشروع لإنتاج أدوات تعليمية يمكن استخدامها من قبل مشاريع أخرى، ويشمل ميزات لتصدير البيانات بصيغ نصية وصورية وHTML.",
+      "status": "ميت ☠️",
+      "links": "https://github.com/quran/tajweed",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "سكريبت برمجي",
+      "tags": "القرآن الكريم, اللغة عربية, تجويد",
+      "last_activity": "2018-10-07",
+      "slug": "tajweed",
+      "technologies_list": [
+        "Java",
+        "Utility functions"
+      ],
+      "tags_list": [
+        "القرآن الكريم",
+        "اللغة عربية",
+        "تجويد"
+      ],
+      "initiative_type_list": [
+        "سكريبت برمجي"
+      ],
+      "links_list": [
+        "https://github.com/quran/tajweed"
+      ]
+    },
+    {
+      "name": "Ahkam-Al-Tajweed - أحكام التجويد",
+      "technologies": "Deep Learning, Documents",
+      "license": "MIT",
+      "source_url": "https://github.com/malayyoub/Ahkam-Al-Tajweed",
+      "description_en": "This project aims to develop a deep learning-based system to automatically determine the correct application of basic Quranic recitation (Tajweed) rules. The repository includes data and resources related to this objective.",
+      "description_ar": "يهدف هذا المشروع إلى تطوير نظام يعتمد على التعلم العميق لتحديد التطبيق الصحيح لقواعد التجويد الأساسية في تلاوة القرآن الكريم. يتضمن المشروع بيانات ومصادر متعلقة بهذا الهدف.",
+      "status": "ميت ☠️",
+      "links": "https://www.researchgate.net/publication/327869102_A_dataset_of_audio_recordings_by_male_reciters_representing_correctincorrect_applications_of_basic_Quranic_recitation_rules",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مستندات ووثائق",
+      "tags": "القرآن الكريم, تجويد",
+      "last_activity": "2019-06-28",
+      "slug": "ahkam-al-tajweed",
+      "technologies_list": [
+        "Deep Learning",
+        "Documents"
+      ],
+      "tags_list": [
+        "القرآن الكريم",
+        "تجويد"
+      ],
+      "initiative_type_list": [
+        "مستندات ووثائق"
+      ],
+      "links_list": [
+        "https://www.researchgate.net/publication/327869102_A_dataset_of_audio_recordings_by_male_reciters_representing_correctincorrect_applications_of_basic_Quranic_recitation_rules"
+      ]
+    },
+    {
+      "name": "othman",
+      "technologies": "Python, Search engine",
+      "license": "رخصة وقف من أعجوبة",
+      "source_url": "https://github.com/ojuba-org/othman",
+      "description_en": "Othman Electronic Quran is a display of the Quranic text as it was written during the time of Uthman ibn Affan, may Allah be pleased with him, with fully accurate diacritics.",
+      "description_ar": "مصحف عثمان الإلكتروني وهو عرض للنص القرآني كما كتب في عهد عثمان بن عفان رضي الله عنه مضبوطا ومشكولا",
+      "status": "متوقف صيانته 😑",
+      "links": "http://ojuba.org",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "برنامج سطح المكتب 💻, تطبيق ويب",
+      "tags": "القرآن الكريم",
+      "last_activity": "2024-03-26",
+      "slug": "othman",
+      "technologies_list": [
+        "Python",
+        "Search engine"
+      ],
+      "tags_list": [
+        "القرآن الكريم"
+      ],
+      "initiative_type_list": [
+        "برنامج سطح المكتب 💻",
+        "تطبيق ويب"
+      ],
+      "links_list": [
+        "http://ojuba.org"
+      ]
+    },
+    {
+      "name": "Quran-App-Data",
+      "technologies": "Dataset, JSON, SQL",
+      "license": "غير محددة",
+      "source_url": "https://github.com/Mohamed-Nagdy/Quran-App-Data",
+      "description_en": "The \"Quran-App-Data\" project provides a comprehensive collection of data and resources for Quran applications and websites, including Hadith books in JSON format, complete JSON files for all Quranic Surahs, ordered images of all Quran pages, and JSON files containing all Azkar, the 99 names of Allah, and the names of Prophet Muhammad ﷺ.",
+      "description_ar": "يقدم مشروع \"Quran-App-Data\" مجموعة شاملة من البيانات والموارد لتطبيقات ومواقع القرآن الكريم، تشمل كتب الحديث بصيغة JSON، وملفات JSON لسور القرآن كاملة، وصور مرتبة لجميع صفحات المصحف، بالإضافة إلى ملفات JSON تحتوي على جميع الأذكار، وأسماء الله الحسنى، وأسماء النبي محمد ﷺ.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://youtu.be/7VvlBOINfjQ?si=kNTGyNL-31xSs5df",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "قاعدة بيانات, مصادر",
+      "tags": "أسماء الله الحسنى, أسماء النبي محمد ﷺ, الأذكار, الحديث النبوي, القرآن الكريم",
+      "last_activity": "2023-02-15",
+      "slug": "quran-app-data",
+      "technologies_list": [
+        "Dataset",
+        "JSON",
+        "SQL"
+      ],
+      "tags_list": [
+        "أسماء الله الحسنى",
+        "أسماء النبي محمد ﷺ",
+        "الأذكار",
+        "الحديث النبوي",
+        "القرآن الكريم"
+      ],
+      "initiative_type_list": [
+        "قاعدة بيانات",
+        "مصادر"
+      ],
+      "links_list": [
+        "https://youtu.be/7VvlBOINfjQ?si=kNTGyNL-31xSs5df"
+      ]
+    },
+    {
+      "name": "الْمُعْجَم الترددي لِلْحُرُوف الْعَرَبِيَّةِ فِي الْقُرْآنِ الْكَرِيمِ",
+      "technologies": "CSS, HTML, JavaScript, ReactJS",
+      "license": "غير محددة",
+      "source_url": "https://github.com/moroclash/Visualization-Of-Quran",
+      "description_en": "An open-source tool designed to visualize the frequencies of characters and words in the Quran. It allows users to apply multiple filters based on Surah, Ayah, and characters, with the ability to customize the character system according to their needs.",
+      "description_ar": "أداة مفتوحة المصدر تهدف إلى تصور ترددات الحروف والكلمات في القرآن الكريم. تتيح للمستخدمين تطبيق فلاتر متعددة بناءً على السورة، الآية، والحروف، مع إمكانية تخصيص نظام الحروف وفقًا لاحتياجاتهم.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://moroclash.github.io/Visualization-Of-Quran/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق ويب",
+      "tags": "القرآن الكريم, تكرار الحرف, تكرار الكلمة",
+      "last_activity": "2021-06-25",
+      "slug": "",
+      "technologies_list": [
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "ReactJS"
+      ],
+      "tags_list": [
+        "القرآن الكريم",
+        "تكرار الحرف",
+        "تكرار الكلمة"
+      ],
+      "initiative_type_list": [
+        "تطبيق ويب"
+      ],
+      "links_list": [
+        "https://moroclash.github.io/Visualization-Of-Quran/"
+      ]
+    },
+    {
+      "name": "tarteel-ml",
+      "technologies": "Artificial intelligence, Dataset, Jupyter Notebook, Machine learning, Python, Speech recognition",
+      "license": "MIT",
+      "source_url": "https://github.com/TarteelAI/tarteel-ml",
+      "description_en": "An open-source project utilizing machine learning to recognize Quranic recitation through voice. The project aims to support the analysis and improvement of Quran recitation using AI, providing tools for verse recognition and error detection.",
+      "description_ar": "مشروع مفتوح المصدر يستخدم تقنيات تعلم الآلة للتعرف على تلاوة القرآن الكريم من خلال الصوت. يهدف المشروع لدعم تحليل وتحسين تلاوة القرآن باستخدام الذكاء الاصطناعي وتطوير أدوات للتعرف على الآيات والأخطاء.",
+      "status": "ميت ☠️",
+      "links": "https://tarteel.ai",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "سكريبت برمجي",
+      "tags": "القرآن الكريم",
+      "last_activity": "2021-11-10 (archived)",
+      "slug": "tarteel-ml",
+      "technologies_list": [
+        "Artificial intelligence",
+        "Dataset",
+        "Jupyter Notebook",
+        "Machine learning",
+        "Python",
+        "Speech recognition"
+      ],
+      "tags_list": [
+        "القرآن الكريم"
+      ],
+      "initiative_type_list": [
+        "سكريبت برمجي"
+      ],
+      "links_list": [
+        "https://tarteel.ai"
+      ]
+    },
+    {
+      "name": "أفكار لمشاريع",
+      "technologies": "لا يوجد",
+      "license": "غير محددة",
+      "source_url": "",
+      "description_en": "A compilation of ideas and proposals for open-source software projects that serve the Arabic language and Islam.",
+      "description_ar": "قائمة ومجموعة من الأفكار والمقترحات لمشاريع برمجية مفتوحة المصدر تخدم اللغة العربية والإسلام.",
+      "status": "نشط 🚀",
+      "links": "https://github.com/KL13NT/AIUX",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "No",
+      "initiative_type": "مصادر",
+      "tags": "أفكار لمشاريع, مصادر, مقترحات",
+      "last_activity": "لا يوجد (قائمة أفكار)",
+      "slug": "",
+      "technologies_list": [
+        "لا يوجد"
+      ],
+      "tags_list": [
+        "أفكار لمشاريع",
+        "مصادر",
+        "مقترحات"
+      ],
+      "initiative_type_list": [
+        "مصادر"
+      ],
+      "links_list": [
+        "https://github.com/KL13NT/AIUX"
+      ]
+    },
+    {
+      "name": "Pray Times - حساب مواقيت الصلاة",
+      "technologies": "C#, C++, Java, JavaScript, Objective-C, PHP, Python",
+      "license": "GNU LGPL",
+      "source_url": "http://praytimes.org/, https://github.com/zarrabi/praytime",
+      "description_en": "An open-source project that provides accurate prayer times calculation worldwide. It includes various features to adjust prayer times based on geographic location and accommodates different Islamic schools of thought, with libraries available in multiple programming languages.",
+      "description_ar": "موقع http://praytimes.org/ هو مشروع مفتوح المصدر يقدم حسابات لمواقيت الصلاة للمسلمين حول العالم، ويشمل عدة ميزات لضبط أوقات الصلاة حسب المواقع الجغرافية المختلفة، مع مراعاة الفروق المذهبية المختلفة، ومتوفر مكتبات برمجية للغات مختلفة.",
+      "status": "نشط 🚀",
+      "links": "https://github.com/zarrabi/praytime, https://github.com/abodehq/Pray-Times",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "مواقيت الصلاة 🕋",
+      "last_activity": "2025-07-17",
+      "slug": "pray-times",
+      "technologies_list": [
+        "C#",
+        "C++",
+        "Java",
+        "JavaScript",
+        "Objective-C",
+        "PHP",
+        "Python"
+      ],
+      "tags_list": [
+        "مواقيت الصلاة 🕋"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/zarrabi/praytime",
+        "https://github.com/abodehq/Pray-Times"
+      ]
+    },
+    {
+      "name": "adhan.py مكتبة مواقيت الصلاة الإسلامية في بايثون",
+      "technologies": "Python",
+      "license": "GNU LGPL",
+      "source_url": "https://github.com/hayalasalah/adhan.py",
+      "description_en": "adhan.py is an open-source Python library for calculating accurate Islamic prayer times. It enables developers to retrieve prayer times based on geographic location and different Islamic jurisprudence preferences.",
+      "description_ar": "مكتبة Python مفتوحة المصدر لحساب أوقات الصلاة بدقة. تتيح للمطورين الوصول إلى مواقيت الصلاة وفقًا للموقع الجغرافي وتفضيلات المذاهب الإسلامية المختلفة.",
+      "status": "ميت ☠️",
+      "links": "https://pypi.org/project/adhan/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "مواقيت الصلاة 🕋",
+      "last_activity": "2015-12-24",
+      "slug": "adhanpy",
+      "technologies_list": [
+        "Python"
+      ],
+      "tags_list": [
+        "مواقيت الصلاة 🕋"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://pypi.org/project/adhan/"
+      ]
+    },
+    {
+      "name": "Adhan",
+      "technologies": "C, C#, Dart, Golang, Java, JavaScript, Kotlin, Python, Rust, Swift",
+      "license": "MIT",
+      "source_url": "https://github.com/batoulapps/Adhan",
+      "description_en": "Adhan is a well tested and well documented library for calculating Islamic prayer times implemented in different languages and platforms.",
+      "description_ar": "الأذان هو مكتبة مجربة وموثقة بشكل جيد لحساب أوقات الصلاة الإسلامية، وتم تنفيذها في لغات ومنصات مختلفة.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/batoulapps/Adhan",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "إسلام, تاريخ وزمن, مواقيت الصلاة 🕋",
+      "last_activity": "2023-03-29",
+      "slug": "adhan",
+      "technologies_list": [
+        "C",
+        "C#",
+        "Dart",
+        "Golang",
+        "Java",
+        "JavaScript",
+        "Kotlin",
+        "Python",
+        "Rust",
+        "Swift"
+      ],
+      "tags_list": [
+        "إسلام",
+        "تاريخ وزمن",
+        "مواقيت الصلاة 🕋"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/batoulapps/Adhan"
+      ]
+    },
+    {
+      "name": "salah",
+      "technologies": "Rust",
+      "license": "MIT",
+      "source_url": "https://github.com/insha/salah",
+      "description_en": "An open-source library written in Rust for calculating Islamic prayer times. It offers accurate prayer times for any geographical location, considering the differences among Islamic schools of thought.",
+      "description_ar": "مكتبة مفتوحة المصدر مكتوبة بلغة Rust لحساب مواقيت الصلاة الإسلامية. توفر دقة في حساب أوقات الصلاة لجميع المواقع الجغرافية، مع مراعاة اختلافات المذاهب الإسلامية.",
+      "status": "نشط 🚀",
+      "links": "https://crates.io/crates/salah",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "مواقيت الصلاة 🕋",
+      "last_activity": "2026-01-02",
+      "slug": "salah",
+      "technologies_list": [
+        "Rust"
+      ],
+      "tags_list": [
+        "مواقيت الصلاة 🕋"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://crates.io/crates/salah"
+      ]
+    },
+    {
+      "name": "Masjid Times",
+      "technologies": "CSS, JavaScript, PHP",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/meltuhamy/masjid-times",
+      "description_en": "An open-source prayer times application that provides accurate prayer times by utilizing data from the user's local mosque, along with support for prayer reminders.",
+      "description_ar": "تطبيق مفتوح المصدر لعرض مواقيت الصلاة، يهدف إلى توفير أوقات دقيقة للصلاة من خلال استخدام بيانات المسجد المحلي للمستخدم، مع دعم لإشعارات تذكير الصلاة.",
+      "status": "ميت ☠️",
+      "links": "http://meltuhamy.com/masjid-times/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق ويب",
+      "tags": "مواقيت الصلاة 🕋",
+      "last_activity": "2013-09-29",
+      "slug": "masjid-times",
+      "technologies_list": [
+        "CSS",
+        "JavaScript",
+        "PHP"
+      ],
+      "tags_list": [
+        "مواقيت الصلاة 🕋"
+      ],
+      "initiative_type_list": [
+        "تطبيق ويب"
+      ],
+      "links_list": [
+        "http://meltuhamy.com/masjid-times/"
+      ]
+    },
+    {
+      "name": "تطبيق مواقيت الصلاة في بلفاست ولندن (Belfast Prayer Times)",
+      "technologies": "Angular, Ionic, TypeScript",
+      "license": "GPL-3.0 License",
+      "source_url": "https://github.com/meltuhamy/belfastsalah",
+      "description_en": "A simple open-source prayer times application for Android and iOS users in Belfast and London. It displays daily prayer times with reminders for upcoming prayers, featuring a clean design and automatic night mode.",
+      "description_ar": "تطبيق بسيط مفتوح المصدر لمواقيت الصلاة مخصص لمستخدمي أندرويد وiOS في مدينتي بلفاست ولندن. يعرض أوقات الصلاة اليومية مع إمكانية التذكير بوقت الصلاة القادمة، ويتميز بتصميم بسيط ووضع ليلي تلقائي.",
+      "status": "متوقف صيانته 😑",
+      "links": "http://meltuhamy.com/apps/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق iOS, تطبيق أندرويد",
+      "tags": "مواقيت الصلاة 🕋",
+      "last_activity": "2023-01-08",
+      "slug": "belfast-prayer-times",
+      "technologies_list": [
+        "Angular",
+        "Ionic",
+        "TypeScript"
+      ],
+      "tags_list": [
+        "مواقيت الصلاة 🕋"
+      ],
+      "initiative_type_list": [
+        "تطبيق iOS",
+        "تطبيق أندرويد"
+      ],
+      "links_list": [
+        "http://meltuhamy.com/apps/"
+      ]
+    },
+    {
+      "name": "Next Prayer",
+      "technologies": "C, C++, Linux, Python",
+      "license": "GPL-3.0 License",
+      "source_url": "https://github.com/AbdeltwabMF/nxprayer",
+      "description_en": "Islamic prayer reminder, for your status bar and/or scripts. It displays the next prayer time and sends a notification when it's time for a prayer. It also shows the remaining time until the next prayer",
+      "description_ar": "تطبيق تذكير بمواقيت الصلاة الإسلامية، مصمم ليعمل على شريط الحالة أو/و في السكربتات. يعرض وقت الصلاة القادمة ويرسل إشعارًا إذا حان وقت الصلاة. كما يعرض الوقت المتبقي حتى موعد الصلاة التالية",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/AbdeltwabMF/nxprayer",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "CLI, برنامج سطح المكتب 💻",
+      "tags": "مواقيت الصلاة 🕋",
+      "last_activity": "2023-04-02",
+      "slug": "next-prayer",
+      "technologies_list": [
+        "C",
+        "C++",
+        "Linux",
+        "Python"
+      ],
+      "tags_list": [
+        "مواقيت الصلاة 🕋"
+      ],
+      "initiative_type_list": [
+        "CLI",
+        "برنامج سطح المكتب 💻"
+      ],
+      "links_list": [
+        "https://github.com/AbdeltwabMF/nxprayer"
+      ]
+    },
+    {
+      "name": "Mosque Prayer Display Screen (شاشة عرض مواقيت الصلاة للمسجد)",
+      "technologies": "Next.JS, Tailwind CSS, TypeScript",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/MosqueOS/Mosque-Prayer-Display-Screen",
+      "description_en": "An open-source application that allows mosques to display prayer times on screens for worshipers. It also functions as an offline progressive web app compatible with any modern web browser.",
+      "description_ar": "تطبيق مفتوح المصدر يتيح للمساجد عرض مواقيت الصلاة على شاشات للمصلين، ويعمل أيضًا كتطبيق ويب تقدمي يمكن استخدامه دون اتصال بالإنترنت على أي متصفح حديث.",
+      "status": "نشط 🚀",
+      "links": "https://mosque-prayer-display-screen.vercel.app/, https://discord.gg/CG7frj2",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق ويب",
+      "tags": "مواقيت الصلاة 🕋",
+      "last_activity": "2026-04-24",
+      "slug": "mosque-prayer-display-screen",
+      "technologies_list": [
+        "Next.JS",
+        "Tailwind CSS",
+        "TypeScript"
+      ],
+      "tags_list": [
+        "مواقيت الصلاة 🕋"
+      ],
+      "initiative_type_list": [
+        "تطبيق ويب"
+      ],
+      "links_list": [
+        "https://mosque-prayer-display-screen.vercel.app/",
+        "https://discord.gg/CG7frj2"
+      ]
+    },
+    {
+      "name": "Azkar - أذكار",
+      "technologies": "CSS, Java, JavaFX, SQLite",
+      "license": "MIT",
+      "source_url": "https://github.com/AbdelrahmanBayoumi/Azkar-App",
+      "description_en": "Desktop Application 💻 for Calculating Muslim prayer times 🕌 , Morning and Nights Azkar 🤲 with notification for random Azkar that pops-up in specific time.",
+      "description_ar": "برنامج لسطح المكتب 💻 يساعدك على: معرفة مواقيت الصلاة 🕌، قراءة أذكار الصباح و المساء مع التذكير بها 🤲، ظهور إشعارات بذكر او دعاء عشوائي كل فترة محددة 💬.",
+      "status": "نشط 🚀",
+      "links": "https://azkar-site.web.app/, https://sourceforge.net/projects/azkar/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "برنامج سطح المكتب 💻",
+      "tags": "أذكار والمساء, الأذكار, مواقيت الصلاة 🕋",
+      "last_activity": "2026-02-07",
+      "slug": "azkar",
+      "technologies_list": [
+        "CSS",
+        "Java",
+        "JavaFX",
+        "SQLite"
+      ],
+      "tags_list": [
+        "أذكار والمساء",
+        "الأذكار",
+        "مواقيت الصلاة 🕋"
+      ],
+      "initiative_type_list": [
+        "برنامج سطح المكتب 💻"
+      ],
+      "links_list": [
+        "https://azkar-site.web.app/",
+        "https://sourceforge.net/projects/azkar/"
+      ]
+    },
+    {
+      "name": "مكتبة الأدوات الإسلامية ITL",
+      "technologies": "C, Java, Objective-C",
+      "license": "GNU LGPL",
+      "source_url": "https://github.com/arabeyes-org/ITL",
+      "description_en": "ITL (Islamic Tools Library) is an open-source library providing various Islamic computational tools, including prayer time calculations, Qibla direction determination, Hijri calendar functions, and other functionalities to support Islamic applications.",
+      "description_ar": "مكتبة ITL (Islamic Tools Library) هي مكتبة برمجية مفتوحة المصدر تقدم مجموعة من الأدوات الحسابية الإسلامية، بما في ذلك حساب مواقيت الصلاة، وتحديد اتجاه القبلة، والتقويم الهجري، والعديد من الوظائف الأخرى لدعم التطبيقات الإسلامية.",
+      "status": "ميت ☠️",
+      "links": "https://github.com/fikr4n/itl-java, https://github.com/batoulapps/BAPrayerTimes, https://github.com/arabeyes-org/ITL-ports",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "تحديد القبلة, حساب التاريخ الهجري, مواقيت الصلاة 🕋",
+      "last_activity": "2024-05-27",
+      "slug": "itl",
+      "technologies_list": [
+        "C",
+        "Java",
+        "Objective-C"
+      ],
+      "tags_list": [
+        "تحديد القبلة",
+        "حساب التاريخ الهجري",
+        "مواقيت الصلاة 🕋"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/fikr4n/itl-java",
+        "https://github.com/batoulapps/BAPrayerTimes",
+        "https://github.com/arabeyes-org/ITL-ports"
+      ]
+    },
+    {
+      "name": "pyIslam - مكتبة إسلامية برمجية بلغة بايثون",
+      "technologies": "Python",
+      "license": "GNU LGPL",
+      "source_url": "https://github.com/abougouffa/pyIslam",
+      "description_en": "pyIslam is an open-source Python library that provides tools for calculating prayer times, determining the Qibla direction, converting dates between Gregorian and Hijri, and calculating Zakat and inheritance (Mirath).",
+      "description_ar": "مكتبة pyIslam هي مكتبة برمجية مفتوحة المصدر بلغة بايثون تقدم أدوات لحساب أوقات الصلاة، تحديد اتجاه القبلة، تحويل التواريخ بين الميلادي والهجري، بالإضافة إلى حساب الزكاة والمواريث.",
+      "status": "نشط 🚀",
+      "links": "http://abougouffa.github.io/pyIslam",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "التقويم الهجري, تحديد القبلة, حساب التاريخ الهجري, حساب الزكاة, حساب الميراث, مواقيت الصلاة 🕋",
+      "last_activity": "2025-06-15",
+      "slug": "pyislam",
+      "technologies_list": [
+        "Python"
+      ],
+      "tags_list": [
+        "التقويم الهجري",
+        "تحديد القبلة",
+        "حساب التاريخ الهجري",
+        "حساب الزكاة",
+        "حساب الميراث",
+        "مواقيت الصلاة 🕋"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "http://abougouffa.github.io/pyIslam"
+      ]
+    },
+    {
+      "name": "Tanafaso",
+      "technologies": "Flutter",
+      "license": "mobile/LICENSE.md",
+      "source_url": "https://github.com/challenge-azkar/tanafaso-frontend",
+      "description_en": "A Flutter application for Muslims that help them challenge and motivate themselves and their friends to read Azkar in a fun way. On Play Store & On App Store There are a lot of ways you can contribute to this project.",
+      "description_ar": "تطبيق فلاتر يساعد المسلمين على تحدي وتحفيز أنفسهم وأصدقائهم لقراءة الأذكار بطريقة ممتعة",
+      "status": "نشط 🚀",
+      "links": "https://play.google.com/store/apps/details?id=com.tanafaso.azkar",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق iOS, تطبيق أندرويد",
+      "tags": "dart, mobile-app, flutter, azkar, muslim-app",
+      "last_activity": "2026-03-01",
+      "slug": "tanafaso",
+      "technologies_list": [
+        "Flutter"
+      ],
+      "tags_list": [
+        "dart",
+        "mobile-app",
+        "flutter",
+        "azkar",
+        "muslim-app"
+      ],
+      "initiative_type_list": [
+        "تطبيق iOS",
+        "تطبيق أندرويد"
+      ],
+      "links_list": [
+        "https://play.google.com/store/apps/details?id=com.tanafaso.azkar"
+      ]
+    },
+    {
+      "name": "BoycottFrensh",
+      "technologies": "JavaScript",
+      "license": "Apache-2.0",
+      "source_url": "https://github.com/AhmedAshrafAZ/BoycottFrench",
+      "description_en": "An extension that helps Muslims boycott French products on E-commerce websites. This is an extension that acts as a look-up of the top French brands, whenever the user opens a page of French product, the extension will automatically warn the user so he/she can look for alternatives.",
+      "description_ar": "إضافة متصفح تساعد المسلمين على مقاطعة المنتجات الفرنسية في مواقع التسوق الإلكتروني",
+      "status": "ميت ☠️",
+      "links": "https://github.com/AhmedAshrafAZ/BoycottFrench",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "إضافة متصفح",
+      "tags": "مقاطعة, منتجات فرنسية, إضافة متصفح",
+      "last_activity": "2021-04-03",
+      "slug": "boycottfrensh",
+      "technologies_list": [
+        "JavaScript"
+      ],
+      "tags_list": [
+        "مقاطعة",
+        "منتجات فرنسية",
+        "إضافة متصفح"
+      ],
+      "initiative_type_list": [
+        "إضافة متصفح"
+      ],
+      "links_list": [
+        "https://github.com/AhmedAshrafAZ/BoycottFrench"
+      ]
+    },
+    {
+      "name": "IslamBot",
+      "technologies": "Python",
+      "license": "GPL-3.0",
+      "source_url": "https://github.com/galacticwarrior9/IslamBot",
+      "description_en": "A Discord bot that supports Qur'an, hadith, prayer times, tafsir and more.",
+      "description_ar": "بوت ديسكورد يدعم القرآن والحديث وأوقات الصلاة والتفسير وغيرها",
+      "status": "نشط 🚀",
+      "links": "https://github.com/galacticwarrior9/IslamBot",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "بوت",
+      "tags": "discord-bot, quran, prayer-times, islam, hadith, tafsir",
+      "last_activity": "2026-01-06",
+      "slug": "islambot",
+      "technologies_list": [
+        "Python"
+      ],
+      "tags_list": [
+        "discord-bot",
+        "quran",
+        "prayer-times",
+        "islam",
+        "hadith",
+        "tafsir"
+      ],
+      "initiative_type_list": [
+        "بوت"
+      ],
+      "links_list": [
+        "https://github.com/galacticwarrior9/IslamBot"
+      ]
+    },
+    {
+      "name": "Muslim-App (Daily Muslim's Fortress App)",
+      "technologies": "Java",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/choubari/Muslim-App",
+      "description_en": "The app is available only in Arabic but I'm planning to release an English version very soon. Prayer Times (of your current location) Morning&Evening Remembrance Remembrance Names of Allah Importance of Dhikr Tally Counter Qibla Direction Zakat Calculator Islamic Wallpapers Daily Notifications App Widget Light & Dark Themes and other features will be added on the next updates ...",
+      "description_ar": "تطبيق أندرويد إسلامي متكامل يشمل أوقات الصلاة، حصن المسلم، القبلة، ومواقيت الصلاة",
+      "status": "ميت ☠️",
+      "links": "https://play.google.com/store/apps/details?id=com.choubapp.muslimapp",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق أندرويد",
+      "tags": "notifications, android, java, playstore, tally-counter, prayer-times, muslim, allah, hacktoberfest, qibla, muslim-prayer-times, ramadan, muslims-prayer, qiblah-direction, muslim-app, remembrance, zakat-calculator, qibla-menu",
+      "last_activity": "2022-10-13",
+      "slug": "muslim-app-daily-muslims-fortress-app",
+      "technologies_list": [
+        "Java"
+      ],
+      "tags_list": [
+        "notifications",
+        "android",
+        "java",
+        "playstore",
+        "tally-counter",
+        "prayer-times",
+        "muslim",
+        "allah",
+        "hacktoberfest",
+        "qibla",
+        "muslim-prayer-times",
+        "ramadan",
+        "muslims-prayer",
+        "qiblah-direction",
+        "muslim-app",
+        "remembrance",
+        "zakat-calculator",
+        "qibla-menu"
+      ],
+      "initiative_type_list": [
+        "تطبيق أندرويد"
+      ],
+      "links_list": [
+        "https://play.google.com/store/apps/details?id=com.choubapp.muslimapp"
+      ]
+    },
+    {
+      "name": "Iftar CLI",
+      "technologies": "JavaScript",
+      "license": "GPL-3.0",
+      "source_url": "https://github.com/eneserdogan/iftar",
+      "description_en": "Iftar CLI allows a quick and easy prayer times in the command line",
+      "description_ar": "أداة سطر أوامر تعرض مواقيت الإفطار والأذان",
+      "status": "نشط 🚀",
+      "links": "https://github.com/eneserdogan/iftar",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "CLI",
+      "tags": "مواقيت الصلاة 🕋",
+      "last_activity": "2026-01-19",
+      "slug": "iftar-cli",
+      "technologies_list": [
+        "JavaScript"
+      ],
+      "tags_list": [
+        "مواقيت الصلاة 🕋"
+      ],
+      "initiative_type_list": [
+        "CLI"
+      ],
+      "links_list": [
+        "https://github.com/eneserdogan/iftar"
+      ]
+    },
+    {
+      "name": "KhattSeen خطسين",
+      "technologies": "تنضيد (Typesetting)",
+      "license": "بدون ترخيص",
+      "source_url": "https://khatt.org/",
+      "description_en": "KhattSeen: Arabic Mathematical Notation Typesetting System",
+      "description_ar": "خط سين: نظام تنضيد (كتابة) الرياضيات بالعربية Khatt.Seen: Arabic Mathematical Notation Typesetting System أدخل أوامر هنا: الصور الناتجة عن نظام خط.س مرخصة تحت الملكية العامة. Images rendered by Khatt.Seen are under public domain license.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://khatt.org/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "أداة تنضيد",
+      "tags": "خط, دعم الرياضيات بالعربية",
+      "last_activity": "2020",
+      "slug": "khattseen",
+      "technologies_list": [
+        "تنضيد (Typesetting)"
+      ],
+      "tags_list": [
+        "خط",
+        "دعم الرياضيات بالعربية"
+      ],
+      "initiative_type_list": [
+        "أداة تنضيد"
+      ],
+      "links_list": [
+        "https://khatt.org/"
+      ]
+    },
+    {
+      "name": "MathJax Arabic Extension",
+      "technologies": "JavaScript, HTML, CSS, Makefile",
+      "license": "MIT",
+      "source_url": "https://github.com/OmarIthawi/arabic-mathjax",
+      "description_en": "This is an extension to MathJax (v2.5+), that provides basic Arabic support to MathJax. The extension so far only supports TeX input with HTML-CSS output. However, support to other input and output jaxes is possible. It provides the following: Flip the Equation and render it the Right-to-left (RTL) way!",
+      "description_ar": "إضافة لمكتبة MathJax توفر دعماً أساسياً للغة العربية في المعادلات الرياضية",
+      "status": "نشط 🚀",
+      "links": "https://arabicmath.org",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "إضافة برمجية",
+      "tags": "i18n, web, math, l10n, mathjax, arabic",
+      "last_activity": "2026-04-28",
+      "slug": "mathjax-arabic-extension",
+      "technologies_list": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Makefile"
+      ],
+      "tags_list": [
+        "i18n",
+        "web",
+        "math",
+        "l10n",
+        "mathjax",
+        "arabic"
+      ],
+      "initiative_type_list": [
+        "إضافة برمجية"
+      ],
+      "links_list": [
+        "https://arabicmath.org"
+      ]
+    },
+    {
+      "name": "mostalah مصطلح aosus-dictionary",
+      "technologies": "CSS, JavaScript, Vue",
+      "license": "GPL-3.0 License",
+      "source_url": "https://github.com/aosus/arabic-tech-dictionary/",
+      "description_en": "Arabic technical terms dictionary providing English-Arabic translations for technology terminology",
+      "description_ar": "يحتوي هذا المشروع على المصطلحات التقنية الإنجليزية وما يقابلها في اللغة العربية، وذلك بقصد المساعدة في تعريب التوثيقات الخاصة بكافة التقنيات المتعلقة بعلوم الحاسوب. قريبا : SQL, XML, HTML يعاني المحتوى العربي من نقص فادح خصوصا عندما يتعلق الأمر بمجال البرمجة وعلوم الحاسوب ولذلك ارتأينا أن نقوم بالمبادرة وأن نبدأ في توفير ترجمة للمصطلحات التقنية المستعصية لغوياً وللاستعانة بها في تعريب تقنيات ومجالات أخرى مستقبلا.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://mokhnache.com/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "قاموس / معجم",
+      "tags": "معجم",
+      "last_activity": "2023-05-27",
+      "slug": "mostalah-aosus-dictionary",
+      "technologies_list": [
+        "CSS",
+        "JavaScript",
+        "Vue"
+      ],
+      "tags_list": [
+        "معجم"
+      ],
+      "initiative_type_list": [
+        "قاموس / معجم"
+      ],
+      "links_list": [
+        "https://mokhnache.com/"
+      ]
+    },
+    {
+      "name": "ArabTerm",
+      "technologies": "ويب",
+      "license": "بدون ترخيص",
+      "source_url": "http://www.arabterm.org/",
+      "description_en": "The Technical Dictionary ARABTERM.ORG is a joint publication of the Arab League Educational, Cultural and Scientific Organization (ALECSO) and the German Federal Ministry for Economic Cooperation and Development (BMZ).\n\n\nIt was developed as part of a regional project financed by BMZ that the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) has been carrying out since 2008 in collaboration with the Goethe-Institut. It is an independent project based on the measures for standardising technical Arabic terminology, which are being led by the Arabisation Coordination Bureau (BCA) in Rabat on behalf of ALECSO.\n\n\nThese standardisation measures are governed by the decisions made at the General Conferences on Arabisation, organised and held regularly by ALECSO, and attended by language academies and education ministers from Arab League member states. These measures also have been reflected in the 'standardised dictionary' published by ALECSO. In ARABTERM, an asterisk marks each entry that has already undergone this Arabisation process.\n\n\nThe Technical Dictionary ARABTERM, organised per industry sector, provides a generally accessible reference for the consistent translation of textbooks, curricula, technical manuals and other specialised texts. The first volume on automotive engineering was released in May 2010 and is available on this website to all users free of charge. Additional volumes will be added successively.\n\n\nUsers are encouraged to actively contribute to the dictionary. An interactive discussion forum offers you the opportunity to exchange ideas on linguistic problem areas in the various disciplines, as well as suggest new terms or more detailed definitions. These discussions and suggestions will provide the basis for an annual revision of the databank conducted by the Arab-German expert groups.",
+      "description_ar": "المعجم التقني الموحد الصادر عن المنظمة العربية للتربية والثقافة والعلوم (الألكسو)",
+      "status": "متوقف صيانته 😑",
+      "links": "http://www.arabterm.org/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "قاموس / معجم",
+      "tags": "معجم",
+      "last_activity": "2023-01-15",
+      "slug": "arabterm",
+      "technologies_list": [
+        "ويب"
+      ],
+      "tags_list": [
+        "معجم"
+      ],
+      "initiative_type_list": [
+        "قاموس / معجم"
+      ],
+      "links_list": [
+        "http://www.arabterm.org/"
+      ]
+    },
+    {
+      "name": "i18n",
+      "technologies": "JavaScript",
+      "license": "Apache License 2.0, ISC License, MIT",
+      "source_url": "https://github.com/softvenue/i18n",
+      "description_en": "internationalize projects to Arabic",
+      "description_ar": "نبراس، هو دليل موجه إلى طلبة السنة الأولى للشعب التقنية بالجامعة، ويحتوي على أهم المصطلحات والمفردات الي يصادفها في البرنامج الدراسي خلال هذه السنة المهمة. ويحوي هذا المعجم على أزيد من 2160 مصطلح، نحاول بها أن نغطي مجالات الشعب التقنية في السنة الأولى جامعي.",
+      "status": "نشط 🚀",
+      "links": "https://i18n.softvenue.net",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "فريق مبادر",
+      "tags": "معجم",
+      "last_activity": "2026-04-29",
+      "slug": "i18n",
+      "technologies_list": [
+        "JavaScript"
+      ],
+      "tags_list": [
+        "معجم"
+      ],
+      "initiative_type_list": [
+        "فريق مبادر"
+      ],
+      "links_list": [
+        "https://i18n.softvenue.net"
+      ]
+    },
+    {
+      "name": "معجم المصطلحات التقنية العربية",
+      "technologies": "Markdown",
+      "license": "غير محدد",
+      "source_url": "https://github.com/forabi/arabic-tech-terminology",
+      "description_en": "Arabic Technical Terminology is an open-source project that provides accurate Arabic translations for technical terms in programming and technology. It includes a glossary of English terms with Arabic equivalents, supporting translators and developers in selecting appropriate terminology. The project encourages community contributions for enhancement.",
+      "description_ar": "معجم المصطلحات التقنية العربية هو مشروع مفتوح المصدر يهدف إلى توفير ترجمة عربية دقيقة للمصطلحات التقنية في البرمجة والتكنولوجيا. يحتوي المعجم على قائمة بالمصطلحات الإنجليزية مع ترجماتها العربية، ويساعد المترجمين والمطورين في اختيار المصطلحات المناسبة. يشجع المشروع على المشاركة المجتمعية لتحسين المعجم.",
+      "status": "ميت ☠️",
+      "links": "https://github.com/forabi/arabic-tech-terminology",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مستندات ووثائق",
+      "tags": "اللغة عربية, توثيقات, معجم",
+      "last_activity": "2015-02-08",
+      "slug": "",
+      "technologies_list": [
+        "Markdown"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "توثيقات",
+        "معجم"
+      ],
+      "initiative_type_list": [
+        "مستندات ووثائق"
+      ],
+      "links_list": [
+        "https://github.com/forabi/arabic-tech-terminology"
+      ]
+    },
+    {
+      "name": "نبراس هو قاموس فرنسي-عربي",
+      "technologies": "C++, TypeScript",
+      "license": "غير محدد",
+      "source_url": "https://github.com/01walid/Nibras",
+      "description_en": "Nibras is a French-Arabic dictionary tailored for first-year university students in technical fields. The dictionary contains over 2,160 terms covering various topics in the first-year curriculum. The project aims to help Arabic-speaking students understand and absorb technical terminology more easily.",
+      "description_ar": "نبراس هو قاموس فرنسي-عربي مخصص لطلبة السنة الأولى في التخصصات التقنية الجامعية. يحتوي القاموس على أكثر من 2160 مصطلحًا يغطي مجالات متعددة ضمن المناهج الدراسية للسنة الأولى. يهدف المشروع إلى تسهيل فهم واستيعاب المصطلحات التقنية للطلاب الناطقين بالعربية.",
+      "status": "ميت ☠️",
+      "links": "https://nibras.sourceforge.net",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "برنامج سطح المكتب 💻, قاموس",
+      "tags": "اللغة عربية, تعليم, معجم",
+      "last_activity": "2014-12-10",
+      "slug": "",
+      "technologies_list": [
+        "C++",
+        "TypeScript"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "تعليم",
+        "معجم"
+      ],
+      "initiative_type_list": [
+        "برنامج سطح المكتب 💻",
+        "قاموس"
+      ],
+      "links_list": [
+        "https://nibras.sourceforge.net"
+      ]
+    },
+    {
+      "name": "جافاسكريبت بالعربية",
+      "technologies": "JavaScript",
+      "license": "MIT",
+      "source_url": "https://github.com/arabi-js/arabi",
+      "description_en": "JavaScript in Arabic is an open-source library that enables Arab developers to write code using Arabic syntax in the JavaScript environment. The project provides tools for converting Arabic-written code into native JavaScript, along with localization tools to simplify coding with Arabic terms. It supports the translation of various core JavaScript functions and includes educational examples for developers to get started.",
+      "description_ar": "مشروع جافاسكريبت بالعربية هو مكتبة مفتوحة المصدر تهدف إلى تمكين المطورين العرب من كتابة التعليمات البرمجية باستخدام اللغة العربية في بيئة جافاسكريبت. يتيح المشروع تحويل الكود البرمجي المكتوب بالعربية إلى جافاسكريبت الأصلية، مع توفير أدوات تعريب تساعد على تسهيل البرمجة باستخدام مصطلحات عربية. يتميز المشروع بدعم التعريب للعديد من وظائف جافاسكريبت الأساسية، ويشمل أمثلة تعليمية لمساعدة المطورين في البدء.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/arabi-js/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "لغة برمجة",
+      "tags": "لغة برمجة عربية",
+      "last_activity": "2021-05-14",
+      "slug": "",
+      "technologies_list": [
+        "JavaScript"
+      ],
+      "tags_list": [
+        "لغة برمجة عربية"
+      ],
+      "initiative_type_list": [
+        "لغة برمجة"
+      ],
+      "links_list": [
+        "https://github.com/arabi-js/"
+      ]
+    },
+    {
+      "name": "لغة ألف",
+      "technologies": "C++",
+      "license": "GPL-3.0 License",
+      "source_url": "https://github.com/alifcommunity/Alif",
+      "description_en": "Alif is an open-source Arabic programming language designed to enable developers to write code in Arabic. It emphasizes clarity and execution speed, supports object-oriented programming concepts, and provides an integrated development environment for users.",
+      "description_ar": "لغة البرمجة ألف هي لغة برمجة عربية مفتوحة المصدر، تهدف إلى تمكين المبرمجين من كتابة التعليمات البرمجية باللغة العربية. تتميز اللغة بالوضوح وسرعة التنفيذ، وتدعم مفاهيم البرمجة الكائنية، مع توفير بيئة تطوير متكاملة للمستخدمين.",
+      "status": "نشط 🚀",
+      "links": "https://www.aliflang.org",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "لغة برمجة",
+      "tags": "لغة برمجة عربية",
+      "last_activity": "2026-05-07",
+      "slug": "",
+      "technologies_list": [
+        "C++"
+      ],
+      "tags_list": [
+        "لغة برمجة عربية"
+      ],
+      "initiative_type_list": [
+        "لغة برمجة"
+      ],
+      "links_list": [
+        "https://www.aliflang.org"
+      ]
+    },
+    {
+      "name": "لغة \"كلمات\"",
+      "technologies": "C++",
+      "license": "Apache License 2.0",
+      "source_url": "https://github.com/mobadarah/kalimat-lang",
+      "description_en": "Kalimat is an open-source Arabic programming language developed to teach programming to children and beginners. Designed to be user-friendly, the language includes advanced features like OOP and parallel programming, and offers a comprehensive educational development environment. It is part of a vision to revive creativity and self-expression through programming in Arabic.",
+      "description_ar": "كلمات هي لغة برمجة عربية مفتوحة المصدر تم تطويرها لتعليم الأطفال والمبتدئين البرمجة. صممت اللغة بحيث تكون سهلة الاستخدام وتدعم ميزات متقدمة مثل البرمجة الكائنية والبرمجة المتوازية، مع تقديم بيئة تطويرية تعليمية شاملة. تُعد اللغة جزءاً من رؤية تهدف إلى إحياء روح الإبداع والتعبير البرمجي باللغة العربية.",
+      "status": "ميت ☠️",
+      "links": "https://github.com/mobadarah/kalimat-lang",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "لغة برمجة",
+      "tags": "لغة برمجة عربية",
+      "last_activity": "2021-07-06",
+      "slug": "",
+      "technologies_list": [
+        "C++"
+      ],
+      "tags_list": [
+        "لغة برمجة عربية"
+      ],
+      "initiative_type_list": [
+        "لغة برمجة"
+      ],
+      "links_list": [
+        "https://github.com/mobadarah/kalimat-lang"
+      ]
+    },
+    {
+      "name": "لغة الأسُس البرمجية (Alusus)",
+      "technologies": "C++",
+      "license": "ALUSUS PUBLIC LICENSE",
+      "source_url": "https://github.com/Alusus/Alusus",
+      "description_en": "Alusus is an open-source Arabic programming language designed to be dynamically extensible, allowing users to add new features and use it for various applications, such as server-side programming, databases, and graphics. Alusus supports both low- and high-level programming, making it suitable for diverse programming fields without the need for additional languages.",
+      "description_ar": "غة الأسُس هي لغة برمجة عربية مفتوحة المصدر صُمّمت لتكون قابلة للتوسع ديناميكيًا، مما يتيح للمستخدمين إضافة ميزات جديدة واستخدام اللغة في تطبيقات متعددة كبرمجة الخادم، قواعد البيانات، والرسوميات. تدعم الأسُس البرمجة منخفضة وعالية المستوى، مما يجعلها مناسبة لمجالات برمجية متنوعة دون الحاجة لاستخدام لغات أخرى.",
+      "status": "نشط 🚀",
+      "links": "https://github.com/Alusus/Alusus",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "لغة برمجة",
+      "tags": "لغة برمجة عربية",
+      "last_activity": "2026-05-17",
+      "slug": "alusus",
+      "technologies_list": [
+        "C++"
+      ],
+      "tags_list": [
+        "لغة برمجة عربية"
+      ],
+      "initiative_type_list": [
+        "لغة برمجة"
+      ],
+      "links_list": [
+        "https://github.com/Alusus/Alusus"
+      ]
+    },
+    {
+      "name": "Phoenix - لغة البرمجة العربية كائنية التوجه",
+      "technologies": "NLP, لغة البرمجة العربية Phoenix",
+      "license": "رخصة خاصة",
+      "source_url": "https://arxiv.org/pdf/1907.05871.pdf",
+      "description_en": "Phoenix is a general-purpose, high-level, imperative, object-oriented, compiled programming language using Arabic as its syntax. It includes features such as strong data types, dynamic arrays, functions, arithmetic operations, and modern programming structures, supporting concepts like inheritance and polymorphism.",
+      "description_ar": "Phoenix هي لغة برمجة عامة الأغراض وعالية المستوى، تم تصميمها كائنية التوجه وبصيغة تجميعية، وتستخدم اللغة العربية لتطوير التطبيقات البرمجية. تحتوي Phoenix على مميزات مثل المتغيرات ذات الأنواع القوية، المصفوفات الديناميكية، الدوال، وعمليات الحساب، وتدعم الهياكل البرمجية الحديثة مثل الوراثة وتعدد الأشكال.",
+      "status": "ميت ☠️",
+      "links": "https://arxiv.org/pdf/1907.05871.pdf",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "لغة برمجة, ورقة بحثية",
+      "tags": "لغة برمجة عربية",
+      "last_activity": "2019-07",
+      "slug": "phoenix",
+      "technologies_list": [
+        "NLP",
+        "لغة البرمجة العربية Phoenix"
+      ],
+      "tags_list": [
+        "لغة برمجة عربية"
+      ],
+      "initiative_type_list": [
+        "لغة برمجة",
+        "ورقة بحثية"
+      ],
+      "links_list": [
+        "https://arxiv.org/pdf/1907.05871.pdf"
+      ]
+    },
+    {
+      "name": "لغة برمجة عمّوريا",
+      "technologies": "VBA",
+      "license": "رخصة خاصة",
+      "source_url": "https://github.com/mobadarah/Ammoria",
+      "description_en": "Ammoria is an open-source programming language based on Arabic, aiming to enable programmers to code in their native language, focusing on making programming principles easier to understand. Ammoria supports essential programming concepts and may include an IDE for supporting learning programming in Arabic.",
+      "description_ar": "Ammoria هي لغة برمجة مفتوحة المصدر تعتمد على اللغة العربية، تهدف إلى تمكين المبرمجين من كتابة التعليمات البرمجية بلغتهم الأم، مع التركيز على تسهيل فهم مبادئ البرمجة. تدعم Ammoria مفاهيم البرمجة الأساسية وقد تشمل بيئة تطوير متكاملة تسهم في دعم تعلم البرمجة بالعربية.",
+      "status": "ميت ☠️",
+      "links": "http://ammoria.sourceforge.net/ar/ar_index.html",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "لغة برمجة",
+      "tags": "لغة برمجة عربية",
+      "last_activity": "2021-07-17",
+      "slug": "",
+      "technologies_list": [
+        "VBA"
+      ],
+      "tags_list": [
+        "لغة برمجة عربية"
+      ],
+      "initiative_type_list": [
+        "لغة برمجة"
+      ],
+      "links_list": [
+        "http://ammoria.sourceforge.net/ar/ar_index.html"
+      ]
+    },
+    {
+      "name": "مشاريع الخوارزم",
+      "technologies": "لغة خوارزم",
+      "license": "Apache License 2.0",
+      "source_url": "https://github.com/alkhawarizm/examples",
+      "description_en": "A repository collecting source examples of programs written in the Al-Khawarizm language, prepared for compilation and educational use.",
+      "description_ar": "مستودع يجمع مصادر أمثلة لبرامج مكتوبة بلغة الخوارزم، معدة للترجمة والاستخدام التعليمي.",
+      "status": "نشط 🚀",
+      "links": "https://www.alkhawarizm.org",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "لغة برمجة",
+      "tags": "لغة برمجة عربية",
+      "last_activity": "2026-04-14",
+      "slug": "",
+      "technologies_list": [
+        "لغة خوارزم"
+      ],
+      "tags_list": [
+        "لغة برمجة عربية"
+      ],
+      "initiative_type_list": [
+        "لغة برمجة"
+      ],
+      "links_list": [
+        "https://www.alkhawarizm.org"
+      ]
+    },
+    {
+      "name": "NabdJS",
+      "technologies": "JavaScript",
+      "license": "GPL-3.0 License",
+      "source_url": "https://github.com/KL13NT/nabdjs",
+      "description_en": "NabdJS is an open-source Arabic programming language developed using JavaScript, based on the principles of BASIC. It aims to enable programmers to write code in Arabic, providing an interactive environment for immediate execution.",
+      "description_ar": "NabdJS هي لغة برمجة عربية مفتوحة المصدر، تم تطويرها باستخدام JavaScript وتستند إلى مبادئ لغة BASIC. تهدف إلى تمكين المبرمجين من كتابة التعليمات البرمجية باللغة العربية، مع توفير بيئة تفاعلية للتنفيذ الفوري.",
+      "status": "ميت ☠️",
+      "links": "https://nabdjs.netlify.app/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "لغة برمجة",
+      "tags": "اللغة عربية, لغة برمجة عربية",
+      "last_activity": "2020-05-01",
+      "slug": "nabdjs",
+      "technologies_list": [
+        "JavaScript"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "لغة برمجة عربية"
+      ],
+      "initiative_type_list": [
+        "لغة برمجة"
+      ],
+      "links_list": [
+        "https://nabdjs.netlify.app/"
+      ]
+    },
+    {
+      "name": "ALB قلب",
+      "technologies": "JavaScript, Ruby",
+      "license": "MIT",
+      "source_url": "https://github.com/nasser/---",
+      "description_en": "ALB is a simple, Scheme-like programming language that you code entirely in Arabic. It is an exploration of the impact of human culture on computer science, the role of tradition in software engineering, and the connection between natural and computer languages.",
+      "description_ar": "مكتبة قلب: تطبيق ويب للتدقيق اللغوي العربي باستخدام التعلم العميق",
+      "status": "ميت ☠️",
+      "links": "https://nas.sr/قلب/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "لغة برمجة",
+      "tags": "اللغة عربية",
+      "last_activity": "2020",
+      "slug": "alb",
+      "technologies_list": [
+        "JavaScript",
+        "Ruby"
+      ],
+      "tags_list": [
+        "اللغة عربية"
+      ],
+      "initiative_type_list": [
+        "لغة برمجة"
+      ],
+      "links_list": [
+        "https://nas.sr/قلب/"
+      ]
+    },
+    {
+      "name": "Labiba لبيبة",
+      "technologies": "CSS, HTML, JavaScript",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/fakoua/labiba",
+      "description_en": "Labiba is an integrated Arabic programming language, compatible with JavaScript. It allows writing code entirely in Arabic.",
+      "description_ar": "لغة البرمجة لبيبة باللغة العربية",
+      "status": "نشط 🚀",
+      "links": "https://fakoua.github.io/labiba/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "لغة برمجة",
+      "tags": "لغة برمجة عربية, JavaScript, تعريب",
+      "last_activity": "2026-01-23",
+      "slug": "labiba",
+      "technologies_list": [
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ],
+      "tags_list": [
+        "لغة برمجة عربية",
+        "JavaScript",
+        "تعريب"
+      ],
+      "initiative_type_list": [
+        "لغة برمجة"
+      ],
+      "links_list": [
+        "https://fakoua.github.io/labiba/"
+      ]
+    },
+    {
+      "name": "Mawrid Reader: Arabic dictionary interface",
+      "technologies": "JavaScript, CSS, HTML, Shell, Perl",
+      "license": "GNU GPL v3",
+      "source_url": "https://github.com/ejtaal/mr",
+      "description_en": "Arabic - English word based dictionaries compilation",
+      "description_ar": "واجهة لعرض القواميس العربية-الإنجليزية (معجم المورد وغيره) مع إمكانية البحث",
+      "status": "متوقف صيانته 😑",
+      "links": "http://ejtaal.net/mr/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "أداة بحث",
+      "tags": "قاموس, عربي-إنجليزي, بحث",
+      "last_activity": "2024-12-29",
+      "slug": "mawrid-reader-arabic-dictionary-interface",
+      "technologies_list": [
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "Shell",
+        "Perl"
+      ],
+      "tags_list": [
+        "قاموس",
+        "عربي-إنجليزي",
+        "بحث"
+      ],
+      "initiative_type_list": [
+        "أداة بحث"
+      ],
+      "links_list": [
+        "http://ejtaal.net/mr/"
+      ]
+    },
+    {
+      "name": "Noor programming language",
+      "technologies": "CSS, HTML, JavaScript",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/SimplyAhmazing/noor",
+      "description_en": "Noor is a simple, yet aHmazing arabic programming language. It it is currently in development mode and is being further defined and refined. It is implemented in Javascript.\n\n\nNoor comes with an IDE built to make it easy to write code in an arabic environment.",
+      "description_ar": "نور هي لغة برمجة عربية بسيطة تهدف لتسهيل تعلم البرمجة للمبتدئين الناطقين بالعربية",
+      "status": "ميت ☠️",
+      "links": "https://github.com/SimplyAhmazing/noor",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "لغة برمجة",
+      "tags": "لغة برمجة عربية, تعليم",
+      "last_activity": "2018-11-05",
+      "slug": "noor-programming-language",
+      "technologies_list": [
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ],
+      "tags_list": [
+        "لغة برمجة عربية",
+        "تعليم"
+      ],
+      "initiative_type_list": [
+        "لغة برمجة"
+      ],
+      "links_list": [
+        "https://github.com/SimplyAhmazing/noor"
+      ]
+    },
+    {
+      "name": "Coursera Arabic Subtitle Translation",
+      "technologies": "JavaScript, NLP",
+      "license": "MIT",
+      "source_url": "https://github.com/imAbdelhadi/coursera-subtitle-translation-arabic",
+      "description_en": "A browser extension that automatically translates Coursera subtitles to Arabic using Google Translate. Supports bilingual display of Arabic and English subtitles.",
+      "description_ar": "إضافة متصفح تترجم ترجمات دورات كورسيرا إلى العربية تلقائياً باستخدام ترجمة جوجل، مع دعم العرض الثنائي للغة العربية والإنجليزية",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/imAbdelhadi/coursera-subtitle-translation-arabic",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تعليم",
+      "tags": "اللغة عربية",
+      "last_activity": "2021-03-14",
+      "slug": "coursera-arabic-subtitle-translation",
+      "technologies_list": [
+        "JavaScript",
+        "NLP"
+      ],
+      "tags_list": [
+        "اللغة عربية"
+      ],
+      "initiative_type_list": [
+        "تعليم"
+      ],
+      "links_list": [
+        "https://github.com/imAbdelhadi/coursera-subtitle-translation-arabic"
+      ]
+    },
+    {
+      "name": "The Modern JavaScript Tutorial in Arabic",
+      "technologies": "HTML, JavaScript, CSS",
+      "license": "CC BY-NC-SA 4.0",
+      "source_url": "https://github.com/javascript-tutorial/ar.javascript.info",
+      "description_en": "Modern JavaScript Tutorial in Arabic",
+      "description_ar": "النسخة العربية من دروس جافاسكريبت الحديثة - شرح كامل للغة JavaScript من الأساسيات إلى الموضوعات المتقدمة",
+      "status": "نشط 🚀",
+      "links": "https://javascript.info",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "محتوى تعليمي",
+      "tags": "javascript, tutorial, arabic",
+      "last_activity": "2026-03-30",
+      "slug": "the-modern-javascript-tutorial-in-arabic",
+      "technologies_list": [
+        "HTML",
+        "JavaScript",
+        "CSS"
+      ],
+      "tags_list": [
+        "javascript",
+        "tutorial",
+        "arabic"
+      ],
+      "initiative_type_list": [
+        "محتوى تعليمي"
+      ],
+      "links_list": [
+        "https://javascript.info"
+      ]
+    },
+    {
+      "name": "Arabic NLP Tools and Resources Lists",
+      "technologies": "Python, JavaScript, Java",
+      "license": "GPL-3.0",
+      "source_url": "https://github.com/linuxscout/arabicnlptoolslist",
+      "description_en": "Arabic NLP tools List inventory",
+      "description_ar": "قائمة شاملة لأدوات ومكتبات معالجة اللغة العربية الطبيعية",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/linuxscout/arabicnlptoolslist",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "فهرس / قائمة",
+      "tags": "nlp, catalogue, arabic, nlp-resources",
+      "last_activity": "2022-12-17",
+      "slug": "arabic-nlp-tools-and-resources-lists",
+      "technologies_list": [
+        "Python",
+        "JavaScript",
+        "Java"
+      ],
+      "tags_list": [
+        "nlp",
+        "catalogue",
+        "arabic",
+        "nlp-resources"
+      ],
+      "initiative_type_list": [
+        "فهرس / قائمة"
+      ],
+      "links_list": [
+        "https://github.com/linuxscout/arabicnlptoolslist"
+      ]
+    },
+    {
+      "name": "Adawat: Arabic Language Toolkit",
+      "technologies": "Python, Makefile",
+      "license": "GPL-3.0",
+      "source_url": "https://github.com/linuxscout/adawat",
+      "description_en": "Adawat: Arabic Text tools",
+      "description_ar": "أدوات معالجة النصوص العربية: تصحيح تلقائي، تشكيل، إضافة حروف، وتحويل الأعداد إلى كلمات",
+      "status": "ميت ☠️",
+      "links": "https://github.com/linuxscout/adawat",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "أداة",
+      "tags": "نصوص عربية, تصحيح, تشكيل",
+      "last_activity": "2020-08-27",
+      "slug": "adawat-arabic-language-toolkit",
+      "technologies_list": [
+        "Python",
+        "Makefile"
+      ],
+      "tags_list": [
+        "نصوص عربية",
+        "تصحيح",
+        "تشكيل"
+      ],
+      "initiative_type_list": [
+        "أداة"
+      ],
+      "links_list": [
+        "https://github.com/linuxscout/adawat"
+      ]
+    },
+    {
+      "name": "Python Arabic Reshaper",
+      "technologies": "Python",
+      "license": "MIT",
+      "source_url": "https://github.com/mpcabd/python-arabic-reshaper",
+      "description_en": "Reconstruct Arabic sentences to be used in applications that don't support Arabic",
+      "description_ar": "إعادة تشكيل الجمل العربية لتكون متوافقة مع التطبيقات التي لا تدعم اللغة العربية",
+      "status": "نشط 🚀",
+      "links": "https://github.com/mpcabd/python-arabic-reshaper",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "python, arabic, reshape",
+      "last_activity": "2026-04-28",
+      "slug": "python-arabic-reshaper",
+      "technologies_list": [
+        "Python"
+      ],
+      "tags_list": [
+        "python",
+        "arabic",
+        "reshape"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/mpcabd/python-arabic-reshaper"
+      ]
+    },
+    {
+      "name": "LanguageTool",
+      "technologies": "Java, HTML, Python, Shell, Perl, Awk, Other",
+      "license": "LGPL-2.1",
+      "source_url": "https://github.com/linuxscout/languagetool",
+      "description_en": "Style and Grammar Checker for 25+ Languages",
+      "description_ar": "مدقق نحوي وإملائي متعدد اللغات مع دعم اللغة العربية",
+      "status": "نشط 🚀",
+      "links": "https://languagetool.org",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "أداة",
+      "tags": "تدقيق, نحو, إملاء, لغات متعددة",
+      "last_activity": "2025-03-26",
+      "slug": "languagetool",
+      "technologies_list": [
+        "Java",
+        "HTML",
+        "Python",
+        "Shell",
+        "Perl",
+        "Awk",
+        "Other"
+      ],
+      "tags_list": [
+        "تدقيق",
+        "نحو",
+        "إملاء",
+        "لغات متعددة"
+      ],
+      "initiative_type_list": [
+        "أداة"
+      ],
+      "links_list": [
+        "https://languagetool.org"
+      ]
+    },
+    {
+      "name": "tnkeeh",
+      "technologies": "Python, Jupyter Notebook",
+      "license": "MIT",
+      "source_url": "https://github.com/ARBML/tnkeeh",
+      "description_en": "Arabic cleaning, normalization and segmentation library.",
+      "description_ar": "مكتبة معالجة أولية للنصوص العربية: تنظيف، تطبيع، وتقسيم",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/ARBML/tnkeeh",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "nlp, cleaning, arabic-nlp, preprocessing-library",
+      "last_activity": "2023-09-28",
+      "slug": "tnkeeh",
+      "technologies_list": [
+        "Python",
+        "Jupyter Notebook"
+      ],
+      "tags_list": [
+        "nlp",
+        "cleaning",
+        "arabic-nlp",
+        "preprocessing-library"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/ARBML/tnkeeh"
+      ]
+    },
+    {
+      "name": "arabert",
+      "technologies": "Python",
+      "license": "رخصة خاصة (AUB) — استخدام، نسخ، تعديل، وتوزيع مجاني مع نسب العمل",
+      "source_url": "https://github.com/aub-mind/arabert",
+      "description_en": "Pre-trained Transformers for Arabic Language Understanding and Generation (Arabic BERT, Arabic GPT2, Arabic ELECTRA)",
+      "description_ar": "نماذج محولات مسبقة التدريب لفهم وتوليد اللغة العربية (Arabic BERT, Arabic GPT2, Arabic ELECTRA)",
+      "status": "متوقف صيانته 😑",
+      "links": "https://huggingface.co/aubmindlab",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "arabic, bert, arabic-nlp, electra, farasa, gpt2, huggingface-transformer, arabic-classification, arabert",
+      "last_activity": "2022-08-01",
+      "slug": "arabert",
+      "technologies_list": [
+        "Python"
+      ],
+      "tags_list": [
+        "arabic",
+        "bert",
+        "arabic-nlp",
+        "electra",
+        "farasa",
+        "gpt2",
+        "huggingface-transformer",
+        "arabic-classification",
+        "arabert"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://huggingface.co/aubmindlab"
+      ]
+    },
+    {
+      "name": "AyaSpell Arabic Dictionary for Spellchecking",
+      "technologies": "Shell, Makefile, JavaScript",
+      "license": "GPL/LGPL/MPL tri-license",
+      "source_url": "https://github.com/linuxscout/ayaspell",
+      "description_en": "AyaSpell Arabic Dictionary for Hunspell Spellchecker",
+      "description_ar": "قواميس عربية للتدقيق الإملائي لأنظمة Hunspell (لـ LibreOffice, Firefox وغيرها)",
+      "status": "ميت ☠️",
+      "links": "https://github.com/linuxscout/ayaspell",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "قاموس",
+      "tags": "تدقيق إملائي, قاموس, hunspell",
+      "last_activity": "2020-08-27",
+      "slug": "ayaspell-arabic-dictionary-for-spellchecking",
+      "technologies_list": [
+        "Shell",
+        "Makefile",
+        "JavaScript"
+      ],
+      "tags_list": [
+        "تدقيق إملائي",
+        "قاموس",
+        "hunspell"
+      ],
+      "initiative_type_list": [
+        "قاموس"
+      ],
+      "links_list": [
+        "https://github.com/linuxscout/ayaspell"
+      ]
+    },
+    {
+      "name": "Arabic Named Entity Recognition: What Works and What’s Next",
+      "technologies": "Machine learning, NER, NLP",
+      "license": "Apache-2.0",
+      "source_url": "https://github.com/LiyuanLucasLiu/ArabicNER",
+      "description_en": "This paper presents the winning solution to the Arabic Named Entity Recognition challenge organized by http://topcoder.com/. The proposed model integrates a variety of tailored techniques, including representation learning, feature engineering, sequence labeling, and ensemble learning. The final model achieves a test F1 score of 75.82% on the AQMAR dataset, significantly outperforming baseline models. Detailed analyses reveal its strengths and limitations, noting that (1) representation learning modules can greatly enhance performance but require proper preprocessing, and (2) the resulting embeddings can be further improved with feature engineering due to the limited size of the training data. All implementations and pre-trained models are made public.",
+      "description_ar": "تستعرض هذه الورقة الحل الفائز في تحدي التعرف على الكيانات المسماة باللغة العربية الذي نظمته http://topcoder.com/. يدمج النموذج المقترح مجموعة من التقنيات المخصصة، بما في ذلك تعلم التمثيل، وهندسة الميزات، وتصنيف التسلسل، والتعلم الجماعي. حقق النموذج النهائي درجة F1 اختبار تبلغ 75.82% على مجموعة بيانات AQMAR، متفوقًا على المعايير السابقة بشكل كبير. تم إجراء تحليلات مفصلة للكشف عن نقاط القوة والقيود. نلاحظ على وجه الخصوص أن (1) وحدات تعلم التمثيل يمكن أن تعزز الأداء بشكل كبير ولكنها تتطلب معالجة مسبقة مناسبة، و(2) يمكن تحسين التضمين الناتج بمزيد من هندسة الميزات بسبب الحجم المحدود لبيانات التدريب. تم نشر جميع الإجراءات والنماذج المدربة مسبقًا للجمهور.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://www.aclweb.org/anthology/W19-4607.pdf",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "ورقة بحثية",
+      "tags": "أنواع الأعيان, أنواع الكلمات, اللغة عربية, تحليل صرفي, معالجة اللغة الطبيعية",
+      "last_activity": "2020-03-12",
+      "slug": "arabic-named-entity-recognition-what-works-and-whats-next",
+      "technologies_list": [
+        "Machine learning",
+        "NER",
+        "NLP"
+      ],
+      "tags_list": [
+        "أنواع الأعيان",
+        "أنواع الكلمات",
+        "اللغة عربية",
+        "تحليل صرفي",
+        "معالجة اللغة الطبيعية"
+      ],
+      "initiative_type_list": [
+        "ورقة بحثية"
+      ],
+      "links_list": [
+        "https://www.aclweb.org/anthology/W19-4607.pdf"
+      ]
+    },
+    {
+      "name": "PyArabic",
+      "technologies": "Python",
+      "license": "GPL-3.0 License",
+      "source_url": "https://github.com/linuxscout/pyarabic",
+      "description_en": "A specific Arabic language library for Python,\n provides basic functions to manipulate Arabic letters and text, like \ndetecting Arabic letters, Arabic letters groups and characteristics, \nremove diacritics etc.",
+      "description_ar": "مكتبة برمجية للغة العربية بلغة بيثون، توفر دوالّ للتحكم في الحروف والنصوص، مثلا تحديد نوع الحرف، حذف الحركات، مقارنة التشكيل.",
+      "status": "نشط 🚀",
+      "links": "https://github.com/linuxscout/pyarabic",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "أنواع الكلمات, التشكيل, اللغة عربية, تحليل صرفي, تقنية",
+      "last_activity": "2026-01-16",
+      "slug": "pyarabic",
+      "technologies_list": [
+        "Python"
+      ],
+      "tags_list": [
+        "أنواع الكلمات",
+        "التشكيل",
+        "اللغة عربية",
+        "تحليل صرفي",
+        "تقنية"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/linuxscout/pyarabic"
+      ]
+    },
+    {
+      "name": "ArabicTransliterator",
+      "technologies": "Python, TSQL, HTML, Other",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/MTG/ArabicTransliterator",
+      "description_en": "A code for transliterating (romanizing) Arabic text using the American Library Association - Library of Congress (ALA-LC) standard.",
+      "description_ar": "كود لتحويل النص العربي إلى حروف لاتينية (الترجمة الصوتية) باستخدام معيار جمعية المكتبات الأمريكية - مكتبة الكونغرس (ALA-LC)",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/MTG/ArabicTransliterator",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "ترجمة صوتية, ترميز, ALA-LC",
+      "last_activity": "2022-05-15",
+      "slug": "arabictransliterator",
+      "technologies_list": [
+        "Python",
+        "TSQL",
+        "HTML",
+        "Other"
+      ],
+      "tags_list": [
+        "ترجمة صوتية",
+        "ترميز",
+        "ALA-LC"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/MTG/ArabicTransliterator"
+      ]
+    },
+    {
+      "name": "Arabic Word Embeddings Word2vec",
+      "technologies": "JavaScript, HTML, Python, CSS",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/rozester/Arabic-Word-Embeddings-Word2vec",
+      "description_en": "Arabic Word Embeddings Word2vec",
+      "description_ar": "تطبيق ويب لتوليد واستعراض تمثيلات الكلمات (Word Embeddings) العربية باستخدام Word2vec",
+      "status": "ميت ☠️",
+      "links": "https://github.com/rozester/Arabic-Word-Embeddings-Word2vec",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق ويب",
+      "tags": "python, nlp, flask, ai, word2vec, word-embeddings, arabic",
+      "last_activity": "2018-12-13",
+      "slug": "arabic-word-embeddings-word2vec",
+      "technologies_list": [
+        "JavaScript",
+        "HTML",
+        "Python",
+        "CSS"
+      ],
+      "tags_list": [
+        "python",
+        "nlp",
+        "flask",
+        "ai",
+        "word2vec",
+        "word-embeddings",
+        "arabic"
+      ],
+      "initiative_type_list": [
+        "تطبيق ويب"
+      ],
+      "links_list": [
+        "https://github.com/rozester/Arabic-Word-Embeddings-Word2vec"
+      ]
+    },
+    {
+      "name": "raqin",
+      "technologies": "JavaScript, Vue, HTML, SCSS, Shell, Dockerfile",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/Fahad-Alsaidi/raqin",
+      "description_en": "Raqin is a comprehensive digital platform for Quranic sciences and Arabic language learning.",
+      "description_ar": "منصة رقمية شاملة لعلوم القرآن وتعلم اللغة العربية",
+      "status": "ميت ☠️",
+      "links": "https://github.com/Fahad-Alsaidi/raqin",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "منصة رقمية",
+      "tags": "قرآن, علوم القرآن, لغة عربية, منصة تعليمية",
+      "last_activity": "2021-12-18",
+      "slug": "raqin",
+      "technologies_list": [
+        "JavaScript",
+        "Vue",
+        "HTML",
+        "SCSS",
+        "Shell",
+        "Dockerfile"
+      ],
+      "tags_list": [
+        "قرآن",
+        "علوم القرآن",
+        "لغة عربية",
+        "منصة تعليمية"
+      ],
+      "initiative_type_list": [
+        "منصة رقمية"
+      ],
+      "links_list": [
+        "https://github.com/Fahad-Alsaidi/raqin"
+      ]
+    },
+    {
+      "name": "Arabic_OCR",
+      "technologies": "Python, HTML",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/maidaly/Arabic_OCR",
+      "description_en": "This repo contains Arabic OCR App",
+      "description_ar": "تطبيق للتعرف البصري على الحروف العربية (OCR)",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/maidaly/Arabic_OCR",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق",
+      "tags": "OCR, تعرف بصري, لغة عربية, Python",
+      "last_activity": "2022-09-07",
+      "slug": "arabic_ocr",
+      "technologies_list": [
+        "Python",
+        "HTML"
+      ],
+      "tags_list": [
+        "OCR",
+        "تعرف بصري",
+        "لغة عربية",
+        "Python"
+      ],
+      "initiative_type_list": [
+        "تطبيق"
+      ],
+      "links_list": [
+        "https://github.com/maidaly/Arabic_OCR"
+      ]
+    },
+    {
+      "name": "ARBML",
+      "technologies": "Python, Jupyter Notebook, JavaScript, CSS",
+      "license": "MIT (للمكتبات التابعة)",
+      "source_url": "https://github.com/ARBML",
+      "description_en": "ARBML is an open-source initiative aiming to accelerate Arabic NLP research and development through shared tools, models, and datasets.",
+      "description_ar": "مبادرة مفتوحة المصدر تهدف إلى تسريع البحث والتطوير في معالجة اللغة العربية عبر أدوات ونماذج ومجموعات بيانات مشتركة",
+      "status": "نشط 🚀",
+      "links": "https://github.com/ARBML",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "منظمة / مجموعة مشاريع",
+      "tags": "معالجة لغة طبيعية, عربية, NLP, ذكاء اصطناعي, مفتوح المصدر",
+      "last_activity": "2026-06-04",
+      "slug": "arbml",
+      "technologies_list": [
+        "Python",
+        "Jupyter Notebook",
+        "JavaScript",
+        "CSS"
+      ],
+      "tags_list": [
+        "معالجة لغة طبيعية",
+        "عربية",
+        "NLP",
+        "ذكاء اصطناعي",
+        "مفتوح المصدر"
+      ],
+      "initiative_type_list": [
+        "منظمة / مجموعة مشاريع"
+      ],
+      "links_list": [
+        "https://github.com/ARBML"
+      ]
+    },
+    {
+      "name": "Arabic NLP",
+      "technologies": "Python",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/SemanticFrontiers/ArabicNLP",
+      "description_en": "Collection of various Arabic NLP and Text Processing Scripts and Utilities",
+      "description_ar": "مجموعة من السكريبتات والأدوات المتنوعة لمعالجة النصوص العربية",
+      "status": "ميت ☠️",
+      "links": "https://github.com/SemanticFrontiers/ArabicNLP",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "سكريبت برمجي",
+      "tags": "معالجة لغة طبيعية, نصوص عربية, سكريبتات",
+      "last_activity": "2013-10-10",
+      "slug": "arabic-nlp",
+      "technologies_list": [
+        "Python"
+      ],
+      "tags_list": [
+        "معالجة لغة طبيعية",
+        "نصوص عربية",
+        "سكريبتات"
+      ],
+      "initiative_type_list": [
+        "سكريبت برمجي"
+      ],
+      "links_list": [
+        "https://github.com/SemanticFrontiers/ArabicNLP"
+      ]
+    },
+    {
+      "name": "Arabic-OCR",
+      "technologies": "Python",
+      "license": "MIT",
+      "source_url": "https://github.com/HusseinYoussef/Arabic-OCR",
+      "description_en": "OCR system for Arabic language that converts images of typed text to machine-encoded text.",
+      "description_ar": "نظام OCR للغة العربية يحول صور النص المكتوب إلى نص مشفر آليًا",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/HusseinYoussef/Arabic-OCR",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق",
+      "tags": "machine-learning, ocr, computer-vision, neural-network, scikit-learn, image-processing, dataset, segmentation, arabic, opencv-python, character-segmentation",
+      "last_activity": "2023-10-04",
+      "slug": "arabic-ocr",
+      "technologies_list": [
+        "Python"
+      ],
+      "tags_list": [
+        "machine-learning",
+        "ocr",
+        "computer-vision",
+        "neural-network",
+        "scikit-learn",
+        "image-processing",
+        "dataset",
+        "segmentation",
+        "arabic",
+        "opencv-python",
+        "character-segmentation"
+      ],
+      "initiative_type_list": [
+        "تطبيق"
+      ],
+      "links_list": [
+        "https://github.com/HusseinYoussef/Arabic-OCR"
+      ]
+    },
+    {
+      "name": "Arabic Handwriting Recognition Using Neural Network in MATLAB",
+      "technologies": "Matlab, Neural Networks, Text Recognition",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/JubbaSmail/Arabic-Handwriting-Recognition-Using-Matlab",
+      "description_en": "Handwriting recognition is the ability of a computer to receive and interpret intelligible handwritten input. This project use Neural Network toolbox in Matlab to train NN with pre registered words, the input to NN is a word (not seperated characters), the word converted to a vector to find the perfect match with other pre-registered words, The input to the project is an image file and the final result saved on a notepad txt file.",
+      "description_ar": "التعرف على خط اليد هو قدرة الكمبيوتر على استقبال وتفسير المدخلات المكتوبة بخط اليد. هذا المشروع ينفذ التعرف على الكلمات العربية المكتوبة بخط اليد باستخدام الشبكات العصبية في MATLAB",
+      "status": "ميت ☠️",
+      "links": "http://www.imljh.com/projects/arabichwr/index.xml",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مشروع أكاديمي",
+      "tags": "اكتشاف النصوص, اللغة عربية, خط اليد",
+      "last_activity": "2016-09-19",
+      "slug": "arabic-handwriting-recognition-using-neural-network-in-matlab",
+      "technologies_list": [
+        "Matlab",
+        "Neural Networks",
+        "Text Recognition"
+      ],
+      "tags_list": [
+        "اكتشاف النصوص",
+        "اللغة عربية",
+        "خط اليد"
+      ],
+      "initiative_type_list": [
+        "مشروع أكاديمي"
+      ],
+      "links_list": [
+        "http://www.imljh.com/projects/arabichwr/index.xml"
+      ]
+    },
+    {
+      "name": "Arabic-NER",
+      "technologies": "GRU Architecture, NER",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/HassanAzzam/Arabic-NER",
+      "description_en": "The Arabic Named Entity Recognition (Arabic-NER) model utilizes the concept of Named Entity Recognition to tag words in Arabic texts. It features a bi-directional GRU architecture (one forward and one backward) along with a CRF layer. The model is trained on the ANERCorp dataset and employs FastText's Arabic vectors for word embedding. It has 20 training epochs and an accuracy of 94.2%. The classification report shows high precision for the LOC category (0.99), with lower precision for PERSON (0.74), ORGANIZATION (0.64), and MISC (0.63).",
+      "description_ar": "نموذج التعرف على الكيانات المسماة باللغة العربية (Arabic-NER) يستخدم مفهوم التعرف على الكيانات لتعليم الكلمات في النصوص العربية. يعتمد تصميمه على وحدات GRU الثنائية الاتجاه (إحداها للأمام والأخرى للخلف) مع طبقة CRF. تم تدريب النموذج على مجموعة بيانات ANERCorp، ويستخدم متجهات FastText باللغة العربية للتضمين. عدد الفترات التدريبية هو 20، ودقة النموذج تبلغ 94.2%. تشمل تقارير التصنيف دقة عالية لفئة المواقع (0.99)، بينما كانت دقة فئات الأشخاص (0.74) والمنظمات (0.64) والمعلومات العامة (0.63) أقل.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/HassanAzzam/Arabic-NER",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "Model",
+      "tags": "أنواع الأعيان, أنواع الكلمات, اللغة عربية, تحليل صرفي",
+      "last_activity": "2020-02-01",
+      "slug": "arabic-ner",
+      "technologies_list": [
+        "GRU Architecture",
+        "NER"
+      ],
+      "tags_list": [
+        "أنواع الأعيان",
+        "أنواع الكلمات",
+        "اللغة عربية",
+        "تحليل صرفي"
+      ],
+      "initiative_type_list": [
+        "Model"
+      ],
+      "links_list": [
+        "https://github.com/HassanAzzam/Arabic-NER"
+      ]
+    },
+    {
+      "name": "Arabic-Font-Detector",
+      "technologies": "Jupyter Notebook, Machine learning, Python",
+      "license": "MIT",
+      "source_url": "https://github.com/d7miiZ/Arabic-Font-Detector",
+      "description_en": "This model detects arabic fonts (نسخ, رقعة) given a picture of the text, Live",
+      "description_ar": "محرك لقراءة الخطوط العربية (النسخ و الرقعة)",
+      "status": "متوقف صيانته 😑",
+      "links": "https://calbot.hawzen.me/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق ويب, سكريبت برمجي",
+      "tags": "اللغة عربية",
+      "last_activity": "2023-05-27",
+      "slug": "arabic-font-detector",
+      "technologies_list": [
+        "Jupyter Notebook",
+        "Machine learning",
+        "Python"
+      ],
+      "tags_list": [
+        "اللغة عربية"
+      ],
+      "initiative_type_list": [
+        "تطبيق ويب",
+        "سكريبت برمجي"
+      ],
+      "links_list": [
+        "https://calbot.hawzen.me/"
+      ]
+    },
+    {
+      "name": "Arabic TTS ( الناطق العربي )",
+      "technologies": "Machine learning, Shell",
+      "license": "MIT",
+      "source_url": "https://github.com/asrajeh/arabic-tts",
+      "description_en": "http://www.festvox.org/ voice trained on http://en.arabicspeechcorpus.com/",
+      "description_ar": "نظام تحويل النص العربي إلى كلام باستخدام محرك Festvox المدرب على مجموعة البيانات العربية للكلام",
+      "status": "ميت ☠️",
+      "links": "http://asrajeh.ddns.net/tts/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "TTS",
+      "tags": "اللغة عربية",
+      "last_activity": "2019-09-16",
+      "slug": "arabic-tts",
+      "technologies_list": [
+        "Machine learning",
+        "Shell"
+      ],
+      "tags_list": [
+        "اللغة عربية"
+      ],
+      "initiative_type_list": [
+        "TTS"
+      ],
+      "links_list": [
+        "http://asrajeh.ddns.net/tts/"
+      ]
+    },
+    {
+      "name": "Klaam",
+      "technologies": "Jupyter Notebook, Machine learning, Python, Speech recognition",
+      "license": "MIT",
+      "source_url": "https://github.com/ARBML/klaam",
+      "description_en": "Arabic speech recognition, classification and text-to-speech using many \nadvanced models like wave2vec and fastspeech2. This repository allows \ntraining and prediction using pretrained models.",
+      "description_ar": "نظام تعرف على الكلام العربي، تصنيفه، وتحويل النص إلى كلام باستخدام نماذج متقدمة مثل Wave2Vec وFastSpeech2. يوفر ادوات للتدريب والتنبؤ باستخدام نماذج مدربة مسبقاً لتحسين الأداء في مهام التعرف على الكلام وتحويل النص إلى صوت.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/ARBML/klaam",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "CLI, مكتبة برمجية",
+      "tags": "مكتبة",
+      "last_activity": "2023-09-30",
+      "slug": "klaam",
+      "technologies_list": [
+        "Jupyter Notebook",
+        "Machine learning",
+        "Python",
+        "Speech recognition"
+      ],
+      "tags_list": [
+        "مكتبة"
+      ],
+      "initiative_type_list": [
+        "CLI",
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/ARBML/klaam"
+      ]
+    },
+    {
+      "name": "Arabic Speech Corpus",
+      "technologies": "Database, Docker, Machine learning, Python, Speech recognition",
+      "license": "CC Attribution 4.0 International License",
+      "source_url": "https://github.com/nawarhalabi/festival-tts-arabic-voices-docker",
+      "description_en": "This Speech corpus has been developed as part of PhD work carried out by https://uk.linkedin.com/pub/nawar-halabi/65/532/67b at the http://www.southampton.ac.uk/. The corpus was recorded in south Levantine Arabic (Damascian accent) using a professional studio. Synthesized speech as an output using this corpus has produced a high quality, natural voice.",
+      "description_ar": "تم بناء قاعدة البيانات هذه كجزء من اطروحة دكتوراة https://uk.linkedin.com/pub/nawar-halabi/65/532/67b في http://www.southampton.ac.uk/. تم تسجيل قاعدة البيانات هذه في استوديو احترافي بلهجة دمشقية. تم استخدام قاعدة البيانات هذه لتركيب كلام منطوق أوتوماتيكيا ذي جودة عالية.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://ar.arabicspeechcorpus.com/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "CLI, قاعدة بيانات, مكتبة برمجية",
+      "tags": "أصوات, اللغة عربية",
+      "last_activity": "2021-02-12",
+      "slug": "arabic-speech-corpus",
+      "technologies_list": [
+        "Database",
+        "Docker",
+        "Machine learning",
+        "Python",
+        "Speech recognition"
+      ],
+      "tags_list": [
+        "أصوات",
+        "اللغة عربية"
+      ],
+      "initiative_type_list": [
+        "CLI",
+        "قاعدة بيانات",
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://ar.arabicspeechcorpus.com/"
+      ]
+    },
+    {
+      "name": "arabic-tacotron-tts",
+      "technologies": "Machine learning, Python",
+      "license": "MIT",
+      "source_url": "https://github.com/youssefsharief/arabic-tacotron-tts",
+      "description_en": "End to end Arabic TTS system based on tacotron",
+      "description_ar": "نظام tts عربي مبني علي تاكتورون",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/youssefsharief/arabic-tacotron-tts",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "TTS, مكتبة برمجية",
+      "tags": "اللغة عربية",
+      "last_activity": "2021-04-21",
+      "slug": "arabic-tacotron-tts",
+      "technologies_list": [
+        "Machine learning",
+        "Python"
+      ],
+      "tags_list": [
+        "اللغة عربية"
+      ],
+      "initiative_type_list": [
+        "TTS",
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/youssefsharief/arabic-tacotron-tts"
+      ]
+    },
+    {
+      "name": "languagetool-tools-ar",
+      "technologies": "Java",
+      "license": "LGPL-2.1 license",
+      "source_url": "https://github.com/sohaibafifi/languagetool-tools-ar",
+      "description_en": "Dev Tools for Arabic and LanguageTool",
+      "description_ar": "أدوات تطوير للغة العربية ولـ LanguageTool",
+      "status": "ميت ☠️",
+      "links": "https://github.com/sohaibafifi/languagetool-tools-ar",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "سكريبت برمجي",
+      "tags": "اضافة لمكتبة, اللغة عربية, قواعد لغوية",
+      "last_activity": "2020-05-17",
+      "slug": "languagetool-tools-ar",
+      "technologies_list": [
+        "Java"
+      ],
+      "tags_list": [
+        "اضافة لمكتبة",
+        "اللغة عربية",
+        "قواعد لغوية"
+      ],
+      "initiative_type_list": [
+        "سكريبت برمجي"
+      ],
+      "links_list": [
+        "https://github.com/sohaibafifi/languagetool-tools-ar"
+      ]
+    },
+    {
+      "name": "Ghalatawi, Arabic AutoCorrect",
+      "technologies": "Regular expressions, Python, Shell",
+      "license": "GPL",
+      "source_url": "http://ghalatawi.sourceforge.net/",
+      "description_en": "Arabic auto-correct word lists and regular expressions for common Arabic spelling/typing errors (confusion between Alef forms, missing Yeh dots, etc.). A project by Taha Zerrouki (linuxscout).",
+      "description_ar": "قوائم تصحيح تلقائي للكلمات العربية وتعبيرات منتظمة للأخطاء الإملائية الشائعة في الكتابة العربية (الخلط بين الألفات والهاء والتاء المربوطة وغيرها)",
+      "status": "ميت ☠️",
+      "links": "http://ghalatawi.sourceforge.net/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "قواميس وأدوات",
+      "tags": "تصحيح إملائي, SourceForge, قوالب, تعابير منتظمة",
+      "last_activity": "2012-09-30",
+      "slug": "ghalatawi-arabic-autocorrect",
+      "technologies_list": [
+        "Regular expressions",
+        "Python",
+        "Shell"
+      ],
+      "tags_list": [
+        "تصحيح إملائي",
+        "SourceForge",
+        "قوالب",
+        "تعابير منتظمة"
+      ],
+      "initiative_type_list": [
+        "قواميس وأدوات"
+      ],
+      "links_list": [
+        "http://ghalatawi.sourceforge.net/"
+      ]
+    },
+    {
+      "name": "duali",
+      "technologies": "C, C++, Makefile, Python",
+      "license": "BSD 3-Clause, BSD license",
+      "source_url": "https://gitlab.com/arabeyes-dev/duali",
+      "description_en": "Arabic spellchecker",
+      "description_ar": "تصحيح إملائي عربي",
+      "status": "ميت ☠️",
+      "links": "https://gitlab.com/arabeyes-dev/duali",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "تدقيق إملائي, عربي, تصحيح إملائي",
+      "last_activity": "2021-06-15",
+      "slug": "duali",
+      "technologies_list": [
+        "C",
+        "C++",
+        "Makefile",
+        "Python"
+      ],
+      "tags_list": [
+        "تدقيق إملائي",
+        "عربي",
+        "تصحيح إملائي"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://gitlab.com/arabeyes-dev/duali"
+      ]
+    },
+    {
+      "name": "shakkelha",
+      "technologies": "Dataset, Jupyter Notebook, NLP, Neural Networks, Python",
+      "license": "MIT",
+      "source_url": "https://github.com/AliOsm/shakkelha",
+      "description_en": "Neural Arabic text diacritization",
+      "description_ar": "التشكيل العصبي للنصوص العربية",
+      "status": "متوقف صيانته 😑",
+      "links": "https://shakkelha.up.railway.app/, https://aclanthology.org/D19-5229/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "CLI, Model, مكتبة برمجية, ورقة بحثية",
+      "tags": "التشكيل, اللغة عربية, معالجة اللغة الطبيعية",
+      "last_activity": "2023-03-24",
+      "slug": "shakkelha",
+      "technologies_list": [
+        "Dataset",
+        "Jupyter Notebook",
+        "NLP",
+        "Neural Networks",
+        "Python"
+      ],
+      "tags_list": [
+        "التشكيل",
+        "اللغة عربية",
+        "معالجة اللغة الطبيعية"
+      ],
+      "initiative_type_list": [
+        "CLI",
+        "Model",
+        "مكتبة برمجية",
+        "ورقة بحثية"
+      ],
+      "links_list": [
+        "https://shakkelha.up.railway.app/",
+        "https://aclanthology.org/D19-5229/"
+      ]
+    },
+    {
+      "name": "arabic-text-diacritization",
+      "technologies": "Dataset, NLP, Python",
+      "license": "MIT",
+      "source_url": "https://github.com/AliOsm/arabic-text-diacritization",
+      "description_en": "Benchmark Arabic text diacritization dataset",
+      "description_ar": "مجموعة بيانات مرجعية لتصحيح أخطاء كتابة النصوص العربية",
+      "status": "نشط 🚀",
+      "links": "https://arxiv.org/abs/1905.01965",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "Model, قاعدة بيانات, مصادر, ورقة بحثية",
+      "tags": "التشكيل, اللغة عربية, معالجة اللغة الطبيعية",
+      "last_activity": "2026-04-07",
+      "slug": "arabic-text-diacritization",
+      "technologies_list": [
+        "Dataset",
+        "NLP",
+        "Python"
+      ],
+      "tags_list": [
+        "التشكيل",
+        "اللغة عربية",
+        "معالجة اللغة الطبيعية"
+      ],
+      "initiative_type_list": [
+        "Model",
+        "قاعدة بيانات",
+        "مصادر",
+        "ورقة بحثية"
+      ],
+      "links_list": [
+        "https://arxiv.org/abs/1905.01965"
+      ]
+    },
+    {
+      "name": "mishkal",
+      "technologies": "NLP, Python, Web",
+      "license": "GPL-3.0 License",
+      "source_url": "https://github.com/linuxscout/mishkal",
+      "description_en": "Mishkal Arabic text vocalization software",
+      "description_ar": "مشكال لتشكيل النصوص العربية",
+      "status": "نشط 🚀",
+      "links": "http://www.tahadz.com/mishkal/main",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "CLI, تطبيق ويب, مكتبة برمجية",
+      "tags": "التشكيل, اللغة عربية, معالجة اللغة الطبيعية",
+      "last_activity": "2025-09-18",
+      "slug": "mishkal",
+      "technologies_list": [
+        "NLP",
+        "Python",
+        "Web"
+      ],
+      "tags_list": [
+        "التشكيل",
+        "اللغة عربية",
+        "معالجة اللغة الطبيعية"
+      ],
+      "initiative_type_list": [
+        "CLI",
+        "تطبيق ويب",
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "http://www.tahadz.com/mishkal/main"
+      ]
+    },
+    {
+      "name": "Shakkala",
+      "technologies": "Deep Learning, NLP, Python",
+      "license": "MIT",
+      "source_url": "https://github.com/Barqawiz/Shakkala",
+      "description_en": "The Shakkala project presents a recurrent neural network for Arabic text vocalization that automatically forms Arabic characters (تشكيل الحروف) to enhance text-to-speech systems. The model can also be used in other applications such as improving search results. In the beta version, the model was trained on over a million sentences, including a majority of historical Arabic data from books and some modern data from the internet. The accuracy of the model reached up to 95%, and in some data sets it achieved even higher levels of accuracy depending on complexity and data distribution. This innovative approach has the potential to significantly improve the quality of writing and text-to-speech systems for the Arabic language.",
+      "description_ar": "التشكيل الالي للنصوص العربية",
+      "status": "متوقف صيانته 😑",
+      "links": "https://ahmadai.com/shakkala/, https://arxiv.org/abs/1905.01965",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "التشكيل, اللغة عربية, معالجة اللغة الطبيعية",
+      "last_activity": "2023-03-25",
+      "slug": "shakkala",
+      "technologies_list": [
+        "Deep Learning",
+        "NLP",
+        "Python"
+      ],
+      "tags_list": [
+        "التشكيل",
+        "اللغة عربية",
+        "معالجة اللغة الطبيعية"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://ahmadai.com/shakkala/",
+        "https://arxiv.org/abs/1905.01965"
+      ]
+    },
+    {
+      "name": "jsastem",
+      "technologies": "JavaScript, Shell, Python",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/ejtaal/jsastem",
+      "description_en": "JavaScript Arabic Stemmer",
+      "description_ar": "أداة تجذيع (Stemming) للغة العربية مكتوبة بجافاسكريبت",
+      "status": "ميت ☠️",
+      "links": "https://github.com/ejtaal/jsastem",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "تجذيع, جافاسكريبت, معالجة لغة طبيعية",
+      "last_activity": "2012-12-01",
+      "slug": "jsastem",
+      "technologies_list": [
+        "JavaScript",
+        "Shell",
+        "Python"
+      ],
+      "tags_list": [
+        "تجذيع",
+        "جافاسكريبت",
+        "معالجة لغة طبيعية"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/ejtaal/jsastem"
+      ]
+    },
+    {
+      "name": "arabicstemmer",
+      "technologies": "Makefile, Python, Snowball",
+      "license": "BSD license",
+      "source_url": "https://github.com/assem-ch/arabicstemmer",
+      "description_en": "An algorithm for Arabic stemming written on Snowball framework language. If offers light stemming and text normalization.",
+      "description_ar": "هذه خوارزمية لكتابة النصوص العربية مكتوبة بلغة إطار عمل Snowball. وهي توفر كتابة نصية بسيطة وتطبيع النص.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://arabicstemmer.com/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "CLI, تطبيق ويب, مكتبة برمجية",
+      "tags": "اللغة عربية, ايجاد جزور الكلمات, معالجة اللغة الطبيعية, ويب",
+      "last_activity": "2018-11-04",
+      "slug": "arabicstemmer",
+      "technologies_list": [
+        "Makefile",
+        "Python",
+        "Snowball"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "ايجاد جزور الكلمات",
+        "معالجة اللغة الطبيعية",
+        "ويب"
+      ],
+      "initiative_type_list": [
+        "CLI",
+        "تطبيق ويب",
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://arabicstemmer.com/"
+      ]
+    },
+    {
+      "name": "Sarf",
+      "technologies": "Gherkin, Java, NLP, Web",
+      "license": "MIT",
+      "source_url": "https://github.com/alsaydi/sarf",
+      "description_en": "Arabic Morphology System",
+      "description_ar": "نظام الاشتقاق والتصريف في اللغة العربية",
+      "status": "ميت ☠️",
+      "links": "https://sarf.one/, https://ossl.alecso.org/affich_oso_details.php?id=55, https://sourceforge.net/projects/sarf/files/sarf/sarf%201.0/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق ويب, مستندات ووثائق, ورقة بحثية",
+      "tags": "اللغة عربية, تحليل صرفي, معالجة اللغة الطبيعية, ويب",
+      "last_activity": "2021-10-12",
+      "slug": "sarf",
+      "technologies_list": [
+        "Gherkin",
+        "Java",
+        "NLP",
+        "Web"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "تحليل صرفي",
+        "معالجة اللغة الطبيعية",
+        "ويب"
+      ],
+      "initiative_type_list": [
+        "تطبيق ويب",
+        "مستندات ووثائق",
+        "ورقة بحثية"
+      ],
+      "links_list": [
+        "https://sarf.one/",
+        "https://ossl.alecso.org/affich_oso_details.php?id=55",
+        "https://sourceforge.net/projects/sarf/files/sarf/sarf%201.0/"
+      ]
+    },
+    {
+      "name": "Wojood - Nested Arabic NER",
+      "technologies": "Dataset, Machine learning, NLP, Python",
+      "license": "MIT",
+      "source_url": "https://github.com/SinaLab/ArabicNER",
+      "description_en": "Wojood is a corpus for Arabic nested Named Entity Recognition (NER). Nested entities occur when one entity mention is embedded inside another entity mention.",
+      "description_ar": "Wojood عبارة عن مجموعة من النصوص للتعرف على الكيانات المسماة المتداخلة (NER) باللغة العربية. تحدث الكيانات المتداخلة عندما يتم تضمين ذكر كيان داخل ذكر كيان آخر.",
+      "status": "نشط 🚀",
+      "links": "https://sina.birzeit.edu/wojood/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "Model, مكتبة برمجية, ورقة بحثية",
+      "tags": "اللغة عربية, محررات نصوص",
+      "last_activity": "2025-03-10",
+      "slug": "wojood-nested-arabic-ner",
+      "technologies_list": [
+        "Dataset",
+        "Machine learning",
+        "NLP",
+        "Python"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "محررات نصوص"
+      ],
+      "initiative_type_list": [
+        "Model",
+        "مكتبة برمجية",
+        "ورقة بحثية"
+      ],
+      "links_list": [
+        "https://sina.birzeit.edu/wojood/"
+      ]
+    },
+    {
+      "name": "alankaa",
+      "technologies": "Dataset, Machine learning, NLP",
+      "license": "بدون ترخيص",
+      "source_url": "https://alankaa.com/",
+      "description_en": "Organize all modern Arabic dialects and make ties to the ancient ones.",
+      "description_ar": "تنظيم كافة اللهجات العربية الحديثة وربطها باللهجات القديمة.",
+      "status": "نشط 🚀",
+      "links": "https://alankaa.com/project/index.php",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق ويب, فريق مبادر, قاعدة بيانات, مستندات ووثائق",
+      "tags": "اللغة عربية, توثيقات, فهرس, قاعدة بيانات, معجم, مكتبة",
+      "last_activity": "2026-05-12",
+      "slug": "alankaa",
+      "technologies_list": [
+        "Dataset",
+        "Machine learning",
+        "NLP"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "توثيقات",
+        "فهرس",
+        "قاعدة بيانات",
+        "معجم",
+        "مكتبة"
+      ],
+      "initiative_type_list": [
+        "تطبيق ويب",
+        "فريق مبادر",
+        "قاعدة بيانات",
+        "مستندات ووثائق"
+      ],
+      "links_list": [
+        "https://alankaa.com/project/index.php"
+      ]
+    },
+    {
+      "name": "Qutrub",
+      "technologies": "NLP, Python",
+      "license": "License",
+      "source_url": "https://github.com/linuxscout/qutrub",
+      "description_en": "Arabic verb conjugation software",
+      "description_ar": "تصريف الأفعال العربية",
+      "status": "متوقف صيانته 😑",
+      "links": "https://tahadz.com/homepage/ar/p/qutrub/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "Model, مكتبة برمجية",
+      "tags": "اللغة عربية, محررات نصوص",
+      "last_activity": "2023-07-31",
+      "slug": "qutrub",
+      "technologies_list": [
+        "NLP",
+        "Python"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "محررات نصوص"
+      ],
+      "initiative_type_list": [
+        "Model",
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://tahadz.com/homepage/ar/p/qutrub/"
+      ]
+    },
+    {
+      "name": "Arabic Poem Generator",
+      "technologies": "Dataset, Jupyter Notebook, Python",
+      "license": "MIT",
+      "source_url": "https://github.com/hayderkharrufa/arabic_poem_generator",
+      "description_en": "Generating Arabic poetry using Markov chains.",
+      "description_ar": "توليد الشعر العربي باستخدام سلاسل ماركوف.",
+      "status": "ميت ☠️",
+      "links": "https://www.youtube.com/watch?v=Dnx6bE4Nwyo, https://www.kaggle.com/datasets/ahmedabelal/arabic-poetry",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "Model, سكريبت برمجي",
+      "tags": "اللغة عربية, شعر",
+      "last_activity": "2021-12-13",
+      "slug": "arabic-poem-generator",
+      "technologies_list": [
+        "Dataset",
+        "Jupyter Notebook",
+        "Python"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "شعر"
+      ],
+      "initiative_type_list": [
+        "Model",
+        "سكريبت برمجي"
+      ],
+      "links_list": [
+        "https://www.youtube.com/watch?v=Dnx6bE4Nwyo",
+        "https://www.kaggle.com/datasets/ahmedabelal/arabic-poetry"
+      ]
+    },
+    {
+      "name": "Alif Type (حروف ألف)",
+      "technologies": "Makefile, Python, SCSS, Tex",
+      "license": "OFL, GPL, MIT",
+      "source_url": "https://github.com/aliftype",
+      "description_en": "Alif Type is a type foundry founded by Khaled Hosny, and specializes in Arabic and mathematical typefaces.",
+      "description_ar": "«حروف ألف» هو مسبك حروف رقمي أسسه خالد حسني، ويتخصص في الخطوط العربية والرياضياتية.",
+      "status": "نشط 🚀",
+      "links": "https://aliftype.com/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "خط عربي, فريق مبادر, مجتمع, مكتبة برمجية",
+      "tags": "اللغة عربية, خط",
+      "last_activity": "2026-05-12",
+      "slug": "alif-type",
+      "technologies_list": [
+        "Makefile",
+        "Python",
+        "SCSS",
+        "Tex"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "خط"
+      ],
+      "initiative_type_list": [
+        "خط عربي",
+        "فريق مبادر",
+        "مجتمع",
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://aliftype.com/"
+      ]
+    },
+    {
+      "name": "Khotot",
+      "technologies": "خط (Font)",
+      "license": "GNU General Public License v2.0",
+      "source_url": "https://gitlab.com/arabeyes-art/khotot",
+      "description_en": "Khotot project aims at increasing the number of available Arabic free and open source fonts.",
+      "description_ar": "يهدف https://www.arabeyes.org/Khotot إلى بناء خطوط عربيّة حرّة مع دعم أفضل لخصائص القلم العربي، وتجميع الخطوط العربية الحرّة في مكان واحد.",
+      "status": "ميت ☠️",
+      "links": "https://www.arabeyes.org/Khotot, https://www.arabeyes.org/%D8%AE%D8%B7%D9%88%D8%B7",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "خط عربي, فريق مبادر",
+      "tags": "اللغة عربية, خط",
+      "last_activity": "2017-02-20",
+      "slug": "khotot",
+      "technologies_list": [
+        "خط (Font)"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "خط"
+      ],
+      "initiative_type_list": [
+        "خط عربي",
+        "فريق مبادر"
+      ],
+      "links_list": [
+        "https://www.arabeyes.org/Khotot",
+        "https://www.arabeyes.org/%D8%AE%D8%B7%D9%88%D8%B7"
+      ]
+    },
+    {
+      "name": "Nimra",
+      "technologies": "خط (Font)",
+      "license": "OFL-1.1 License",
+      "source_url": "https://github.com/aiaf/nimra",
+      "description_en": "Nimra is a typeface with MICR Eastern Arabic numerals in the style of E13B",
+      "description_ar": "خط رقمي لأرقام MICR العربية على نمط E13B",
+      "status": "ميت ☠️",
+      "links": "https://makkuk.com/nimra/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "خط عربي",
+      "tags": "اللغة عربية, خط",
+      "last_activity": "2018-03-14",
+      "slug": "nimra",
+      "technologies_list": [
+        "خط (Font)"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "خط"
+      ],
+      "initiative_type_list": [
+        "خط عربي"
+      ],
+      "links_list": [
+        "https://makkuk.com/nimra/"
+      ]
+    },
+    {
+      "name": "Cairo",
+      "technologies": "Makefile, Python, Shell",
+      "license": "OFL-1.1 License",
+      "source_url": "https://github.com/Gue3bara/Cairo",
+      "description_en": "Cairo is a contemporary Arabic and Latin typeface family. Extending the famous Latin typeface family Titillum Web to support the Arabic script, with a design that is based on the Kufi calligraphic style. Cairo balances classic and contemporary tastes with wide open counters and short ascenders and descenders that minimize length while maintaining easy readability. The lighter weights can be used for body text while the heavier weights are perfect for headlines and display typography. Each font includes stylistic ligatures and the Arabic component has a wide glyph set that supports the Arabic, Farsi and Urdu languages.",
+      "description_ar": "كايرو هو عائلة خطوط عربية لاتينية معاصرة، إمتداداً لعائلة الخطوط اللاتينية الشهيرة Titillum Web ليدعم اللغة العربية، بتصميم مبني على الخط الكوفي الكلاسيكي. خط كايرو يوازن بين الذوقين الكلاسيكي والمعاصر بمداور حروف مفتوحة وواسعة بين محددات عليا ودنيا قصيرة للحروف والتي تقلل من ارتفاع الحروف دون التأثير سلبا على المقروئية. الأوزان الخفيفة من الخط يمكن إستخدامها في كتابة متن المواضيع بينما الأوزان السميكة مناسبة أكثر للعناوين العريضة. خط كايرو يحوي مكتبة حروف غنية تدعم العربية، الأردو والفارسية وبمكتبة تشكيل كاملة ويصدر بستة أوزان مختلفة.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://gaber.design/cairo-free-font-family",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "خط عربي",
+      "tags": "اللغة عربية, خط",
+      "last_activity": "2020-05-18",
+      "slug": "cairo",
+      "technologies_list": [
+        "Makefile",
+        "Python",
+        "Shell"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "خط"
+      ],
+      "initiative_type_list": [
+        "خط عربي"
+      ],
+      "links_list": [
+        "https://gaber.design/cairo-free-font-family"
+      ]
+    },
+    {
+      "name": "خط أسس (خط للأكواد العربية)",
+      "technologies": "خط (Font)",
+      "license": "بدون ترخيص",
+      "source_url": "",
+      "description_en": "Monospace font for Arabic code that may contain Latin-like text. It was built mainly for the code editor of Alusus programming language but can be used as other use cases.",
+      "description_ar": "خط أسس أحادي المسافة، صمم بشكل رئيسي لمحررات أكواد لغة الأسس وهو متاح الآن لستخدمه كيفما تشاء ومع أي لغة أحببت.",
+      "status": "ميت ☠️",
+      "links": "https://community.alusus.org/t/kht-erby-jdyd-thabt-alerd-mwnw/23",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "خط عربي",
+      "tags": "اللغة عربية, تقنية, خط, فونت, ويب",
+      "last_activity": "2021-12-18",
+      "slug": "",
+      "technologies_list": [
+        "خط (Font)"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "تقنية",
+        "خط",
+        "فونت",
+        "ويب"
+      ],
+      "initiative_type_list": [
+        "خط عربي"
+      ],
+      "links_list": [
+        "https://community.alusus.org/t/kht-erby-jdyd-thabt-alerd-mwnw/23"
+      ]
+    },
+    {
+      "name": "Kawkab Mono",
+      "technologies": "خط (Font)",
+      "license": "OFL-1.1 License",
+      "source_url": "https://github.com/aiaf/kawkab-mono",
+      "description_en": "Kawkab Mono (كوكب مونو) is a monospaced Arabic typeface. It's designed for code and text-editing in particular, and whenever having a fixed-pitch font is necessary, such as when composing tabular data using text. There's a dearth in monospaced Arabic fonts and Kawkab comes to fill a void in this niche.",
+      "description_ar": "كوكب مونو هو خط عربي ثابت عرض المحارف (monospaced typeface) صمم لاستخدامات عديدة تشمل تحرير النصوص البرمجية والنثرية أو عندما يكون ثبات عرض المحرف ضروريًا كما عند إنشاء الجداول النصية أو نماذج التعبئة الورقية. تعد هذه الفئة من الخطوط نادرة جدًا في الخط العربي ويأتي كوكب مونو ليسد شيئًا من ذلك الفراغ.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://makkuk.com/kawkab-mono/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "خط عربي",
+      "tags": "اللغة عربية, خط",
+      "last_activity": "2016-01-15",
+      "slug": "kawkab-mono",
+      "technologies_list": [
+        "خط (Font)"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "خط"
+      ],
+      "initiative_type_list": [
+        "خط عربي"
+      ],
+      "links_list": [
+        "https://makkuk.com/kawkab-mono/"
+      ]
+    },
+    {
+      "name": "دليل أسلوب كتابة المحتوى (Content Style Guide)",
+      "technologies": "CSS, Markdown",
+      "license": "MIT",
+      "source_url": "https://csg.uxwritingar.com/",
+      "description_en": "Arabic Content Style Guide - open source guide for content writing in Arabic, focusing on UX writing best practices.",
+      "description_ar": "أهلًا بك في دليل أسلوب كتابة المحتوى (Content Style Guide) - الإصدارة الأولى، هذا الدليل (مفتوح المصدر) مساهمة لإثراء مجال كتابة تجربة المستخدم (UX Writing) وتصميم المحتوى (Content Design) باللغة العربية، يمكنك المساهمة معنا في إضافة أو تعديل وكذلك تحسين الدليل بإتباع التعليمات على موقع Github.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/UX-Writing/Content-Style-Guide-in-Arabic",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تعليم, مستندات ووثائق",
+      "tags": "اللغة عربية, تحسين تجربة المستخدم, تعليم, تقنية, توثيقات",
+      "last_activity": "2023-05-27",
+      "slug": "content-style-guide",
+      "technologies_list": [
+        "CSS",
+        "Markdown"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "تحسين تجربة المستخدم",
+        "تعليم",
+        "تقنية",
+        "توثيقات"
+      ],
+      "initiative_type_list": [
+        "تعليم",
+        "مستندات ووثائق"
+      ],
+      "links_list": [
+        "https://github.com/UX-Writing/Content-Style-Guide-in-Arabic"
+      ]
+    },
+    {
+      "name": "Arabic Initiative for User Experience (AIUX)",
+      "technologies": "SCSS",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/KL13NT/AIUX",
+      "description_en": "The Arabic Initiative for User Experience (AIUX) is an idea for building a better world for Arabic-speaking users. It outlines ways in which the Arabic community could enhance existing tooling and content to provide a better UX for Arabic-speaking users.",
+      "description_ar": "المبادرة العربية لتجربة المستخدم هي مبادرة تهدف لبناء عالم أفضل للمتحدثين بالعربية. هي مبادرة تدفع باتجاه تحسين الأدوات المتاحة والحث على أهمية الاعتناء بتفاصيل التجربة وتحسينها.",
+      "status": "ميت ☠️",
+      "links": "https://kl13nt.github.io/AIUX",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "فريق مبادر",
+      "tags": "اللغة عربية, تحسين تجربة المستخدم, تقنية",
+      "last_activity": "2021-04-21",
+      "slug": "arabic-initiative-for-user-experience-aiux",
+      "technologies_list": [
+        "SCSS"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "تحسين تجربة المستخدم",
+        "تقنية"
+      ],
+      "initiative_type_list": [
+        "فريق مبادر"
+      ],
+      "links_list": [
+        "https://kl13nt.github.io/AIUX"
+      ]
+    },
+    {
+      "name": "Osman Readability Metric",
+      "technologies": "Java",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/drelhaj/OsmanReadability",
+      "description_en": "OSMAN is an open-source Java tool designed for calculating the readability of Arabic text, supporting both text with and without diacritics (Tashkeel). It provides an efficient method for estimating syllables and calculating readability, even when diacritics are absent. The tool was originally published as a paper at LREC 2016 and has been updated in 2020 for improved performance and to avoid copyright issues with previous dependencies. It also offers functionality to compute other readability metrics like ARI and LIX.",
+      "description_ar": "OSMAN هو أداة مفتوحة المصدر مكتوبة بلغة Java لقياس قابلية قراءة النصوص العربية، سواء كانت مشكولة أو غير مشكولة. توفر طريقة فعالة لتقدير المقاطع الصوتية وحساب درجة الوضوح حتى عند غياب التشكيل. تم نشر الأداة لأول مرة في ورقة بحثية في LREC 2016 وتم تحديثها في عام 2020 لتحسين الأداء وتجنب مشاكل حقوق الطبع. كما تدعم حساب مؤشرات قراءة أخرى مثل ARI و LIX.",
+      "status": "نشط 🚀",
+      "links": "https://www.lancaster.ac.uk/staff/elhaj/docs/elhajlrec2016Arabic.pdf",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "CLI",
+      "tags": "اللغة عربية",
+      "last_activity": "2025-07-04",
+      "slug": "osman-readability-metric",
+      "technologies_list": [
+        "Java"
+      ],
+      "tags_list": [
+        "اللغة عربية"
+      ],
+      "initiative_type_list": [
+        "CLI"
+      ],
+      "links_list": [
+        "https://www.lancaster.ac.uk/staff/elhaj/docs/elhajlrec2016Arabic.pdf"
+      ]
+    },
+    {
+      "name": "مجتمع أسس",
+      "technologies": "CSS, HTML, JavaScript, Shell Script",
+      "license": "GPL, MIT وغيرها (حسب المشروع)",
+      "source_url": "https://github.com/aosus",
+      "description_en": "Aosus is the biggest (as they say) Arabic FOSS community.",
+      "description_ar": "أسس مجتمع غير ربحي يهدف إلى نشر فكرة وثقافة البرمجيات الحرة والمفتوحة المصدر في الوطن العربي",
+      "status": "نشط 🚀",
+      "links": "https://aosus.org/, https://t.me/aosus, https://twitter.com/2linuxorg, https://mastodon.online/@aosus, https://www.facebook.com/aosus1, https://www.linkedin.com/company/aosus",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "فريق مبادر, مجتمع",
+      "tags": "برمجيات حرة, مفتوح المصدر, مجتمع عربي, Linux, أسس",
+      "last_activity": "2026-06-04",
+      "slug": "",
+      "technologies_list": [
+        "CSS",
+        "HTML",
+        "JavaScript",
+        "Shell Script"
+      ],
+      "tags_list": [
+        "برمجيات حرة",
+        "مفتوح المصدر",
+        "مجتمع عربي",
+        "Linux",
+        "أسس"
+      ],
+      "initiative_type_list": [
+        "فريق مبادر",
+        "مجتمع"
+      ],
+      "links_list": [
+        "https://aosus.org/",
+        "https://t.me/aosus",
+        "https://twitter.com/2linuxorg",
+        "https://mastodon.online/@aosus",
+        "https://www.facebook.com/aosus1",
+        "https://www.linkedin.com/company/aosus"
+      ]
+    },
+    {
+      "name": "أعجوبة",
+      "technologies": "HTML, Python, Shell Script",
+      "license": "رخصة وقف من أعجوبة",
+      "source_url": "https://github.com/ojuba-org",
+      "description_en": "http://ojuba.org/ is an Arabic platform focused on promoting free and open-source software. It offers tutorials, resources, and community discussions around Linux, open-source tools, and software freedom. The site aims to support Arabic-speaking users in adopting and using these technologies in their personal and professional lives.",
+      "description_ar": "موقع \"أجوبة\" هو منصة عربية حرة تقدم محتوى متنوع في مجالات مثل البرمجيات الحرة، أنظمة التشغيل، والبرمجيات مفتوحة المصدر. يهدف الموقع إلى تعزيز استخدام البرمجيات الحرة بين المستخدمين العرب ويوفر شروحات ودروساً حول كيفية الاستفادة منها في حياتهم اليومية أو في عملهم.",
+      "status": "ميت ☠️",
+      "links": "https://ojuba.org/, https://x.com/ojuba_org",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "فريق مبادر, مجتمع",
+      "tags": "إسلام, اللغة عربية, توثيقات, فهرس, معجم, مكتبة, نظام تشغيل",
+      "last_activity": "2024-03-26",
+      "slug": "",
+      "technologies_list": [
+        "HTML",
+        "Python",
+        "Shell Script"
+      ],
+      "tags_list": [
+        "إسلام",
+        "اللغة عربية",
+        "توثيقات",
+        "فهرس",
+        "معجم",
+        "مكتبة",
+        "نظام تشغيل"
+      ],
+      "initiative_type_list": [
+        "فريق مبادر",
+        "مجتمع"
+      ],
+      "links_list": [
+        "https://ojuba.org/",
+        "https://x.com/ojuba_org"
+      ]
+    },
+    {
+      "name": "اسماء.شبكة",
+      "technologies": "اسم نطاق",
+      "license": "بدون ترخيص",
+      "source_url": "",
+      "description_en": "An Arabic top-level domain initiative enabling Arabic speakers to use Arabic script in website addresses.",
+      "description_ar": "عبر .شبكة، هناك إمكانية أن يتواصل أكثر من 380 مليون ناطق باللغة العربية في منطقة الشرق الأوسط وشمال أفريقيا فقط! ومن المعروف أن العربية هي اللغة الخامسة على مستوى العالم من حيث عدد الناطقين بها والأسرع انتشاراً على الإنترنت (فقد حققت نمواً ملحوظاً بمعدل 2500% في السنوات العشرة المنتهية في العام 2011 مقارنة باللغة الإنجليزية التي سجلت معدل 300% في الفترة نفسها).",
+      "status": "نشط 🚀",
+      "links": "https://xn--ggbla1c4e.xn--ngbc5azd/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "اسم نطاق, خدمات سحابية",
+      "tags": "اسم النطاق, برمجة, خدمات سحابية, ويب",
+      "last_activity": "2016-10-15",
+      "slug": "",
+      "technologies_list": [
+        "اسم نطاق"
+      ],
+      "tags_list": [
+        "اسم النطاق",
+        "برمجة",
+        "خدمات سحابية",
+        "ويب"
+      ],
+      "initiative_type_list": [
+        "اسم نطاق",
+        "خدمات سحابية"
+      ],
+      "links_list": [
+        "https://xn--ggbla1c4e.xn--ngbc5azd/"
+      ]
+    },
+    {
+      "name": "بالعربي.مصر",
+      "technologies": "اسم نطاق",
+      "license": "بدون ترخيص",
+      "source_url": "",
+      "description_en": "The \".مصر\" domain is an Arabic top-level domain allowing businesses and individuals to register website addresses using Arabic characters instead of Latin ones like \".com\". It aims to make the internet more accessible to Arabic speakers, offering opportunities to claim domain names previously unavailable in other extensions. The service is regulated by Egypt’s National Telecom Regulatory Authority, with rules on intellectual property and content. \"Link Datacenter\" provides registration and hosting services, leveraging its extensive experience in the Egyptian domain market.",
+      "description_ar": "دومين \".مصر\" هو نطاق علوي دولي مخصص لاستخدام اللغة العربية في عناوين المواقع الإلكترونية. يسمح للشركات والأفراد بتسجيل أسماء نطاقات باستخدام الحروف العربية بدلًا من اللاتينية مثل \".com\". هذه الخطوة تسهّل استخدام الإنترنت في المجتمعات الناطقة بالعربية، وتفتح المجال لحجز أسماء نطاقات لم تعد متاحة على النطاقات التقليدية. يُشترط الالتزام بالقواعد القانونية والتنظيمية لضمان حماية حقوق الملكية الفكرية. شركة \"لينك داتاسنتر\" تقدم خدمات تسجيل واستضافة لهذه النطاقات نظرًا لخبرتها الواسعة في السوق المصري.",
+      "status": "ميت ☠️",
+      "links": "https://web.archive.org/web/20210613173631/http://xn--mgbbb9a1b0d2b.xn--wgbh1c/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "اسم نطاق, خدمات سحابية",
+      "tags": "اسم النطاق, برمجة, خدمات سحابية, ويب",
+      "last_activity": "2018-05-20",
+      "slug": "",
+      "technologies_list": [
+        "اسم نطاق"
+      ],
+      "tags_list": [
+        "اسم النطاق",
+        "برمجة",
+        "خدمات سحابية",
+        "ويب"
+      ],
+      "initiative_type_list": [
+        "اسم نطاق",
+        "خدمات سحابية"
+      ],
+      "links_list": [
+        "https://web.archive.org/web/20210613173631/http://xn--mgbbb9a1b0d2b.xn--wgbh1c/"
+      ]
+    },
+    {
+      "name": "Ara",
+      "technologies": "Machine learning",
+      "license": "MIT",
+      "source_url": "https://github.com/latiif/ara",
+      "description_en": "A command line tool that correctly displays Arabic text in terminals.",
+      "description_ar": "A command line tool that correctly displays Arabic text in terminals. Check releases and download the binary directly. Get the binary and add it to your $PATH wget https://github.com/latiif/ara/releases/download/v0.7/ara && chmod +x ara 🆕 Undotting of Arabic letters (Rasm). 🆕 Revamped command line interface.",
+      "status": "متوقف صيانته 😑",
+      "links": "https://github.com/latiif/ara",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "CLI",
+      "tags": "اللغة عربية, برمجة",
+      "last_activity": "2026-03-17",
+      "slug": "ara",
+      "technologies_list": [
+        "Machine learning"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "برمجة"
+      ],
+      "initiative_type_list": [
+        "CLI"
+      ],
+      "links_list": [
+        "https://github.com/latiif/ara"
+      ]
+    },
+    {
+      "name": "Tafqit",
+      "technologies": "JavaScript",
+      "license": "MIT",
+      "source_url": "https://github.com/MohsenAlyafei/tafqit",
+      "description_en": "Tafqit is an open-source JavaScript library designed to convert numbers into Arabic text using the \"Tafqit\" system. It supports both integer and decimal numbers, converting them into Arabic words, such as turning \"123\" into \"مئة وثلاثة وعشرون\". This library is useful for applications like invoices, financial documents, or any app requiring number-to-text conversion in Arabic.",
+      "description_ar": "مكتبة “تفقيط” هي مكتبة جافاسكريبت مفتوحة المصدر تهدف إلى تحويل الأرقام إلى نصوص باللغة العربية باستخدام نظام \"تفقيط\". يمكن للمكتبة التعامل مع الأرقام الصحيحة والأرقام العشرية، وتحويلها إلى كلمات عربية مثل تحويل الرقم \"123\" إلى \"مئة وثلاثة وعشرون\". تُعد هذه المكتبة مفيدة في تطبيقات مثل الفواتير، المستندات المالية، أو أي تطبيق يتطلب كتابة الأرقام بالحروف العربية.",
+      "status": "ميت ☠️",
+      "links": "https://github.com/MohsenAlyafei/tafqit",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "اللغة عربية, برمجة, مكتبة, ويب",
+      "last_activity": "2022-02-28",
+      "slug": "tafqit",
+      "technologies_list": [
+        "JavaScript"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "برمجة",
+        "مكتبة",
+        "ويب"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/MohsenAlyafei/tafqit"
+      ]
+    },
+    {
+      "name": "Hillal Linux",
+      "technologies": "Linux",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/mhsabbagh/helallinux",
+      "description_en": "Official code repository for the Helal Linux project.",
+      "description_ar": "توزيعة لينكس عربية مبنية على دبيان تهدف لتوفير بيئة عربية متكاملة",
+      "status": "ميت ☠️",
+      "links": "http://helallinux.com",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "نظام تشغيل",
+      "tags": "برمجة, نظام تشغيل",
+      "last_activity": "2021-10-13",
+      "slug": "hillal-linux",
+      "technologies_list": [
+        "Linux"
+      ],
+      "tags_list": [
+        "برمجة",
+        "نظام تشغيل"
+      ],
+      "initiative_type_list": [
+        "نظام تشغيل"
+      ],
+      "links_list": [
+        "http://helallinux.com"
+      ]
+    },
+    {
+      "name": "Mujallad مجلّد",
+      "technologies": "Flask, Markdown, Python",
+      "license": "GPL-2.0",
+      "source_url": "https://github.com/mhsabbagh/mujallad",
+      "description_en": "A simple script that helps create bilingual (Arabic/English) Gitbook-style documentation sites.",
+      "description_ar": "إذا حاولت من قبل البحث عن طريقة لجعل Gitbook يدعم العربية ولم تجد، أو إذا ما كنت قد بحثت عن أي سكربت محتوى بسيط يدعم اللغة العربية ليقرأ ملفّات Markdown ويعرضها على شكل كتاب ولم تجد كذلك، فحينها ستسرّ عندما تتعرف إلى سكربت مجلّد. سكربت مجلّد هو تطبيق ويب مكتوب ببايثون وإطار العمل فلاسك.",
+      "status": "ميت ☠️",
+      "links": "https://mujallad.mhsabbagh.com/",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تعليم, مستندات ووثائق",
+      "tags": "توثيقات",
+      "last_activity": "2020-12-22",
+      "slug": "mujallad",
+      "technologies_list": [
+        "Flask",
+        "Markdown",
+        "Python"
+      ],
+      "tags_list": [
+        "توثيقات"
+      ],
+      "initiative_type_list": [
+        "تعليم",
+        "مستندات ووثائق"
+      ],
+      "links_list": [
+        "https://mujallad.mhsabbagh.com/"
+      ]
+    },
+    {
+      "name": "RTL Styling",
+      "technologies": "CSS, HTML",
+      "license": "بدون ترخيص",
+      "source_url": "https://rtlstyling.com/posts/rtl-styling",
+      "description_en": "Do you like my content? You can support and buy me a coffee. Thank you so much! Over 292 million people around the world speak Arabic as their first language. Arabic (al-Arabiyyah, pronounced /al ʕarabijja/, /ʕarabiː/) is my native language, and I sometimes build websites that need to support both left-to-right (LTR) and right-to-left (RTL) styles.",
+      "description_ar": "دليل شامل لتصميم واجهات المستخدم من اليمين إلى اليسار (RTL) للمبتدئين والمحترفين",
+      "status": "ميت ☠️",
+      "links": "https://rtlstyling.com/posts/rtl-styling",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مدونة / دليل",
+      "tags": "اللغة عربية, تعليم, ويب",
+      "last_activity": "2022-05-15",
+      "slug": "rtl-styling",
+      "technologies_list": [
+        "CSS",
+        "HTML"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "تعليم",
+        "ويب"
+      ],
+      "initiative_type_list": [
+        "مدونة / دليل"
+      ],
+      "links_list": [
+        "https://rtlstyling.com/posts/rtl-styling"
+      ]
+    },
+    {
+      "name": "Arabic APIs",
+      "technologies": "API, فهرس",
+      "license": "MIT",
+      "source_url": "https://github.com/AqeelAT/arabic-apis",
+      "description_en": "A collective list of Arabic APIs",
+      "description_ar": "قائمة تشاركية لجمع الواجهات البرمجية العربية في مكان واحد هذه الفكرة مستوحاه من مشروع Public Apis أرجو منك المشاركة في اضافة الواجهات إلى هذه القائمة، سواء بمشاركة واجهات تعرفها، أو بإنشاء واجهات جديدة لملئ الفراغ التقني العربي.",
+      "status": "ميت ☠️",
+      "links": "https://github.com/AqeelAT/arabic-apis",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "فهرس",
+      "tags": "برمجة, فهرس",
+      "last_activity": "2022-07-21",
+      "slug": "arabic-apis",
+      "technologies_list": [
+        "API",
+        "فهرس"
+      ],
+      "tags_list": [
+        "برمجة",
+        "فهرس"
+      ],
+      "initiative_type_list": [
+        "فهرس"
+      ],
+      "links_list": [
+        "https://github.com/AqeelAT/arabic-apis"
+      ]
+    },
+    {
+      "name": "SimpleMDE - Markdown Editor (RTL)",
+      "technologies": "JavaScript, CSS",
+      "license": "بدون ترخيص",
+      "source_url": "https://github.com/imAbdelhadi/simplemde-rtl",
+      "description_en": "Full RTL version of SimpleMDE - Markdown Editor",
+      "description_ar": "Full RTL version of SimpleMDE Markdown Editor for Arabic, Persian, and Urdu languages. npm install simplemde-rtl --save Via jsDelivr. Please note, jsDelivr may take a few days to update to the latest release.",
+      "status": "ميت ☠️",
+      "links": "https://github.com/imAbdelhadi/simplemde-rtl",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "محررات نصوص",
+      "last_activity": "2021-02-16",
+      "slug": "simplemde-markdown-editor-rtl",
+      "technologies_list": [
+        "JavaScript",
+        "CSS"
+      ],
+      "tags_list": [
+        "محررات نصوص"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/imAbdelhadi/simplemde-rtl"
+      ]
+    },
+    {
+      "name": "Arabic voices for Festival TTS",
+      "technologies": "Machine learning, Python, Scheme, Speech recognition",
+      "license": "GPL-3.0 License",
+      "source_url": "https://github.com/linuxscout/festival-tts-arabic-voices",
+      "description_en": "Arabic voices for Festival TTS",
+      "description_ar": "أصوات عربية لـ Festival TTS",
+      "status": "ميت ☠️",
+      "links": "https://github.com/linuxscout/festival-tts-arabic-voices",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "Model, سكريبت برمجي, مكتبة برمجية",
+      "tags": "أصوات, اللغة عربية",
+      "last_activity": "2022-08-02",
+      "slug": "arabic-voices-for-festival-tts",
+      "technologies_list": [
+        "Machine learning",
+        "Python",
+        "Scheme",
+        "Speech recognition"
+      ],
+      "tags_list": [
+        "أصوات",
+        "اللغة عربية"
+      ],
+      "initiative_type_list": [
+        "Model",
+        "سكريبت برمجي",
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/linuxscout/festival-tts-arabic-voices"
+      ]
+    },
+    {
+      "name": "Ar-PHP",
+      "technologies": "Backend, PHP, Web",
+      "license": "GNU LGPL",
+      "source_url": "https://github.com/khaled-alshamaa/ar-php",
+      "description_en": "Our mission is to develop open-source solutions and provide professional support to help small and medium businesses tackle the challenges of building professional Arabic websites using PHP and MySQL databases. The library we are developing aids our partners in saving time and enhancing efficiency.\n\nThis project offers a set of tools that enables Arabic website developers to deliver professional search, display, and content processing in Arabic using PHP.",
+      "description_ar": "مهمتنا هي تطوير حلول مفتوحة المصدر وتقديم دعم احترافي لمساعدة الشركات الصغيرة والمتوسطة في مواجهة التحديات التي ترافق تطوير مواقع عربية احترافية بلغة PHP وقاعدة MySQL للبيانات، حيث تساعد المكتبة التي نطورها شركائنا على اختصار الزمن وزيادة الفعالية.\nيقدم هذا المشروع مجموعة من الأدوات التي تمكن مطوري المواقع العربية من تقديم بحث وعرض ومعالجة إحترافية للمحتوى العربي بلغة PHP.",
+      "status": "نشط 🚀",
+      "links": "https://ar-php.org/, https://www.youtube.com/watch?v=P4zV1Iu5QcE",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "مكتبة برمجية",
+      "tags": "اللغة عربية, برمجة, تاريخ وزمن, تفقيط, مكتبة, ويب",
+      "last_activity": "2025-03-07",
+      "slug": "ar-php",
+      "technologies_list": [
+        "Backend",
+        "PHP",
+        "Web"
+      ],
+      "tags_list": [
+        "اللغة عربية",
+        "برمجة",
+        "تاريخ وزمن",
+        "تفقيط",
+        "مكتبة",
+        "ويب"
+      ],
+      "initiative_type_list": [
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://ar-php.org/",
+        "https://www.youtube.com/watch?v=P4zV1Iu5QcE"
+      ]
+    },
+    {
+      "name": "خدمات اللغة العربية",
+      "technologies": "Java, JavaScript, TypeScript",
+      "license": "AGPL-3.0 License",
+      "source_url": "https://github.com/Seen-Arabic/Arabic-Services",
+      "description_en": "Arabic Services is a versatile library offering utility functions for processing and transforming Arabic text. Features include removing diacritics, removing elongation characters, converting text to old Arabic script, and replacing banned words with visually similar characters.",
+      "description_ar": "خدمات اللغة العربية هي مكتبة برمجية متعددة الاستخدامات تقدم وظائف مساعدة لمعالجة وتحويل النصوص العربية. تشمل الميزات إزالة التشكيل، إزالة التطويل، تحويل النص إلى الخط العربي القديم، واستبدال الكلمات المحظورة بحروف مشابهة بصريًا.",
+      "status": "نشط 🚀",
+      "links": "https://github.com/Seen-Arabic/Arabic-Services-JavaScript/, https://github.com/Seen-Arabic/Arabic-Services-Java, https://arabic-services-api-v1.onrender.com/docs, https://www.npmjs.com/package/arabic-services, https://central.sonatype.com/artifact/io.github.seen-arabic/arabic-services",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "تطبيق ويب, مكتبة برمجية",
+      "tags": "التشكيل, اللغة عربية, معالجة اللغة الطبيعية",
+      "last_activity": "2025-09-04",
+      "slug": "",
+      "technologies_list": [
+        "Java",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "tags_list": [
+        "التشكيل",
+        "اللغة عربية",
+        "معالجة اللغة الطبيعية"
+      ],
+      "initiative_type_list": [
+        "تطبيق ويب",
+        "مكتبة برمجية"
+      ],
+      "links_list": [
+        "https://github.com/Seen-Arabic/Arabic-Services-JavaScript/",
+        "https://github.com/Seen-Arabic/Arabic-Services-Java",
+        "https://arabic-services-api-v1.onrender.com/docs",
+        "https://www.npmjs.com/package/arabic-services",
+        "https://central.sonatype.com/artifact/io.github.seen-arabic/arabic-services"
+      ]
+    },
+    {
+      "name": "Quran Align",
+      "technologies": "C++, CMU Sphinx, Linux, Python",
+      "license": "CC Attribution 4.0 International License, MIT",
+      "source_url": "https://github.com/cpfair/quran-align",
+      "description_en": "A tool for producing word-precise segmentation of recorded Qur'anic recitation. Designed to work with http://everyayah.com/ style audio input.\n\nEach word in the Qur'an is assigned a precise start and end timestamp within the recorded audio of the ayah. You can use this data to highlight the word currently being spoken during playback, to repeat a certain word or phrase, to compare against other audio, to analyze a qari's speaking cadence, and so on.",
+      "description_ar": "أداة لتحديد مواضع الكلمات بدقة في تسجيلات تلاوة القرآن الكريم. مصممة للعمل مع مدخلات الصوت بأسلوب EveryAyah.\n\nيتم تخصيص توقيت بداية ونهاية دقيقين لكل كلمة في القرآن ضمن التسجيل الصوتي للآية. يمكنك استخدام هذه البيانات لتحديد الكلمة التي تُتلى حاليًا أثناء التشغيل، تكرار كلمة أو عبارة معينة، المقارنة مع تسجيلات أخرى، تحليل سرعة التلاوة للقارئ، وغيرها من الاستخدامات.",
+      "status": "ميت ☠️",
+      "links": "https://github.com/cpfair/quran-align/releases/tag/release-2016-11-24",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "CLI, Model, قاعدة بيانات",
+      "tags": "أصوات, إسلام, القرآن الكريم, تلاوات",
+      "last_activity": "2016-11-24",
+      "slug": "quran-align",
+      "technologies_list": [
+        "C++",
+        "CMU Sphinx",
+        "Linux",
+        "Python"
+      ],
+      "tags_list": [
+        "أصوات",
+        "إسلام",
+        "القرآن الكريم",
+        "تلاوات"
+      ],
+      "initiative_type_list": [
+        "CLI",
+        "Model",
+        "قاعدة بيانات"
+      ],
+      "links_list": [
+        "https://github.com/cpfair/quran-align/releases/tag/release-2016-11-24"
+      ]
+    },
+    {
+      "name": "Dorar.net Hadith API",
+      "technologies": "API, Express.JS, Hadith, JSON, JavaScript, Node.JS",
+      "license": "MIT",
+      "source_url": "https://github.com/AhmedElTabarani/dorar-hadith-api",
+      "description_en": "API for dorar.net",
+      "description_ar": "API وسيط للـدرر السنية",
+      "status": "نشط 🚀",
+      "links": "https://github.com/AhmedElTabarani/dorar-hadith-api",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "RESTful API, سكريبت برمجي",
+      "tags": "الحديث النبوي",
+      "last_activity": "2026-05-03",
+      "slug": "dorarnet-hadith-api",
+      "technologies_list": [
+        "API",
+        "Express.JS",
+        "Hadith",
+        "JSON",
+        "JavaScript",
+        "Node.JS"
+      ],
+      "tags_list": [
+        "الحديث النبوي"
+      ],
+      "initiative_type_list": [
+        "RESTful API",
+        "سكريبت برمجي"
+      ],
+      "links_list": [
+        "https://github.com/AhmedElTabarani/dorar-hadith-api"
+      ]
+    },
+    {
+      "name": "Sunnah Hadith API",
+      "technologies": "API, Express.JS, Hadith, JSON, JavaScript, Node.JS",
+      "license": "MIT",
+      "source_url": "https://github.com/AhmedElTabarani/sunnah-hadith-api",
+      "description_en": "This is a simple API that scrapping data from the sunnah.com website. This API provide translation of the arabic hadith in English (Mainly English)",
+      "description_ar": "هذا API بسيطة يقوم بسحب البيانات من موقع http://sunnah.com/\nميزته أنه يوفر البحث عن الاحاديث سواء بنص عربي أو انجليزي والنتائج تكون مترجمة باللغة العربية والإنجليزية",
+      "status": "نشط 🚀",
+      "links": "https://github.com/AhmedElTabarani/sunnah-hadith-api",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "RESTful API, سكريبت برمجي",
+      "tags": "الحديث النبوي",
+      "last_activity": "2025-03-15",
+      "slug": "sunnah-hadith-api",
+      "technologies_list": [
+        "API",
+        "Express.JS",
+        "Hadith",
+        "JSON",
+        "JavaScript",
+        "Node.JS"
+      ],
+      "tags_list": [
+        "الحديث النبوي"
+      ],
+      "initiative_type_list": [
+        "RESTful API",
+        "سكريبت برمجي"
+      ],
+      "links_list": [
+        "https://github.com/AhmedElTabarani/sunnah-hadith-api"
+      ]
+    },
+    {
+      "name": "100 دعاء من الكتاب والسنة الصحيحة",
+      "technologies": "Azkar, JSON",
+      "license": "MIT",
+      "source_url": "https://github.com/AhmedElTabarani/100-duaa-from-the-book-and-authentic-sunnah",
+      "description_en": "The book 100 Supplications from the Qur’an and the Authentic Sunnah is a book that contains 100 supplications from the Qur’an and the Authentic Sunnah, and they were compiled by Sheikh Muhammad Salih Al-Munajjid.",
+      "description_ar": "كتاب https://nuqayah.com/f/100-duaa.pdf هو كتاب يحتوي على 100 دعاء من الكتاب والسنة الصحيحة، وقد تم تجميعها بواسطة الشيخ محمد صالح المنجد",
+      "status": "نشط 🚀",
+      "links": "https://github.com/AhmedElTabarani/100-duaa-from-the-book-and-authentic-sunnah",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "كتاب",
+      "tags": "أدعية, الأذكار",
+      "last_activity": "2026-03-01",
+      "slug": "100",
+      "technologies_list": [
+        "Azkar",
+        "JSON"
+      ],
+      "tags_list": [
+        "أدعية",
+        "الأذكار"
+      ],
+      "initiative_type_list": [
+        "كتاب"
+      ],
+      "links_list": [
+        "https://github.com/AhmedElTabarani/100-duaa-from-the-book-and-authentic-sunnah"
+      ]
+    },
+    {
+      "name": "Hadith Checker Extension",
+      "technologies": "Hadith, JavaScript",
+      "license": "MIT",
+      "source_url": "https://github.com/AhmedElTabarani/hadith-checker-extension",
+      "description_en": "A browser extension through which you can verify whether Hadiths are authentic or fabricated",
+      "description_ar": "إضافة للمتصفح تستطيع من خلالها أن تتفقد الأحاديث هل هي موضوعة أو صحيحة",
+      "status": "متوقف صيانته 😑",
+      "links": "https://chromewebstore.google.com/detail/%D8%A7%D9%84%D8%AA%D8%AD%D9%82%D9%82-%D9%85%D9%86-%D8%A7%D9%84%D8%A3%D8%AD%D8%A7%D8%AF%D9%8A%D8%AB-hadith/cfbllcckohbiiplkigbfllfphhakanke",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "اضافة للمتصفحات",
+      "tags": "الحديث النبوي",
+      "last_activity": "2026-02-25",
+      "slug": "hadith-checker-extension",
+      "technologies_list": [
+        "Hadith",
+        "JavaScript"
+      ],
+      "tags_list": [
+        "الحديث النبوي"
+      ],
+      "initiative_type_list": [
+        "اضافة للمتصفحات"
+      ],
+      "links_list": [
+        "https://chromewebstore.google.com/detail/%D8%A7%D9%84%D8%AA%D8%AD%D9%82%D9%82-%D9%85%D9%86-%D8%A7%D9%84%D8%A3%D8%AD%D8%A7%D8%AF%D9%8A%D8%AB-hadith/cfbllcckohbiiplkigbfllfphhakanke"
+      ]
+    },
+    {
+      "name": "Azkar Reminder Extension",
+      "technologies": "Azkar, JavaScript",
+      "license": "MIT",
+      "source_url": "https://github.com/AhmedElTabarani/azkar-reminder-extension",
+      "description_en": "A browser extension that reminds you of the supplications and prayers continuously. It contains the morning and evening supplications and is translated into English. Every so often, a random supplication will be displayed to you in the form of a notification that comes to you through the browser.",
+      "description_ar": "إضافة للمتصفح تتذكرك بالأذكار والأدعية بشكل مستمر وبها اذكار الصباح والمساء ومترجمة للغة الإنجليزية كل مدة يتم سيتم عرض لك دعاء عشوائي على هيئة اشعار يأتيك من خلال المتصفح",
+      "status": "متوقف صيانته 😑",
+      "links": "https://chromewebstore.google.com/detail/%D9%85%D8%B0%D9%83%D8%B1-%D8%A7%D9%84%D8%A3%D8%B0%D9%83%D8%A7%D8%B1/fcagcaikgffokonhlfbaainnaknhjkpp",
+      "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
+      "open_source": "Yes",
+      "initiative_type": "اضافة للمتصفحات",
+      "tags": "أدعية, الأذكار",
+      "last_activity": "2026-03-24",
+      "slug": "azkar-reminder-extension",
+      "technologies_list": [
+        "Azkar",
+        "JavaScript"
+      ],
+      "tags_list": [
+        "أدعية",
+        "الأذكار"
+      ],
+      "initiative_type_list": [
+        "اضافة للمتصفحات"
+      ],
+      "links_list": [
+        "https://chromewebstore.google.com/detail/%D9%85%D8%B0%D9%83%D8%B1-%D8%A7%D9%84%D8%A3%D8%B0%D9%83%D8%A7%D8%B1/fcagcaikgffokonhlfbaainnaknhjkpp"
+      ]
+    }
+  ],
+  "filter_options": {
+    "technologies": [
+      "API",
+      "Angular",
+      "Artificial intelligence",
+      "Awk",
+      "Azkar",
+      "Backend",
+      "C",
+      "C#",
+      "C++",
+      "CMU Sphinx",
+      "CSS",
+      "Dart",
+      "Data Analysis",
+      "Database",
+      "Dataset",
+      "Decision trees",
+      "Deep Learning",
+      "Docker",
+      "Dockerfile",
+      "Documents",
+      "Express.JS",
+      "Flask",
+      "Flutter",
+      "GRU Architecture",
+      "Gherkin",
+      "Golang",
+      "HTML",
+      "Hadith",
+      "Image processing",
+      "Ionic",
+      "JSON",
+      "Java",
+      "JavaFX",
+      "JavaScript",
+      "Jupyter Notebook",
+      "Kotlin",
+      "Linux",
+      "Machine learning",
+      "Makefile",
+      "Markdown",
+      "Matlab",
+      "Matplotlib",
+      "NER",
+      "NLP",
+      "Neural Networks",
+      "Next.JS",
+      "Node.JS",
+      "NumPy",
+      "Objective-C",
+      "OpenCV",
+      "Other",
+      "PHP",
+      "Perl",
+      "Python",
+      "ReactJS",
+      "Regular expressions",
+      "Ruby",
+      "Rust",
+      "SCSS",
+      "SQL",
+      "SQLite",
+      "Scheme",
+      "Search engine",
+      "Shell",
+      "Shell Script",
+      "Snowball",
+      "Speech recognition",
+      "Swift",
+      "TSQL",
+      "Tailwind CSS",
+      "Tex",
+      "Text Recognition",
+      "TypeScript",
+      "Utility functions",
+      "VBA",
+      "Vue",
+      "Web",
+      "اسم نطاق",
+      "تنضيد (Typesetting)",
+      "خط (Font)",
+      "فهرس",
+      "لا يوجد",
+      "لغة البرمجة العربية Phoenix",
+      "لغة خوارزم",
+      "ويب"
+    ],
+    "tags": [
+      "ALA-LC",
+      "API",
+      "JavaScript",
+      "Linux",
+      "NLP",
+      "OCR",
+      "Python",
+      "SourceForge",
+      "ai",
+      "allah",
+      "android",
+      "arabert",
+      "arabic",
+      "arabic-classification",
+      "arabic-nlp",
+      "azkar",
+      "bert",
+      "catalogue",
+      "character-segmentation",
+      "cleaning",
+      "computer-vision",
+      "dart",
+      "dataset",
+      "discord-bot",
+      "electra",
+      "farasa",
+      "flask",
+      "flutter",
+      "gpt2",
+      "hacktoberfest",
+      "hadith",
+      "huggingface-transformer",
+      "hunspell",
+      "i18n",
+      "image-processing",
+      "islam",
+      "java",
+      "javascript",
+      "l10n",
+      "machine-learning",
+      "math",
+      "mathjax",
+      "mobile-app",
+      "muslim",
+      "muslim-app",
+      "muslim-prayer-times",
+      "muslims-prayer",
+      "neural-network",
+      "nlp",
+      "nlp-resources",
+      "notifications",
+      "ocr",
+      "opencv-python",
+      "playstore",
+      "prayer-times",
+      "preprocessing-library",
+      "python",
+      "qibla",
+      "qibla-menu",
+      "qiblah-direction",
+      "quran",
+      "ramadan",
+      "remembrance",
+      "reshape",
+      "scikit-learn",
+      "segmentation",
+      "tafsir",
+      "tally-counter",
+      "tutorial",
+      "web",
+      "word-embeddings",
+      "word2vec",
+      "zakat-calculator",
+      "أدعية",
+      "أذكار والمساء",
+      "أسس",
+      "أسماء الله الحسنى",
+      "أسماء النبي محمد ﷺ",
+      "أصوات",
+      "أفكار لمشاريع",
+      "أنواع الأعيان",
+      "أنواع الكلمات",
+      "إسلام",
+      "إضافة متصفح",
+      "إملاء",
+      "اسم النطاق",
+      "اضافة لمكتبة",
+      "اكتشاف النصوص",
+      "الأذكار",
+      "التشكيل",
+      "التقويم الهجري",
+      "الحديث النبوي",
+      "القرآن الكريم",
+      "اللغة عربية",
+      "ايجاد جزور الكلمات",
+      "بايثون",
+      "بحث",
+      "برمجة",
+      "برمجيات حرة",
+      "تاريخ وزمن",
+      "تجذيع",
+      "تجويد",
+      "تحديد القبلة",
+      "تحسين تجربة المستخدم",
+      "تحليل صرفي",
+      "تدقيق",
+      "تدقيق إملائي",
+      "ترجمة صوتية",
+      "ترميز",
+      "تشكيل",
+      "تصحيح",
+      "تصحيح إملائي",
+      "تعابير منتظمة",
+      "تعرف بصري",
+      "تعريب",
+      "تعليم",
+      "تفقيط",
+      "تقنية",
+      "تكرار الحرف",
+      "تكرار الكلمة",
+      "تلاوات",
+      "توثيقات",
+      "جافاسكريبت",
+      "حساب التاريخ الهجري",
+      "حساب الزكاة",
+      "حساب الميراث",
+      "خدمات سحابية",
+      "خط",
+      "خط اليد",
+      "دعم الرياضيات بالعربية",
+      "ذكاء اصطناعي",
+      "سكريبتات",
+      "شعر",
+      "عربي",
+      "عربي-إنجليزي",
+      "عربية",
+      "علوم القرآن",
+      "فهرس",
+      "فونت",
+      "قاعدة بيانات",
+      "قاموس",
+      "قرآن",
+      "قواعد لغوية",
+      "قوالب",
+      "لغات متعددة",
+      "لغة برمجة عربية",
+      "لغة عربية",
+      "مجتمع عربي",
+      "محررات نصوص",
+      "محرك بحث",
+      "مصادر",
+      "معالجة اللغة الطبيعية",
+      "معالجة لغة طبيعية",
+      "معجم",
+      "مفتوح المصدر",
+      "مقاطعة",
+      "مقترحات",
+      "مكتبة",
+      "منتجات فرنسية",
+      "منصة تعليمية",
+      "مواقيت الصلاة 🕋",
+      "نحو",
+      "نصوص عربية",
+      "نظام تشغيل",
+      "ويب"
+    ],
+    "initiative_types": [
+      "CLI",
+      "Model",
+      "RESTful API",
+      "TTS",
+      "أداة",
+      "أداة بحث",
+      "أداة تنضيد",
+      "إضافة برمجية",
+      "إضافة متصفح",
+      "اسم نطاق",
+      "اضافة للمتصفحات",
+      "برنامج سطح المكتب 💻",
+      "بوت",
+      "تطبيق",
+      "تطبيق iOS",
+      "تطبيق أندرويد",
+      "تطبيق ويب",
+      "تعليم",
+      "خدمات سحابية",
+      "خط عربي",
+      "سكريبت برمجي",
+      "فريق مبادر",
+      "فهرس",
+      "فهرس / قائمة",
+      "قاعدة بيانات",
+      "قاموس",
+      "قاموس / معجم",
+      "قواميس وأدوات",
+      "كتاب",
+      "لغة برمجة",
+      "مجتمع",
+      "محتوى تعليمي",
+      "مدونة / دليل",
+      "مستندات ووثائق",
+      "مشروع أكاديمي",
+      "مصادر",
+      "مكتبة برمجية",
+      "منصة رقمية",
+      "منظمة / مجموعة مشاريع",
+      "نظام تشغيل",
+      "ورقة بحثية"
+    ],
+    "statuses": [
+      "متوقف صيانته 😑",
+      "ميت ☠️",
+      "نشط 🚀"
+    ],
+    "open_source": [
+      "No",
+      "Yes"
+    ]
+  }
+}
