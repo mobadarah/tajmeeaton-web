@@ -449,13 +449,14 @@
     "الوصف بالإنجليزية": "A Flutter application for Muslims that help them challenge and motivate themselves and their friends to read Azkar in a fun way. On Play Store & On App Store There are a lot of ways you can contribute to this project.",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "متوقف صيانته 😑",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "https://play.google.com/store/apps/details?id=com.tanafaso.azkar",
     "زمن آخر تعديل": "٢٩ مايو ٢٠٢٦ ١٢:٤٢ ص",
     "مسؤول البيانات": "MohammedAnwer",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "تطبيق iOS, تطبيق أندرويد",
-    "وسوم": "dart, mobile-app, flutter, azkar, muslim-app"
+    "وسوم": "dart, mobile-app, flutter, azkar, muslim-app",
+    "آخر نشاط": "2026-03-08"
   },
   {
     "Name": "BoycottFrensh",
@@ -465,7 +466,7 @@
     "الوصف بالإنجليزية": "An extension that helps Muslims boycott French products on E-commerce websites. This is an extension that acts as a look-up of the top French brands, whenever the user opens a page of French product, the extension will automatically warn the user so he/she can look for alternatives.",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "",
+    "حالة المشروع": "ميت ☠️",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٩ م",
     "مسؤول البيانات": "MohammedAnwer",
@@ -482,13 +483,14 @@
     "الوصف بالإنجليزية": "A Discord bot that supports Qur'an, hadith, prayer times, tafsir and more.",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٩ م",
     "مسؤول البيانات": "MohammedAnwer",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": "discord-bot, quran, prayer-times, islam, hadith, tafsir"
+    "وسوم": "discord-bot, quran, prayer-times, islam, hadith, tafsir",
+    "آخر نشاط": "2026-01-06"
   },
   {
     "Name": "Muslim-App (Daily Muslim's Fortress App)",
@@ -498,13 +500,14 @@
     "الوصف بالإنجليزية": "The app is available only in Arabic but I'm planning to release an English version very soon. Prayer Times (of your current location) Morning&Evening Remembrance Remembrance Names of Allah Importance of Dhikr Tally Counter Qibla Direction Zakat Calculator Islamic Wallpapers Daily Notifications App Widget Light & Dark Themes and other features will be added on the next updates ...",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "",
+    "حالة المشروع": "ميت ☠️",
     "روابط": "https://play.google.com/store/apps/details?id=com.choubapp.muslimapp",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٨ م",
     "مسؤول البيانات": "MohammedAnwer",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": "notifications, android, java, playstore, tally-counter, prayer-times, muslim, allah, hacktoberfest, qibla, muslim-prayer-times, ramadan, muslims-prayer, qiblah-direction, muslim-app, remembrance, zakat-calculator, qibla-menu"
+    "وسوم": "notifications, android, java, playstore, tally-counter, prayer-times, muslim, allah, hacktoberfest, qibla, muslim-prayer-times, ramadan, muslims-prayer, qiblah-direction, muslim-app, remembrance, zakat-calculator, qibla-menu",
+    "آخر نشاط": "2022-10-13"
   },
   {
     "Name": "Iftar CLI",
@@ -547,14 +550,14 @@
     "الوصف بالإنجليزية": "This is an extension to MathJax (v2.5+), that provides basic Arabic support to MathJax. The extension so far only supports TeX input with HTML-CSS output. However, support to other input and output jaxes is possible. It provides the following: Flip the Equation and render it the Right-to-left (RTL) way!",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "https://arabicmath.org",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٨ م",
     "مسؤول البيانات": "MohammedAnwer",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
     "وسوم": "i18n, web, math, l10n, mathjax, arabic",
-    "آخر نشاط": "2019-01-09"
+    "آخر نشاط": "2026-04-28"
   },
   {
     "Name": "mostalah مصطلح aosus-dictionary",
@@ -596,13 +599,14 @@
     "الوصف بالإنجليزية": "internationalize projects to Arabic",
     "الوصف بالعربية": "نبراس، هو دليل موجه إلى طلبة السنة الأولى للشعب التقنية بالجامعة، ويحتوي على أهم المصطلحات والمفردات الي يصادفها في البرنامج الدراسي خلال هذه السنة المهمة. ويحوي هذا المعجم على أزيد من 2160 مصطلح، نحاول بها أن نغطي مجالات الشعب التقنية في السنة الأولى جامعي.",
     "حالة البيانات": "قيد العمل 💪🏻",
-    "حالة المشروع": "ميت ☠️",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "https://i18n.softvenue.net",
     "زمن آخر تعديل": "٩ نوفمبر ٢٠٢٤ ١:٢٥ ص",
     "مسؤول البيانات": "Omar Seifelnasr",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "فريق مبادر",
-    "وسوم": "معجم"
+    "وسوم": "معجم",
+    "آخر نشاط": "2026-04-29"
   },
   {
     "Name": "معجم المصطلحات التقنية العربية",
@@ -754,7 +758,8 @@
     "مسؤول البيانات": "Abd El-Rahman Bayoumi",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "لغة برمجة",
-    "وسوم": "لغة برمجة عربية"
+    "وسوم": "لغة برمجة عربية",
+    "آخر نشاط": "2025-06-23"
   },
   {
     "Name": "NabdJS",
@@ -770,7 +775,8 @@
     "مسؤول البيانات": "Abd El-Rahman Bayoumi",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "لغة برمجة",
-    "وسوم": "اللغة عربية, لغة برمجة عربية"
+    "وسوم": "اللغة عربية, لغة برمجة عربية",
+    "آخر نشاط": "2020-05-01"
   },
   {
     "Name": "ALB قلب",
@@ -786,7 +792,8 @@
     "مسؤول البيانات": "Omar Seifelnasr",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "لغة برمجة",
-    "وسوم": "اللغة عربية"
+    "وسوم": "اللغة عربية",
+    "آخر نشاط": "2020-09-13"
   },
   {
     "Name": "Labiba لبيبة",
@@ -842,7 +849,7 @@
     "التقنيات": "JavaScript, NLP",
     "الرخصة": "MIT",
     "الكود المصدري": "https://github.com/imAbdelhadi/coursera-subtitle-translation-arabic",
-    "الوصف بالإنجليزية": "The book 100 Supplications from the Qur’an and the Authentic Sunnah is a book that contains 100 supplications from the Qur’an and the Authentic Sunnah, and they were compiled by Sheikh Muhammad Salih Al-Munajjid.",
+    "الوصف بالإنجليزية": "A browser extension that translates Coursera subtitles into Arabic, helping Arabic-speaking learners understand course content.",
     "الوصف بالعربية": "",
     "حالة البيانات": "قيد العمل 💪🏻",
     "حالة المشروع": "متوقف صيانته 😑",
@@ -861,13 +868,14 @@
     "الوصف بالإنجليزية": "Modern JavaScript Tutorial in Arabic",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "https://javascript.info",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٨ م",
     "مسؤول البيانات": "ezz",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": "javascript, tutorial, arabic"
+    "وسوم": "javascript, tutorial, arabic",
+    "آخر نشاط": "2026-06-01"
   },
   {
     "Name": "Arabic NLP Tools and Resources Lists",
@@ -909,7 +917,7 @@
     "الوصف بالإنجليزية": "Reconstruct Arabic sentences to be used in applications that don't support Arabic",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٥ م",
     "مسؤول البيانات": "ezz",
@@ -958,7 +966,7 @@
     "الوصف بالإنجليزية": "Pre-trained Transformers for Arabic Language Understanding and Generation (Arabic BERT, Arabic GPT2, Arabic ELECTRA)",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "",
+    "حالة المشروع": "متوقف صيانته 😑",
     "روابط": "https://huggingface.co/aubmindlab",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٥ م",
     "مسؤول البيانات": "ezz",
@@ -1007,7 +1015,7 @@
     "الوصف بالإنجليزية": "A specific Arabic language library for Python,\n provides basic functions to manipulate Arabic letters and text, like \ndetecting Arabic letters, Arabic letters groups and characteristics, \nremove diacritics etc.",
     "الوصف بالعربية": "مكتبة برمجية للغة العربية بلغة بيثون، توفر دوالّ للتحكم في الحروف والنصوص، مثلا تحديد نوع الحرف، حذف الحركات، مقارنة التشكيل.",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "نشط 🚀",
+    "حالة المشروع": "متوقف صيانته 😑",
     "روابط": "",
     "زمن آخر تعديل": "١٣ فبراير ٢٠٢٦ ١:٤٧ م",
     "مسؤول البيانات": "محمد الصوالحي",
@@ -1689,7 +1697,7 @@
     "الوصف بالإنجليزية": "",
     "الوصف بالعربية": "A command line tool that correctly displays Arabic text in terminals. Check releases and download the binary directly. Get the binary and add it to your $PATH wget https://github.com/latiif/ara/releases/download/v0.7/ara && chmod +x ara 🆕 Undotting of Arabic letters (Rasm). 🆕 Revamped command line interface.",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "متوقف صيانته 😑",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "",
     "زمن آخر تعديل": "١٦ مايو ٢٠٢٦ ١٢:٣٩ م",
     "مسؤول البيانات": "MohammedAnwer",
@@ -1916,7 +1924,7 @@
     "الوصف بالإنجليزية": "A browser extension through which you can verify whether Hadiths are authentic or fabricated",
     "الوصف بالعربية": "إضافة للمتصفح تستطيع من خلالها أن تتفقد الأحاديث هل هي موضوعة أو صحيحة",
     "حالة البيانات": "اكتمل ✅",
-    "حالة المشروع": "متوقف صيانته 😑",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "https://chromewebstore.google.com/detail/%D8%A7%D9%84%D8%AA%D8%AD%D9%82%D9%82-%D9%85%D9%86-%D8%A7%D9%84%D8%A3%D8%AD%D8%A7%D8%AF%D9%8A%D8%AB-hadith/cfbllcckohbiiplkigbfllfphhakanke",
     "زمن آخر تعديل": "٢٩ مايو ٢٠٢٦ ١٢:٣١ ص",
     "مسؤول البيانات": "أحمد الطبراني",
@@ -1933,7 +1941,7 @@
     "الوصف بالإنجليزية": "A browser extension that reminds you of the supplications and prayers continuously. It contains the morning and evening supplications and is translated into English. Every so often, a random supplication will be displayed to you in the form of a notification that comes to you through the browser.",
     "الوصف بالعربية": "إضافة للمتصفح تتذكرك بالأذكار والأدعية بشكل مستمر وبها اذكار الصباح والمساء ومترجمة للغة الإنجليزية كل مدة يتم سيتم عرض لك دعاء عشوائي على هيئة اشعار يأتيك من خلال المتصفح",
     "حالة البيانات": "اكتمل ✅",
-    "حالة المشروع": "متوقف صيانته 😑",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "https://chromewebstore.google.com/detail/%D9%85%D8%B0%D9%83%D8%B1-%D8%A7%D9%84%D8%A3%D8%B0%D9%83%D8%A7%D8%B1/fcagcaikgffokonhlfbaainnaknhjkpp",
     "زمن آخر تعديل": "٣ نوفمبر ٢٠٢٤ ٦:٢٨ م",
     "مسؤول البيانات": "أحمد الطبراني",
