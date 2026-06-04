@@ -1,7 +1,7 @@
 # Todo: projects_data.json Verification & Enrichment
 
 ## Goal
-Verify, enrich, and commit each project in `projects_data.json` with correct translations, updated status, deduplication, and online research.
+Gradually verify, enrich, and commit each project in `projects_data.json` with correct translations, updated status, deduplication, and online research.
 
 ## Constraints
 - One commit per project (per-project commits).
@@ -18,126 +18,250 @@ Verify, enrich, and commit each project in `projects_data.json` with correct tra
 ---
 
 ## Phase 0: Cleanup ✅
-- [x] Remove duplicate Iqra entries (فريق أيقاظ and القدس merged)
+- [x] Remove duplicate Iqra entries
 - [x] Remove Arabic NER entry (Wojood URL, unrelated)
 - [x] Fix Nimra name (was `$$$$`)
 - [x] Name empty unnamed entry
 - [x] Swap Qutrub Arabic/English descriptions
 - [x] Clear 22 corrupted Arabic descriptions
 - [x] Move 5 misplaced texts
-- [x] Total: 124 → 121 → 118 after removing HadithHouseApi, Ayaaty, SQLite dup
+- [x] Removed HadithHouseApi, Ayaaty, SQLite dup → 118 remain
 
-## Phase 1: Initial Individual Verifications ✅
-- [x] Iqra (0): ميت, 2023-02-27
-- [x] PyQuran (1): متوقف, added PyPI
-- [x] HadithHouseApi: REMOVED (404)
-- [x] Alfanous (2): نشط, 2026-05-04
-- [x] مصحف البشير (3): نشط, added COPR link
-- [x] قاعدة بيانات القرآن (4): متوقف, cleaned links
-- [x] قُطُوْف (5): ميت, verified
-- [x] quran-tajweed (6): متوقف, cleaned links
-- [x] اكتشاف الآيات (7): متوقف, cleaned links
-- [x] tajweed (8): ميت, cleaned links
-- [x] Ahkam-Al-Tajweed (9): ميت, 2019
-- [x] othman (10): متوقف, 2024
-- [x] Quran-App-Data (11): متوقف, 2023
-- [x] Visualization-Of-Quran (12): متوقف, 2021
-- [x] tarteel-ml (13): ميت (archived), 2021
-- [x] أفكار لمشاريع (14): not software, noted
-- [x] Ayaaty: REMOVED (all 404)
-- [x] SQLite duplicate: REMOVED
-- [x] Pray Times (15): نشط, 2025-07-17, added GitHub repos
-- [x] adhan.py (16): ميت, 2015-12-24
-- [x] Adhan batoulapps (17): متوقف, 2023-03
-- [x] salah (18): نشط, Jan 2026
-- [x] Masjid Times (19): ميت, 2013
-- [x] Belfast Prayer (20): متوقف, 2023-01
-- [x] Next Prayer (21): متوقف, 2023-04
-- [x] Mosque Display (22): نشط, Apr 2026
-- [x] Azkar (23): نشط, Feb 2026
-- [x] ITL (24): ميت, 2024-05
-- [x] pyIslam (25): نشط, Jun 2025
-- [x] Iftar CLI (26): نشط, Jan 2026
-- [x] Arabic Tech Terminology (27): ميت, 2015
-- [x] Nibras (28): ميت, 2014
-- [x] جافاسكريبت بالعربية (29): متوقف, 2021
-- [x] لغة ألف (30): نشط, May 2026
-- [x] لغة كلمات (31): ميت, 2021
-- [x] Alusus (32): نشط, May 2026
-- [x] Phoenix (33): ميت (paper), 2019
-- [x] Ammoria (34): ميت, 2021
+## Phase 1: Individual Verifications ✅
+- [x] All 34 entries (indices 0-34) verified individually
 
 ## Phase 2: Batch Verifications ✅
+- [x] All NLP/Tools entries verified
+- [x] All incomplete entries (حالة المشروع) filled
+- [x] Ghalatawi description fixed (was copy-pasted from wrong paper)
 
-### Batch 1: Arabic programming languages & terminology ✅
-- [x] مشاريع الخوارزم: نشط, fixed روابط
-- [x] NabdJS: متوقف, cleaned desc
-- [x] ALB قلب: ميت, added آخر نشاط
-- [x] Labiba: ميت, added آخر نشاط
-- [x] Noor: متوقف, fixed desc typo
-- [x] Coursera Arabic Subtitle: متوقف, **fixed English desc** (was copied from 100-duaa)
-- [x] Tanafaso: نشط (Mar 2026), fixed status
-- [x] Arabic NER (LiyuanLucasLiu): نشط, added آخر نشاط
-- [x] PyArabic: نشط (2026-01-16, not 2023 as batch script mis-scraped)
-- [x] Arabic Handwriting Recognition: ميت, added آخر نشاط
-- [x] Arabic-NER (HassanAzzam): متوقف, added آخر نشاط
-- [x] Arabic-Font-Detector: نشط, added آخر نشاط
-- [x] Arabic TTS: متوقف, added آخر نشاط
-- [x] Klaam: نشط, added آخر نشاط
-- [x] Arabic Speech Corpus: متوقف, added آخر نشاط
-- [x] arabic-tacotron-tts: متوقف, added آخر نشاط
-- [x] languagetool-tools-ar: ميت, added آخر نشاط
-- [x] duali: ميت, added آخر نشاط
-- [x] shakkelha: ميت, added آخر نشاط
-- [x] arabic-text-diacritization: نشط (2026-04-07), fixed status
-- [x] mishkal (linuxscout): نشط (2025-09-18), fixed status
-- [x] Shakkala: متوقف (2023-03-25), added آخر نشاط
-- [x] + all remaining NLP/tools entries
-
-### Batch 2: Incomplete entries (حالة المشروع filled) ✅
-- [x] BoycottFrensh → ميت (2021-04-03)
-- [x] IslamBot → قيد الانتظار (no روابط)
-- [x] Muslim-App → ميت (archived)
-- [x] KhattSeen → قيد الانتظار (no روابط)
-- [x] MathJax Arabic Extension → نشط (2026-04-28)
-- [x] ArabTerm → قيد الانتظار (no روابط)
-- [x] i18n → نشط (2026-04-29)
-- [x] Mawrid Reader → قيد الانتظار (no روابط)
-- [x] Modern JS Tutorial Arabic → نشط
-- [x] Arabic NLP Tools List → متوقف (2022-12-17)
-- [x] Adawat → قديم (SourceForge)
-- [x] Python Arabic Reshaper → نشط (2026-04-28)
-- [x] LanguageTool → نشط (2026-05-27, v6.8)
-- [x] tnkeeh → متوقف (2023-09-28)
-- [x] arabert → متوقف (2022-08-01)
-- [x] AyaSpell → ميت (2020-08-27)
-- [x] ArabicTransliterator → قيد الانتظار
-- [x] Arabic Word Embeddings → قيد الانتظار
-- [x] raqin → قيد الانتظار
-- [x] Arabic_OCR → قيد الانتظار
-- [x] ARBML → نشط (2026-06-04)
-- [x] Arabic NLP → قيد الانتظار
-- [x] Arabic-OCR → متوقف صيانته 😑 (2023-10-04)
-- [x] Ghalatawi, Arabic AutoCorrect → ميت ☠️ (2012-09-30), **fixed wrong description**
-- [x] jsastem → ميت ☠️ (2012-12-01)
-- [x] Mujallad → ميت (2020-12-22)
-- [x] RTL Styling → قيد الانتظار ⏳ (blog post, not project)
-- [x] SimpleMDE RTL → ميت ☠️ (2021-02-16)
-
-## Current Status (as of commit 3a96bf6)
-- **118 projects total** (after 5 removals: 2 dupes + 3 dead)
+## Current Status (commit 02b2f45)
+- **118 projects total**
 - **78/118** have `آخر نشاط` (66%)
 - **118/118** have `حالة المشروع` (100%)
 - Status distribution: 36 نشط 🚀, 42 متوقف 😑, 29 ميت ☠️, 1 قيد الانتظار ⏳, 1 قديم, 9 awaiting آخر نشاط
 
 ## Remaining Work
-- [ ] Fill `آخر نشاط` for ~40 projects (websites, non-GitHub — need manual research)
-- [ ] Fill روابط field where still empty (separate from الكود المصدري)
-- [ ] Validate روابط accessibility (accessibility check on all links)
-- [ ] Phase 3: validate التقنيات and الرخصة match actual repos
+
+### Missing `آخر نشاط` (40 entries)
+- [ ] mostalah مصطلح aosus-dictionary (33)
+- [ ] ArabTerm (34)
+- [ ] مشاريع الخوارزم (44)
+- [ ] NabdJS (45)
+- [ ] ALB قلب (46)
+- [ ] Noor programming language (49)
+- [ ] Coursera Arabic Subtitle Translation (50)
+- [ ] Modern JavaScript Tutorial in Arabic (51)
+- [ ] Adawat: Arabic Language Toolkit (53)
+- [ ] LanguageTool (55) ← actually has it now
+- [ ] Arabic Named Entity Recognition paper (59)
+- [ ] Arabic Handwriting Recognition (68)
+- [ ] Arabic-NER (69)
+- [ ] Arabic-Font-Detector (70)
+- [ ] Arabic TTS - الناطق العربي (71)
+- [ ] Klaam (72)
+- [ ] Arabic Speech Corpus (73)
+- [ ] arabic-tacotron-tts (74)
+- [ ] languagetool-tools-ar (75)
+- [ ] duali (77)
+- [ ] shakkelha (78)
+- [ ] Wojood - Nested Arabic NER (85)
+- [ ] alankaa (86)
+- [ ] Arabic Poem Generator (88)
+- [ ] Khotot (90)
+- [ ] Nimra (91)
+- [ ] خط أسس - خط للأكواد العربية (93)
+- [ ] دليل أسلوب كتابة المحتوى (95)
+- [ ] Arabic Initiative for User Experience - AIUX (96)
+- [ ] مجتمع أسس (98)
+- [ ] اسماء.شبكة (100)
+- [ ] بالعربي.مصر (101)
+- [ ] Tafqit (103)
+- [ ] Hillal Linux (104)
+- [ ] RTL Styling (106)
+- [ ] Arabic APIs (107)
+- [ ] Arabic voices for Festival TTS (109)
+- [ ] خدمات اللغة العربية (111)
+- [ ] Dorar.net Hadith API (113)
+- [ ] Sunnah Hadith API (114)
+- [ ] 100 دعاء من الكتاب والسنة الصحيحة (115)
+
+### Missing `الوصف بالعربية` (Arabic description — 34 entries)
+- [ ] Tanafaso (26)
+- [ ] BoycottFrensh (27)
+- [ ] IslamBot (28)
+- [ ] Muslim-App (29)
+- [ ] Iftar CLI (30)
+- [ ] KhattSeen (31)
+- [ ] MathJax Arabic Extension (32)
+- [ ] ArabTerm (34)
+- [ ] ALB قلب (46)
+- [ ] Mawrid Reader (48)
+- [ ] Noor programming language (49)
+- [ ] Coursera Arabic Subtitle Translation (50)
+- [ ] Modern JavaScript Tutorial in Arabic (51)
+- [ ] Arabic NLP Tools and Resources Lists (52)
+- [ ] Adawat (53)
+- [ ] Python Arabic Reshaper (54)
+- [ ] LanguageTool (55)
+- [ ] tnkeeh (56)
+- [ ] arabert (57)
+- [ ] AyaSpell (58)
+- [ ] ArabicTransliterator (61)
+- [ ] Arabic Word Embeddings Word2vec (62)
+- [ ] raqin (63)
+- [ ] Arabic_OCR (64)
+- [ ] ARBML (65)
+- [ ] Arabic NLP (66)
+- [ ] Arabic-OCR (67)
+- [ ] Arabic Handwriting Recognition (68)
+- [ ] Arabic TTS - الناطق العربي (71)
+- [ ] Ghalatawi (76)
+- [ ] Nimra (91)
+- [ ] RTL Styling (106)
+- [ ] Arabic APIs (107)
+
+### Missing `الوصف بالإنجليزية` (English description — 10 entries)
+- [ ] mostalah مصطلح aosus-dictionary (33)
+- [ ] Labiba لبيبة (47)
+- [ ] raqin (63)
+- [ ] ARBML (65)
+- [ ] duali (77) ← has `Arabic spellchecker` but very short
+- [ ] Ara (102)
+- [ ] Mujallad مجلّد (105)
+- [ ] دليل أسلوب كتابة المحتوى (95)
+- [ ] اسماء.شبكة (100)
+
+### Missing `روابط` (48 entries)
+Too many to list individually. Common case: روابط field is separate from الكود المصدري.
+
+### Missing `التقنيات` (Technologies — 13 entries)
+- [ ] KhattSeen (31)
+- [ ] ArabTerm (34)
+- [ ] Arabic NLP Tools and Resources Lists (52)
+- [ ] Ghalatawi (76)
+- [ ] ARBML (65)
+- [ ] Khotot (90)
+- [ ] Nimra (91)
+- [ ] خط أسس (93)
+- [ ] Kawkab Mono (94)
+- [ ] اسماء.شبكة (100)
+- [ ] بالعربي.مصر (101)
+- [ ] Arabic APIs (107)
+- [ ] RTL Styling (106)
+
+### Missing `الرخصة` (License — 35 entries)
+- [ ] Masjid Times (19)
+- [ ] Mosque Prayer Display Screen (22)
+- [ ] Muslim-App (29)
+- [ ] KhattSeen (31)
+- [ ] ArabTerm (34)
+- [ ] معجم المصطلحات التقنية (36)
+- [ ] نبراس (37)
+- [ ] جافاسكريبت بالعربية (38)
+- [ ] Phoenix (42)
+- [ ] لغة عمّوريا (43)
+- [ ] Labiba (47)
+- [ ] Mawrid Reader (48)
+- [ ] Noor programming language (49)
+- [ ] Adawat (53)
+- [ ] arabert (57)
+- [ ] ArabicTransliterator (61)
+- [ ] Arabic Word Embeddings Word2vec (62)
+- [ ] raqin (63)
+- [ ] Arabic_OCR (64)
+- [ ] ARBML (65)
+- [ ] Arabic NLP (66)
+- [ ] Arabic Handwriting Recognition (68)
+- [ ] Arabic-NER (69)
+- [ ] Arabic TTS (71)
+- [ ] Ghalatawi (76)
+- [ ] jsastem (82)
+- [ ] alankaa (86)
+- [ ] Alif Type (89)
+- [ ] خط أسس (93)
+- [ ] Kawkab Mono (94)
+- [ ] AIUX (96)
+- [ ] Osman Readability (97)
+- [ ] مجتمع أسس (98)
+- [ ] اسماء.شبكة (100)
+- [ ] بالعربي.مصر (101)
+- [ ] Hillal Linux (104)
+- [ ] RTL Styling (106)
+- [ ] SimpleMDE RTL (108)
+- [ ] Arabic APIs (107)
+
+### Missing `نوع المبادرة` (Initiative type — 30 entries)
+- [ ] BoycottFrensh (27)
+- [ ] IslamBot (28)
+- [ ] Muslim-App (29)
+- [ ] MathJax Arabic Extension (32)
+- [ ] mostalah (33)
+- [ ] ArabTerm (34)
+- [ ] Modern JavaScript Tutorial in Arabic (51)
+- [ ] Arabic NLP Tools and Resources Lists (52)
+- [ ] Adawat (53)
+- [ ] Python Arabic Reshaper (54)
+- [ ] LanguageTool (55)
+- [ ] tnkeeh (56)
+- [ ] arabert (57)
+- [ ] AyaSpell (58)
+- [ ] ArabicTransliterator (61)
+- [ ] Arabic Word Embeddings Word2vec (62)
+- [ ] raqin (63)
+- [ ] Arabic_OCR (64)
+- [ ] ARBML (65)
+- [ ] Arabic NLP (66)
+- [ ] Arabic-OCR (67)
+- [ ] Arabic Handwriting Recognition (68)
+- [ ] Arabic-NER (69)
+- [ ] Arabic TTS (71)
+- [ ] Ghalatawi (76)
+- [ ] duali (77)
+- [ ] jsastem (82)
+- [ ] Nimra (91)
+- [ ] Arabic APIs (107)
+- [ ] SimpleMDE RTL (108)
+
+### Missing `وسوم` (Tags — 16 entries)
+- [ ] BoycottFrensh (27)
+- [ ] Labiba (47)
+- [ ] Mawrid Reader (48)
+- [ ] Noor programming language (49)
+- [ ] Arabic NLP Tools and Resources Lists (52)
+- [ ] Adawat (53)
+- [ ] ArabicTransliterator (61)
+- [ ] raqin (63)
+- [ ] Arabic_OCR (64)
+- [ ] ARBML (65)
+- [ ] Arabic NLP (66)
+- [ ] Ghalatawi (76)
+- [ ] duali (77)
+- [ ] jsastem (82)
+- [ ] مجتمع أسس (98)
+- [ ] LanguageTool (55)
+- [ ] اسماء.شبكة (100)
+- [ ] بالعربي.مصر (101)
+- [ ] Hillal Linux (104)
+- [ ] Arabic APIs (107)
+- [ ] SimpleMDE RTL (108)
+- [ ] Nimra (91)
+- [ ] خط أسس (93)
+
+## Per-Project Detail
+See the full audit table from `recheck` output. Summary:
+- 40 missing آخر نشاط
+- 48 missing روابط
+- 4 missing الكود المصدري
+- 10 missing/empty English descriptions
+- 34 missing Arabic descriptions
+- 13 missing التقنيات
+- 35 missing الرخصة
+- 30 missing نوع المبادرة
+- 16 missing وسوم
 
 ## Notes
-- GitHub API rate limit: 60 req/hr unauthenticated — exhausted at time of batch
+- GitHub API rate limit: 60 req/hr unauthenticated
 - All Phase 2 lookups done via web search + HTML scraping (fallback)
-- `batch_verify.py` had parsing bugs (would find release date not push date for PyArabic)
-- After file corruption incident (write tool truncated to 75 entries), restored from `HEAD~1`
+- `batch_verify.py` had parsing bugs (release date vs push date)
+- After file corruption incident, restored from `HEAD~1`
