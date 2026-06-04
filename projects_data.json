@@ -814,8 +814,8 @@
   },
   {
     "Name": "Mawrid Reader: Arabic dictionary interface",
-    "التقنيات": "JavaScript",
-    "الرخصة": "",
+    "التقنيات": "JavaScript, CSS, HTML, Shell, Perl",
+    "الرخصة": "GNU GPL v3",
     "الكود المصدري": "https://github.com/ejtaal/mr",
     "الوصف بالإنجليزية": "Arabic - English word based dictionaries compilation",
     "الوصف بالعربية": "واجهة لعرض القواميس العربية-الإنجليزية (معجم المورد وغيره) مع إمكانية البحث",
