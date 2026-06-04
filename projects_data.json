@@ -194,13 +194,14 @@
     "الوصف بالإنجليزية": "The \"Quran-App-Data\" project provides a comprehensive collection of data and resources for Quran applications and websites, including Hadith books in JSON format, complete JSON files for all Quranic Surahs, ordered images of all Quran pages, and JSON files containing all Azkar, the 99 names of Allah, and the names of Prophet Muhammad ﷺ.",
     "الوصف بالعربية": "يقدم مشروع \"Quran-App-Data\" مجموعة شاملة من البيانات والموارد لتطبيقات ومواقع القرآن الكريم، تشمل كتب الحديث بصيغة JSON، وملفات JSON لسور القرآن كاملة، وصور مرتبة لجميع صفحات المصحف، بالإضافة إلى ملفات JSON تحتوي على جميع الأذكار، وأسماء الله الحسنى، وأسماء النبي محمد ﷺ.",
     "حالة البيانات": "اكتمل ✅",
-    "حالة المشروع": "نشط 🚀",
+    "حالة المشروع": "متوقف صيانته 😑",
     "روابط": "https://youtu.be/7VvlBOINfjQ?si=kNTGyNL-31xSs5df",
     "زمن آخر تعديل": "١ نوفمبر ٢٠٢٤ ٩:٠٨ م",
     "مسؤول البيانات": "Abd El-Rahman Bayoumi",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "قاعدة بيانات, مصادر",
-    "وسوم": "أسماء الله الحسنى, أسماء النبي محمد ﷺ, الأذكار, الحديث النبوي, القرآن الكريم"
+    "وسوم": "أسماء الله الحسنى, أسماء النبي محمد ﷺ, الأذكار, الحديث النبوي, القرآن الكريم",
+    "آخر نشاط": "2023-02-15"
   },
   {
     "Name": "الْمُعْجَم الترددي لِلْحُرُوف الْعَرَبِيَّةِ فِي الْقُرْآنِ الْكَرِيمِ",
