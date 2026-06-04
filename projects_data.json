@@ -645,13 +645,13 @@
   {
     "Name": "جافاسكريبت بالعربية",
     "التقنيات": "JavaScript",
-    "الرخصة": "غير محدد",
-    "الكود المصدري": "https://github.com/javascript-in-arabic/core",
+    "الرخصة": "MIT",
+    "الكود المصدري": "https://github.com/arabi-js/arabi",
     "الوصف بالإنجليزية": "JavaScript in Arabic is an open-source library that enables Arab developers to write code using Arabic syntax in the JavaScript environment. The project provides tools for converting Arabic-written code into native JavaScript, along with localization tools to simplify coding with Arabic terms. It supports the translation of various core JavaScript functions and includes educational examples for developers to get started.",
     "الوصف بالعربية": "مشروع جافاسكريبت بالعربية هو مكتبة مفتوحة المصدر تهدف إلى تمكين المطورين العرب من كتابة التعليمات البرمجية باستخدام اللغة العربية في بيئة جافاسكريبت. يتيح المشروع تحويل الكود البرمجي المكتوب بالعربية إلى جافاسكريبت الأصلية، مع توفير أدوات تعريب تساعد على تسهيل البرمجة باستخدام مصطلحات عربية. يتميز المشروع بدعم التعريب للعديد من وظائف جافاسكريبت الأساسية، ويشمل أمثلة تعليمية لمساعدة المطورين في البدء.",
     "حالة البيانات": "اكتمل ✅",
     "حالة المشروع": "متوقف صيانته 😑",
-    "روابط": "https://github.com/javascript-in-arabic/core",
+    "روابط": "https://github.com/arabi-js/",
     "آخر نشاط": "2021-05-14",
     "زمن آخر تعديل": "٩ نوفمبر ٢٠٢٤ ٨:٣٠ م",
     "مسؤول البيانات": "Abd El-Rahman Bayoumi",
@@ -769,13 +769,14 @@
     "الوصف بالإنجليزية": "NabdJS is an open-source Arabic programming language developed using JavaScript, based on the principles of BASIC. It aims to enable programmers to write code in Arabic, providing an interactive environment for immediate execution.",
     "الوصف بالعربية": "NabdJS هي لغة برمجة عربية مفتوحة المصدر، تم تطويرها باستخدام JavaScript وتستند إلى مبادئ لغة BASIC. تهدف إلى تمكين المبرمجين من كتابة التعليمات البرمجية باللغة العربية، مع توفير بيئة تفاعلية للتنفيذ الفوري.",
     "حالة البيانات": "اكتمل ✅",
-    "حالة المشروع": "متوقف صيانته 😑",
+    "حالة المشروع": "ميت ☠️",
     "روابط": "https://nabdjs.netlify.app/",
     "زمن آخر تعديل": "٩ نوفمبر ٢٠٢٤ ٨:٠٩ م",
     "مسؤول البيانات": "Abd El-Rahman Bayoumi",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "لغة برمجة",
-    "وسوم": "اللغة عربية, لغة برمجة عربية"
+    "وسوم": "اللغة عربية, لغة برمجة عربية",
+    "آخر نشاط": "2020-05-01"
   },
   {
     "Name": "ALB قلب",
@@ -783,7 +784,7 @@
     "الرخصة": "MIT",
     "الكود المصدري": "https://github.com/nasser/---",
     "الوصف بالإنجليزية": "ALB is a simple, Scheme-like programming language that you code entirely in Arabic. It is an exploration of the impact of human culture on computer science, the role of tradition in software engineering, and the connection between natural and computer languages.",
-    "الوصف بالعربية": "",
+    "الوصف بالعربية": "مكتبة قلب: تطبيق ويب للتدقيق اللغوي العربي باستخدام التعلم العميق",
     "حالة البيانات": "قيد العمل 💪🏻",
     "حالة المشروع": "ميت ☠️",
     "روابط": "https://nas.sr/قلب/",
@@ -791,7 +792,8 @@
     "مسؤول البيانات": "Omar Seifelnasr",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "لغة برمجة",
-    "وسوم": "اللغة عربية"
+    "وسوم": "اللغة عربية",
+    "آخر نشاط": "2020"
   },
   {
     "Name": "Labiba لبيبة",
