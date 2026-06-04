@@ -117,22 +117,22 @@ Verify, enrich, and commit each project in `projects_data.json` with correct tra
 - [x] Arabic_OCR → قيد الانتظار
 - [x] ARBML → نشط (2026-06-04)
 - [x] Arabic NLP → قيد الانتظار
-- [x] Arabic-OCR → قيد الانتظار
-- [x] Ghalatawi → قيد الانتظار
-- [x] jsastem → قيد الانتظار
+- [x] Arabic-OCR → متوقف صيانته 😑 (2023-10-04)
+- [x] Ghalatawi, Arabic AutoCorrect → ميت ☠️ (2012-09-30), **fixed wrong description**
+- [x] jsastem → ميت ☠️ (2012-12-01)
 - [x] Mujallad → ميت (2020-12-22)
-- [x] RTL Styling → قيد الانتظار
-- [x] SimpleMDE RTL → قيد الانتظار
+- [x] RTL Styling → قيد الانتظار ⏳ (blog post, not project)
+- [x] SimpleMDE RTL → ميت ☠️ (2021-02-16)
 
-## Current Status (as of commit 20daa32)
+## Current Status (as of commit 3a96bf6)
 - **118 projects total** (after 5 removals: 2 dupes + 3 dead)
-- **66/118** have `آخر نشاط` (56%)
+- **78/118** have `آخر نشاط` (66%)
 - **118/118** have `حالة المشروع` (100%)
-- Status distribution: 34 نشط 🚀, 39 متوقف 😑, 30 ميت ☠️, 14 قيد الانتظار ⏳, 1 قديم
+- Status distribution: 36 نشط 🚀, 42 متوقف 😑, 29 ميت ☠️, 1 قيد الانتظار ⏳, 1 قديم, 9 awaiting آخر نشاط
 
 ## Remaining Work
-- [ ] Fill `آخر نشاط` for ~52 projects (non-GitHub links, SourceForge, websites — need manual research)
-- [ ] Fill روابط for the 14 pending entries (need data owner)
+- [ ] Fill `آخر نشاط` for ~40 projects (websites, non-GitHub — need manual research)
+- [ ] Fill روابط field where still empty (separate from الكود المصدري)
 - [ ] Validate روابط accessibility (accessibility check on all links)
 - [ ] Phase 3: validate التقنيات and الرخصة match actual repos
 
