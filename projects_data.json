@@ -456,7 +456,7 @@
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "تطبيق iOS, تطبيق أندرويد",
     "وسوم": "dart, mobile-app, flutter, azkar, muslim-app",
-    "آخر نشاط": "2026-03-08"
+    "آخر نشاط": "2026-03-01"
   },
   {
     "Name": "BoycottFrensh",
@@ -483,14 +483,13 @@
     "الوصف بالإنجليزية": "A Discord bot that supports Qur'an, hadith, prayer times, tafsir and more.",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "نشط 🚀",
+    "حالة المشروع": "",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٩ م",
     "مسؤول البيانات": "MohammedAnwer",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": "discord-bot, quran, prayer-times, islam, hadith, tafsir",
-    "آخر نشاط": "2026-01-06"
+    "وسوم": "discord-bot, quran, prayer-times, islam, hadith, tafsir"
   },
   {
     "Name": "Muslim-App (Daily Muslim's Fortress App)",
@@ -506,8 +505,7 @@
     "مسؤول البيانات": "MohammedAnwer",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": "notifications, android, java, playstore, tally-counter, prayer-times, muslim, allah, hacktoberfest, qibla, muslim-prayer-times, ramadan, muslims-prayer, qiblah-direction, muslim-app, remembrance, zakat-calculator, qibla-menu",
-    "آخر نشاط": "2022-10-13"
+    "وسوم": "notifications, android, java, playstore, tally-counter, prayer-times, muslim, allah, hacktoberfest, qibla, muslim-prayer-times, ramadan, muslims-prayer, qiblah-direction, muslim-app, remembrance, zakat-calculator, qibla-menu"
   },
   {
     "Name": "Iftar CLI",
@@ -758,8 +756,7 @@
     "مسؤول البيانات": "Abd El-Rahman Bayoumi",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "لغة برمجة",
-    "وسوم": "لغة برمجة عربية",
-    "آخر نشاط": "2025-06-23"
+    "وسوم": "لغة برمجة عربية"
   },
   {
     "Name": "NabdJS",
@@ -775,8 +772,7 @@
     "مسؤول البيانات": "Abd El-Rahman Bayoumi",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "لغة برمجة",
-    "وسوم": "اللغة عربية, لغة برمجة عربية",
-    "آخر نشاط": "2020-05-01"
+    "وسوم": "اللغة عربية, لغة برمجة عربية"
   },
   {
     "Name": "ALB قلب",
@@ -792,8 +788,7 @@
     "مسؤول البيانات": "Omar Seifelnasr",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "لغة برمجة",
-    "وسوم": "اللغة عربية",
-    "آخر نشاط": "2020-09-13"
+    "وسوم": "اللغة عربية"
   },
   {
     "Name": "Labiba لبيبة",
@@ -849,7 +844,7 @@
     "التقنيات": "JavaScript, NLP",
     "الرخصة": "MIT",
     "الكود المصدري": "https://github.com/imAbdelhadi/coursera-subtitle-translation-arabic",
-    "الوصف بالإنجليزية": "A browser extension that translates Coursera subtitles into Arabic, helping Arabic-speaking learners understand course content.",
+    "الوصف بالإنجليزية": "The book 100 Supplications from the Qur’an and the Authentic Sunnah is a book that contains 100 supplications from the Qur’an and the Authentic Sunnah, and they were compiled by Sheikh Muhammad Salih Al-Munajjid.",
     "الوصف بالعربية": "",
     "حالة البيانات": "قيد العمل 💪🏻",
     "حالة المشروع": "متوقف صيانته 😑",
@@ -874,8 +869,7 @@
     "مسؤول البيانات": "ezz",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": "javascript, tutorial, arabic",
-    "آخر نشاط": "2026-06-01"
+    "وسوم": "javascript, tutorial, arabic"
   },
   {
     "Name": "Arabic NLP Tools and Resources Lists",
@@ -885,13 +879,14 @@
     "الوصف بالإنجليزية": "Arabic NLP tools List inventory",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "",
+    "حالة المشروع": "متوقف صيانته 😑",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٧ م",
     "مسؤول البيانات": "ezz",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": "nlp, catalogue, arabic, nlp-resources"
+    "وسوم": "nlp, catalogue, arabic, nlp-resources",
+    "آخر نشاط": "2022-12-17"
   },
   {
     "Name": "Adawat: Arabic Language Toolkit",
@@ -983,13 +978,14 @@
     "الوصف بالإنجليزية": "AyaSpell Arabic Dictionary for Hunspell Spellchecker",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "",
+    "حالة المشروع": "ميت ☠️",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٤ م",
     "مسؤول البيانات": "ezz",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": ""
+    "وسوم": "",
+    "آخر نشاط": "2020-08-27"
   },
   {
     "Name": "Arabic Named Entity Recognition: What Works and What’s Next",
@@ -1015,14 +1011,14 @@
     "الوصف بالإنجليزية": "A specific Arabic language library for Python,\n provides basic functions to manipulate Arabic letters and text, like \ndetecting Arabic letters, Arabic letters groups and characteristics, \nremove diacritics etc.",
     "الوصف بالعربية": "مكتبة برمجية للغة العربية بلغة بيثون، توفر دوالّ للتحكم في الحروف والنصوص، مثلا تحديد نوع الحرف، حذف الحركات، مقارنة التشكيل.",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "متوقف صيانته 😑",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "",
     "زمن آخر تعديل": "١٣ فبراير ٢٠٢٦ ١:٤٧ م",
     "مسؤول البيانات": "محمد الصوالحي",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "مكتبة برمجية",
     "وسوم": "أنواع الكلمات, التشكيل, اللغة عربية, تحليل صرفي, تقنية",
-    "آخر نشاط": "2023-04-16"
+    "آخر نشاط": "2026-01-16"
   },
   {
     "Name": "ArabicTransliterator",
@@ -1096,7 +1092,7 @@
     "الوصف بالإنجليزية": "",
     "الوصف بالعربية": "",
     "حالة البيانات": "قيد العمل 💪🏻",
-    "حالة المشروع": "",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١٠:٥٥ م",
     "مسؤول البيانات": "محمد الصوالحي",
@@ -1321,13 +1317,14 @@
     "الوصف بالإنجليزية": "Benchmark Arabic text diacritization dataset",
     "الوصف بالعربية": "مجموعة بيانات مرجعية لتصحيح أخطاء كتابة النصوص العربية",
     "حالة البيانات": "اكتمل ✅",
-    "حالة المشروع": "ميت ☠️",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "https://arxiv.org/abs/1905.01965",
     "زمن آخر تعديل": "٩ نوفمبر ٢٠٢٤ ١١:٤٦ م",
     "مسؤول البيانات": "أحمد الطبراني",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "Model, قاعدة بيانات, مصادر, ورقة بحثية",
-    "وسوم": "التشكيل, اللغة عربية, معالجة اللغة الطبيعية"
+    "وسوم": "التشكيل, اللغة عربية, معالجة اللغة الطبيعية",
+    "آخر نشاط": "2026-04-07"
   },
   {
     "Name": "mishkal",
@@ -1337,13 +1334,14 @@
     "الوصف بالإنجليزية": "Mishkal Arabic text vocalization software",
     "الوصف بالعربية": "مشكال لتشكيل النصوص العربية",
     "حالة البيانات": "اكتمل ✅",
-    "حالة المشروع": "متوقف صيانته 😑",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "http://www.tahadz.com/mishkal/main",
     "زمن آخر تعديل": "٩ نوفمبر ٢٠٢٤ ٨:١٩ م",
     "مسؤول البيانات": "أحمد الطبراني",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "CLI, تطبيق ويب, مكتبة برمجية",
-    "وسوم": "التشكيل, اللغة عربية, معالجة اللغة الطبيعية"
+    "وسوم": "التشكيل, اللغة عربية, معالجة اللغة الطبيعية",
+    "آخر نشاط": "2025-09-18"
   },
   {
     "Name": "Shakkala",
@@ -1359,7 +1357,8 @@
     "مسؤول البيانات": "أحمد الطبراني",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "مكتبة برمجية",
-    "وسوم": "التشكيل, اللغة عربية, معالجة اللغة الطبيعية"
+    "وسوم": "التشكيل, اللغة عربية, معالجة اللغة الطبيعية",
+    "آخر نشاط": "2023-03-25"
   },
   {
     "Name": "jsastem",
@@ -1457,7 +1456,8 @@
     "مسؤول البيانات": "أحمد الطبراني",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "Model, مكتبة برمجية",
-    "وسوم": "اللغة عربية, محررات نصوص"
+    "وسوم": "اللغة عربية, محررات نصوص",
+    "آخر نشاط": "2023-07-31"
   },
   {
     "Name": "Arabic Poem Generator",
@@ -1697,7 +1697,7 @@
     "الوصف بالإنجليزية": "",
     "الوصف بالعربية": "A command line tool that correctly displays Arabic text in terminals. Check releases and download the binary directly. Get the binary and add it to your $PATH wget https://github.com/latiif/ara/releases/download/v0.7/ara && chmod +x ara 🆕 Undotting of Arabic letters (Rasm). 🆕 Revamped command line interface.",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "نشط 🚀",
+    "حالة المشروع": "متوقف صيانته 😑",
     "روابط": "",
     "زمن آخر تعديل": "١٦ مايو ٢٠٢٦ ١٢:٣٩ م",
     "مسؤول البيانات": "MohammedAnwer",
@@ -1924,7 +1924,7 @@
     "الوصف بالإنجليزية": "A browser extension through which you can verify whether Hadiths are authentic or fabricated",
     "الوصف بالعربية": "إضافة للمتصفح تستطيع من خلالها أن تتفقد الأحاديث هل هي موضوعة أو صحيحة",
     "حالة البيانات": "اكتمل ✅",
-    "حالة المشروع": "نشط 🚀",
+    "حالة المشروع": "متوقف صيانته 😑",
     "روابط": "https://chromewebstore.google.com/detail/%D8%A7%D9%84%D8%AA%D8%AD%D9%82%D9%82-%D9%85%D9%86-%D8%A7%D9%84%D8%A3%D8%AD%D8%A7%D8%AF%D9%8A%D8%AB-hadith/cfbllcckohbiiplkigbfllfphhakanke",
     "زمن آخر تعديل": "٢٩ مايو ٢٠٢٦ ١٢:٣١ ص",
     "مسؤول البيانات": "أحمد الطبراني",
@@ -1941,7 +1941,7 @@
     "الوصف بالإنجليزية": "A browser extension that reminds you of the supplications and prayers continuously. It contains the morning and evening supplications and is translated into English. Every so often, a random supplication will be displayed to you in the form of a notification that comes to you through the browser.",
     "الوصف بالعربية": "إضافة للمتصفح تتذكرك بالأذكار والأدعية بشكل مستمر وبها اذكار الصباح والمساء ومترجمة للغة الإنجليزية كل مدة يتم سيتم عرض لك دعاء عشوائي على هيئة اشعار يأتيك من خلال المتصفح",
     "حالة البيانات": "اكتمل ✅",
-    "حالة المشروع": "نشط 🚀",
+    "حالة المشروع": "متوقف صيانته 😑",
     "روابط": "https://chromewebstore.google.com/detail/%D9%85%D8%B0%D9%83%D8%B1-%D8%A7%D9%84%D8%A3%D8%B0%D9%83%D8%A7%D8%B1/fcagcaikgffokonhlfbaainnaknhjkpp",
     "زمن آخر تعديل": "٣ نوفمبر ٢٠٢٤ ٦:٢٨ م",
     "مسؤول البيانات": "أحمد الطبراني",
