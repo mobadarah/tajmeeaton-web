@@ -1,0 +1,299 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { projects } from '../../data/projects.json';
+
+export function getStaticPaths() {
+  return projects.map(p => ({
+    params: { slug: p.slug },
+    props: { project: p }
+  }));
+}
+
+const { project } = Astro.props;
+
+const statusLabels = { 'نشط 🚀': 'نشط', 'متوقف صيانته 😑': 'متوقف', 'ميت ☠️': 'ميت' };
+const tags = project.tags_list || [];
+const technologies = project.technologies_list || [];
+const initiativeTypes = project.initiative_type_list || [];
+const links = project.links_list || [];
+---
+
+<BaseLayout title={`${project.name} · التجميعة`} description={project.description_ar}>
+  <main class="detail">
+    <a href="/" class="back-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+      العودة إلى القائمة
+    </a>
+
+    <article class="detail-card">
+      <header class="detail-header">
+        <div class="detail-title-row">
+          <h1 class="detail-title">{project.name}</h1>
+          {project.open_source === 'Yes' && <span class="detail-oss-badge">مفتوح المصدر</span>}
+        </div>
+        <span class="detail-status" data-status={project.status}>{project.status}</span>
+      </header>
+
+      <div class="detail-descriptions">
+        <p class="detail-desc">{project.description_ar}</p>
+        <p class="detail-desc detail-desc-en" dir="ltr">{project.description_en}</p>
+      </div>
+
+      <div class="detail-meta">
+        {project.license && (
+          <div class="meta-block">
+            <span class="meta-label">الرخصة</span>
+            <span class="meta-value">{project.license}</span>
+          </div>
+        )}
+        {project.last_activity && (
+          <div class="meta-block">
+            <span class="meta-label">آخر نشاط</span>
+            <span class="meta-value">{project.last_activity}</span>
+          </div>
+        )}
+        {initiativeTypes.length > 0 && (
+          <div class="meta-block">
+            <span class="meta-label">نوع المبادرة</span>
+            <div class="chip-list">
+              {initiativeTypes.map(t => <span class="chip">{t}</span>)}
+            </div>
+          </div>
+        )}
+      </div>
+
+      {tags.length > 0 && (
+        <div class="detail-section">
+          <h2 class="section-label">الوسوم</h2>
+          <div class="chip-list">
+            {tags.map(t => <span class="chip">{t}</span>)}
+          </div>
+        </div>
+      )}
+
+      {technologies.length > 0 && (
+        <div class="detail-section">
+          <h2 class="section-label">التقنيات المستخدمة</h2>
+          <div class="chip-list">
+            {technologies.map(t => <span class="chip">{t}</span>)}
+          </div>
+        </div>
+      )}
+
+      {links.length > 0 && (
+        <div class="detail-section">
+          <h2 class="section-label">الروابط</h2>
+          <ul class="link-list">
+            {links.map(link => (
+              <li>
+                <a class="link-item" href={link} target="_blank" rel="noopener">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  {link}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </article>
+  </main>
+</BaseLayout>
+
+<style>
+  .detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-lg);
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--ink-muted);
+    margin-bottom: var(--space-xl);
+    transition: color 0.2s var(--ease-snappy);
+  }
+  .back-link:hover {
+    color: var(--warm-rust);
+    text-decoration: none;
+  }
+  .back-link:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+  }
+
+  .detail-card {
+    background: var(--surface);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-md);
+    padding: var(--space-xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+
+  .detail-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-md);
+  }
+  .detail-title-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    flex-wrap: wrap;
+  }
+  .detail-title {
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--ink);
+  }
+  .detail-oss-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--warm-rust);
+    background: var(--warm-rust-tint);
+    border-radius: var(--radius-pill);
+    white-space: nowrap;
+  }
+  .detail-status {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    white-space: nowrap;
+    padding: 4px 12px;
+    border-radius: var(--radius-sm);
+    background: var(--warm-rust-tint);
+    color: var(--ink-muted);
+    flex-shrink: 0;
+  }
+  .detail-status[data-status="نشط 🚀"] {
+    background: var(--status-active-bg);
+    color: var(--status-active-text);
+  }
+  .detail-status[data-status="متوقف صيانته 😑"] {
+    background: var(--status-paused-bg);
+    color: var(--status-paused-text);
+  }
+  .detail-status[data-status="ميت ☠️"] {
+    background: var(--status-dead-bg);
+    color: var(--status-dead-text);
+  }
+
+  .detail-descriptions {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+  .detail-desc {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--ink);
+    max-width: 70ch;
+  }
+  .detail-desc-en {
+    font-size: 0.9375rem;
+    color: var(--ink-muted);
+    padding-inline-start: var(--space-md);
+    border-inline-start: 2px solid var(--divider);
+  }
+
+  .detail-meta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md) var(--space-xl);
+    padding: var(--space-lg) 0;
+    border-top: 1px solid var(--divider);
+    border-bottom: 1px solid var(--divider);
+  }
+  .meta-block {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+  .meta-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .meta-value {
+    font-size: 0.9375rem;
+    color: var(--ink);
+    line-height: 1.5;
+  }
+
+  .detail-section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .section-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .chip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    background: var(--warm-rust-tint);
+    color: var(--warm-rust);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.4;
+    border-radius: var(--radius-pill);
+  }
+
+  .link-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .link-item {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--warm-rust);
+    word-break: break-all;
+  }
+  .link-item:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 640px) {
+    .detail {
+      padding: var(--space-md);
+    }
+    .detail-card {
+      padding: var(--space-lg);
+    }
+    .detail-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .detail-meta {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

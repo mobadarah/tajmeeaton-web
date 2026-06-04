@@ -2,25 +2,37 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { projects } from '../data/projects.json';
 
-const allTags = [...new Set(projects.flatMap(p =>
-  (p.tags || '').split(',').map(t => t.trim()).filter(Boolean)
-))].sort((a, b) => a.localeCompare(b, 'ar'));
-
-const statusOrder: Record<string, number> = { 'نشط 🚀': 0, 'متوقف صيانته 😑': 1, 'ميت ☠️': 2 };
+const statusOrder = { 'نشط 🚀': 0, 'متوقف صيانته 😑': 1, 'ميت ☠️': 2 };
 const sortedProjects = [...projects].sort((a, b) => {
   const sa = statusOrder[a.status] ?? 99;
   const sb = statusOrder[b.status] ?? 99;
   if (sa !== sb) return sa - sb;
   return (b.last_activity || '').localeCompare(a.last_activity || '');
 });
-const defaultDesc = 'قائمة المشاريع العربية مفتوحة المصدر · دليل شامل للمشاريع التقنية العربية';
+
+const statuses = Object.keys(statusOrder);
+const statusLabels = { 'نشط 🚀': 'نشط', 'متوقف صيانته 😑': 'متوقف', 'ميت ☠️': 'ميت' };
+
+const allTags = [...new Set(projects.flatMap(p =>
+  (p.tags || '').split(',').map(t => t.trim()).filter(Boolean)
+))].sort((a, b) => a.localeCompare(b, 'ar'));
+
+const allTechnologies = [...new Set(projects.flatMap(p =>
+  (p.technologies || '').split(',').map(t => t.trim()).filter(Boolean)
+))].sort((a, b) => a.localeCompare(b, 'ar'));
+
+const allLicenses = [...new Set(projects.flatMap(p =>
+  (p.license || '').split(',').map(l => l.trim()).filter(Boolean)
+))].sort((a, b) => a.localeCompare(b, 'ar'));
+
 const projectCount = projects.length;
+const defaultDesc = 'قائمة المشاريع العربية مفتوحة المصدر · دليل شامل للمشاريع التقنية العربية';
 ---
 
-<BaseLayout title="تجميعات تقنية · دليل المشاريع العربية مفتوحة المصدر" description={defaultDesc}>
+<BaseLayout title="التجميعة · دليل المشاريع العربية مفتوحة المصدر" description={defaultDesc}>
   <header class="hero">
     <div class="hero-content">
-      <h1 class="hero-title">تجميعات تقنية</h1>
+      <h1 class="hero-title">التجميعة</h1>
       <p class="hero-subtitle">دليل المشاريع العربية مفتوحة المصدر · {projectCount} مشروعاً</p>
     </div>
   </header>
@@ -31,12 +43,69 @@ const projectCount = projects.length;
         <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
         <input class="search-input" type="search" id="search" placeholder="ابحث عن مشروع…" autocomplete="off">
       </div>
-      <div class="tags-scroll" id="tags-scroll">
-        <div class="tags-row" id="tags-row">
-          {allTags.map(tag => (
-            <button class="tag-btn" data-tag={tag} type="button">{tag}</button>
-          ))}
+      <div class="toolbar-row">
+        <div class="tags-scroll" id="tags-scroll">
+          <div class="tags-row" id="tags-row">
+            {allTags.map(tag => (
+              <button class="tag-btn" data-tag={tag} type="button">{tag}</button>
+            ))}
+          </div>
         </div>
+        <button class="settings-btn" id="settings-btn" type="button" aria-label="الإعدادات">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="advanced-wrap">
+    <div class="advanced-toggle-bar">
+      <button class="advanced-toggle" id="advanced-toggle" type="button" aria-expanded="false" aria-controls="advanced-panel">
+        <svg class="chevron-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        بحث متقدم
+        <span class="filter-badge" id="filter-badge" hidden></span>
+      </button>
+    </div>
+    <div class="advanced-panel" id="advanced-panel" role="region" aria-labelledby="advanced-toggle">
+      <div class="panel-grid">
+        <div class="panel-section">
+          <h3 class="panel-heading">التقنيات</h3>
+          <div class="panel-chips" id="tech-chips">
+            {allTechnologies.map(tech => (
+              <button class="chip-btn tech-btn" data-tech={tech} type="button">{tech}</button>
+            ))}
+          </div>
+        </div>
+        <div class="panel-section">
+          <h3 class="panel-heading">الرخص</h3>
+          <div class="panel-chips" id="license-chips">
+            {allLicenses.map(license => (
+              <button class="chip-btn license-btn" data-license={license} type="button">{license}</button>
+            ))}
+          </div>
+        </div>
+        <div class="panel-section">
+          <h3 class="panel-heading">الحالة</h3>
+          <div class="status-group" id="status-group">
+            {statuses.map(s => (
+              <label class="status-label">
+                <input type="checkbox" class="status-cb" data-status={s}>
+                <span>{statusLabels[s]}</span>
+              </label>
+            ))}
+          </div>
+        </div>
+        <div class="panel-section">
+          <h3 class="panel-heading">مصدر مفتوح</h3>
+          <div class="oss-group" id="oss-group">
+            <button class="oss-btn active" data-oss="" type="button">الكل</button>
+            <button class="oss-btn" data-oss="Yes" type="button">مفتوح المصدر</button>
+            <button class="oss-btn" data-oss="No" type="button">غير مفتوح</button>
+          </div>
+        </div>
+      </div>
+      <div class="panel-footer">
+        <button class="panel-reset" id="panel-reset" type="button">إعادة تعيين الفلاتر</button>
       </div>
     </div>
   </div>
@@ -46,11 +115,12 @@ const projectCount = projects.length;
       {sortedProjects.map(p => {
         const tags = (p.tags || '').split(',').map(t => t.trim()).filter(Boolean);
         const technologies = (p.technologies || '').split(',').map(t => t.trim()).filter(Boolean);
+        const licenses = (p.license || '').split(',').map(l => l.trim()).filter(Boolean);
         const searchText = [p.name, p.description_ar, p.description_en, ...tags, ...technologies].filter(Boolean).join(' ').toLowerCase();
         return (
-          <article class="card" data-name={p.name} data-status={p.status} data-tags={tags.join(',')} data-search={searchText}>
+          <article class="card" data-tags={tags.join(',')} data-techs={technologies.join(',')} data-licenses={licenses.join(',')} data-status={p.status} data-oss={p.open_source} data-search={searchText}>
             <div class="card-header">
-              <h2 class="card-title">{p.name}</h2>
+              <h2 class="card-title"><a href={`/projects/${p.slug}/`} class="card-link stretched-link">{p.name}</a></h2>
               <span class="card-status" data-status={p.status}>{p.status}</span>
             </div>
             <p class="card-desc">{p.description_ar || p.description_en}</p>
@@ -69,51 +139,156 @@ const projectCount = projects.length;
         );
       })}
     </div>
-    <div class="empty" id="empty" hidden>
+    <div class="empty hide-empty" id="empty">
       <p class="empty-text">لا توجد مشاريع تطابق بحثك</p>
       <button class="empty-reset" id="reset-filters" type="button">إعادة تعيين الفلاتر</button>
     </div>
   </main>
 
-  <footer class="footer">
-    <p>تجميعات تقنية · مشاريع عربية مفتوحة المصدر</p>
-  </footer>
+  <div class="pagination" id="pagination">
+    <button class="page-btn" id="page-prev" type="button">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+      السابق
+    </button>
+    <span class="page-info" id="page-info"></span>
+    <button class="page-btn" id="page-next" type="button">
+      التالي
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+  </div>
+
+  <dialog class="settings-modal" id="settings-modal">
+    <div class="settings-header">
+      <h2 class="settings-title">الإعدادات</h2>
+      <button class="settings-close" id="settings-close" type="button" aria-label="إغلاق">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <div class="settings-body">
+      <div class="settings-group">
+        <span class="settings-label">المظهر</span>
+        <div class="theme-toggle" id="theme-toggle">
+          <button class="theme-btn" data-theme="light" type="button">فاتح</button>
+          <button class="theme-btn" data-theme="dark" type="button">داكن</button>
+        </div>
+      </div>
+      <div class="settings-group">
+        <span class="settings-label">المشاريع الميتة</span>
+        <label class="toggle-row">
+          <input type="checkbox" id="hide-dead">
+          <span>إخفاء المشاريع الميتة من القائمة</span>
+        </label>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="footer-spacer"></div>
 </BaseLayout>
 
 <script>
   const search = document.getElementById('search');
+
+  const params = new URLSearchParams(location.search);
+  const qParam = params.get('q');
+  if (qParam && search) {
+    search.value = qParam;
+  }
+
   const grid = document.getElementById('grid');
   const empty = document.getElementById('empty');
   const resetBtn = document.getElementById('reset-filters');
   const tagBtns = document.querySelectorAll('.tag-btn');
+  const techBtns = document.querySelectorAll('.tech-btn');
+  const licenseBtns = document.querySelectorAll('.license-btn');
+  const statusCbs = document.querySelectorAll('.status-cb');
+  const ossBtns = document.querySelectorAll('.oss-btn');
   const cards = document.querySelectorAll('.card');
+  const advancedToggle = document.getElementById('advanced-toggle');
+  const advancedPanel = document.getElementById('advanced-panel');
+  const filterBadge = document.getElementById('filter-badge');
+  const pagePrev = document.getElementById('page-prev');
+  const pageNext = document.getElementById('page-next');
+  const pageInfo = document.getElementById('page-info');
+  const panelReset = document.getElementById('panel-reset');
+  const settingsBtn = document.getElementById('settings-btn');
+  const settingsModal = document.getElementById('settings-modal');
+  const settingsClose = document.getElementById('settings-close');
+  const themeBtns = document.querySelectorAll('.theme-btn');
+  const hideDeadCb = document.getElementById('hide-dead');
 
   let activeTags = new Set();
+  let activeTechnologies = new Set();
+  let activeLicenses = new Set();
+  let activeStatuses = new Set();
+  let openSourceFilter = '';
+  let hideDead = localStorage.getItem('hideDead') === 'true';
+  let currentPage = 1;
+  const ITEMS_PER_PAGE = 51;
+  let filteredCards = [];
 
   function filter() {
     const query = (search?.value || '').trim().toLowerCase();
-    let visibleCount = 0;
 
+    filteredCards = [];
     cards.forEach(card => {
       const searchText = card.dataset.search || '';
       const cardTags = (card.dataset.tags || '').split(',').filter(Boolean);
+      const cardTechs = (card.dataset.techs || '').split(',').filter(Boolean);
+      const cardLicenses = (card.dataset.licenses || '').split(',').filter(Boolean);
+      const cardStatus = card.dataset.status || '';
+      const cardOSS = card.dataset.oss || '';
+
       const matchesSearch = !query || searchText.includes(query);
       const matchesTags = activeTags.size === 0 || [...activeTags].every(t => cardTags.includes(t));
+      const matchesTechs = activeTechnologies.size === 0 || [...activeTechnologies].every(t => cardTechs.includes(t));
+      const matchesLicense = activeLicenses.size === 0 || [...activeLicenses].some(l => cardLicenses.includes(l));
+      const matchesStatus = activeStatuses.size === 0 || activeStatuses.has(cardStatus);
+      const matchesOSS = !openSourceFilter || cardOSS === openSourceFilter;
+      const matchesAlive = !hideDead || cardStatus !== 'ميت ☠️';
 
-      if (matchesSearch && matchesTags) {
-        card.hidden = false;
-        visibleCount++;
-      } else {
-        card.hidden = true;
+      if (matchesSearch && matchesTags && matchesTechs && matchesLicense && matchesStatus && matchesOSS && matchesAlive) {
+        filteredCards.push(card);
       }
     });
 
-    if (visibleCount === 0) {
-      empty.hidden = false;
-      grid.hidden = true;
+    currentPage = 1;
+    showPage();
+  }
+
+  function showPage() {
+    const totalFiltered = filteredCards.length;
+    const totalPages = Math.ceil(totalFiltered / ITEMS_PER_PAGE) || 1;
+
+    let visible = 0;
+    cards.forEach(card => {
+      const isFiltered = filteredCards.includes(card);
+      if (!isFiltered) {
+        card.classList.add('hide-card');
+        return;
+      }
+      const pageIndex = filteredCards.indexOf(card);
+      const pageStart = (currentPage - 1) * ITEMS_PER_PAGE;
+      const show = pageIndex >= pageStart && pageIndex < pageStart + ITEMS_PER_PAGE;
+      card.classList.toggle('hide-card', !show);
+      if (show) visible++;
+    });
+
+    const hasVisible = visible > 0;
+    empty.classList.toggle('hide-empty', hasVisible);
+    grid.classList.toggle('hide-empty', !hasVisible);
+
+    pagePrev.disabled = currentPage <= 1;
+    pageNext.disabled = currentPage >= totalPages;
+    pageInfo.textContent = hasVisible
+      ? `الصفحة ${currentPage} من ${totalPages} (${totalFiltered} مشروعاً)`
+      : '';
+
+    const advancedCount = activeTechnologies.size + activeLicenses.size + activeStatuses.size + (openSourceFilter ? 1 : 0);
+    if (advancedCount > 0) {
+      filterBadge.textContent = advancedCount;
+      filterBadge.hidden = false;
     } else {
-      empty.hidden = true;
-      grid.hidden = false;
+      filterBadge.hidden = true;
     }
   }
 
@@ -133,15 +308,133 @@ const projectCount = projects.length;
     });
   });
 
-  resetBtn?.addEventListener('click', () => {
-    activeTags.clear();
-    tagBtns.forEach(b => b.classList.remove('active'));
-    if (search) search.value = '';
+  techBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tech = btn.dataset.tech;
+      if (activeTechnologies.has(tech)) {
+        activeTechnologies.delete(tech);
+        btn.classList.remove('active');
+      } else {
+        activeTechnologies.add(tech);
+        btn.classList.add('active');
+      }
+      filter();
+    });
+  });
+
+  licenseBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const license = btn.dataset.license;
+      if (activeLicenses.has(license)) {
+        activeLicenses.delete(license);
+        btn.classList.remove('active');
+      } else {
+        activeLicenses.add(license);
+        btn.classList.add('active');
+      }
+      filter();
+    });
+  });
+
+  statusCbs.forEach(cb => {
+    cb.addEventListener('change', () => {
+      const status = cb.dataset.status;
+      if (cb.checked) {
+        activeStatuses.add(status);
+      } else {
+        activeStatuses.delete(status);
+      }
+      filter();
+    });
+  });
+
+  ossBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const value = btn.dataset.oss;
+      if (openSourceFilter === value) {
+        openSourceFilter = '';
+      } else {
+        openSourceFilter = value;
+      }
+      ossBtns.forEach(b => b.classList.toggle('active', b.dataset.oss === openSourceFilter));
+      filter();
+    });
+  });
+
+  advancedToggle?.addEventListener('click', () => {
+    const isOpen = advancedToggle.getAttribute('aria-expanded') === 'true';
+    advancedToggle.setAttribute('aria-expanded', String(!isOpen));
+    advancedPanel.classList.toggle('open', !isOpen);
+  });
+
+  pagePrev?.addEventListener('click', () => {
+    if (currentPage > 1) { currentPage--; showPage(); }
+  });
+
+  pageNext?.addEventListener('click', () => {
+    const totalPages = Math.ceil(filteredCards.length / ITEMS_PER_PAGE) || 1;
+    if (currentPage < totalPages) { currentPage++; showPage(); }
+  });
+
+  settingsBtn?.addEventListener('click', () => settingsModal?.showModal());
+  settingsClose?.addEventListener('click', () => settingsModal?.close());
+  settingsModal?.addEventListener('click', (e) => {
+    if (e.target === settingsModal) settingsModal.close();
+  });
+
+  themeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const theme = btn.dataset.theme;
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+      themeBtns.forEach(b => b.classList.toggle('active', b.dataset.theme === theme));
+    });
+  });
+
+  hideDeadCb?.addEventListener('change', () => {
+    hideDead = hideDeadCb.checked;
+    localStorage.setItem('hideDead', String(hideDead));
     filter();
   });
+
+  function initTheme() {
+    const theme = document.documentElement.getAttribute('data-theme') || 'light';
+    themeBtns.forEach(b => b.classList.toggle('active', b.dataset.theme === theme));
+  }
+
+  function initSettings() {
+    hideDeadCb.checked = hideDead;
+    initTheme();
+  }
+
+  function resetFilters() {
+    activeTags.clear();
+    activeTechnologies.clear();
+    activeLicenses.clear();
+    activeStatuses.clear();
+    openSourceFilter = '';
+
+    tagBtns.forEach(b => b.classList.remove('active'));
+    techBtns.forEach(b => b.classList.remove('active'));
+    licenseBtns.forEach(b => b.classList.remove('active'));
+    statusCbs.forEach(cb => cb.checked = false);
+    ossBtns.forEach(b => b.classList.toggle('active', b.dataset.oss === ''));
+
+    if (search) search.value = '';
+    filter();
+  }
+
+  resetBtn?.addEventListener('click', resetFilters);
+  panelReset?.addEventListener('click', resetFilters);
+
+  initSettings();
+  filter();
 </script>
 
 <style>
+  .hide-card { display: none !important; }
+  .hide-empty { display: none !important; }
+
   .hero {
     background: var(--warm-rust);
     color: #fff;
@@ -218,10 +511,40 @@ const projectCount = projects.length;
     outline-offset: 2px;
   }
 
+  .toolbar-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+  .settings-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    background: transparent;
+    color: var(--ink-muted);
+    border: 1px solid var(--divider);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: color 0.2s var(--ease-snappy), border-color 0.2s var(--ease-snappy);
+  }
+  .settings-btn:hover {
+    color: var(--warm-rust);
+    border-color: var(--warm-rust);
+  }
+  .settings-btn:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+
   .tags-scroll {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    flex: 1;
   }
   .tags-scroll::-webkit-scrollbar {
     display: none;
@@ -261,10 +584,215 @@ const projectCount = projects.length;
     outline-offset: 2px;
   }
 
+  .advanced-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+  }
+  .advanced-toggle-bar {
+    display: flex;
+    justify-content: center;
+    padding: var(--space-sm) 0;
+  }
+  .advanced-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: 8px 20px;
+    background: transparent;
+    color: var(--ink-muted);
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.4;
+    border: 1px solid var(--divider);
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.2s var(--ease-snappy), border-color 0.2s var(--ease-snappy);
+  }
+  .advanced-toggle:hover {
+    color: var(--warm-rust);
+    border-color: var(--warm-rust);
+  }
+  .advanced-toggle:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+  .chevron-icon {
+    transition: transform 0.2s var(--ease-snappy);
+  }
+  .advanced-toggle[aria-expanded="true"] .chevron-icon {
+    transform: rotate(-90deg);
+  }
+  .filter-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 6px;
+    background: var(--warm-rust);
+    color: #fff;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    line-height: 1;
+    border-radius: var(--radius-pill);
+  }
+
+  .advanced-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s var(--ease-out), padding 0.3s var(--ease-out);
+    padding: 0;
+  }
+  .advanced-panel.open {
+    max-height: 600px;
+    padding: var(--space-lg) 0;
+  }
+  .panel-grid {
+    display: grid;
+    gap: var(--space-lg);
+  }
+  .panel-section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .panel-heading {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .panel-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    max-height: 160px;
+    overflow-y: auto;
+  }
+  .chip-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 12px;
+    background: var(--surface);
+    color: var(--ink-muted);
+    font-family: var(--font);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.4;
+    border: 1px solid var(--divider);
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    transition: background 0.2s var(--ease-snappy), color 0.2s var(--ease-snappy), border-color 0.2s var(--ease-snappy);
+  }
+  .chip-btn:hover {
+    border-color: var(--warm-rust);
+    color: var(--warm-rust);
+  }
+  .chip-btn.active {
+    background: var(--warm-rust-tint);
+    color: var(--warm-rust);
+    border-color: var(--warm-rust);
+  }
+  .chip-btn:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+
+  .status-group {
+    display: flex;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+  }
+  .status-label {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: 0.875rem;
+    color: var(--ink);
+    cursor: pointer;
+    user-select: none;
+  }
+  .status-label input {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--warm-rust);
+    cursor: pointer;
+  }
+
+  .oss-group {
+    display: flex;
+    gap: var(--space-xs);
+    flex-wrap: wrap;
+  }
+  .oss-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 16px;
+    background: var(--surface);
+    color: var(--ink-muted);
+    font-family: var(--font);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.4;
+    border: 1px solid var(--divider);
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s var(--ease-snappy), color 0.2s var(--ease-snappy), border-color 0.2s var(--ease-snappy);
+  }
+  .oss-btn:hover {
+    border-color: var(--warm-rust);
+    color: var(--warm-rust);
+  }
+  .oss-btn.active {
+    background: var(--warm-rust);
+    color: #fff;
+    border-color: var(--warm-rust);
+  }
+  .oss-btn:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+
+  .panel-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: var(--space-md);
+  }
+  .panel-reset {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 20px;
+    background: transparent;
+    color: var(--ink-muted);
+    font-family: var(--font);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.4;
+    border: 1px solid var(--divider);
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    transition: color 0.2s var(--ease-snappy), border-color 0.2s var(--ease-snappy);
+  }
+  .panel-reset:hover {
+    color: var(--warm-rust);
+    border-color: var(--warm-rust);
+  }
+  .panel-reset:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+
   .main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: var(--space-xl) var(--space-lg) var(--space-xxl);
+    padding: var(--space-xl) var(--space-lg) var(--space-md);
   }
   .grid {
     display: grid;
@@ -273,16 +801,38 @@ const projectCount = projects.length;
   }
 
   .card {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: var(--space-sm);
     padding: var(--space-lg);
     background: var(--surface);
     border-radius: var(--radius-md);
-    transition: background 0.2s var(--ease-snappy);
+    box-shadow: var(--shadow-sm);
+    transition: background 0.2s var(--ease-snappy), box-shadow 0.2s var(--ease-snappy);
   }
   .card:hover {
-    background: oklch(0.93 0.03 35 / 0.3);
+    box-shadow: var(--shadow-md);
+  }
+  .card-link {
+    color: inherit;
+    text-decoration: none;
+  }
+  .card-link:hover {
+    text-decoration: none;
+  }
+  .card-link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+  }
+  .card-footer {
+    position: relative;
+    z-index: 1;
+  }
+  .card:hover {
+    background: var(--card-hover);
   }
   .card:focus-within {
     outline: 2px solid var(--warm-rust);
@@ -310,16 +860,16 @@ const projectCount = projects.length;
     color: var(--ink-muted);
   }
   .card-status[data-status="نشط 🚀"] {
-    background: oklch(0.88 0.05 150 / 0.3);
-    color: oklch(0.40 0.12 150);
+    background: var(--status-active-bg);
+    color: var(--status-active-text);
   }
   .card-status[data-status="متوقف صيانته 😑"] {
-    background: oklch(0.88 0.05 85 / 0.3);
-    color: oklch(0.45 0.12 85);
+    background: var(--status-paused-bg);
+    color: var(--status-paused-text);
   }
   .card-status[data-status="ميت ☠️"] {
-    background: oklch(0.88 0.03 30 / 0.2);
-    color: var(--ink-muted);
+    background: var(--status-dead-bg);
+    color: var(--status-dead-text);
   }
   .card-desc {
     font-size: 0.9375rem;
@@ -411,12 +961,181 @@ const projectCount = projects.length;
     outline-offset: 2px;
   }
 
-  .footer {
-    text-align: center;
-    padding: var(--space-xl) var(--space-lg);
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-md);
+    padding: var(--space-xl) var(--space-lg) var(--space-xxl);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .page-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: 8px 18px;
+    background: var(--surface);
+    color: var(--ink);
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.4;
+    border: 1px solid var(--divider);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.2s var(--ease-snappy), border-color 0.2s var(--ease-snappy);
+  }
+  .page-btn:hover:not(:disabled) {
+    border-color: var(--warm-rust);
+    color: var(--warm-rust);
+  }
+  .page-btn:disabled {
+    opacity: 0.4;
+    cursor: default;
+  }
+  .page-btn:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+  .page-info {
+    font-size: 0.875rem;
     color: var(--ink-muted);
-    font-size: 0.8125rem;
-    border-top: 1px solid var(--divider);
+    min-width: 140px;
+    text-align: center;
+  }
+
+  .settings-modal {
+    max-width: 400px;
+    width: calc(100% - 32px);
+    padding: 0;
+    background: var(--surface);
+    color: var(--ink);
+    border: none;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+    font-family: var(--font);
+  }
+  .settings-modal::backdrop {
+    background: oklch(0 0 0 / 0.4);
+  }
+  .settings-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-lg);
+    border-bottom: 1px solid var(--divider);
+  }
+  .settings-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .settings-close {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    background: transparent;
+    color: var(--ink-muted);
+    border: none;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: color 0.2s var(--ease-snappy);
+  }
+  .settings-close:hover {
+    color: var(--ink);
+  }
+  .settings-close:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+  .settings-body {
+    padding: var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-lg);
+  }
+  .settings-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .settings-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--ink-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .theme-toggle {
+    display: flex;
+    gap: var(--space-xs);
+  }
+  .theme-btn {
+    flex: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    background: var(--surface);
+    color: var(--ink-muted);
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.4;
+    border: 1px solid var(--divider);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.2s var(--ease-snappy), border-color 0.2s var(--ease-snappy), background 0.2s var(--ease-snappy);
+  }
+  .theme-btn:hover {
+    border-color: var(--warm-rust);
+    color: var(--warm-rust);
+  }
+  .theme-btn.active {
+    background: var(--warm-rust);
+    color: #fff;
+    border-color: var(--warm-rust);
+  }
+  .theme-btn:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+  .toggle-row {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    font-size: 0.875rem;
+    color: var(--ink);
+    cursor: pointer;
+    user-select: none;
+  }
+  .toggle-row input {
+    width: 18px;
+    height: 18px;
+    accent-color: var(--warm-rust);
+    cursor: pointer;
+  }
+
+  .footer-spacer {
+    height: 0;
+  }
+
+  @media (min-width: 641px) {
+    .panel-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 960px) {
+    .panel-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
   }
 
   @media (max-width: 640px) {
@@ -426,8 +1145,11 @@ const projectCount = projects.length;
     .toolbar-inner {
       padding: var(--space-sm) var(--space-md);
     }
+    .advanced-wrap {
+      padding: 0 var(--space-md);
+    }
     .main {
-      padding: var(--space-md) var(--space-md) var(--space-xl);
+      padding: var(--space-md) var(--space-md) var(--space-sm);
     }
     .grid {
       grid-template-columns: 1fr;
@@ -435,6 +1157,10 @@ const projectCount = projects.length;
     }
     .card {
       padding: var(--space-md);
+    }
+    .pagination {
+      flex-wrap: wrap;
+      padding: var(--space-md) var(--space-md) var(--space-xl);
     }
   }
 </style>

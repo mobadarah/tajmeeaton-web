@@ -124,7 +124,7 @@
       "initiative_type": "برنامج سطح المكتب 💻",
       "tags": "القرآن الكريم",
       "last_activity": "2026-01-17",
-      "slug": "",
+      "slug": "albasheer-electronic-quran-browser",
       "technologies_list": [
         "Python"
       ],
@@ -414,7 +414,7 @@
       "initiative_type": "تطبيق ويب",
       "tags": "القرآن الكريم, تكرار الحرف, تكرار الكلمة",
       "last_activity": "2021-06-25",
-      "slug": "",
+      "slug": "open-source-tool-designed-visualize",
       "technologies_list": [
         "CSS",
         "HTML",
@@ -480,7 +480,7 @@
       "initiative_type": "مصادر",
       "tags": "أفكار لمشاريع, مصادر, مقترحات",
       "last_activity": "لا يوجد (قائمة أفكار)",
-      "slug": "",
+      "slug": "compilation-ideas-proposals-open-source",
       "technologies_list": [
         "لا يوجد"
       ],
@@ -1185,7 +1185,7 @@
       "initiative_type": "مستندات ووثائق",
       "tags": "اللغة عربية, توثيقات, معجم",
       "last_activity": "2015-02-08",
-      "slug": "",
+      "slug": "arabic-technical-terminology-open-source",
       "technologies_list": [
         "Markdown"
       ],
@@ -1215,7 +1215,7 @@
       "initiative_type": "برنامج سطح المكتب 💻, قاموس",
       "tags": "اللغة عربية, تعليم, معجم",
       "last_activity": "2014-12-10",
-      "slug": "",
+      "slug": "nibras-french-arabic-dictionary-tailored",
       "technologies_list": [
         "C++",
         "TypeScript"
@@ -1247,7 +1247,7 @@
       "initiative_type": "لغة برمجة",
       "tags": "لغة برمجة عربية",
       "last_activity": "2021-05-14",
-      "slug": "",
+      "slug": "javascript-arabic-open-source-library",
       "technologies_list": [
         "JavaScript"
       ],
@@ -1275,7 +1275,7 @@
       "initiative_type": "لغة برمجة",
       "tags": "لغة برمجة عربية",
       "last_activity": "2026-05-07",
-      "slug": "",
+      "slug": "alif-open-source-arabic-programming",
       "technologies_list": [
         "C++"
       ],
@@ -1303,7 +1303,7 @@
       "initiative_type": "لغة برمجة",
       "tags": "لغة برمجة عربية",
       "last_activity": "2021-07-06",
-      "slug": "",
+      "slug": "kalimat-open-source-arabic-programming",
       "technologies_list": [
         "C++"
       ],
@@ -1389,7 +1389,7 @@
       "initiative_type": "لغة برمجة",
       "tags": "لغة برمجة عربية",
       "last_activity": "2021-07-17",
-      "slug": "",
+      "slug": "ammoria-open-source-programming-language",
       "technologies_list": [
         "VBA"
       ],
@@ -1417,7 +1417,7 @@
       "initiative_type": "لغة برمجة",
       "tags": "لغة برمجة عربية",
       "last_activity": "2026-04-14",
-      "slug": "",
+      "slug": "repository-collecting-source-examples",
       "technologies_list": [
         "لغة خوارزم"
       ],
@@ -1535,7 +1535,7 @@
       "initiative_type": "أداة بحث",
       "tags": "قاموس, عربي-إنجليزي, بحث",
       "last_activity": "2024-12-29",
-      "slug": "mawrid-reader-arabic-dictionary-interface",
+      "slug": "arabic---english-word",
       "technologies_list": [
         "JavaScript",
         "CSS",
@@ -1860,7 +1860,7 @@
       "initiative_type": "قاموس",
       "tags": "تدقيق إملائي, قاموس, hunspell",
       "last_activity": "2020-08-27",
-      "slug": "ayaspell-arabic-dictionary-for-spellchecking",
+      "slug": "ayaspell-arabic-dictionary-hunspell",
       "technologies_list": [
         "Shell",
         "Makefile",
@@ -1892,7 +1892,7 @@
       "initiative_type": "ورقة بحثية",
       "tags": "أنواع الأعيان, أنواع الكلمات, اللغة عربية, تحليل صرفي, معالجة اللغة الطبيعية",
       "last_activity": "2020-03-12",
-      "slug": "arabic-named-entity-recognition-what-works-and-whats-next",
+      "slug": "paper-presents-winning-solution",
       "technologies_list": [
         "Machine learning",
         "NER",
@@ -2199,7 +2199,7 @@
       "initiative_type": "مشروع أكاديمي",
       "tags": "اكتشاف النصوص, اللغة عربية, خط اليد",
       "last_activity": "2016-09-19",
-      "slug": "arabic-handwriting-recognition-using-neural-network-in-matlab",
+      "slug": "handwriting-recognition-ability-computer",
       "technologies_list": [
         "Matlab",
         "Neural Networks",
@@ -2438,35 +2438,36 @@
     },
     {
       "name": "Ghalatawi, Arabic AutoCorrect",
-      "technologies": "Regular expressions, Python, Shell",
-      "license": "GPL",
-      "source_url": "http://ghalatawi.sourceforge.net/",
-      "description_en": "Arabic auto-correct word lists and regular expressions for common Arabic spelling/typing errors (confusion between Alef forms, missing Yeh dots, etc.). A project by Taha Zerrouki (linuxscout).",
-      "description_ar": "قوائم تصحيح تلقائي للكلمات العربية وتعبيرات منتظمة للأخطاء الإملائية الشائعة في الكتابة العربية (الخلط بين الألفات والهاء والتاء المربوطة وغيرها)",
+      "technologies": "NLP, Python, Regular expressions",
+      "license": "GPL-3.0",
+      "source_url": "https://github.com/linuxscout/ghalatawi",
+      "description_en": "Ghalatawi: Arabic AutoCorrect library. A Python library for automatic correction of common Arabic spelling and typing errors, providing word lists and regular expressions. Supports integration with LibreOffice/OpenOffice and provides a pip-installable package.",
+      "description_ar": "مكتبة غلطاوي للتصحيح التلقائي للغة العربية. مكتبة بايثون للتصحيح التلقائي للأخطاء الإملائية والشائعة في الكتابة العربية، توفر قوائم كلمات وتعبيرات منتظمة. تدعم التكامل مع ليبرأوفيس وأوبنأوفيس ويمكن تثبيتها عبر pip.",
       "status": "ميت ☠️",
-      "links": "http://ghalatawi.sourceforge.net/",
+      "links": "https://github.com/linuxscout/ghalatawi, https://pypi.org/project/ghalatawi/",
       "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
       "open_source": "Yes",
       "initiative_type": "قواميس وأدوات",
-      "tags": "تصحيح إملائي, SourceForge, قوالب, تعابير منتظمة",
-      "last_activity": "2012-09-30",
+      "tags": "تصحيح إملائي, تعابير منتظمة, قوالب, مكتبة برمجية",
+      "last_activity": "2023-01-05",
       "slug": "ghalatawi-arabic-autocorrect",
       "technologies_list": [
-        "Regular expressions",
+        "NLP",
         "Python",
-        "Shell"
+        "Regular expressions"
       ],
       "tags_list": [
         "تصحيح إملائي",
-        "SourceForge",
+        "تعابير منتظمة",
         "قوالب",
-        "تعابير منتظمة"
+        "مكتبة برمجية"
       ],
       "initiative_type_list": [
         "قواميس وأدوات"
       ],
       "links_list": [
-        "http://ghalatawi.sourceforge.net/"
+        "https://github.com/linuxscout/ghalatawi",
+        "https://pypi.org/project/ghalatawi/"
       ]
     },
     {
@@ -2822,7 +2823,7 @@
     {
       "name": "Qutrub",
       "technologies": "NLP, Python",
-      "license": "License",
+      "license": "GPL-2.0",
       "source_url": "https://github.com/linuxscout/qutrub",
       "description_en": "Arabic verb conjugation software",
       "description_ar": "تصريف الأفعال العربية",
@@ -3023,7 +3024,7 @@
       "initiative_type": "خط عربي",
       "tags": "اللغة عربية, تقنية, خط, فونت, ويب",
       "last_activity": "2021-12-18",
-      "slug": "",
+      "slug": "monospace-font-arabic-code",
       "technologies_list": [
         "خط (Font)"
       ],
@@ -3118,7 +3119,7 @@
       "initiative_type": "فريق مبادر",
       "tags": "اللغة عربية, تحسين تجربة المستخدم, تقنية",
       "last_activity": "2021-04-21",
-      "slug": "arabic-initiative-for-user-experience-aiux",
+      "slug": "arabic-initiative-user-experience",
       "technologies_list": [
         "SCSS"
       ],
@@ -3176,7 +3177,7 @@
       "initiative_type": "فريق مبادر, مجتمع",
       "tags": "برمجيات حرة, مفتوح المصدر, مجتمع عربي, Linux, أسس",
       "last_activity": "2026-06-04",
-      "slug": "",
+      "slug": "aosus-biggest-they-arabic",
       "technologies_list": [
         "CSS",
         "HTML",
@@ -3217,7 +3218,7 @@
       "initiative_type": "فريق مبادر, مجتمع",
       "tags": "إسلام, اللغة عربية, توثيقات, فهرس, معجم, مكتبة, نظام تشغيل",
       "last_activity": "2024-03-26",
-      "slug": "",
+      "slug": "http-ojuba-org-arabic",
       "technologies_list": [
         "HTML",
         "Python",
@@ -3248,14 +3249,14 @@
       "source_url": "",
       "description_en": "An Arabic top-level domain initiative enabling Arabic speakers to use Arabic script in website addresses.",
       "description_ar": "عبر .شبكة، هناك إمكانية أن يتواصل أكثر من 380 مليون ناطق باللغة العربية في منطقة الشرق الأوسط وشمال أفريقيا فقط! ومن المعروف أن العربية هي اللغة الخامسة على مستوى العالم من حيث عدد الناطقين بها والأسرع انتشاراً على الإنترنت (فقد حققت نمواً ملحوظاً بمعدل 2500% في السنوات العشرة المنتهية في العام 2011 مقارنة باللغة الإنجليزية التي سجلت معدل 300% في الفترة نفسها).",
-      "status": "نشط 🚀",
-      "links": "https://xn--ggbla1c4e.xn--ngbc5azd/",
+      "status": "ميت ☠️",
+      "links": "https://web.archive.org/web/20210122113954/http://xn--ggbla1c4e.xn--ngbc5azd/",
       "last_modified": "٤ يونيو ٢٠٢٦ ٧:٥٢ م",
       "open_source": "Yes",
       "initiative_type": "اسم نطاق, خدمات سحابية",
       "tags": "اسم النطاق, برمجة, خدمات سحابية, ويب",
       "last_activity": "2016-10-15",
-      "slug": "",
+      "slug": "arabic-top-level-domain-initiative",
       "technologies_list": [
         "اسم نطاق"
       ],
@@ -3287,7 +3288,7 @@
       "initiative_type": "اسم نطاق, خدمات سحابية",
       "tags": "اسم النطاق, برمجة, خدمات سحابية, ويب",
       "last_activity": "2018-05-20",
-      "slug": "",
+      "slug": "domain-arabic-top-level-domain",
       "technologies_list": [
         "اسم نطاق"
       ],
@@ -3599,7 +3600,7 @@
       "initiative_type": "تطبيق ويب, مكتبة برمجية",
       "tags": "التشكيل, اللغة عربية, معالجة اللغة الطبيعية",
       "last_activity": "2025-09-04",
-      "slug": "",
+      "slug": "arabic-services-versatile-library",
       "technologies_list": [
         "Java",
         "JavaScript",
