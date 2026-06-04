@@ -483,13 +483,14 @@
     "الوصف بالإنجليزية": "A Discord bot that supports Qur'an, hadith, prayer times, tafsir and more.",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "قيد الانتظار ⏳",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٩ م",
     "مسؤول البيانات": "MohammedAnwer",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": "discord-bot, quran, prayer-times, islam, hadith, tafsir"
+    "وسوم": "discord-bot, quran, prayer-times, islam, hadith, tafsir",
+    "آخر نشاط": "2026-01-06"
   },
   {
     "Name": "Muslim-App (Daily Muslim's Fortress App)",
@@ -532,13 +533,14 @@
     "الوصف بالإنجليزية": "KhattSeen: Arabic Mathematical Notation Typesetting System",
     "الوصف بالعربية": "خط سين: نظام تنضيد (كتابة) الرياضيات بالعربية Khatt.Seen: Arabic Mathematical Notation Typesetting System أدخل أوامر هنا: الصور الناتجة عن نظام خط.س مرخصة تحت الملكية العامة. Images rendered by Khatt.Seen are under public domain license.",
     "حالة البيانات": "قيد العمل 💪🏻",
-    "حالة المشروع": "قيد الانتظار ⏳",
+    "حالة المشروع": "متوقف صيانته 😑",
     "روابط": "",
     "زمن آخر تعديل": "٩ نوفمبر ٢٠٢٤ ١:٢٤ ص",
     "مسؤول البيانات": "Omar Seifelnasr",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "أداة تنضيد",
-    "وسوم": "خط, دعم الرياضيات بالعربية"
+    "وسوم": "خط, دعم الرياضيات بالعربية",
+    "آخر نشاط": "2020"
   },
   {
     "Name": "MathJax Arabic Extension",
@@ -581,7 +583,7 @@
     "الوصف بالإنجليزية": "The Technical Dictionary ARABTERM.ORG is a joint publication of the Arab League Educational, Cultural and Scientific Organization (ALECSO) and the German Federal Ministry for Economic Cooperation and Development (BMZ).\n\n\nIt was developed as part of a regional project financed by BMZ that the Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) has been carrying out since 2008 in collaboration with the Goethe-Institut. It is an independent project based on the measures for standardising technical Arabic terminology, which are being led by the Arabisation Coordination Bureau (BCA) in Rabat on behalf of ALECSO.\n\n\nThese standardisation measures are governed by the decisions made at the General Conferences on Arabisation, organised and held regularly by ALECSO, and attended by language academies and education ministers from Arab League member states. These measures also have been reflected in the 'standardised dictionary' published by ALECSO. In ARABTERM, an asterisk marks each entry that has already undergone this Arabisation process.\n\n\nThe Technical Dictionary ARABTERM, organised per industry sector, provides a generally accessible reference for the consistent translation of textbooks, curricula, technical manuals and other specialised texts. The first volume on automotive engineering was released in May 2010 and is available on this website to all users free of charge. Additional volumes will be added successively.\n\n\nUsers are encouraged to actively contribute to the dictionary. An interactive discussion forum offers you the opportunity to exchange ideas on linguistic problem areas in the various disciplines, as well as suggest new terms or more detailed definitions. These discussions and suggestions will provide the basis for an annual revision of the databank conducted by the Arab-German expert groups.",
     "الوصف بالعربية": "",
     "حالة البيانات": "قيد العمل 💪🏻",
-    "حالة المشروع": "قيد الانتظار ⏳",
+    "حالة المشروع": "نشط 🚀",
     "روابط": "",
     "زمن آخر تعديل": "٩ نوفمبر ٢٠٢٤ ١:٢٥ ص",
     "مسؤول البيانات": "Omar Seifelnasr",
@@ -815,13 +817,14 @@
     "الوصف بالإنجليزية": "Arabic - English word based dictionaries compilation",
     "الوصف بالعربية": "",
     "حالة البيانات": "احتاج مساعدة 🚨",
-    "حالة المشروع": "قيد الانتظار ⏳",
+    "حالة المشروع": "متوقف صيانته 😑",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١٠:٥٧ م",
     "مسؤول البيانات": "Omar Seifelnasr",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": ""
+    "وسوم": "",
+    "آخر نشاط": "2024-12-29"
   },
   {
     "Name": "Noor programming language",
@@ -1030,13 +1033,14 @@
     "الوصف بالإنجليزية": "A code for transliterating (romanizing) Arabic text using the American Library Association - Library of Congress (ALA-LC) standard",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "قيد الانتظار ⏳",
+    "حالة المشروع": "متوقف صيانته 😑",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٢ م",
     "مسؤول البيانات": "محمد الصوالحي",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": ""
+    "وسوم": "",
+    "آخر نشاط": "2022-05-15"
   },
   {
     "Name": "Arabic Word Embeddings Word2vec",
@@ -1046,13 +1050,14 @@
     "الوصف بالإنجليزية": "Arabic Word Embeddings Word2vec",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "قيد الانتظار ⏳",
+    "حالة المشروع": "ميت ☠️",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٢ م",
     "مسؤول البيانات": "محمد الصوالحي",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": "python, nlp, flask, ai, word2vec, word-embeddings, arabic"
+    "وسوم": "python, nlp, flask, ai, word2vec, word-embeddings, arabic",
+    "آخر نشاط": "2018-12-13"
   },
   {
     "Name": "raqin",
@@ -1062,13 +1067,14 @@
     "الوصف بالإنجليزية": "",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "قيد الانتظار ⏳",
+    "حالة المشروع": "ميت ☠️",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٢ م",
     "مسؤول البيانات": "محمد الصوالحي",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": ""
+    "وسوم": "",
+    "آخر نشاط": "2021-12-18"
   },
   {
     "Name": "Arabic_OCR",
@@ -1078,13 +1084,14 @@
     "الوصف بالإنجليزية": "This repo contains Arabic OCR App",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "قيد الانتظار ⏳",
+    "حالة المشروع": "متوقف صيانته 😑",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٢ م",
     "مسؤول البيانات": "محمد الصوالحي",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": ""
+    "وسوم": "",
+    "آخر نشاط": "2022-09-07"
   },
   {
     "Name": "ARBML",
@@ -1111,13 +1118,14 @@
     "الوصف بالإنجليزية": "Collection of various Arabic NLP and Text Processing Scripts and Utilities",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "قيد الانتظار ⏳",
+    "حالة المشروع": "ميت ☠️",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١١ م",
     "مسؤول البيانات": "محمد الصوالحي",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": ""
+    "وسوم": "",
+    "آخر نشاط": "2013-10-10"
   },
   {
     "Name": "Arabic-OCR",
@@ -1127,13 +1135,14 @@
     "الوصف بالإنجليزية": "OCR system for Arabic language that converts images of typed text to machine-encoded text.",
     "الوصف بالعربية": "",
     "حالة البيانات": "قيد العمل 💪🏻",
-    "حالة المشروع": "قيد الانتظار ⏳",
+    "حالة المشروع": "متوقف صيانته 😑",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١٠:٥٣ م",
     "مسؤول البيانات": "محمد الصوالحي",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": "machine-learning, ocr, computer-vision, neural-network, scikit-learn, image-processing, dataset, segmentation, arabic, opencv-python, character-segmentation"
+    "وسوم": "machine-learning, ocr, computer-vision, neural-network, scikit-learn, image-processing, dataset, segmentation, arabic, opencv-python, character-segmentation",
+    "آخر نشاط": "2023-10-04"
   },
   {
     "Name": "Arabic Handwriting Recognition Using Neural Network in MATLAB",
@@ -1268,16 +1277,17 @@
     "التقنيات": "",
     "الرخصة": "",
     "الكود المصدري": "http://ghalatawi.sourceforge.net/",
-    "الوصف بالإنجليزية": "This repository contains the models, dataset, helpers, and systems' comparison for our paper on Arabic Text Diacritization: \" Neural Arabic Text Diacritization: State of the Art Results and a Novel Approach for Machine Translation\", Ali Fadel, Ibraheem Tuffaha, Bara' Al-Jawarneh and Mahmoud Al-Ayyoub, EMNLP-IJCNLP 2019.",
+    "الوصف بالإنجليزية": "Arabic auto-correct word lists and regular expressions for common Arabic spelling/typing errors (confusion between Alef forms, missing Yeh dots, etc.). A project by Taha Zerrouki (linuxscout).",
     "الوصف بالعربية": "",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "قيد الانتظار ⏳",
+    "حالة المشروع": "ميت ☠️",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١١:١٠ م",
     "مسؤول البيانات": "MohammedAnwer",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": ""
+    "وسوم": "",
+    "آخر نشاط": "2012-09-30"
   },
   {
     "Name": "duali",
@@ -1370,13 +1380,14 @@
     "الوصف بالإنجليزية": "JavaScript Arabic Stemmer",
     "الوصف بالعربية": "",
     "حالة البيانات": "احتاج مساعدة 🚨",
-    "حالة المشروع": "قيد الانتظار ⏳",
+    "حالة المشروع": "ميت ☠️",
     "روابط": "",
     "زمن آخر تعديل": "٩ نوفمبر ٢٠٢٤ ٣:٣٦ م",
     "مسؤول البيانات": "أحمد الطبراني",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": ""
+    "وسوم": "",
+    "آخر نشاط": "2012-12-01"
   },
   {
     "Name": "arabicstemmer",
@@ -1797,13 +1808,14 @@
     "الوصف بالإنجليزية": "Full RTL version of SimpleMDE - Markdown Editor",
     "الوصف بالعربية": "Full RTL version of SimpleMDE Markdown Editor for Arabic, Persian, and Urdu languages. npm install simplemde-rtl --save Via jsDelivr. Please note, jsDelivr may take a few days to update to the latest release.",
     "حالة البيانات": "تحت الانتظار ⌛",
-    "حالة المشروع": "قيد الانتظار ⏳",
+    "حالة المشروع": "ميت ☠️",
     "روابط": "",
     "زمن آخر تعديل": "٢٨ أبريل ٢٠٢٦ ١٠:٥٤ م",
     "مسؤول البيانات": "محمد الصوالحي",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "",
-    "وسوم": "محررات نصوص"
+    "وسوم": "محررات نصوص",
+    "آخر نشاط": "2021-02-16"
   },
   {
     "Name": "Arabic voices for Festival TTS",
