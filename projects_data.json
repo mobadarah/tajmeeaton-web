@@ -835,15 +835,16 @@
     "الرخصة": "",
     "الكود المصدري": "https://github.com/SimplyAhmazing/noor",
     "الوصف بالإنجليزية": "Noor is a simple, yet aHmazing arabic programming language. It it is currently in development mode and is being further defined and refined. It is implemented in Javascript.\n\n\nNoor comes with an IDE built to make it easy to write code in an arabic environment.",
-    "الوصف بالعربية": "",
+    "الوصف بالعربية": "نور هي لغة برمجة عربية بسيطة تهدف لتسهيل تعلم البرمجة للمبتدئين الناطقين بالعربية",
     "حالة البيانات": "قيد العمل 💪🏻",
-    "حالة المشروع": "متوقف صيانته 😑",
-    "روابط": "",
+    "حالة المشروع": "ميت ☠️",
+    "روابط": "https://github.com/SimplyAhmazing/noor",
     "زمن آخر تعديل": "٩ نوفمبر ٢٠٢٤ ١:٥٠ ص",
     "مسؤول البيانات": "Omar Seifelnasr",
     "مفتوح المصدر": "Yes",
     "نوع المبادرة": "لغة برمجة",
-    "وسوم": ""
+    "وسوم": "لغة برمجة عربية, تعليم",
+    "آخر نشاط": "2018-11-05"
   },
   {
     "Name": "Coursera Arabic Subtitle Translation",
