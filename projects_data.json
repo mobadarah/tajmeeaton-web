@@ -255,22 +255,6 @@
     "آخر نشاط": "لا يوجد (قائمة أفكار)"
   },
   {
-    "Name": "Ayaaty",
-    "التقنيات": "CSS, Java, JavaFX",
-    "الرخصة": "MIT",
-    "الكود المصدري": "https://github.com/YassineLafryhi/Ayaaty",
-    "الوصف بالإنجليزية": "A JAVA desktop application to listen to quran, show quranic supplications and Dhikr Install the fonts, which are located in /fonts/.",
-    "الوصف بالعربية": "تطبيق سطح مكتب بلغة JAVA للاستماع إلى القرآن، وعرض الأدعية القرآنية والذكر. قم بتثبيت الخطوط الموجودة في /fonts/.",
-    "حالة البيانات": "اكتمل ✅",
-    "حالة المشروع": "متوقف صيانته 😑",
-    "روابط": "https://github.com/YassineLafryhi/Ayaaty",
-    "زمن آخر تعديل": "٢ نوفمبر ٢٠٢٤ ٢:٥٧ م",
-    "مسؤول البيانات": "محمد الصوالحي",
-    "مفتوح المصدر": "Yes",
-    "نوع المبادرة": "برنامج سطح المكتب 💻",
-    "وسوم": "أذكار والمساء, الأذكار, القرآن الكريم"
-  },
-  {
     "Name": "قاعدة بيانات للقرآن الكريم SQLite",
     "التقنيات": "Database, Dataset, SQLite",
     "الرخصة": "MIT",
