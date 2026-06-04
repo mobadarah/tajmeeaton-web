@@ -851,16 +851,17 @@
     "التقنيات": "JavaScript, NLP",
     "الرخصة": "MIT",
     "الكود المصدري": "https://github.com/imAbdelhadi/coursera-subtitle-translation-arabic",
-    "الوصف بالإنجليزية": "The book 100 Supplications from the Qur’an and the Authentic Sunnah is a book that contains 100 supplications from the Qur’an and the Authentic Sunnah, and they were compiled by Sheikh Muhammad Salih Al-Munajjid.",
-    "الوصف بالعربية": "",
+    "الوصف بالإنجليزية": "A browser extension that automatically translates Coursera subtitles to Arabic using Google Translate. Supports bilingual display of Arabic and English subtitles.",
+    "الوصف بالعربية": "إضافة متصفح تترجم ترجمات دورات كورسيرا إلى العربية تلقائياً باستخدام ترجمة جوجل، مع دعم العرض الثنائي للغة العربية والإنجليزية",
     "حالة البيانات": "قيد العمل 💪🏻",
     "حالة المشروع": "متوقف صيانته 😑",
-    "روابط": "",
+    "روابط": "https://github.com/imAbdelhadi/coursera-subtitle-translation-arabic",
     "زمن آخر تعديل": "١ نوفمبر ٢٠٢٤ ١:٢٧ م",
     "مسؤول البيانات": "Omar Seifelnasr",
     "مفتوح المصدر": "No",
     "نوع المبادرة": "تعليم",
-    "وسوم": "اللغة عربية"
+    "وسوم": "اللغة عربية",
+    "آخر نشاط": "2021-03-14"
   },
   {
     "Name": "The Modern JavaScript Tutorial in Arabic",
