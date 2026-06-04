@@ -1,0 +1,440 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { projects } from '../data/projects.json';
+
+const allTags = [...new Set(projects.flatMap(p =>
+  (p.tags || '').split(',').map(t => t.trim()).filter(Boolean)
+))].sort((a, b) => a.localeCompare(b, 'ar'));
+
+const statusOrder: Record<string, number> = { 'نشط 🚀': 0, 'متوقف صيانته 😑': 1, 'ميت ☠️': 2 };
+const sortedProjects = [...projects].sort((a, b) => {
+  const sa = statusOrder[a.status] ?? 99;
+  const sb = statusOrder[b.status] ?? 99;
+  if (sa !== sb) return sa - sb;
+  return (b.last_activity || '').localeCompare(a.last_activity || '');
+});
+const defaultDesc = 'قائمة المشاريع العربية مفتوحة المصدر · دليل شامل للمشاريع التقنية العربية';
+const projectCount = projects.length;
+---
+
+<BaseLayout title="تجميعات تقنية · دليل المشاريع العربية مفتوحة المصدر" description={defaultDesc}>
+  <header class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">تجميعات تقنية</h1>
+      <p class="hero-subtitle">دليل المشاريع العربية مفتوحة المصدر · {projectCount} مشروعاً</p>
+    </div>
+  </header>
+
+  <div class="toolbar" id="toolbar">
+    <div class="toolbar-inner">
+      <div class="search-wrap">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <input class="search-input" type="search" id="search" placeholder="ابحث عن مشروع…" autocomplete="off">
+      </div>
+      <div class="tags-scroll" id="tags-scroll">
+        <div class="tags-row" id="tags-row">
+          {allTags.map(tag => (
+            <button class="tag-btn" data-tag={tag} type="button">{tag}</button>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="grid" id="grid">
+      {sortedProjects.map(p => {
+        const tags = (p.tags || '').split(',').map(t => t.trim()).filter(Boolean);
+        const technologies = (p.technologies || '').split(',').map(t => t.trim()).filter(Boolean);
+        const searchText = [p.name, p.description_ar, p.description_en, ...tags, ...technologies].filter(Boolean).join(' ').toLowerCase();
+        return (
+          <article class="card" data-name={p.name} data-status={p.status} data-tags={tags.join(',')} data-search={searchText}>
+            <div class="card-header">
+              <h2 class="card-title">{p.name}</h2>
+              <span class="card-status" data-status={p.status}>{p.status}</span>
+            </div>
+            <p class="card-desc">{p.description_ar || p.description_en}</p>
+            <div class="card-meta">
+              {tags.slice(0, 4).map(t => <span class="card-tag">{t}</span>)}
+              {tags.length > 4 && <span class="card-tag card-tag-more">+{tags.length - 4}</span>}
+            </div>
+            <div class="card-footer">
+              <a class="card-source" href={p.source_url || '#'} target="_blank" rel="noopener">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                المصدر
+              </a>
+              {p.license && <span class="card-license">{p.license}</span>}
+            </div>
+          </article>
+        );
+      })}
+    </div>
+    <div class="empty" id="empty" hidden>
+      <p class="empty-text">لا توجد مشاريع تطابق بحثك</p>
+      <button class="empty-reset" id="reset-filters" type="button">إعادة تعيين الفلاتر</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>تجميعات تقنية · مشاريع عربية مفتوحة المصدر</p>
+  </footer>
+</BaseLayout>
+
+<script>
+  const search = document.getElementById('search');
+  const grid = document.getElementById('grid');
+  const empty = document.getElementById('empty');
+  const resetBtn = document.getElementById('reset-filters');
+  const tagBtns = document.querySelectorAll('.tag-btn');
+  const cards = document.querySelectorAll('.card');
+
+  let activeTags = new Set();
+
+  function filter() {
+    const query = (search?.value || '').trim().toLowerCase();
+    let visibleCount = 0;
+
+    cards.forEach(card => {
+      const searchText = card.dataset.search || '';
+      const cardTags = (card.dataset.tags || '').split(',').filter(Boolean);
+      const matchesSearch = !query || searchText.includes(query);
+      const matchesTags = activeTags.size === 0 || [...activeTags].every(t => cardTags.includes(t));
+
+      if (matchesSearch && matchesTags) {
+        card.hidden = false;
+        visibleCount++;
+      } else {
+        card.hidden = true;
+      }
+    });
+
+    if (visibleCount === 0) {
+      empty.hidden = false;
+      grid.hidden = true;
+    } else {
+      empty.hidden = true;
+      grid.hidden = false;
+    }
+  }
+
+  search?.addEventListener('input', filter);
+
+  tagBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tag = btn.dataset.tag;
+      if (activeTags.has(tag)) {
+        activeTags.delete(tag);
+        btn.classList.remove('active');
+      } else {
+        activeTags.add(tag);
+        btn.classList.add('active');
+      }
+      filter();
+    });
+  });
+
+  resetBtn?.addEventListener('click', () => {
+    activeTags.clear();
+    tagBtns.forEach(b => b.classList.remove('active'));
+    if (search) search.value = '';
+    filter();
+  });
+</script>
+
+<style>
+  .hero {
+    background: var(--warm-rust);
+    color: #fff;
+    padding: var(--space-xxl) var(--space-lg);
+    text-align: center;
+  }
+  .hero-content {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .hero-title {
+    font-size: clamp(1.75rem, 5vw, 3rem);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-sm);
+  }
+  .hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-weight: 400;
+    line-height: 1.5;
+    color: oklch(0.85 0.04 35);
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--page);
+    border-bottom: 1px solid var(--divider);
+  }
+  .toolbar-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--space-md) var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .search-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .search-icon {
+    position: absolute;
+    right: 14px;
+    color: var(--ink-muted);
+    pointer-events: none;
+  }
+  .search-input {
+    width: 100%;
+    padding: 10px 40px 10px 14px;
+    background: var(--surface);
+    color: var(--ink);
+    font-family: var(--font);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    border: 1px solid var(--divider);
+    border-radius: var(--radius-md);
+    outline: none;
+    transition: border-color 0.2s var(--ease-snappy);
+  }
+  .search-input::placeholder {
+    color: var(--ink-muted);
+  }
+  .search-input:focus {
+    border-color: var(--warm-rust);
+  }
+  .search-input:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+
+  .tags-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .tags-scroll::-webkit-scrollbar {
+    display: none;
+  }
+  .tags-row {
+    display: flex;
+    gap: var(--space-sm);
+    padding: var(--space-xs) 0;
+    width: max-content;
+  }
+  .tag-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 14px;
+    background: var(--warm-rust-tint);
+    color: var(--warm-rust);
+    font-family: var(--font);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.4;
+    border: none;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    transition: background 0.2s var(--ease-snappy), color 0.2s var(--ease-snappy);
+  }
+  .tag-btn:hover {
+    background: var(--warm-rust-tint-hover);
+  }
+  .tag-btn.active {
+    background: var(--warm-rust);
+    color: #fff;
+  }
+  .tag-btn:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+
+  .main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--space-xl) var(--space-lg) var(--space-xxl);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--space-lg);
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+    padding: var(--space-lg);
+    background: var(--surface);
+    border-radius: var(--radius-md);
+    transition: background 0.2s var(--ease-snappy);
+  }
+  .card:hover {
+    background: oklch(0.93 0.03 35 / 0.3);
+  }
+  .card:focus-within {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+  .card-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-sm);
+  }
+  .card-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--ink);
+  }
+  .card-status {
+    font-size: 0.75rem;
+    font-weight: 500;
+    white-space: nowrap;
+    padding: 2px 8px;
+    border-radius: var(--radius-sm);
+    background: var(--warm-rust-tint);
+    color: var(--ink-muted);
+  }
+  .card-status[data-status="نشط 🚀"] {
+    background: oklch(0.88 0.05 150 / 0.3);
+    color: oklch(0.40 0.12 150);
+  }
+  .card-status[data-status="متوقف صيانته 😑"] {
+    background: oklch(0.88 0.05 85 / 0.3);
+    color: oklch(0.45 0.12 85);
+  }
+  .card-status[data-status="ميت ☠️"] {
+    background: oklch(0.88 0.03 30 / 0.2);
+    color: var(--ink-muted);
+  }
+  .card-desc {
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--ink-muted);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-xs);
+    margin-top: auto;
+  }
+  .card-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    background: var(--warm-rust-tint);
+    color: var(--warm-rust);
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.4;
+    border-radius: var(--radius-pill);
+  }
+  .card-tag-more {
+    background: transparent;
+    color: var(--ink-muted);
+  }
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-sm);
+    padding-top: var(--space-sm);
+    border-top: 1px solid var(--divider);
+  }
+  .card-source {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    color: var(--warm-rust);
+  }
+  .card-source:hover {
+    text-decoration: underline;
+  }
+  .card-license {
+    font-size: 0.75rem;
+    color: var(--ink-muted);
+    max-width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .empty {
+    text-align: center;
+    padding: var(--space-xxl) var(--space-lg);
+  }
+  .empty-text {
+    font-size: 1.125rem;
+    color: var(--ink-muted);
+    margin-bottom: var(--space-lg);
+  }
+  .empty-reset {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 24px;
+    background: var(--warm-rust);
+    color: #fff;
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.4;
+    border: none;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: background 0.2s var(--ease-snappy);
+  }
+  .empty-reset:hover {
+    background: var(--warm-rust-hover);
+  }
+  .empty-reset:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: var(--space-xl) var(--space-lg);
+    color: var(--ink-muted);
+    font-size: 0.8125rem;
+    border-top: 1px solid var(--divider);
+  }
+
+  @media (max-width: 640px) {
+    .hero {
+      padding: var(--space-xl) var(--space-md);
+    }
+    .toolbar-inner {
+      padding: var(--space-sm) var(--space-md);
+    }
+    .main {
+      padding: var(--space-md) var(--space-md) var(--space-xl);
+    }
+    .grid {
+      grid-template-columns: 1fr;
+      gap: var(--space-md);
+    }
+    .card {
+      padding: var(--space-md);
+    }
+  }
+</style>
