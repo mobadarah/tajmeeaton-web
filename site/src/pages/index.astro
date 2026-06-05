@@ -1,40 +1,38 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import { projects } from '../data/projects.json';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { projects } from "../data/projects.json";
+import {
+	technologies as allTechnologies,
+	tags as allTags,
+	licenses as allLicenses,
+} from "../data/schemas.json";
 
-const statusOrder = { 'نشط 🚀': 0, 'متوقف صيانته 😑': 1, 'ميت ☠️': 2 };
+const statusOrder = { "نشط 🚀": 0, "متوقف صيانته 😑": 1, "ميت ☠️": 2 };
 const sortedProjects = [...projects].sort((a, b) => {
-  const sa = statusOrder[a.status] ?? 99;
-  const sb = statusOrder[b.status] ?? 99;
-  if (sa !== sb) return sa - sb;
-  return (b.last_activity || '').localeCompare(a.last_activity || '');
+	const sa = statusOrder[a.status] ?? 99;
+	const sb = statusOrder[b.status] ?? 99;
+	if (sa !== sb) return sa - sb;
+	return (b.last_activity || "").localeCompare(a.last_activity || "");
 });
 
 const statuses = Object.keys(statusOrder);
-const statusLabels = { 'نشط 🚀': 'نشط', 'متوقف صيانته 😑': 'متوقف', 'ميت ☠️': 'ميت' };
-
-const allTags = [...new Set(projects.flatMap(p =>
-  (p.tags || '').split(',').map(t => t.trim()).filter(Boolean)
-))].sort((a, b) => a.localeCompare(b, 'ar'));
-
-const allTechnologies = [...new Set(projects.flatMap(p =>
-  (p.technologies || '').split(',').map(t => t.trim()).filter(Boolean)
-))].sort((a, b) => a.localeCompare(b, 'ar'));
-
-const allLicenses = [...new Set(projects.flatMap(p =>
-  (p.license || '').split(',').map(l => l.trim()).filter(Boolean)
-))].sort((a, b) => a.localeCompare(b, 'ar'));
+const statusLabels = {
+	"نشط 🚀": "نشط",
+	"متوقف صيانته 😑": "متوقف",
+	"ميت ☠️": "ميت",
+};
 
 const projectCount = projects.length;
 const base = import.meta.env.BASE_URL;
-const defaultDesc = 'قائمة المشاريع العربية التقنية وغير التقنية التي تهدف لتقديم النفع للأمة كهدف أساسي';
+const defaultDesc =
+	"قائمة المشاريع التقنية وغير التقنية التي تهدف لتقديم النفع للأمة كهدف أساسي";
 ---
 
 <BaseLayout title="التجميعة · القائمة" description={defaultDesc}>
   <header class="hero">
     <div class="hero-content">
       <h1 class="hero-title">التجميعة</h1>
-      <p class="hero-subtitle">قائمة المشاريع العربية التقنية وغير التقنية · {projectCount} مشروعاً</p>
+      <p class="hero-subtitle">قائمة المشاريع التقنية وغير التقنية · {projectCount} مشروعاً</p>
     </div>
   </header>
 
@@ -112,9 +110,9 @@ const defaultDesc = 'قائمة المشاريع العربية التقنية �
   <main class="main">
     <div class="grid" id="grid">
       {sortedProjects.map(p => {
-        const tags = (p.tags || '').split(',').map(t => t.trim()).filter(Boolean);
-        const technologies = (p.technologies || '').split(',').map(t => t.trim()).filter(Boolean);
-        const licenses = (p.license || '').split(',').map(l => l.trim()).filter(Boolean);
+        const tags = p.tags || [];
+        const technologies = p.technologies || [];
+        const licenses = p.license ? [p.license] : [];
         const searchText = [p.name, p.description_ar, p.description_en, ...tags, ...technologies].filter(Boolean).join(' ').toLowerCase();
         return (
           <article class="card" data-tags={tags.join(',')} data-techs={technologies.join(',')} data-licenses={licenses.join(',')} data-status={p.status} data-oss={p.open_source} data-search={searchText}>
