@@ -151,6 +151,21 @@ If modifying `projects.json` or `schemas.json`:
    ```
 3. Run `biome format --write .` before committing.
 
+## Supabase
+
+The project uses Supabase for database management. Schema, migrations, and seed data live under `supabase/`.
+
+- **Migration files** — `supabase/migrations/<timestamp>_<name>.sql`
+- **Seed data** — `supabase/seed.sql` (generated from `site/src/data/*.json`)
+- **Generation script** — `supabase/scripts/generate-seed.mjs`
+- **Config** — `supabase/config.toml`
+
+After any change to `schemas.json` or `projects.json`, re-generate the seed:
+
+```bash
+node supabase/scripts/generate-seed.mjs
+```
+
 ## Arabic / RTL Content
 
 When writing markdown files that contain Arabic text (issues, comments, docs), wrap Arabic paragraphs in `<div dir=rtl>` to ensure proper rendering on GitHub and other platforms:
