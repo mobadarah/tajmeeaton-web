@@ -166,6 +166,17 @@ After any change to `schemas.json` or `projects.json`, re-generate the seed:
 node supabase/scripts/generate-seed.mjs
 ```
 
+## Base URL Pattern
+
+When linking to other pages within the site, always use the `base` variable with a leading slash:
+
+```astro
+const base = import.meta.env.BASE_URL;
+<a href={base + '/page-name/'}>صفحة</a>
+```
+
+`import.meta.env.BASE_URL` does **not** include a trailing slash (e.g. `/tajmeeaton-web`), so always add `/` between `base` and the path. The path should end with `/` for consistency.
+
 ## Arabic / RTL Content
 
 When writing markdown files that contain Arabic text (issues, comments, docs), wrap Arabic paragraphs in `<div dir=rtl>` to ensure proper rendering on GitHub and other platforms:

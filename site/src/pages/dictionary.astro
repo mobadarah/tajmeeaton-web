@@ -1,0 +1,300 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import entries from "../data/dictionary.json";
+
+const base = import.meta.env.BASE_URL;
+
+const categoryLabels = {
+	technologies: "تقنية",
+	tags: "وسم",
+	initiative_types: "نوع مبادرة",
+	licenses: "رخصة",
+};
+
+const categories = [
+	{ id: "technologies", label: "التقنيات" },
+	{ id: "tags", label: "الوسوم" },
+	{ id: "initiative_types", label: "أنواع المبادرات" },
+	{ id: "licenses", label: "الرخص" },
+];
+---
+
+<BaseLayout title="المعجم · التجميعة" description="معجم المصطلحات العربية مع ترجمتها إلى الإنجليزية">
+  <header class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">المعجم</h1>
+      <p class="hero-subtitle">ترجمة المصطلحات العربية إلى الإنجليزية · {entries.length} مدخلاً</p>
+    </div>
+  </header>
+
+  <div class="toolbar" id="toolbar">
+    <div class="toolbar-inner">
+      <div class="search-wrap">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        <input class="search-input" type="search" id="search" placeholder="ابحث في المعجم…" autocomplete="off">
+      </div>
+      <div class="filter-row" id="filter-row">
+        <button class="cat-btn active" data-cat="" type="button">الكل</button>
+        {categories.map(c => (
+          <button class="cat-btn" data-cat={c.id} type="button">{c.label}</button>
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="dict-list" id="dict-list">
+      {entries.map(e => (
+        <div class="dict-entry" data-cat={e.category} data-term={e.term} data-en={e.en}>
+          <div class="dict-term">{e.term}</div>
+          <div class="dict-en">{e.en}</div>
+          <span class="dict-cat">{categoryLabels[e.category] || e.category}</span>
+        </div>
+      ))}
+    </div>
+    <div class="empty hide-empty" id="empty">
+      <p class="empty-text">لا توجد نتائج تطابق بحثك</p>
+    </div>
+  </main>
+
+  <div class="footer-spacer"></div>
+</BaseLayout>
+
+<script>
+  const search = document.getElementById('search');
+  const entries = document.querySelectorAll('.dict-entry');
+  const catBtns = document.querySelectorAll('.cat-btn');
+  const empty = document.getElementById('empty');
+  const list = document.getElementById('dict-list');
+
+  let activeCat = '';
+
+  function filter() {
+    const query = (search?.value || '').trim().toLowerCase();
+    let visible = 0;
+
+    entries.forEach(el => {
+      const term = el.dataset.term || '';
+      const en = el.dataset.en || '';
+      const cat = el.dataset.cat || '';
+
+      const matchesSearch = !query
+        || term.includes(query)
+        || en.toLowerCase().includes(query);
+      const matchesCat = !activeCat || cat === activeCat;
+
+      const show = matchesSearch && matchesCat;
+      el.classList.toggle('hide-entry', !show);
+      if (show) visible++;
+    });
+
+    empty.classList.toggle('hide-empty', visible > 0);
+  }
+
+  search?.addEventListener('input', filter);
+
+  catBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      activeCat = btn.dataset.cat;
+      catBtns.forEach(b => b.classList.toggle('active', b.dataset.cat === activeCat));
+      filter();
+    });
+  });
+</script>
+
+<style>
+  .hide-entry { display: none !important; }
+  .hide-empty { display: none !important; }
+
+  .hero {
+    background: var(--warm-rust);
+    color: #fff;
+    padding: var(--space-xxl) var(--space-lg);
+    text-align: center;
+  }
+  .hero-content {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .hero-title {
+    font-size: clamp(1.75rem, 5vw, 3rem);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-sm);
+  }
+  .hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-weight: 400;
+    line-height: 1.5;
+    color: oklch(0.85 0.04 35);
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+  .toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--page);
+    border-bottom: 1px solid var(--divider);
+  }
+  .toolbar-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-md) var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+  .search-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .search-icon {
+    position: absolute;
+    right: 14px;
+    color: var(--ink-muted);
+    pointer-events: none;
+  }
+  .search-input {
+    width: 100%;
+    padding: 10px 40px 10px 14px;
+    background: var(--surface);
+    color: var(--ink);
+    font-family: var(--font);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    border: 1px solid var(--divider);
+    border-radius: var(--radius-md);
+    outline: none;
+    transition: border-color 0.2s var(--ease-snappy);
+  }
+  .search-input::placeholder { color: var(--ink-muted); }
+  .search-input:focus { border-color: var(--warm-rust); }
+  .search-input:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+
+  .filter-row {
+    display: flex;
+    gap: var(--space-xs);
+    flex-wrap: wrap;
+  }
+  .cat-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 16px;
+    background: var(--surface);
+    color: var(--ink-muted);
+    font-family: var(--font);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.4;
+    border: 1px solid var(--divider);
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.2s var(--ease-snappy), color 0.2s var(--ease-snappy), border-color 0.2s var(--ease-snappy);
+  }
+  .cat-btn:hover {
+    border-color: var(--warm-rust);
+    color: var(--warm-rust);
+  }
+  .cat-btn.active {
+    background: var(--warm-rust);
+    color: #fff;
+    border-color: var(--warm-rust);
+  }
+  .cat-btn:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+
+  .main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-xl) var(--space-lg) var(--space-xxl);
+  }
+
+  .dict-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .dict-entry {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: var(--space-md);
+    align-items: center;
+    padding: var(--space-md);
+    background: var(--surface);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    transition: background 0.2s var(--ease-snappy), box-shadow 0.2s var(--ease-snappy);
+  }
+  .dict-entry:hover {
+    box-shadow: var(--shadow-md);
+  }
+
+  .dict-term {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1.4;
+  }
+
+  .dict-en {
+    font-size: 0.9375rem;
+    color: var(--ink-muted);
+    line-height: 1.5;
+    direction: ltr;
+    text-align: start;
+  }
+
+  .dict-cat {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    background: var(--warm-rust-tint);
+    color: var(--warm-rust);
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 1.4;
+    border-radius: var(--radius-pill);
+    white-space: nowrap;
+  }
+
+  .empty {
+    text-align: center;
+    padding: var(--space-xxl) var(--space-lg);
+  }
+  .empty-text {
+    font-size: 1.125rem;
+    color: var(--ink-muted);
+  }
+
+  .footer-spacer { height: 0; }
+
+  @media (max-width: 640px) {
+    .hero {
+      padding: var(--space-xl) var(--space-md);
+    }
+    .toolbar-inner {
+      padding: var(--space-sm) var(--space-md);
+    }
+    .main {
+      padding: var(--space-md) var(--space-md) var(--space-xl);
+    }
+    .dict-entry {
+      grid-template-columns: 1fr;
+      gap: var(--space-xs);
+    }
+    .dict-cat {
+      justify-self: start;
+    }
+  }
+</style>

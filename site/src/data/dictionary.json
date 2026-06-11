@@ -1,0 +1,1153 @@
+[
+	{
+		"term": "أحاديث",
+		"en": "Hadith (Prophetic Traditions)",
+		"category": "tags"
+	},
+	{
+		"term": "أداة",
+		"en": "Tool",
+		"category": "initiative_types"
+	},
+	{
+		"term": "أداة بحث",
+		"en": "Research Tool",
+		"category": "initiative_types"
+	},
+	{
+		"term": "أداة تنضيد",
+		"en": "Typesetting Tool",
+		"category": "initiative_types"
+	},
+	{
+		"term": "أدعية",
+		"en": "Supplications (Du'a)",
+		"category": "tags"
+	},
+	{
+		"term": "أذكار",
+		"en": "Remembrances (Dhikr)",
+		"category": "tags"
+	},
+	{
+		"term": "أسس",
+		"en": "Usus (Foundation)",
+		"category": "tags"
+	},
+	{
+		"term": "إسلام",
+		"en": "Islam",
+		"category": "tags"
+	},
+	{
+		"term": "اسم النطاق",
+		"en": "Domain Name",
+		"category": "tags"
+	},
+	{
+		"term": "اسم نطاق",
+		"en": "Domain Name",
+		"category": "technologies"
+	},
+	{
+		"term": "أسماء الله الحسنى",
+		"en": "The Beautiful Names of Allah",
+		"category": "tags"
+	},
+	{
+		"term": "أسماء النبي",
+		"en": "Names of the Prophet",
+		"category": "tags"
+	},
+	{
+		"term": "أشجار القرار",
+		"en": "Decision Trees",
+		"category": "technologies"
+	},
+	{
+		"term": "إشعارات",
+		"en": "Notifications",
+		"category": "tags"
+	},
+	{
+		"term": "أصوات",
+		"en": "Audio / Sounds",
+		"category": "tags"
+	},
+	{
+		"term": "إضافة برمجية",
+		"en": "Software Extension",
+		"category": "initiative_types"
+	},
+	{
+		"term": "اضافة للمتصفحات",
+		"en": "Browser Extension",
+		"category": "initiative_types"
+	},
+	{
+		"term": "اضافة لمكتبة",
+		"en": "Library Extension",
+		"category": "initiative_types"
+	},
+	{
+		"term": "إضافة متصفح",
+		"en": "Browser Add-on",
+		"category": "initiative_types"
+	},
+	{
+		"term": "أفكار لمشاريع",
+		"en": "Project Ideas",
+		"category": "tags"
+	},
+	{
+		"term": "اكتشاف النصوص",
+		"en": "Text Discovery",
+		"category": "tags"
+	},
+	{
+		"term": "التشكيل",
+		"en": "Diacritization (Tashkeel)",
+		"category": "tags"
+	},
+	{
+		"term": "التعرف على الكيانات المسماة",
+		"en": "Named Entity Recognition",
+		"category": "technologies"
+	},
+	{
+		"term": "التفسير",
+		"en": "Quranic Exegesis (Tafsir)",
+		"category": "tags"
+	},
+	{
+		"term": "التقويم الهجري",
+		"en": "Hijri Calendar",
+		"category": "tags"
+	},
+	{
+		"term": "القبلة",
+		"en": "Qibla Direction",
+		"category": "tags"
+	},
+	{
+		"term": "القرآن الكريم",
+		"en": "The Holy Quran",
+		"category": "tags"
+	},
+	{
+		"term": "اللغة العربية",
+		"en": "Arabic Language",
+		"category": "tags"
+	},
+	{
+		"term": "الواجهة الخلفية",
+		"en": "Backend",
+		"category": "technologies"
+	},
+	{
+		"term": "إملاء",
+		"en": "Spelling / Orthography",
+		"category": "tags"
+	},
+	{
+		"term": "أنواع الأعيان",
+		"en": "Types of Entities",
+		"category": "tags"
+	},
+	{
+		"term": "أنواع الكلمات",
+		"en": "Types of Words",
+		"category": "tags"
+	},
+	{
+		"term": "ايجاد جزور الكلمات",
+		"en": "Root Word Extraction",
+		"category": "tags"
+	},
+	{
+		"term": "بحث",
+		"en": "Search",
+		"category": "tags"
+	},
+	{
+		"term": "بدون ترخيص",
+		"en": "Unlicensed",
+		"category": "licenses"
+	},
+	{
+		"term": "برمجيات حرة",
+		"en": "Free Software",
+		"category": "tags"
+	},
+	{
+		"term": "برنامج سطح المكتب 💻",
+		"en": "Desktop Application",
+		"category": "initiative_types"
+	},
+	{
+		"term": "بوت",
+		"en": "Bot",
+		"category": "initiative_types"
+	},
+	{
+		"term": "تاريخ وزمن",
+		"en": "Date and Time",
+		"category": "tags"
+	},
+	{
+		"term": "تجذيع",
+		"en": "Stemming",
+		"category": "tags"
+	},
+	{
+		"term": "تجميعة",
+		"en": "Collection / Curated List",
+		"category": "tags"
+	},
+	{
+		"term": "تجويد",
+		"en": "Tajweed (Quranic Recitation Rules)",
+		"category": "tags"
+	},
+	{
+		"term": "تحديد القبلة",
+		"en": "Qibla Direction Finder",
+		"category": "tags"
+	},
+	{
+		"term": "تحسين تجربة المستخدم",
+		"en": "User Experience (UX) Improvement",
+		"category": "tags"
+	},
+	{
+		"term": "تحليل بيانات",
+		"en": "Data Analysis",
+		"category": "technologies"
+	},
+	{
+		"term": "تحليل صرفي",
+		"en": "Morphological Analysis",
+		"category": "tags"
+	},
+	{
+		"term": "تدقيق",
+		"en": "Proofreading / Verification",
+		"category": "tags"
+	},
+	{
+		"term": "تدويل",
+		"en": "Internationalization (i18n)",
+		"category": "tags"
+	},
+	{
+		"term": "ترجمة صوتية",
+		"en": "Speech Translation",
+		"category": "tags"
+	},
+	{
+		"term": "ترميز",
+		"en": "Encoding / Encryption",
+		"category": "tags"
+	},
+	{
+		"term": "تصحيح",
+		"en": "Correction",
+		"category": "tags"
+	},
+	{
+		"term": "تصحيح إملائي",
+		"en": "Spell Checking",
+		"category": "tags"
+	},
+	{
+		"term": "تضمينات",
+		"en": "Embeddings",
+		"category": "tags"
+	},
+	{
+		"term": "تطبيق",
+		"en": "Application",
+		"category": "initiative_types"
+	},
+	{
+		"term": "تطبيق أندرويد",
+		"en": "Android Application",
+		"category": "initiative_types"
+	},
+	{
+		"term": "تطبيق ويب",
+		"en": "Web Application",
+		"category": "initiative_types"
+	},
+	{
+		"term": "تطبيق iOS",
+		"en": "iOS Application",
+		"category": "initiative_types"
+	},
+	{
+		"term": "تعابير منتظمة",
+		"en": "Regular Expressions",
+		"category": "technologies"
+	},
+	{
+		"term": "تعرف بصري",
+		"en": "Visual Recognition",
+		"category": "tags"
+	},
+	{
+		"term": "تعرف بصري على النصوص",
+		"en": "Optical Character Recognition (OCR)",
+		"category": "technologies"
+	},
+	{
+		"term": "تعرف صوتي",
+		"en": "Speech Recognition",
+		"category": "tags"
+	},
+	{
+		"term": "تعريب",
+		"en": "Arabization / Localization",
+		"category": "tags"
+	},
+	{
+		"term": "تعلم آلي",
+		"en": "Machine Learning",
+		"category": "tags"
+	},
+	{
+		"term": "تعلم عميق",
+		"en": "Deep Learning",
+		"category": "tags"
+	},
+	{
+		"term": "تعليم",
+		"en": "Education",
+		"category": "initiative_types"
+	},
+	{
+		"term": "تفقيط",
+		"en": "Number to Words (Tafqeet)",
+		"category": "tags"
+	},
+	{
+		"term": "تكرار الحرف",
+		"en": "Character Frequency",
+		"category": "tags"
+	},
+	{
+		"term": "تكرار الكلمة",
+		"en": "Word Frequency",
+		"category": "tags"
+	},
+	{
+		"term": "تلاوات",
+		"en": "Quranic Recitations",
+		"category": "tags"
+	},
+	{
+		"term": "تنضيد (Typesetting)",
+		"en": "Typesetting",
+		"category": "tags"
+	},
+	{
+		"term": "تنظيف",
+		"en": "Cleaning / Data Cleaning",
+		"category": "tags"
+	},
+	{
+		"term": "توثيقات",
+		"en": "Documentation",
+		"category": "tags"
+	},
+	{
+		"term": "حاسبة الزكاة",
+		"en": "Zakat Calculator",
+		"category": "tags"
+	},
+	{
+		"term": "حساب التاريخ الهجري",
+		"en": "Hijri Date Calculation",
+		"category": "tags"
+	},
+	{
+		"term": "حساب الزكاة",
+		"en": "Zakat Calculation",
+		"category": "tags"
+	},
+	{
+		"term": "حساب الميراث",
+		"en": "Inheritance Calculation",
+		"category": "tags"
+	},
+	{
+		"term": "خدمات سحابية",
+		"en": "Cloud Services",
+		"category": "initiative_types"
+	},
+	{
+		"term": "خط (Font)",
+		"en": "Font (Typeface)",
+		"category": "tags"
+	},
+	{
+		"term": "خط اليد",
+		"en": "Handwriting",
+		"category": "tags"
+	},
+	{
+		"term": "خط عربي",
+		"en": "Arabic Typeface / Font",
+		"category": "initiative_types"
+	},
+	{
+		"term": "دعم الرياضيات بالعربية",
+		"en": "Arabic Math Support",
+		"category": "tags"
+	},
+	{
+		"term": "ذكاء اصطناعي",
+		"en": "Artificial Intelligence",
+		"category": "tags"
+	},
+	{
+		"term": "رخصة خاصة",
+		"en": "Proprietary License",
+		"category": "licenses"
+	},
+	{
+		"term": "رخصة وقف من أعجوبة",
+		"en": "Waqf License from Ojuba",
+		"category": "licenses"
+	},
+	{
+		"term": "رمضان",
+		"en": "Ramadan",
+		"category": "tags"
+	},
+	{
+		"term": "رياضيات",
+		"en": "Mathematics",
+		"category": "tags"
+	},
+	{
+		"term": "سكريبت برمجي",
+		"en": "Script",
+		"category": "initiative_types"
+	},
+	{
+		"term": "سكريبتات",
+		"en": "Scripts",
+		"category": "tags"
+	},
+	{
+		"term": "شبكات عصبية",
+		"en": "Neural Networks",
+		"category": "tags"
+	},
+	{
+		"term": "شعر",
+		"en": "Poetry",
+		"category": "tags"
+	},
+	{
+		"term": "عداد",
+		"en": "Counter",
+		"category": "tags"
+	},
+	{
+		"term": "عربي-إنجليزي",
+		"en": "Arabic-English",
+		"category": "tags"
+	},
+	{
+		"term": "علوم القرآن",
+		"en": "Quranic Sciences",
+		"category": "tags"
+	},
+	{
+		"term": "فريق مبادر",
+		"en": "Initiative Team",
+		"category": "initiative_types"
+	},
+	{
+		"term": "فهرس",
+		"en": "Index / Directory",
+		"category": "initiative_types"
+	},
+	{
+		"term": "فهرس / قائمة",
+		"en": "Index / List",
+		"category": "initiative_types"
+	},
+	{
+		"term": "فونت",
+		"en": "Font",
+		"category": "tags"
+	},
+	{
+		"term": "قاعدة بيانات",
+		"en": "Database",
+		"category": "initiative_types"
+	},
+	{
+		"term": "قاموس",
+		"en": "Dictionary",
+		"category": "initiative_types"
+	},
+	{
+		"term": "قاموس / معجم",
+		"en": "Dictionary / Lexicon",
+		"category": "initiative_types"
+	},
+	{
+		"term": "قواعد لغوية",
+		"en": "Grammar Rules",
+		"category": "tags"
+	},
+	{
+		"term": "قوالب",
+		"en": "Templates",
+		"category": "tags"
+	},
+	{
+		"term": "قواميس وأدوات",
+		"en": "Dictionaries and Tools",
+		"category": "initiative_types"
+	},
+	{
+		"term": "كتاب",
+		"en": "Book",
+		"category": "initiative_types"
+	},
+	{
+		"term": "لغات متعددة",
+		"en": "Multilingual",
+		"category": "tags"
+	},
+	{
+		"term": "لغة البرمجة العربية Phoenix",
+		"en": "Phoenix Arabic Programming Language",
+		"category": "technologies"
+	},
+	{
+		"term": "لغة برمجة",
+		"en": "Programming Language",
+		"category": "initiative_types"
+	},
+	{
+		"term": "لغة خوارزم",
+		"en": "Khawarizm Language",
+		"category": "technologies"
+	},
+	{
+		"term": "لينوكس",
+		"en": "Linux",
+		"category": "tags"
+	},
+	{
+		"term": "متجر بلاي",
+		"en": "Google Play Store",
+		"category": "tags"
+	},
+	{
+		"term": "مجتمع",
+		"en": "Community",
+		"category": "initiative_types"
+	},
+	{
+		"term": "مجموعة بيانات",
+		"en": "Dataset",
+		"category": "tags"
+	},
+	{
+		"term": "محتوى تعليمي",
+		"en": "Educational Content",
+		"category": "initiative_types"
+	},
+	{
+		"term": "محررات نصوص",
+		"en": "Text Editors",
+		"category": "tags"
+	},
+	{
+		"term": "محرك بحث",
+		"en": "Search Engine",
+		"category": "tags"
+	},
+	{
+		"term": "مدونة / دليل",
+		"en": "Blog / Guide",
+		"category": "initiative_types"
+	},
+	{
+		"term": "مستندات ووثائق",
+		"en": "Documents",
+		"category": "initiative_types"
+	},
+	{
+		"term": "مشروع أكاديمي",
+		"en": "Academic Project",
+		"category": "initiative_types"
+	},
+	{
+		"term": "مصادر",
+		"en": "Resources",
+		"category": "initiative_types"
+	},
+	{
+		"term": "معالجة الصور",
+		"en": "Image Processing",
+		"category": "tags"
+	},
+	{
+		"term": "معالجة اللغات",
+		"en": "Language Processing (NLP)",
+		"category": "tags"
+	},
+	{
+		"term": "مفتوح المصدر",
+		"en": "Open Source",
+		"category": "tags"
+	},
+	{
+		"term": "مقاطعة",
+		"en": "Boycott",
+		"category": "tags"
+	},
+	{
+		"term": "مقترحات",
+		"en": "Suggestions",
+		"category": "tags"
+	},
+	{
+		"term": "مكتبة برمجية",
+		"en": "Library (Software)",
+		"category": "initiative_types"
+	},
+	{
+		"term": "منصة رقمية",
+		"en": "Digital Platform",
+		"category": "initiative_types"
+	},
+	{
+		"term": "منظمة / مجموعة مشاريع",
+		"en": "Organization / Project Group",
+		"category": "initiative_types"
+	},
+	{
+		"term": "مواقيت الصلاة 🕋",
+		"en": "Prayer Times",
+		"category": "tags"
+	},
+	{
+		"term": "نحو",
+		"en": "Grammar (Nahw)",
+		"category": "tags"
+	},
+	{
+		"term": "نصوص عربية",
+		"en": "Arabic Texts",
+		"category": "tags"
+	},
+	{
+		"term": "نظام تشغيل",
+		"en": "Operating System",
+		"category": "initiative_types"
+	},
+	{
+		"term": "ورقة بحثية",
+		"en": "Research Paper",
+		"category": "initiative_types"
+	},
+	{
+		"term": "ويب",
+		"en": "Web",
+		"category": "tags"
+	},
+	{
+		"term": "ALA-LC",
+		"en": "ALA-LC",
+		"category": "tags",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Angular",
+		"en": "Angular",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "API",
+		"en": "API",
+		"category": "initiative_types",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "arabert",
+		"en": "arabert",
+		"category": "tags",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "arabic-classification",
+		"en": "arabic-classification",
+		"category": "tags",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "arabic-nlp",
+		"en": "arabic-nlp",
+		"category": "tags",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Awk",
+		"en": "Awk",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "bert",
+		"en": "bert",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "C",
+		"en": "C",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "C#",
+		"en": "C#",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "C++",
+		"en": "C++",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "character-segmentation",
+		"en": "character-segmentation",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "CLI",
+		"en": "CLI",
+		"category": "initiative_types",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "CMU Sphinx",
+		"en": "CMU Sphinx",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "computer-vision",
+		"en": "computer-vision",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "CSS",
+		"en": "CSS",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Dart",
+		"en": "Dart",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Docker",
+		"en": "Docker",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Dockerfile",
+		"en": "Dockerfile",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "electra",
+		"en": "electra",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Express.JS",
+		"en": "Express.JS",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "farasa",
+		"en": "farasa",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Flask",
+		"en": "Flask",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Flutter",
+		"en": "Flutter",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Gherkin",
+		"en": "Gherkin",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Golang",
+		"en": "Golang",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "gpt2",
+		"en": "gpt2",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "GRU Architecture",
+		"en": "GRU Architecture",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "HTML",
+		"en": "HTML",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "huggingface-transformer",
+		"en": "huggingface-transformer",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "hunspell",
+		"en": "hunspell",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Ionic",
+		"en": "Ionic",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Java",
+		"en": "Java",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "JavaFX",
+		"en": "JavaFX",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "JavaScript",
+		"en": "JavaScript",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "JSON",
+		"en": "JSON",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Jupyter Notebook",
+		"en": "Jupyter Notebook",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Kotlin",
+		"en": "Kotlin",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Linux",
+		"en": "Linux",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Makefile",
+		"en": "Makefile",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Markdown",
+		"en": "Markdown",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "mathjax",
+		"en": "mathjax",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Matlab",
+		"en": "Matlab",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Matplotlib",
+		"en": "Matplotlib",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Model",
+		"en": "Model",
+		"category": "initiative_types",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Next.JS",
+		"en": "Next.JS",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "NLP",
+		"en": "NLP",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "nlp-resources",
+		"en": "nlp-resources",
+		"category": "tags",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Node.JS",
+		"en": "Node.JS",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "NumPy",
+		"en": "NumPy",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Objective-C",
+		"en": "Objective-C",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "ocr",
+		"en": "ocr",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "OCR",
+		"en": "OCR",
+		"category": "tags",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "OpenCV",
+		"en": "OpenCV",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "opencv-python",
+		"en": "opencv-python",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Perl",
+		"en": "Perl",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "PHP",
+		"en": "PHP",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "preprocessing-library",
+		"en": "preprocessing-library",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Python",
+		"en": "Python",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "ReactJS",
+		"en": "ReactJS",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "reshape",
+		"en": "reshape",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Ruby",
+		"en": "Ruby",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Rust",
+		"en": "Rust",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Scheme",
+		"en": "Scheme",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "scikit-learn",
+		"en": "scikit-learn",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "SCSS",
+		"en": "SCSS",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "segmentation",
+		"en": "segmentation",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Shell",
+		"en": "Shell",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Shell Script",
+		"en": "Shell Script",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Snowball",
+		"en": "Snowball",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "SQL",
+		"en": "SQL",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "SQLite",
+		"en": "SQLite",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Swift",
+		"en": "Swift",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Tailwind CSS",
+		"en": "Tailwind CSS",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Tex",
+		"en": "Tex",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "TSQL",
+		"en": "TSQL",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "TTS",
+		"en": "TTS",
+		"category": "initiative_types",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "TypeScript",
+		"en": "TypeScript",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "VBA",
+		"en": "VBA",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "Vue",
+		"en": "Vue",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	},
+	{
+		"term": "word2vec",
+		"en": "word2vec",
+		"category": "technologies",
+		"note": "مصطلح إنجليزي"
+	}
+]

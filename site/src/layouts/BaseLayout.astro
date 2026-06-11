@@ -157,7 +157,10 @@ const defaultDesc =
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <a href={base} class="site-logo">التجميعة</a>
+      <div class="header-start">
+        <a href={base} class="site-logo">التجميعة</a>
+        <a href={base + '/dictionary/'} class="nav-link">المعجم</a>
+      </div>
       <form class="header-search" action={base} method="GET" role="search">
         <svg class="header-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
         <input class="header-search-input" type="search" name="q" placeholder="ابحث عن مشروع…" aria-label="ابحث عن مشروع" autocomplete="off" />
@@ -235,6 +238,7 @@ const defaultDesc =
       </div>
       <div class="footer-links">
         <a href={base} class="footer-link">الرئيسية</a>
+        <a href={base + '/dictionary/'} class="footer-link">المعجم</a>
         <a href="https://github.com/mobadarah/tajmeeaton-web" class="footer-link" target="_blank" rel="noopener">المصدر على GitHub</a>
       </div>
       <div class="footer-copy">
@@ -260,6 +264,12 @@ const defaultDesc =
     justify-content: space-between;
     gap: var(--space-sm);
   }
+  .header-start {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    flex-shrink: 0;
+  }
   .site-logo {
     font-family: var(--font-display);
     font-size: 1.25rem;
@@ -272,6 +282,22 @@ const defaultDesc =
   .site-logo:hover {
     text-decoration: none;
     color: var(--warm-rust);
+  }
+  .nav-link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--ink-muted);
+    white-space: nowrap;
+    transition: color 0.2s var(--ease-snappy);
+  }
+  .nav-link:hover {
+    color: var(--warm-rust);
+    text-decoration: none;
+  }
+  .nav-link:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
   }
   .header-search {
     position: relative;
