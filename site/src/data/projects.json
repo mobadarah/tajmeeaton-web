@@ -21,12 +21,15 @@
 				"Node.JS",
 				"Python",
 				"ReactJS",
-				"تعرف صوتي",
 				"Swift"
 			],
-			"tags": ["أصوات", "القرآن الكريم"],
+			"tags": [
+				"أصوات",
+				"القرآن الكريم",
+				"تعرف صوتي"
+			],
 			"initiative_type": [
-				"RESTful API",
+				"API",
 				"تطبيق iOS",
 				"تطبيق أندرويد",
 				"تطبيق ويب"
@@ -49,9 +52,17 @@
 			"open_source": "Yes",
 			"last_activity": "2024-05-24",
 			"slug": "pyquran",
-			"technologies": ["تحليل بيانات", "Python"],
-			"tags": ["القرآن الكريم", "اللغة عربية"],
-			"initiative_type": ["مكتبة برمجية"],
+			"technologies": [
+				"تحليل بيانات",
+				"Python"
+			],
+			"tags": [
+				"القرآن الكريم",
+				"اللغة العربية"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
 			"links": [
 				"https://hci-lab.github.io/PyQuran-Private/",
 				"https://pypi.org/project/pyquran/"
@@ -68,9 +79,19 @@
 			"open_source": "Yes",
 			"last_activity": "2026-05-04",
 			"slug": "alfanous",
-			"technologies": ["Python", "API", "محرك بحث"],
-			"tags": ["القرآن الكريم"],
-			"initiative_type": ["CLI", "تطبيق ويب", "مكتبة برمجية"],
+			"technologies": [
+				"Python"
+			],
+			"tags": [
+				"القرآن الكريم",
+				"محرك بحث"
+			],
+			"initiative_type": [
+				"CLI",
+				"تطبيق ويب",
+				"مكتبة برمجية",
+				"API"
+			],
 			"links": [
 				"https://www.alfanous.ai/",
 				"https://pypi.org/project/alfanous3/"
@@ -87,9 +108,15 @@
 			"open_source": "Yes",
 			"last_activity": "2026-01-17",
 			"slug": "albasheer-electronic-quran-browser",
-			"technologies": ["Python"],
-			"tags": ["القرآن الكريم"],
-			"initiative_type": ["برنامج سطح المكتب 💻"],
+			"technologies": [
+				"Python"
+			],
+			"tags": [
+				"القرآن الكريم"
+			],
+			"initiative_type": [
+				"برنامج سطح المكتب 💻"
+			],
 			"links": [
 				"https://flathub.org/apps/com.github.yucefsourani.albasheer-electronic-quran-browser",
 				"https://copr.fedorainfracloud.org/coprs/youssefmsourani/albasheer/"
@@ -106,10 +133,19 @@
 			"open_source": "Yes",
 			"last_activity": "2020-05-12",
 			"slug": "quran-database",
-			"technologies": ["قاعدة بيانات", "SQLite"],
-			"tags": ["القرآن الكريم"],
-			"initiative_type": ["قاعدة بيانات", "مصادر"],
-			"links": ["https://github.com/bilalbentoumi/quran-database"]
+			"technologies": [
+				"SQLite"
+			],
+			"tags": [
+				"القرآن الكريم"
+			],
+			"initiative_type": [
+				"قاعدة بيانات",
+				"مصادر"
+			],
+			"links": [
+				"https://github.com/bilalbentoumi/quran-database"
+			]
 		},
 		{
 			"name": "قُطُوْف (Qutuf)",
@@ -122,16 +158,25 @@
 			"open_source": "Yes",
 			"last_activity": "2022-12-12",
 			"slug": "qutuf",
-			"technologies": ["HTML", "NLP", "Python"],
+			"technologies": [
+				"HTML",
+				"NLP",
+				"Python"
+			],
 			"tags": [
 				"القرآن الكريم",
-				"اللغة عربية",
+				"اللغة العربية",
 				"تحليل صرفي",
 				"قواعد لغوية",
-				"معالجة اللغة الطبيعية"
+				"معالجة اللغات"
 			],
-			"initiative_type": ["تطبيق ويب", "مكتبة برمجية"],
-			"links": ["http://Qutuf.com"]
+			"initiative_type": [
+				"تطبيق ويب",
+				"مكتبة برمجية"
+			],
+			"links": [
+				"http://Qutuf.com"
+			]
 		},
 		{
 			"name": "quran-tajweed",
@@ -144,16 +189,26 @@
 			"open_source": "Yes",
 			"last_activity": "2021-10-12",
 			"slug": "quran-tajweed",
-			"technologies": ["مجموعة بيانات", "أشجار القرار", "Python", "تعرف صوتي"],
+			"technologies": [
+				"أشجار القرار",
+				"Python"
+			],
 			"tags": [
 				"القرآن الكريم",
 				"تجويد",
-				"تعليم",
 				"قواعد لغوية",
-				"معالجة اللغة الطبيعية"
+				"معالجة اللغات",
+				"مجموعة بيانات",
+				"تعرف صوتي"
 			],
-			"initiative_type": ["سكريبت برمجي", "قاعدة بيانات", "مصادر"],
-			"links": ["https://github.com/cpfair/quran-tajweed"]
+			"initiative_type": [
+				"سكريبت برمجي",
+				"قاعدة بيانات",
+				"مصادر"
+			],
+			"links": [
+				"https://github.com/cpfair/quran-tajweed"
+			]
 		},
 		{
 			"name": "اكتشاف الآيات (ayah-detection)",
@@ -167,15 +222,22 @@
 			"last_activity": "2023-04-02",
 			"slug": "ayah-detection",
 			"technologies": [
-				"معالجة الصور",
 				"Matplotlib",
 				"NumPy",
 				"OpenCV",
 				"Python"
 			],
-			"tags": ["القرآن الكريم"],
-			"initiative_type": ["سكريبت برمجي", "مكتبة برمجية"],
-			"links": ["https://github.com/quran/ayah-detection"]
+			"tags": [
+				"القرآن الكريم",
+				"معالجة الصور"
+			],
+			"initiative_type": [
+				"سكريبت برمجي",
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://github.com/quran/ayah-detection"
+			]
 		},
 		{
 			"name": "tajweed",
@@ -188,10 +250,20 @@
 			"open_source": "Yes",
 			"last_activity": "2018-10-07",
 			"slug": "tajweed",
-			"technologies": ["Java"],
-			"tags": ["القرآن الكريم", "اللغة عربية", "تجويد"],
-			"initiative_type": ["سكريبت برمجي"],
-			"links": ["https://github.com/quran/tajweed"]
+			"technologies": [
+				"Java"
+			],
+			"tags": [
+				"القرآن الكريم",
+				"اللغة العربية",
+				"تجويد"
+			],
+			"initiative_type": [
+				"سكريبت برمجي"
+			],
+			"links": [
+				"https://github.com/quran/tajweed"
+			]
 		},
 		{
 			"name": "Ahkam-Al-Tajweed - أحكام التجويد",
@@ -204,9 +276,15 @@
 			"open_source": "Yes",
 			"last_activity": "2019-06-28",
 			"slug": "ahkam-al-tajweed",
-			"technologies": ["تعلم عميق"],
-			"tags": ["القرآن الكريم", "تجويد"],
-			"initiative_type": ["مستندات ووثائق"],
+			"technologies": [],
+			"tags": [
+				"القرآن الكريم",
+				"تجويد",
+				"تعلم عميق"
+			],
+			"initiative_type": [
+				"مستندات ووثائق"
+			],
 			"links": [
 				"https://www.researchgate.net/publication/327869102_A_dataset_of_audio_recordings_by_male_reciters_representing_correctincorrect_applications_of_basic_Quranic_recitation_rules"
 			]
@@ -222,10 +300,20 @@
 			"open_source": "Yes",
 			"last_activity": "2024-03-26",
 			"slug": "othman",
-			"technologies": ["Python", "محرك بحث"],
-			"tags": ["القرآن الكريم"],
-			"initiative_type": ["برنامج سطح المكتب 💻", "تطبيق ويب"],
-			"links": ["http://ojuba.org"]
+			"technologies": [
+				"Python"
+			],
+			"tags": [
+				"القرآن الكريم",
+				"محرك بحث"
+			],
+			"initiative_type": [
+				"برنامج سطح المكتب 💻",
+				"تطبيق ويب"
+			],
+			"links": [
+				"http://ojuba.org"
+			]
 		},
 		{
 			"name": "Quran-App-Data",
@@ -238,16 +326,25 @@
 			"open_source": "Yes",
 			"last_activity": "2023-02-15",
 			"slug": "quran-app-data",
-			"technologies": ["مجموعة بيانات", "JSON", "SQL"],
+			"technologies": [
+				"JSON",
+				"SQL"
+			],
 			"tags": [
 				"أسماء الله الحسنى",
 				"أسماء النبي",
 				"أذكار",
-				"الحديث النبوي",
-				"القرآن الكريم"
+				"أحاديث",
+				"القرآن الكريم",
+				"مجموعة بيانات"
 			],
-			"initiative_type": ["قاعدة بيانات", "مصادر"],
-			"links": ["https://youtu.be/7VvlBOINfjQ?si=kNTGyNL-31xSs5df"]
+			"initiative_type": [
+				"قاعدة بيانات",
+				"مصادر"
+			],
+			"links": [
+				"https://youtu.be/7VvlBOINfjQ?si=kNTGyNL-31xSs5df"
+			]
 		},
 		{
 			"name": "الْمُعْجَم الترددي لِلْحُرُوف الْعَرَبِيَّةِ فِي الْقُرْآنِ الْكَرِيمِ",
@@ -260,10 +357,23 @@
 			"open_source": "Yes",
 			"last_activity": "2021-06-25",
 			"slug": "open-source-tool-designed-visualize",
-			"technologies": ["CSS", "HTML", "JavaScript", "ReactJS"],
-			"tags": ["القرآن الكريم", "تكرار الحرف", "تكرار الكلمة"],
-			"initiative_type": ["تطبيق ويب"],
-			"links": ["https://moroclash.github.io/Visualization-Of-Quran/"]
+			"technologies": [
+				"CSS",
+				"HTML",
+				"JavaScript",
+				"ReactJS"
+			],
+			"tags": [
+				"القرآن الكريم",
+				"تكرار الحرف",
+				"تكرار الكلمة"
+			],
+			"initiative_type": [
+				"تطبيق ويب"
+			],
+			"links": [
+				"https://moroclash.github.io/Visualization-Of-Quran/"
+			]
 		},
 		{
 			"name": "tarteel-ml",
@@ -277,16 +387,22 @@
 			"last_activity": "2021-11-10 (archived)",
 			"slug": "tarteel-ml",
 			"technologies": [
+				"Jupyter Notebook",
+				"Python"
+			],
+			"tags": [
+				"القرآن الكريم",
 				"ذكاء اصطناعي",
 				"مجموعة بيانات",
-				"Jupyter Notebook",
 				"تعلم آلي",
-				"Python",
 				"تعرف صوتي"
 			],
-			"tags": ["القرآن الكريم"],
-			"initiative_type": ["سكريبت برمجي"],
-			"links": ["https://tarteel.ai"]
+			"initiative_type": [
+				"سكريبت برمجي"
+			],
+			"links": [
+				"https://tarteel.ai"
+			]
 		},
 		{
 			"name": "أفكار لمشاريع",
@@ -300,9 +416,16 @@
 			"last_activity": "لا يوجد (قائمة أفكار)",
 			"slug": "compilation-ideas-proposals-open-source",
 			"technologies": [],
-			"tags": ["أفكار لمشاريع", "مصادر", "مقترحات"],
-			"initiative_type": ["مصادر"],
-			"links": ["https://github.com/KL13NT/AIUX"]
+			"tags": [
+				"أفكار لمشاريع",
+				"مقترحات"
+			],
+			"initiative_type": [
+				"مصادر"
+			],
+			"links": [
+				"https://github.com/KL13NT/AIUX"
+			]
 		},
 		{
 			"name": "Pray Times - حساب مواقيت الصلاة",
@@ -324,8 +447,12 @@
 				"PHP",
 				"Python"
 			],
-			"tags": ["مواقيت الصلاة 🕋"],
-			"initiative_type": ["مكتبة برمجية"],
+			"tags": [
+				"مواقيت الصلاة 🕋"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
 			"links": [
 				"https://github.com/zarrabi/praytime",
 				"https://github.com/abodehq/Pray-Times"
@@ -342,10 +469,18 @@
 			"open_source": "Yes",
 			"last_activity": "2015-12-24",
 			"slug": "adhanpy",
-			"technologies": ["Python"],
-			"tags": ["مواقيت الصلاة 🕋"],
-			"initiative_type": ["مكتبة برمجية"],
-			"links": ["https://pypi.org/project/adhan/"]
+			"technologies": [
+				"Python"
+			],
+			"tags": [
+				"مواقيت الصلاة 🕋"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://pypi.org/project/adhan/"
+			]
 		},
 		{
 			"name": "Adhan",
@@ -370,9 +505,17 @@
 				"Rust",
 				"Swift"
 			],
-			"tags": ["إسلام", "تاريخ وزمن", "مواقيت الصلاة 🕋"],
-			"initiative_type": ["مكتبة برمجية"],
-			"links": ["https://github.com/batoulapps/Adhan"]
+			"tags": [
+				"إسلام",
+				"تاريخ وزمن",
+				"مواقيت الصلاة 🕋"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://github.com/batoulapps/Adhan"
+			]
 		},
 		{
 			"name": "salah",
@@ -385,10 +528,18 @@
 			"open_source": "Yes",
 			"last_activity": "2026-01-02",
 			"slug": "salah",
-			"technologies": ["Rust"],
-			"tags": ["مواقيت الصلاة 🕋"],
-			"initiative_type": ["مكتبة برمجية"],
-			"links": ["https://crates.io/crates/salah"]
+			"technologies": [
+				"Rust"
+			],
+			"tags": [
+				"مواقيت الصلاة 🕋"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://crates.io/crates/salah"
+			]
 		},
 		{
 			"name": "Masjid Times",
@@ -401,10 +552,20 @@
 			"open_source": "Yes",
 			"last_activity": "2013-09-29",
 			"slug": "masjid-times",
-			"technologies": ["CSS", "JavaScript", "PHP"],
-			"tags": ["مواقيت الصلاة 🕋"],
-			"initiative_type": ["تطبيق ويب"],
-			"links": ["http://meltuhamy.com/masjid-times/"]
+			"technologies": [
+				"CSS",
+				"JavaScript",
+				"PHP"
+			],
+			"tags": [
+				"مواقيت الصلاة 🕋"
+			],
+			"initiative_type": [
+				"تطبيق ويب"
+			],
+			"links": [
+				"http://meltuhamy.com/masjid-times/"
+			]
 		},
 		{
 			"name": "تطبيق مواقيت الصلاة في بلفاست ولندن (Belfast Prayer Times)",
@@ -417,10 +578,21 @@
 			"open_source": "Yes",
 			"last_activity": "2023-01-08",
 			"slug": "belfast-prayer-times",
-			"technologies": ["Angular", "Ionic", "TypeScript"],
-			"tags": ["مواقيت الصلاة 🕋"],
-			"initiative_type": ["تطبيق iOS", "تطبيق أندرويد"],
-			"links": ["http://meltuhamy.com/apps/"]
+			"technologies": [
+				"Angular",
+				"Ionic",
+				"TypeScript"
+			],
+			"tags": [
+				"مواقيت الصلاة 🕋"
+			],
+			"initiative_type": [
+				"تطبيق iOS",
+				"تطبيق أندرويد"
+			],
+			"links": [
+				"http://meltuhamy.com/apps/"
+			]
 		},
 		{
 			"name": "Next Prayer",
@@ -433,10 +605,23 @@
 			"open_source": "Yes",
 			"last_activity": "2023-04-02",
 			"slug": "next-prayer",
-			"technologies": ["C", "C++", "Linux", "Python"],
-			"tags": ["مواقيت الصلاة 🕋"],
-			"initiative_type": ["CLI", "برنامج سطح المكتب 💻"],
-			"links": ["https://github.com/AbdeltwabMF/nxprayer"]
+			"technologies": [
+				"C",
+				"C++",
+				"Linux",
+				"Python"
+			],
+			"tags": [
+				"مواقيت الصلاة 🕋",
+				"لينوكس"
+			],
+			"initiative_type": [
+				"CLI",
+				"برنامج سطح المكتب 💻"
+			],
+			"links": [
+				"https://github.com/AbdeltwabMF/nxprayer"
+			]
 		},
 		{
 			"name": "Mosque Prayer Display Screen (شاشة عرض مواقيت الصلاة للمسجد)",
@@ -449,9 +634,17 @@
 			"open_source": "Yes",
 			"last_activity": "2026-04-24",
 			"slug": "mosque-prayer-display-screen",
-			"technologies": ["Next.JS", "Tailwind CSS", "TypeScript"],
-			"tags": ["مواقيت الصلاة 🕋"],
-			"initiative_type": ["تطبيق ويب"],
+			"technologies": [
+				"Next.JS",
+				"Tailwind CSS",
+				"TypeScript"
+			],
+			"tags": [
+				"مواقيت الصلاة 🕋"
+			],
+			"initiative_type": [
+				"تطبيق ويب"
+			],
 			"links": [
 				"https://mosque-prayer-display-screen.vercel.app/",
 				"https://discord.gg/CG7frj2"
@@ -468,9 +661,19 @@
 			"open_source": "Yes",
 			"last_activity": "2026-02-07",
 			"slug": "azkar",
-			"technologies": ["CSS", "Java", "JavaFX", "SQLite"],
-			"tags": ["أذكار", "مواقيت الصلاة 🕋"],
-			"initiative_type": ["برنامج سطح المكتب 💻"],
+			"technologies": [
+				"CSS",
+				"Java",
+				"JavaFX",
+				"SQLite"
+			],
+			"tags": [
+				"أذكار",
+				"مواقيت الصلاة 🕋"
+			],
+			"initiative_type": [
+				"برنامج سطح المكتب 💻"
+			],
 			"links": [
 				"https://azkar-site.web.app/",
 				"https://sourceforge.net/projects/azkar/"
@@ -487,9 +690,19 @@
 			"open_source": "Yes",
 			"last_activity": "2024-05-27",
 			"slug": "itl",
-			"technologies": ["C", "Java", "Objective-C"],
-			"tags": ["تحديد القبلة", "حساب التاريخ الهجري", "مواقيت الصلاة 🕋"],
-			"initiative_type": ["مكتبة برمجية"],
+			"technologies": [
+				"C",
+				"Java",
+				"Objective-C"
+			],
+			"tags": [
+				"تحديد القبلة",
+				"حساب التاريخ الهجري",
+				"مواقيت الصلاة 🕋"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
 			"links": [
 				"https://github.com/fikr4n/itl-java",
 				"https://github.com/batoulapps/BAPrayerTimes",
@@ -507,7 +720,9 @@
 			"open_source": "Yes",
 			"last_activity": "2025-06-15",
 			"slug": "pyislam",
-			"technologies": ["Python"],
+			"technologies": [
+				"Python"
+			],
 			"tags": [
 				"التقويم الهجري",
 				"تحديد القبلة",
@@ -516,8 +731,12 @@
 				"حساب الميراث",
 				"مواقيت الصلاة 🕋"
 			],
-			"initiative_type": ["مكتبة برمجية"],
-			"links": ["http://abougouffa.github.io/pyIslam"]
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
+			"links": [
+				"http://abougouffa.github.io/pyIslam"
+			]
 		},
 		{
 			"name": "Tanafaso",
@@ -530,9 +749,17 @@
 			"open_source": "Yes",
 			"last_activity": "2026-03-01",
 			"slug": "tanafaso",
-			"technologies": ["Flutter", "Dart"],
-			"tags": ["mobile-app", "azkar", "muslim-app"],
-			"initiative_type": ["تطبيق iOS", "تطبيق أندرويد"],
+			"technologies": [
+				"Flutter",
+				"Dart"
+			],
+			"tags": [
+				"أذكار"
+			],
+			"initiative_type": [
+				"تطبيق iOS",
+				"تطبيق أندرويد"
+			],
 			"links": [
 				"https://play.google.com/store/apps/details?id=com.tanafaso.azkar"
 			]
@@ -548,10 +775,18 @@
 			"open_source": "Yes",
 			"last_activity": "2021-04-03",
 			"slug": "boycottfrensh",
-			"technologies": ["JavaScript"],
-			"tags": ["مقاطعة", "منتجات فرنسية", "إضافة متصفح"],
-			"initiative_type": ["إضافة متصفح"],
-			"links": ["https://github.com/AhmedAshrafAZ/BoycottFrench"]
+			"technologies": [
+				"JavaScript"
+			],
+			"tags": [
+				"مقاطعة"
+			],
+			"initiative_type": [
+				"إضافة متصفح"
+			],
+			"links": [
+				"https://github.com/AhmedAshrafAZ/BoycottFrench"
+			]
 		},
 		{
 			"name": "IslamBot",
@@ -564,17 +799,22 @@
 			"open_source": "Yes",
 			"last_activity": "2026-01-06",
 			"slug": "islambot",
-			"technologies": ["Python"],
+			"technologies": [
+				"Python"
+			],
 			"tags": [
-				"discord-bot",
-				"قرآن",
-				"prayer-times",
-				"islam",
-				"hadith",
+				"القرآن الكريم",
+				"مواقيت الصلاة 🕋",
+				"إسلام",
+				"أحاديث",
 				"التفسير"
 			],
-			"initiative_type": ["بوت"],
-			"links": ["https://github.com/galacticwarrior9/IslamBot"]
+			"initiative_type": [
+				"بوت"
+			],
+			"links": [
+				"https://github.com/galacticwarrior9/IslamBot"
+			]
 		},
 		{
 			"name": "Muslim-App (Daily Muslim's Fortress App)",
@@ -587,23 +827,21 @@
 			"open_source": "Yes",
 			"last_activity": "2022-10-13",
 			"slug": "muslim-app-daily-muslims-fortress-app",
-			"technologies": ["Java"],
-			"tags": [
-				"notifications",
-				"android",
-				"playstore",
-				"tally-counter",
-				"prayer-times",
-				"muslim",
-				"القبلة",
-				"muslim-prayer-times",
-				"ramadan",
-				"muslims-prayer",
-				"muslim-app",
-				"remembrance",
-				"zakat-calculator"
+			"technologies": [
+				"Java"
 			],
-			"initiative_type": ["تطبيق أندرويد"],
+			"tags": [
+				"إشعارات",
+				"متجر بلاي",
+				"عداد",
+				"مواقيت الصلاة 🕋",
+				"القبلة",
+				"رمضان",
+				"حاسبة الزكاة"
+			],
+			"initiative_type": [
+				"تطبيق أندرويد"
+			],
 			"links": [
 				"https://play.google.com/store/apps/details?id=com.choubapp.muslimapp"
 			]
@@ -619,10 +857,18 @@
 			"open_source": "Yes",
 			"last_activity": "2026-01-19",
 			"slug": "iftar-cli",
-			"technologies": ["JavaScript"],
-			"tags": ["مواقيت الصلاة 🕋"],
-			"initiative_type": ["CLI"],
-			"links": ["https://github.com/eneserdogan/iftar"]
+			"technologies": [
+				"JavaScript"
+			],
+			"tags": [
+				"مواقيت الصلاة 🕋"
+			],
+			"initiative_type": [
+				"CLI"
+			],
+			"links": [
+				"https://github.com/eneserdogan/iftar"
+			]
 		},
 		{
 			"name": "KhattSeen خطسين",
@@ -635,10 +881,17 @@
 			"open_source": "Yes",
 			"last_activity": "2020",
 			"slug": "khattseen",
-			"technologies": ["تنضيد (Typesetting)"],
-			"tags": ["خط", "دعم الرياضيات بالعربية"],
-			"initiative_type": ["أداة تنضيد"],
-			"links": ["https://khatt.org/"]
+			"technologies": [],
+			"tags": [
+				"دعم الرياضيات بالعربية",
+				"تنضيد (Typesetting)"
+			],
+			"initiative_type": [
+				"أداة تنضيد"
+			],
+			"links": [
+				"https://khatt.org/"
+			]
 		},
 		{
 			"name": "MathJax Arabic Extension",
@@ -656,12 +909,20 @@
 				"HTML",
 				"CSS",
 				"Makefile",
-				"ويب",
 				"mathjax"
 			],
-			"tags": ["i18n", "math", "arabic"],
-			"initiative_type": ["إضافة برمجية"],
-			"links": ["https://arabicmath.org"]
+			"tags": [
+				"تدويل",
+				"رياضيات",
+				"اللغة العربية",
+				"ويب"
+			],
+			"initiative_type": [
+				"إضافة برمجية"
+			],
+			"links": [
+				"https://arabicmath.org"
+			]
 		},
 		{
 			"name": "mostalah مصطلح aosus-dictionary",
@@ -674,10 +935,18 @@
 			"open_source": "Yes",
 			"last_activity": "2023-05-27",
 			"slug": "mostalah-aosus-dictionary",
-			"technologies": ["CSS", "JavaScript", "Vue"],
-			"tags": ["معجم"],
-			"initiative_type": ["قاموس / معجم"],
-			"links": ["https://mokhnache.com/"]
+			"technologies": [
+				"CSS",
+				"JavaScript",
+				"Vue"
+			],
+			"tags": [],
+			"initiative_type": [
+				"قاموس / معجم"
+			],
+			"links": [
+				"https://mokhnache.com/"
+			]
 		},
 		{
 			"name": "ArabTerm",
@@ -690,10 +959,16 @@
 			"open_source": "Yes",
 			"last_activity": "2023-01-15",
 			"slug": "arabterm",
-			"technologies": ["ويب"],
-			"tags": ["معجم"],
-			"initiative_type": ["قاموس / معجم"],
-			"links": ["http://www.arabterm.org/"]
+			"technologies": [],
+			"tags": [
+				"ويب"
+			],
+			"initiative_type": [
+				"قاموس / معجم"
+			],
+			"links": [
+				"http://www.arabterm.org/"
+			]
 		},
 		{
 			"name": "i18n",
@@ -706,10 +981,16 @@
 			"open_source": "Yes",
 			"last_activity": "2026-04-29",
 			"slug": "i18n",
-			"technologies": ["JavaScript"],
-			"tags": ["معجم"],
-			"initiative_type": ["فريق مبادر"],
-			"links": ["https://i18n.softvenue.net"]
+			"technologies": [
+				"JavaScript"
+			],
+			"tags": [],
+			"initiative_type": [
+				"فريق مبادر"
+			],
+			"links": [
+				"https://i18n.softvenue.net"
+			]
 		},
 		{
 			"name": "معجم المصطلحات التقنية العربية",
@@ -722,10 +1003,19 @@
 			"open_source": "Yes",
 			"last_activity": "2015-02-08",
 			"slug": "arabic-technical-terminology-open-source",
-			"technologies": ["Markdown"],
-			"tags": ["اللغة عربية", "توثيقات", "معجم"],
-			"initiative_type": ["مستندات ووثائق"],
-			"links": ["https://github.com/forabi/arabic-tech-terminology"]
+			"technologies": [
+				"Markdown"
+			],
+			"tags": [
+				"اللغة العربية",
+				"توثيقات"
+			],
+			"initiative_type": [
+				"مستندات ووثائق"
+			],
+			"links": [
+				"https://github.com/forabi/arabic-tech-terminology"
+			]
 		},
 		{
 			"name": "نبراس هو قاموس فرنسي-عربي",
@@ -738,10 +1028,20 @@
 			"open_source": "Yes",
 			"last_activity": "2014-12-10",
 			"slug": "nibras-french-arabic-dictionary-tailored",
-			"technologies": ["C++", "TypeScript"],
-			"tags": ["اللغة عربية", "تعليم", "معجم"],
-			"initiative_type": ["برنامج سطح المكتب 💻", "قاموس"],
-			"links": ["https://nibras.sourceforge.net"]
+			"technologies": [
+				"C++",
+				"TypeScript"
+			],
+			"tags": [
+				"اللغة العربية"
+			],
+			"initiative_type": [
+				"برنامج سطح المكتب 💻",
+				"قاموس"
+			],
+			"links": [
+				"https://nibras.sourceforge.net"
+			]
 		},
 		{
 			"name": "جافاسكريبت بالعربية",
@@ -754,10 +1054,16 @@
 			"open_source": "Yes",
 			"last_activity": "2021-05-14",
 			"slug": "javascript-arabic-open-source-library",
-			"technologies": ["JavaScript"],
-			"tags": ["لغة برمجة عربية"],
-			"initiative_type": ["لغة برمجة"],
-			"links": ["https://github.com/arabi-js/"]
+			"technologies": [
+				"JavaScript"
+			],
+			"tags": [],
+			"initiative_type": [
+				"لغة برمجة"
+			],
+			"links": [
+				"https://github.com/arabi-js/"
+			]
 		},
 		{
 			"name": "لغة ألف",
@@ -770,10 +1076,16 @@
 			"open_source": "Yes",
 			"last_activity": "2026-05-07",
 			"slug": "alif-open-source-arabic-programming",
-			"technologies": ["C++"],
-			"tags": ["لغة برمجة عربية"],
-			"initiative_type": ["لغة برمجة"],
-			"links": ["https://www.aliflang.org"]
+			"technologies": [
+				"C++"
+			],
+			"tags": [],
+			"initiative_type": [
+				"لغة برمجة"
+			],
+			"links": [
+				"https://www.aliflang.org"
+			]
 		},
 		{
 			"name": "لغة \"كلمات\"",
@@ -786,10 +1098,16 @@
 			"open_source": "Yes",
 			"last_activity": "2021-07-06",
 			"slug": "kalimat-open-source-arabic-programming",
-			"technologies": ["C++"],
-			"tags": ["لغة برمجة عربية"],
-			"initiative_type": ["لغة برمجة"],
-			"links": ["https://github.com/mobadarah/kalimat-lang"]
+			"technologies": [
+				"C++"
+			],
+			"tags": [],
+			"initiative_type": [
+				"لغة برمجة"
+			],
+			"links": [
+				"https://github.com/mobadarah/kalimat-lang"
+			]
 		},
 		{
 			"name": "لغة الأسُس البرمجية (Alusus)",
@@ -802,10 +1120,16 @@
 			"open_source": "Yes",
 			"last_activity": "2026-05-17",
 			"slug": "alusus",
-			"technologies": ["C++"],
-			"tags": ["لغة برمجة عربية"],
-			"initiative_type": ["لغة برمجة"],
-			"links": ["https://github.com/Alusus/Alusus"]
+			"technologies": [
+				"C++"
+			],
+			"tags": [],
+			"initiative_type": [
+				"لغة برمجة"
+			],
+			"links": [
+				"https://github.com/Alusus/Alusus"
+			]
 		},
 		{
 			"name": "Phoenix - لغة البرمجة العربية كائنية التوجه",
@@ -818,10 +1142,18 @@
 			"open_source": "Yes",
 			"last_activity": "2019-07",
 			"slug": "phoenix",
-			"technologies": ["NLP", "لغة البرمجة العربية Phoenix"],
-			"tags": ["لغة برمجة عربية"],
-			"initiative_type": ["لغة برمجة", "ورقة بحثية"],
-			"links": ["https://arxiv.org/pdf/1907.05871.pdf"]
+			"technologies": [
+				"NLP",
+				"لغة البرمجة العربية Phoenix"
+			],
+			"tags": [],
+			"initiative_type": [
+				"لغة برمجة",
+				"ورقة بحثية"
+			],
+			"links": [
+				"https://arxiv.org/pdf/1907.05871.pdf"
+			]
 		},
 		{
 			"name": "لغة برمجة عمّوريا",
@@ -834,10 +1166,16 @@
 			"open_source": "Yes",
 			"last_activity": "2021-07-17",
 			"slug": "ammoria-open-source-programming-language",
-			"technologies": ["VBA"],
-			"tags": ["لغة برمجة عربية"],
-			"initiative_type": ["لغة برمجة"],
-			"links": ["http://ammoria.sourceforge.net/ar/ar_index.html"]
+			"technologies": [
+				"VBA"
+			],
+			"tags": [],
+			"initiative_type": [
+				"لغة برمجة"
+			],
+			"links": [
+				"http://ammoria.sourceforge.net/ar/ar_index.html"
+			]
 		},
 		{
 			"name": "مشاريع الخوارزم",
@@ -850,10 +1188,16 @@
 			"open_source": "Yes",
 			"last_activity": "2026-04-14",
 			"slug": "repository-collecting-source-examples",
-			"technologies": ["لغة خوارزم"],
-			"tags": ["لغة برمجة عربية"],
-			"initiative_type": ["لغة برمجة"],
-			"links": ["https://www.alkhawarizm.org"]
+			"technologies": [
+				"لغة خوارزم"
+			],
+			"tags": [],
+			"initiative_type": [
+				"لغة برمجة"
+			],
+			"links": [
+				"https://www.alkhawarizm.org"
+			]
 		},
 		{
 			"name": "NabdJS",
@@ -866,10 +1210,18 @@
 			"open_source": "Yes",
 			"last_activity": "2020-05-01",
 			"slug": "nabdjs",
-			"technologies": ["JavaScript"],
-			"tags": ["اللغة عربية", "لغة برمجة عربية"],
-			"initiative_type": ["لغة برمجة"],
-			"links": ["https://nabdjs.netlify.app/"]
+			"technologies": [
+				"JavaScript"
+			],
+			"tags": [
+				"اللغة العربية"
+			],
+			"initiative_type": [
+				"لغة برمجة"
+			],
+			"links": [
+				"https://nabdjs.netlify.app/"
+			]
 		},
 		{
 			"name": "ALB قلب",
@@ -882,10 +1234,19 @@
 			"open_source": "Yes",
 			"last_activity": "2020",
 			"slug": "alb",
-			"technologies": ["JavaScript", "Ruby"],
-			"tags": ["اللغة عربية"],
-			"initiative_type": ["لغة برمجة"],
-			"links": ["https://nas.sr/قلب/"]
+			"technologies": [
+				"JavaScript",
+				"Ruby"
+			],
+			"tags": [
+				"اللغة العربية"
+			],
+			"initiative_type": [
+				"لغة برمجة"
+			],
+			"links": [
+				"https://nas.sr/قلب/"
+			]
 		},
 		{
 			"name": "Labiba لبيبة",
@@ -898,10 +1259,20 @@
 			"open_source": "Yes",
 			"last_activity": "2026-01-23",
 			"slug": "labiba",
-			"technologies": ["CSS", "HTML", "JavaScript"],
-			"tags": ["لغة برمجة عربية", "تعريب"],
-			"initiative_type": ["لغة برمجة"],
-			"links": ["https://fakoua.github.io/labiba/"]
+			"technologies": [
+				"CSS",
+				"HTML",
+				"JavaScript"
+			],
+			"tags": [
+				"تعريب"
+			],
+			"initiative_type": [
+				"لغة برمجة"
+			],
+			"links": [
+				"https://fakoua.github.io/labiba/"
+			]
 		},
 		{
 			"name": "Mawrid Reader: Arabic dictionary interface",
@@ -914,10 +1285,23 @@
 			"open_source": "Yes",
 			"last_activity": "2024-12-29",
 			"slug": "arabic---english-word",
-			"technologies": ["JavaScript", "CSS", "HTML", "Shell", "Perl"],
-			"tags": ["قاموس", "عربي-إنجليزي", "بحث"],
-			"initiative_type": ["أداة بحث"],
-			"links": ["http://ejtaal.net/mr/"]
+			"technologies": [
+				"JavaScript",
+				"CSS",
+				"HTML",
+				"Shell",
+				"Perl"
+			],
+			"tags": [
+				"عربي-إنجليزي",
+				"بحث"
+			],
+			"initiative_type": [
+				"أداة بحث"
+			],
+			"links": [
+				"http://ejtaal.net/mr/"
+			]
 		},
 		{
 			"name": "Noor programming language",
@@ -930,10 +1314,18 @@
 			"open_source": "Yes",
 			"last_activity": "2018-11-05",
 			"slug": "noor-programming-language",
-			"technologies": ["CSS", "HTML", "JavaScript"],
-			"tags": ["لغة برمجة عربية", "تعليم"],
-			"initiative_type": ["لغة برمجة"],
-			"links": ["https://github.com/SimplyAhmazing/noor"]
+			"technologies": [
+				"CSS",
+				"HTML",
+				"JavaScript"
+			],
+			"tags": [],
+			"initiative_type": [
+				"لغة برمجة"
+			],
+			"links": [
+				"https://github.com/SimplyAhmazing/noor"
+			]
 		},
 		{
 			"name": "Coursera Arabic Subtitle Translation",
@@ -946,9 +1338,16 @@
 			"open_source": "Yes",
 			"last_activity": "2021-03-14",
 			"slug": "coursera-arabic-subtitle-translation",
-			"technologies": ["JavaScript", "NLP"],
-			"tags": ["اللغة عربية"],
-			"initiative_type": ["تعليم"],
+			"technologies": [
+				"JavaScript",
+				"NLP"
+			],
+			"tags": [
+				"اللغة العربية"
+			],
+			"initiative_type": [
+				"تعليم"
+			],
 			"links": [
 				"https://github.com/imAbdelhadi/coursera-subtitle-translation-arabic"
 			]
@@ -964,10 +1363,20 @@
 			"open_source": "Yes",
 			"last_activity": "2026-03-30",
 			"slug": "the-modern-javascript-tutorial-in-arabic",
-			"technologies": ["HTML", "JavaScript", "CSS"],
-			"tags": ["tutorial", "arabic"],
-			"initiative_type": ["محتوى تعليمي"],
-			"links": ["https://javascript.info"]
+			"technologies": [
+				"HTML",
+				"JavaScript",
+				"CSS"
+			],
+			"tags": [
+				"اللغة العربية"
+			],
+			"initiative_type": [
+				"محتوى تعليمي"
+			],
+			"links": [
+				"https://javascript.info"
+			]
 		},
 		{
 			"name": "Arabic NLP Tools and Resources Lists",
@@ -980,10 +1389,23 @@
 			"open_source": "Yes",
 			"last_activity": "2022-12-17",
 			"slug": "arabic-nlp-tools-and-resources-lists",
-			"technologies": ["Python", "JavaScript", "Java", "NLP"],
-			"tags": ["catalogue", "arabic", "nlp-resources"],
-			"initiative_type": ["فهرس / قائمة"],
-			"links": ["https://github.com/linuxscout/arabicnlptoolslist"]
+			"technologies": [
+				"Python",
+				"JavaScript",
+				"Java",
+				"NLP"
+			],
+			"tags": [
+				"اللغة العربية",
+				"nlp-resources",
+				"تجميعة"
+			],
+			"initiative_type": [
+				"فهرس / قائمة"
+			],
+			"links": [
+				"https://github.com/linuxscout/arabicnlptoolslist"
+			]
 		},
 		{
 			"name": "Adawat: Arabic Language Toolkit",
@@ -996,10 +1418,21 @@
 			"open_source": "Yes",
 			"last_activity": "2020-08-27",
 			"slug": "adawat-arabic-language-toolkit",
-			"technologies": ["Python", "Makefile"],
-			"tags": ["نصوص عربية", "تصحيح", "تشكيل"],
-			"initiative_type": ["أداة"],
-			"links": ["https://github.com/linuxscout/adawat"]
+			"technologies": [
+				"Python",
+				"Makefile"
+			],
+			"tags": [
+				"نصوص عربية",
+				"تصحيح",
+				"التشكيل"
+			],
+			"initiative_type": [
+				"أداة"
+			],
+			"links": [
+				"https://github.com/linuxscout/adawat"
+			]
 		},
 		{
 			"name": "Python Arabic Reshaper",
@@ -1012,10 +1445,19 @@
 			"open_source": "Yes",
 			"last_activity": "2026-04-28",
 			"slug": "python-arabic-reshaper",
-			"technologies": ["Python", "reshape"],
-			"tags": ["arabic"],
-			"initiative_type": ["مكتبة برمجية"],
-			"links": ["https://github.com/mpcabd/python-arabic-reshaper"]
+			"technologies": [
+				"Python",
+				"reshape"
+			],
+			"tags": [
+				"اللغة العربية"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://github.com/mpcabd/python-arabic-reshaper"
+			]
 		},
 		{
 			"name": "LanguageTool",
@@ -1028,10 +1470,26 @@
 			"open_source": "Yes",
 			"last_activity": "2025-03-26",
 			"slug": "languagetool",
-			"technologies": ["Java", "HTML", "Python", "Shell", "Perl", "Awk"],
-			"tags": ["تدقيق", "نحو", "إملاء", "لغات متعددة"],
-			"initiative_type": ["أداة"],
-			"links": ["https://languagetool.org"]
+			"technologies": [
+				"Java",
+				"HTML",
+				"Python",
+				"Shell",
+				"Perl",
+				"Awk"
+			],
+			"tags": [
+				"تدقيق",
+				"نحو",
+				"إملاء",
+				"لغات متعددة"
+			],
+			"initiative_type": [
+				"أداة"
+			],
+			"links": [
+				"https://languagetool.org"
+			]
 		},
 		{
 			"name": "tnkeeh",
@@ -1050,9 +1508,16 @@
 				"NLP",
 				"preprocessing-library"
 			],
-			"tags": ["cleaning", "arabic-nlp"],
-			"initiative_type": ["مكتبة برمجية"],
-			"links": ["https://github.com/ARBML/tnkeeh"]
+			"tags": [
+				"تنظيف",
+				"arabic-nlp"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://github.com/ARBML/tnkeeh"
+			]
 		},
 		{
 			"name": "arabert",
@@ -1073,9 +1538,18 @@
 				"gpt2",
 				"huggingface-transformer"
 			],
-			"tags": ["arabic", "arabic-nlp", "arabic-classification", "arabert"],
-			"initiative_type": ["مكتبة برمجية"],
-			"links": ["https://huggingface.co/aubmindlab"]
+			"tags": [
+				"اللغة العربية",
+				"arabic-nlp",
+				"arabic-classification",
+				"arabert"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://huggingface.co/aubmindlab"
+			]
 		},
 		{
 			"name": "AyaSpell Arabic Dictionary for Spellchecking",
@@ -1088,10 +1562,21 @@
 			"open_source": "Yes",
 			"last_activity": "2020-08-27",
 			"slug": "ayaspell-arabic-dictionary-hunspell",
-			"technologies": ["Shell", "Makefile", "JavaScript", "hunspell"],
-			"tags": ["تدقيق إملائي", "قاموس"],
-			"initiative_type": ["قاموس"],
-			"links": ["https://github.com/linuxscout/ayaspell"]
+			"technologies": [
+				"Shell",
+				"Makefile",
+				"JavaScript",
+				"hunspell"
+			],
+			"tags": [
+				"إملاء"
+			],
+			"initiative_type": [
+				"قاموس"
+			],
+			"links": [
+				"https://github.com/linuxscout/ayaspell"
+			]
 		},
 		{
 			"name": "Arabic Named Entity Recognition: What Works and What’s Next",
@@ -1104,16 +1589,24 @@
 			"open_source": "Yes",
 			"last_activity": "2020-03-12",
 			"slug": "paper-presents-winning-solution",
-			"technologies": ["تعلم آلي", "التعرف على الكيانات المسماة", "NLP"],
+			"technologies": [
+				"التعرف على الكيانات المسماة",
+				"NLP"
+			],
 			"tags": [
 				"أنواع الأعيان",
 				"أنواع الكلمات",
-				"اللغة عربية",
+				"اللغة العربية",
 				"تحليل صرفي",
-				"معالجة اللغة الطبيعية"
+				"معالجة اللغات",
+				"تعلم آلي"
 			],
-			"initiative_type": ["ورقة بحثية"],
-			"links": ["https://www.aclweb.org/anthology/W19-4607.pdf"]
+			"initiative_type": [
+				"ورقة بحثية"
+			],
+			"links": [
+				"https://www.aclweb.org/anthology/W19-4607.pdf"
+			]
 		},
 		{
 			"name": "PyArabic",
@@ -1126,16 +1619,21 @@
 			"open_source": "Yes",
 			"last_activity": "2026-01-16",
 			"slug": "pyarabic",
-			"technologies": ["Python"],
+			"technologies": [
+				"Python"
+			],
 			"tags": [
 				"أنواع الكلمات",
 				"التشكيل",
-				"اللغة عربية",
-				"تحليل صرفي",
-				"تقنية"
+				"اللغة العربية",
+				"تحليل صرفي"
 			],
-			"initiative_type": ["مكتبة برمجية"],
-			"links": ["https://github.com/linuxscout/pyarabic"]
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://github.com/linuxscout/pyarabic"
+			]
 		},
 		{
 			"name": "ArabicTransliterator",
@@ -1148,10 +1646,22 @@
 			"open_source": "Yes",
 			"last_activity": "2022-05-15",
 			"slug": "arabictransliterator",
-			"technologies": ["Python", "TSQL", "HTML"],
-			"tags": ["ترجمة صوتية", "ترميز", "ALA-LC"],
-			"initiative_type": ["مكتبة برمجية"],
-			"links": ["https://github.com/MTG/ArabicTransliterator"]
+			"technologies": [
+				"Python",
+				"TSQL",
+				"HTML"
+			],
+			"tags": [
+				"ترجمة صوتية",
+				"ترميز",
+				"ALA-LC"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://github.com/MTG/ArabicTransliterator"
+			]
 		},
 		{
 			"name": "Arabic Word Embeddings Word2vec",
@@ -1171,12 +1681,19 @@
 				"CSS",
 				"NLP",
 				"Flask",
-				"ذكاء اصطناعي",
 				"word2vec"
 			],
-			"tags": ["embeddings", "arabic"],
-			"initiative_type": ["تطبيق ويب"],
-			"links": ["https://github.com/rozester/Arabic-Word-Embeddings-Word2vec"]
+			"tags": [
+				"تضمينات",
+				"اللغة العربية",
+				"ذكاء اصطناعي"
+			],
+			"initiative_type": [
+				"تطبيق ويب"
+			],
+			"links": [
+				"https://github.com/rozester/Arabic-Word-Embeddings-Word2vec"
+			]
 		},
 		{
 			"name": "raqin",
@@ -1197,9 +1714,17 @@
 				"Shell",
 				"Dockerfile"
 			],
-			"tags": ["قرآن", "علوم القرآن", "لغة عربية", "منصة تعليمية"],
-			"initiative_type": ["منصة رقمية"],
-			"links": ["https://github.com/Fahad-Alsaidi/raqin"]
+			"tags": [
+				"القرآن الكريم",
+				"علوم القرآن",
+				"اللغة العربية"
+			],
+			"initiative_type": [
+				"منصة رقمية"
+			],
+			"links": [
+				"https://github.com/Fahad-Alsaidi/raqin"
+			]
 		},
 		{
 			"name": "Arabic_OCR",
@@ -1212,10 +1737,21 @@
 			"open_source": "Yes",
 			"last_activity": "2022-09-07",
 			"slug": "arabic_ocr",
-			"technologies": ["Python", "HTML"],
-			"tags": ["OCR", "تعرف بصري", "لغة عربية"],
-			"initiative_type": ["تطبيق"],
-			"links": ["https://github.com/maidaly/Arabic_OCR"]
+			"technologies": [
+				"Python",
+				"HTML"
+			],
+			"tags": [
+				"OCR",
+				"تعرف بصري",
+				"اللغة العربية"
+			],
+			"initiative_type": [
+				"تطبيق"
+			],
+			"links": [
+				"https://github.com/maidaly/Arabic_OCR"
+			]
 		},
 		{
 			"name": "ARBML",
@@ -1233,12 +1769,20 @@
 				"Jupyter Notebook",
 				"JavaScript",
 				"CSS",
-				"NLP",
+				"NLP"
+			],
+			"tags": [
+				"معالجة اللغات",
+				"اللغة العربية",
+				"مفتوح المصدر",
 				"ذكاء اصطناعي"
 			],
-			"tags": ["معالجة لغة طبيعية", "عربية", "مفتوح المصدر"],
-			"initiative_type": ["منظمة / مجموعة مشاريع"],
-			"links": ["https://github.com/ARBML"]
+			"initiative_type": [
+				"منظمة / مجموعة مشاريع"
+			],
+			"links": [
+				"https://github.com/ARBML"
+			]
 		},
 		{
 			"name": "Arabic NLP",
@@ -1251,10 +1795,20 @@
 			"open_source": "Yes",
 			"last_activity": "2013-10-10",
 			"slug": "arabic-nlp",
-			"technologies": ["Python"],
-			"tags": ["معالجة لغة طبيعية", "نصوص عربية", "سكريبتات"],
-			"initiative_type": ["سكريبت برمجي"],
-			"links": ["https://github.com/SemanticFrontiers/ArabicNLP"]
+			"technologies": [
+				"Python"
+			],
+			"tags": [
+				"معالجة اللغات",
+				"نصوص عربية",
+				"سكريبتات"
+			],
+			"initiative_type": [
+				"سكريبت برمجي"
+			],
+			"links": [
+				"https://github.com/SemanticFrontiers/ArabicNLP"
+			]
 		},
 		{
 			"name": "Arabic-OCR",
@@ -1269,20 +1823,26 @@
 			"slug": "arabic-ocr",
 			"technologies": [
 				"Python",
-				"تعلم آلي",
 				"ocr",
 				"computer-vision",
-				"شبكات عصبية",
 				"scikit-learn",
-				"معالجة الصور",
-				"مجموعة بيانات",
 				"segmentation",
 				"opencv-python",
 				"character-segmentation"
 			],
-			"tags": ["arabic"],
-			"initiative_type": ["تطبيق"],
-			"links": ["https://github.com/HusseinYoussef/Arabic-OCR"]
+			"tags": [
+				"اللغة العربية",
+				"تعلم آلي",
+				"شبكات عصبية",
+				"معالجة الصور",
+				"مجموعة بيانات"
+			],
+			"initiative_type": [
+				"تطبيق"
+			],
+			"links": [
+				"https://github.com/HusseinYoussef/Arabic-OCR"
+			]
 		},
 		{
 			"name": "Arabic Handwriting Recognition Using Neural Network in MATLAB",
@@ -1295,10 +1855,22 @@
 			"open_source": "Yes",
 			"last_activity": "2016-09-19",
 			"slug": "handwriting-recognition-ability-computer",
-			"technologies": ["Matlab", "شبكات عصبية", "تعرف بصري على النصوص"],
-			"tags": ["اكتشاف النصوص", "اللغة عربية", "خط اليد"],
-			"initiative_type": ["مشروع أكاديمي"],
-			"links": ["http://www.imljh.com/projects/arabichwr/index.xml"]
+			"technologies": [
+				"Matlab",
+				"تعرف بصري على النصوص"
+			],
+			"tags": [
+				"اكتشاف النصوص",
+				"اللغة العربية",
+				"خط اليد",
+				"شبكات عصبية"
+			],
+			"initiative_type": [
+				"مشروع أكاديمي"
+			],
+			"links": [
+				"http://www.imljh.com/projects/arabichwr/index.xml"
+			]
 		},
 		{
 			"name": "Arabic-NER",
@@ -1311,10 +1883,22 @@
 			"open_source": "Yes",
 			"last_activity": "2020-02-01",
 			"slug": "arabic-ner",
-			"technologies": ["GRU Architecture", "التعرف على الكيانات المسماة"],
-			"tags": ["أنواع الأعيان", "أنواع الكلمات", "اللغة عربية", "تحليل صرفي"],
-			"initiative_type": ["Model"],
-			"links": ["https://github.com/HassanAzzam/Arabic-NER"]
+			"technologies": [
+				"GRU Architecture",
+				"التعرف على الكيانات المسماة"
+			],
+			"tags": [
+				"أنواع الأعيان",
+				"أنواع الكلمات",
+				"اللغة العربية",
+				"تحليل صرفي"
+			],
+			"initiative_type": [
+				"Model"
+			],
+			"links": [
+				"https://github.com/HassanAzzam/Arabic-NER"
+			]
 		},
 		{
 			"name": "Arabic-Font-Detector",
@@ -1327,10 +1911,21 @@
 			"open_source": "Yes",
 			"last_activity": "2023-05-27",
 			"slug": "arabic-font-detector",
-			"technologies": ["Jupyter Notebook", "تعلم آلي", "Python"],
-			"tags": ["اللغة عربية"],
-			"initiative_type": ["تطبيق ويب", "سكريبت برمجي"],
-			"links": ["https://calbot.hawzen.me/"]
+			"technologies": [
+				"Jupyter Notebook",
+				"Python"
+			],
+			"tags": [
+				"اللغة العربية",
+				"تعلم آلي"
+			],
+			"initiative_type": [
+				"تطبيق ويب",
+				"سكريبت برمجي"
+			],
+			"links": [
+				"https://calbot.hawzen.me/"
+			]
 		},
 		{
 			"name": "Arabic TTS ( الناطق العربي )",
@@ -1343,10 +1938,19 @@
 			"open_source": "Yes",
 			"last_activity": "2019-09-16",
 			"slug": "arabic-tts",
-			"technologies": ["تعلم آلي", "Shell"],
-			"tags": ["اللغة عربية"],
-			"initiative_type": ["TTS"],
-			"links": ["http://asrajeh.ddns.net/tts/"]
+			"technologies": [
+				"Shell"
+			],
+			"tags": [
+				"اللغة العربية",
+				"تعلم آلي"
+			],
+			"initiative_type": [
+				"TTS"
+			],
+			"links": [
+				"http://asrajeh.ddns.net/tts/"
+			]
 		},
 		{
 			"name": "Klaam",
@@ -1359,10 +1963,21 @@
 			"open_source": "Yes",
 			"last_activity": "2023-09-30",
 			"slug": "klaam",
-			"technologies": ["Jupyter Notebook", "تعلم آلي", "Python", "تعرف صوتي"],
-			"tags": ["مكتبة"],
-			"initiative_type": ["CLI", "مكتبة برمجية"],
-			"links": ["https://github.com/ARBML/klaam"]
+			"technologies": [
+				"Jupyter Notebook",
+				"Python"
+			],
+			"tags": [
+				"تعلم آلي",
+				"تعرف صوتي"
+			],
+			"initiative_type": [
+				"CLI",
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://github.com/ARBML/klaam"
+			]
 		},
 		{
 			"name": "Arabic Speech Corpus",
@@ -1376,15 +1991,23 @@
 			"last_activity": "2021-02-12",
 			"slug": "arabic-speech-corpus",
 			"technologies": [
-				"قاعدة بيانات",
 				"Docker",
+				"Python"
+			],
+			"tags": [
+				"أصوات",
+				"اللغة العربية",
 				"تعلم آلي",
-				"Python",
 				"تعرف صوتي"
 			],
-			"tags": ["أصوات", "اللغة عربية"],
-			"initiative_type": ["CLI", "قاعدة بيانات", "مكتبة برمجية"],
-			"links": ["https://ar.arabicspeechcorpus.com/"]
+			"initiative_type": [
+				"CLI",
+				"قاعدة بيانات",
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://ar.arabicspeechcorpus.com/"
+			]
 		},
 		{
 			"name": "arabic-tacotron-tts",
@@ -1397,10 +2020,20 @@
 			"open_source": "Yes",
 			"last_activity": "2021-04-21",
 			"slug": "arabic-tacotron-tts",
-			"technologies": ["تعلم آلي", "Python"],
-			"tags": ["اللغة عربية"],
-			"initiative_type": ["TTS", "مكتبة برمجية"],
-			"links": ["https://github.com/youssefsharief/arabic-tacotron-tts"]
+			"technologies": [
+				"Python"
+			],
+			"tags": [
+				"اللغة العربية",
+				"تعلم آلي"
+			],
+			"initiative_type": [
+				"TTS",
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://github.com/youssefsharief/arabic-tacotron-tts"
+			]
 		},
 		{
 			"name": "languagetool-tools-ar",
@@ -1413,10 +2046,20 @@
 			"open_source": "Yes",
 			"last_activity": "2020-05-17",
 			"slug": "languagetool-tools-ar",
-			"technologies": ["Java"],
-			"tags": ["اضافة لمكتبة", "اللغة عربية", "قواعد لغوية"],
-			"initiative_type": ["سكريبت برمجي"],
-			"links": ["https://github.com/sohaibafifi/languagetool-tools-ar"]
+			"technologies": [
+				"Java"
+			],
+			"tags": [
+				"اللغة العربية",
+				"قواعد لغوية"
+			],
+			"initiative_type": [
+				"سكريبت برمجي",
+				"اضافة لمكتبة"
+			],
+			"links": [
+				"https://github.com/sohaibafifi/languagetool-tools-ar"
+			]
 		},
 		{
 			"name": "Ghalatawi, Arabic AutoCorrect",
@@ -1429,9 +2072,18 @@
 			"open_source": "Yes",
 			"last_activity": "2023-01-05",
 			"slug": "ghalatawi-arabic-autocorrect",
-			"technologies": ["NLP", "Python", "تعابير منتظمة"],
-			"tags": ["تصحيح إملائي", "قوالب", "مكتبة برمجية"],
-			"initiative_type": ["قواميس وأدوات"],
+			"technologies": [
+				"NLP",
+				"Python",
+				"تعابير منتظمة"
+			],
+			"tags": [
+				"تصحيح إملائي",
+				"قوالب"
+			],
+			"initiative_type": [
+				"قواميس وأدوات"
+			],
 			"links": [
 				"https://github.com/linuxscout/ghalatawi",
 				"https://pypi.org/project/ghalatawi/"
@@ -1448,10 +2100,23 @@
 			"open_source": "Yes",
 			"last_activity": "2021-06-15",
 			"slug": "duali",
-			"technologies": ["C", "C++", "Makefile", "Python"],
-			"tags": ["تدقيق إملائي", "عربي", "تصحيح إملائي"],
-			"initiative_type": ["مكتبة برمجية"],
-			"links": ["https://gitlab.com/arabeyes-dev/duali"]
+			"technologies": [
+				"C",
+				"C++",
+				"Makefile",
+				"Python"
+			],
+			"tags": [
+				"إملاء",
+				"اللغة العربية",
+				"تصحيح إملائي"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://gitlab.com/arabeyes-dev/duali"
+			]
 		},
 		{
 			"name": "shakkelha",
@@ -1465,14 +2130,23 @@
 			"last_activity": "2023-03-24",
 			"slug": "shakkelha",
 			"technologies": [
-				"مجموعة بيانات",
 				"Jupyter Notebook",
 				"NLP",
-				"شبكات عصبية",
 				"Python"
 			],
-			"tags": ["التشكيل", "اللغة عربية", "معالجة اللغة الطبيعية"],
-			"initiative_type": ["CLI", "Model", "مكتبة برمجية", "ورقة بحثية"],
+			"tags": [
+				"التشكيل",
+				"اللغة العربية",
+				"معالجة اللغات",
+				"مجموعة بيانات",
+				"شبكات عصبية"
+			],
+			"initiative_type": [
+				"CLI",
+				"Model",
+				"مكتبة برمجية",
+				"ورقة بحثية"
+			],
 			"links": [
 				"https://shakkelha.up.railway.app/",
 				"https://aclanthology.org/D19-5229/"
@@ -1489,10 +2163,25 @@
 			"open_source": "Yes",
 			"last_activity": "2026-04-07",
 			"slug": "arabic-text-diacritization",
-			"technologies": ["مجموعة بيانات", "NLP", "Python"],
-			"tags": ["التشكيل", "اللغة عربية", "معالجة اللغة الطبيعية"],
-			"initiative_type": ["Model", "قاعدة بيانات", "مصادر", "ورقة بحثية"],
-			"links": ["https://arxiv.org/abs/1905.01965"]
+			"technologies": [
+				"NLP",
+				"Python"
+			],
+			"tags": [
+				"التشكيل",
+				"اللغة العربية",
+				"معالجة اللغات",
+				"مجموعة بيانات"
+			],
+			"initiative_type": [
+				"Model",
+				"قاعدة بيانات",
+				"مصادر",
+				"ورقة بحثية"
+			],
+			"links": [
+				"https://arxiv.org/abs/1905.01965"
+			]
 		},
 		{
 			"name": "mishkal",
@@ -1505,10 +2194,24 @@
 			"open_source": "Yes",
 			"last_activity": "2025-09-18",
 			"slug": "mishkal",
-			"technologies": ["NLP", "Python", "ويب"],
-			"tags": ["التشكيل", "اللغة عربية", "معالجة اللغة الطبيعية"],
-			"initiative_type": ["CLI", "تطبيق ويب", "مكتبة برمجية"],
-			"links": ["http://www.tahadz.com/mishkal/main"]
+			"technologies": [
+				"NLP",
+				"Python"
+			],
+			"tags": [
+				"التشكيل",
+				"اللغة العربية",
+				"معالجة اللغات",
+				"ويب"
+			],
+			"initiative_type": [
+				"CLI",
+				"تطبيق ويب",
+				"مكتبة برمجية"
+			],
+			"links": [
+				"http://www.tahadz.com/mishkal/main"
+			]
 		},
 		{
 			"name": "Shakkala",
@@ -1521,9 +2224,19 @@
 			"open_source": "Yes",
 			"last_activity": "2023-03-25",
 			"slug": "shakkala",
-			"technologies": ["تعلم عميق", "NLP", "Python"],
-			"tags": ["التشكيل", "اللغة عربية", "معالجة اللغة الطبيعية"],
-			"initiative_type": ["مكتبة برمجية"],
+			"technologies": [
+				"NLP",
+				"Python"
+			],
+			"tags": [
+				"التشكيل",
+				"اللغة العربية",
+				"معالجة اللغات",
+				"تعلم عميق"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
 			"links": [
 				"https://ahmadai.com/shakkala/",
 				"https://arxiv.org/abs/1905.01965"
@@ -1540,10 +2253,21 @@
 			"open_source": "Yes",
 			"last_activity": "2012-12-01",
 			"slug": "jsastem",
-			"technologies": ["JavaScript", "Shell", "Python"],
-			"tags": ["تجذيع", "معالجة لغة طبيعية"],
-			"initiative_type": ["مكتبة برمجية"],
-			"links": ["https://github.com/ejtaal/jsastem"]
+			"technologies": [
+				"JavaScript",
+				"Shell",
+				"Python"
+			],
+			"tags": [
+				"تجذيع",
+				"معالجة اللغات"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://github.com/ejtaal/jsastem"
+			]
 		},
 		{
 			"name": "arabicstemmer",
@@ -1556,10 +2280,25 @@
 			"open_source": "Yes",
 			"last_activity": "2018-11-04",
 			"slug": "arabicstemmer",
-			"technologies": ["Makefile", "Python", "Snowball", "ويب"],
-			"tags": ["اللغة عربية", "ايجاد جزور الكلمات", "معالجة اللغة الطبيعية"],
-			"initiative_type": ["CLI", "تطبيق ويب", "مكتبة برمجية"],
-			"links": ["https://arabicstemmer.com/"]
+			"technologies": [
+				"Makefile",
+				"Python",
+				"Snowball"
+			],
+			"tags": [
+				"اللغة العربية",
+				"ايجاد جزور الكلمات",
+				"معالجة اللغات",
+				"ويب"
+			],
+			"initiative_type": [
+				"CLI",
+				"تطبيق ويب",
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://arabicstemmer.com/"
+			]
 		},
 		{
 			"name": "Sarf",
@@ -1572,9 +2311,22 @@
 			"open_source": "Yes",
 			"last_activity": "2021-10-12",
 			"slug": "sarf",
-			"technologies": ["Gherkin", "Java", "NLP", "ويب"],
-			"tags": ["اللغة عربية", "تحليل صرفي", "معالجة اللغة الطبيعية"],
-			"initiative_type": ["تطبيق ويب", "مستندات ووثائق", "ورقة بحثية"],
+			"technologies": [
+				"Gherkin",
+				"Java",
+				"NLP"
+			],
+			"tags": [
+				"اللغة العربية",
+				"تحليل صرفي",
+				"معالجة اللغات",
+				"ويب"
+			],
+			"initiative_type": [
+				"تطبيق ويب",
+				"مستندات ووثائق",
+				"ورقة بحثية"
+			],
 			"links": [
 				"https://sarf.one/",
 				"https://ossl.alecso.org/affich_oso_details.php?id=55",
@@ -1592,10 +2344,24 @@
 			"open_source": "Yes",
 			"last_activity": "2025-03-10",
 			"slug": "wojood-nested-arabic-ner",
-			"technologies": ["مجموعة بيانات", "تعلم آلي", "NLP", "Python"],
-			"tags": ["اللغة عربية", "محررات نصوص"],
-			"initiative_type": ["Model", "مكتبة برمجية", "ورقة بحثية"],
-			"links": ["https://sina.birzeit.edu/wojood/"]
+			"technologies": [
+				"NLP",
+				"Python"
+			],
+			"tags": [
+				"اللغة العربية",
+				"محررات نصوص",
+				"مجموعة بيانات",
+				"تعلم آلي"
+			],
+			"initiative_type": [
+				"Model",
+				"مكتبة برمجية",
+				"ورقة بحثية"
+			],
+			"links": [
+				"https://sina.birzeit.edu/wojood/"
+			]
 		},
 		{
 			"name": "alankaa",
@@ -1609,20 +2375,24 @@
 			"last_activity": "2026-05-12",
 			"slug": "alankaa",
 			"technologies": [
+				"NLP"
+			],
+			"tags": [
+				"اللغة العربية",
+				"توثيقات",
 				"مجموعة بيانات",
 				"تعلم آلي",
-				"NLP",
-				"فهرس",
-				"قاعدة بيانات"
+				"تجميعة"
 			],
-			"tags": ["اللغة عربية", "توثيقات", "معجم", "مكتبة"],
 			"initiative_type": [
 				"تطبيق ويب",
 				"فريق مبادر",
 				"قاعدة بيانات",
 				"مستندات ووثائق"
 			],
-			"links": ["https://alankaa.com/project/index.php"]
+			"links": [
+				"https://alankaa.com/project/index.php"
+			]
 		},
 		{
 			"name": "Qutrub",
@@ -1635,10 +2405,21 @@
 			"open_source": "Yes",
 			"last_activity": "2023-07-31",
 			"slug": "qutrub",
-			"technologies": ["NLP", "Python"],
-			"tags": ["اللغة عربية", "محررات نصوص"],
-			"initiative_type": ["Model", "مكتبة برمجية"],
-			"links": ["https://tahadz.com/homepage/ar/p/qutrub/"]
+			"technologies": [
+				"NLP",
+				"Python"
+			],
+			"tags": [
+				"اللغة العربية",
+				"محررات نصوص"
+			],
+			"initiative_type": [
+				"Model",
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://tahadz.com/homepage/ar/p/qutrub/"
+			]
 		},
 		{
 			"name": "Arabic Poem Generator",
@@ -1651,9 +2432,19 @@
 			"open_source": "Yes",
 			"last_activity": "2021-12-13",
 			"slug": "arabic-poem-generator",
-			"technologies": ["مجموعة بيانات", "Jupyter Notebook", "Python"],
-			"tags": ["اللغة عربية", "شعر"],
-			"initiative_type": ["Model", "سكريبت برمجي"],
+			"technologies": [
+				"Jupyter Notebook",
+				"Python"
+			],
+			"tags": [
+				"اللغة العربية",
+				"شعر",
+				"مجموعة بيانات"
+			],
+			"initiative_type": [
+				"Model",
+				"سكريبت برمجي"
+			],
 			"links": [
 				"https://www.youtube.com/watch?v=Dnx6bE4Nwyo",
 				"https://www.kaggle.com/datasets/ahmedabelal/arabic-poetry"
@@ -1670,10 +2461,24 @@
 			"open_source": "Yes",
 			"last_activity": "2026-05-12",
 			"slug": "alif-type",
-			"technologies": ["Makefile", "Python", "SCSS", "Tex"],
-			"tags": ["اللغة عربية", "خط"],
-			"initiative_type": ["خط عربي", "فريق مبادر", "مجتمع", "مكتبة برمجية"],
-			"links": ["https://aliftype.com/"]
+			"technologies": [
+				"Makefile",
+				"Python",
+				"SCSS",
+				"Tex"
+			],
+			"tags": [
+				"اللغة العربية"
+			],
+			"initiative_type": [
+				"خط عربي",
+				"فريق مبادر",
+				"مجتمع",
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://aliftype.com/"
+			]
 		},
 		{
 			"name": "Khotot",
@@ -1686,9 +2491,15 @@
 			"open_source": "Yes",
 			"last_activity": "2017-02-20",
 			"slug": "khotot",
-			"technologies": ["خط (Font)"],
-			"tags": ["اللغة عربية", "خط"],
-			"initiative_type": ["خط عربي", "فريق مبادر"],
+			"technologies": [],
+			"tags": [
+				"اللغة العربية",
+				"خط (Font)"
+			],
+			"initiative_type": [
+				"خط عربي",
+				"فريق مبادر"
+			],
 			"links": [
 				"https://www.arabeyes.org/Khotot",
 				"https://www.arabeyes.org/%D8%AE%D8%B7%D9%88%D8%B7"
@@ -1705,10 +2516,17 @@
 			"open_source": "Yes",
 			"last_activity": "2018-03-14",
 			"slug": "nimra",
-			"technologies": ["خط (Font)"],
-			"tags": ["اللغة عربية", "خط"],
-			"initiative_type": ["خط عربي"],
-			"links": ["https://makkuk.com/nimra/"]
+			"technologies": [],
+			"tags": [
+				"اللغة العربية",
+				"خط (Font)"
+			],
+			"initiative_type": [
+				"خط عربي"
+			],
+			"links": [
+				"https://makkuk.com/nimra/"
+			]
 		},
 		{
 			"name": "Cairo",
@@ -1721,10 +2539,20 @@
 			"open_source": "Yes",
 			"last_activity": "2020-05-18",
 			"slug": "cairo",
-			"technologies": ["Makefile", "Python", "Shell"],
-			"tags": ["اللغة عربية", "خط"],
-			"initiative_type": ["خط عربي"],
-			"links": ["https://gaber.design/cairo-free-font-family"]
+			"technologies": [
+				"Makefile",
+				"Python",
+				"Shell"
+			],
+			"tags": [
+				"اللغة العربية"
+			],
+			"initiative_type": [
+				"خط عربي"
+			],
+			"links": [
+				"https://gaber.design/cairo-free-font-family"
+			]
 		},
 		{
 			"name": "خط أسس (خط للأكواد العربية)",
@@ -1737,9 +2565,16 @@
 			"open_source": "Yes",
 			"last_activity": "2021-12-18",
 			"slug": "monospace-font-arabic-code",
-			"technologies": ["خط (Font)", "ويب"],
-			"tags": ["اللغة عربية", "تقنية", "خط", "فونت"],
-			"initiative_type": ["خط عربي"],
+			"technologies": [],
+			"tags": [
+				"اللغة العربية",
+				"فونت",
+				"خط (Font)",
+				"ويب"
+			],
+			"initiative_type": [
+				"خط عربي"
+			],
 			"links": [
 				"https://community.alusus.org/t/kht-erby-jdyd-thabt-alerd-mwnw/23"
 			]
@@ -1755,10 +2590,17 @@
 			"open_source": "Yes",
 			"last_activity": "2016-01-15",
 			"slug": "kawkab-mono",
-			"technologies": ["خط (Font)"],
-			"tags": ["اللغة عربية", "خط"],
-			"initiative_type": ["خط عربي"],
-			"links": ["https://makkuk.com/kawkab-mono/"]
+			"technologies": [],
+			"tags": [
+				"اللغة العربية",
+				"خط (Font)"
+			],
+			"initiative_type": [
+				"خط عربي"
+			],
+			"links": [
+				"https://makkuk.com/kawkab-mono/"
+			]
 		},
 		{
 			"name": "دليل أسلوب كتابة المحتوى (Content Style Guide)",
@@ -1771,16 +2613,22 @@
 			"open_source": "Yes",
 			"last_activity": "2023-05-27",
 			"slug": "content-style-guide",
-			"technologies": ["CSS", "Markdown"],
+			"technologies": [
+				"CSS",
+				"Markdown"
+			],
 			"tags": [
-				"اللغة عربية",
+				"اللغة العربية",
 				"تحسين تجربة المستخدم",
-				"تعليم",
-				"تقنية",
 				"توثيقات"
 			],
-			"initiative_type": ["تعليم", "مستندات ووثائق"],
-			"links": ["https://github.com/UX-Writing/Content-Style-Guide-in-Arabic"]
+			"initiative_type": [
+				"تعليم",
+				"مستندات ووثائق"
+			],
+			"links": [
+				"https://github.com/UX-Writing/Content-Style-Guide-in-Arabic"
+			]
 		},
 		{
 			"name": "Arabic Initiative for User Experience (AIUX)",
@@ -1793,10 +2641,19 @@
 			"open_source": "Yes",
 			"last_activity": "2021-04-21",
 			"slug": "arabic-initiative-user-experience",
-			"technologies": ["SCSS"],
-			"tags": ["اللغة عربية", "تحسين تجربة المستخدم", "تقنية"],
-			"initiative_type": ["فريق مبادر"],
-			"links": ["https://kl13nt.github.io/AIUX"]
+			"technologies": [
+				"SCSS"
+			],
+			"tags": [
+				"اللغة العربية",
+				"تحسين تجربة المستخدم"
+			],
+			"initiative_type": [
+				"فريق مبادر"
+			],
+			"links": [
+				"https://kl13nt.github.io/AIUX"
+			]
 		},
 		{
 			"name": "Osman Readability Metric",
@@ -1809,9 +2666,15 @@
 			"open_source": "Yes",
 			"last_activity": "2025-07-04",
 			"slug": "osman-readability-metric",
-			"technologies": ["Java"],
-			"tags": ["اللغة عربية"],
-			"initiative_type": ["CLI"],
+			"technologies": [
+				"Java"
+			],
+			"tags": [
+				"اللغة العربية"
+			],
+			"initiative_type": [
+				"CLI"
+			],
 			"links": [
 				"https://www.lancaster.ac.uk/staff/elhaj/docs/elhajlrec2016Arabic.pdf"
 			]
@@ -1827,9 +2690,23 @@
 			"open_source": "Yes",
 			"last_activity": "2026-06-04",
 			"slug": "aosus-biggest-they-arabic",
-			"technologies": ["CSS", "HTML", "JavaScript", "Shell Script", "Linux"],
-			"tags": ["برمجيات حرة", "مفتوح المصدر", "مجتمع عربي", "أسس"],
-			"initiative_type": ["فريق مبادر", "مجتمع"],
+			"technologies": [
+				"CSS",
+				"HTML",
+				"JavaScript",
+				"Shell Script",
+				"Linux"
+			],
+			"tags": [
+				"برمجيات حرة",
+				"مفتوح المصدر",
+				"أسس",
+				"لينوكس"
+			],
+			"initiative_type": [
+				"فريق مبادر",
+				"مجتمع"
+			],
 			"links": [
 				"https://aosus.org/",
 				"https://t.me/aosus",
@@ -1850,17 +2727,25 @@
 			"open_source": "Yes",
 			"last_activity": "2024-03-26",
 			"slug": "http-ojuba-org-arabic",
-			"technologies": ["HTML", "Python", "Shell Script", "فهرس"],
+			"technologies": [
+				"HTML",
+				"Python",
+				"Shell Script"
+			],
 			"tags": [
 				"إسلام",
-				"اللغة عربية",
+				"اللغة العربية",
 				"توثيقات",
-				"معجم",
-				"مكتبة",
-				"نظام تشغيل"
+				"تجميعة"
 			],
-			"initiative_type": ["فريق مبادر", "مجتمع"],
-			"links": ["https://ojuba.org/", "https://x.com/ojuba_org"]
+			"initiative_type": [
+				"فريق مبادر",
+				"مجتمع"
+			],
+			"links": [
+				"https://ojuba.org/",
+				"https://x.com/ojuba_org"
+			]
 		},
 		{
 			"name": "اسماء.شبكة",
@@ -1873,10 +2758,20 @@
 			"open_source": "Yes",
 			"last_activity": "2016-10-15",
 			"slug": "arabic-top-level-domain-initiative",
-			"technologies": ["اسم نطاق", "ويب"],
-			"tags": ["اسم النطاق", "برمجة", "خدمات سحابية"],
-			"initiative_type": ["اسم نطاق", "خدمات سحابية"],
-			"links": ["https://xn--ggbla1c4e.xn--ngbc5azd/"]
+			"technologies": [
+				"اسم نطاق"
+			],
+			"tags": [
+				"اسم النطاق",
+				"ويب"
+			],
+			"initiative_type": [
+				"اسم نطاق",
+				"خدمات سحابية"
+			],
+			"links": [
+				"https://xn--ggbla1c4e.xn--ngbc5azd/"
+			]
 		},
 		{
 			"name": "بالعربي.مصر",
@@ -1889,9 +2784,17 @@
 			"open_source": "Yes",
 			"last_activity": "2018-05-20",
 			"slug": "domain-arabic-top-level-domain",
-			"technologies": ["اسم نطاق", "ويب"],
-			"tags": ["اسم النطاق", "برمجة", "خدمات سحابية"],
-			"initiative_type": ["اسم نطاق", "خدمات سحابية"],
+			"technologies": [
+				"اسم نطاق"
+			],
+			"tags": [
+				"اسم النطاق",
+				"ويب"
+			],
+			"initiative_type": [
+				"اسم نطاق",
+				"خدمات سحابية"
+			],
 			"links": [
 				"https://web.archive.org/web/20210613173631/http://xn--mgbbb9a1b0d2b.xn--wgbh1c/"
 			]
@@ -1907,10 +2810,17 @@
 			"open_source": "Yes",
 			"last_activity": "2026-03-17",
 			"slug": "ara",
-			"technologies": ["تعلم آلي"],
-			"tags": ["اللغة عربية", "برمجة"],
-			"initiative_type": ["CLI"],
-			"links": ["https://github.com/latiif/ara"]
+			"technologies": [],
+			"tags": [
+				"اللغة العربية",
+				"تعلم آلي"
+			],
+			"initiative_type": [
+				"CLI"
+			],
+			"links": [
+				"https://github.com/latiif/ara"
+			]
 		},
 		{
 			"name": "Tafqit",
@@ -1923,10 +2833,19 @@
 			"open_source": "Yes",
 			"last_activity": "2022-02-28",
 			"slug": "tafqit",
-			"technologies": ["JavaScript", "ويب"],
-			"tags": ["اللغة عربية", "برمجة", "مكتبة"],
-			"initiative_type": ["مكتبة برمجية"],
-			"links": ["https://github.com/MohsenAlyafei/tafqit"]
+			"technologies": [
+				"JavaScript"
+			],
+			"tags": [
+				"اللغة العربية",
+				"ويب"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://github.com/MohsenAlyafei/tafqit"
+			]
 		},
 		{
 			"name": "Hillal Linux",
@@ -1939,10 +2858,18 @@
 			"open_source": "Yes",
 			"last_activity": "2021-10-13",
 			"slug": "hillal-linux",
-			"technologies": ["Linux"],
-			"tags": ["برمجة", "نظام تشغيل"],
-			"initiative_type": ["نظام تشغيل"],
-			"links": ["http://helallinux.com"]
+			"technologies": [
+				"Linux"
+			],
+			"tags": [
+				"لينوكس"
+			],
+			"initiative_type": [
+				"نظام تشغيل"
+			],
+			"links": [
+				"http://helallinux.com"
+			]
 		},
 		{
 			"name": "Mujallad مجلّد",
@@ -1955,10 +2882,21 @@
 			"open_source": "Yes",
 			"last_activity": "2020-12-22",
 			"slug": "mujallad",
-			"technologies": ["Flask", "Markdown", "Python"],
-			"tags": ["توثيقات"],
-			"initiative_type": ["تعليم", "مستندات ووثائق"],
-			"links": ["https://mujallad.mhsabbagh.com/"]
+			"technologies": [
+				"Flask",
+				"Markdown",
+				"Python"
+			],
+			"tags": [
+				"توثيقات"
+			],
+			"initiative_type": [
+				"تعليم",
+				"مستندات ووثائق"
+			],
+			"links": [
+				"https://mujallad.mhsabbagh.com/"
+			]
 		},
 		{
 			"name": "RTL Styling",
@@ -1971,10 +2909,20 @@
 			"open_source": "Yes",
 			"last_activity": "2022-05-15",
 			"slug": "rtl-styling",
-			"technologies": ["CSS", "HTML", "ويب"],
-			"tags": ["اللغة عربية", "تعليم"],
-			"initiative_type": ["مدونة / دليل"],
-			"links": ["https://rtlstyling.com/posts/rtl-styling"]
+			"technologies": [
+				"CSS",
+				"HTML"
+			],
+			"tags": [
+				"اللغة العربية",
+				"ويب"
+			],
+			"initiative_type": [
+				"مدونة / دليل"
+			],
+			"links": [
+				"https://rtlstyling.com/posts/rtl-styling"
+			]
 		},
 		{
 			"name": "Arabic APIs",
@@ -1987,10 +2935,16 @@
 			"open_source": "Yes",
 			"last_activity": "2022-07-21",
 			"slug": "arabic-apis",
-			"technologies": ["API", "فهرس"],
-			"tags": ["برمجة"],
-			"initiative_type": ["فهرس"],
-			"links": ["https://github.com/AqeelAT/arabic-apis"]
+			"technologies": [],
+			"tags": [
+				"تجميعة"
+			],
+			"initiative_type": [
+				"فهرس"
+			],
+			"links": [
+				"https://github.com/AqeelAT/arabic-apis"
+			]
 		},
 		{
 			"name": "SimpleMDE - Markdown Editor (RTL)",
@@ -2003,10 +2957,19 @@
 			"open_source": "Yes",
 			"last_activity": "2021-02-16",
 			"slug": "simplemde-markdown-editor-rtl",
-			"technologies": ["JavaScript", "CSS"],
-			"tags": ["محررات نصوص"],
-			"initiative_type": ["مكتبة برمجية"],
-			"links": ["https://github.com/imAbdelhadi/simplemde-rtl"]
+			"technologies": [
+				"JavaScript",
+				"CSS"
+			],
+			"tags": [
+				"محررات نصوص"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://github.com/imAbdelhadi/simplemde-rtl"
+			]
 		},
 		{
 			"name": "Arabic voices for Festival TTS",
@@ -2019,10 +2982,24 @@
 			"open_source": "Yes",
 			"last_activity": "2022-08-02",
 			"slug": "arabic-voices-for-festival-tts",
-			"technologies": ["تعلم آلي", "Python", "Scheme", "تعرف صوتي"],
-			"tags": ["أصوات", "اللغة عربية"],
-			"initiative_type": ["Model", "سكريبت برمجي", "مكتبة برمجية"],
-			"links": ["https://github.com/linuxscout/festival-tts-arabic-voices"]
+			"technologies": [
+				"Python",
+				"Scheme"
+			],
+			"tags": [
+				"أصوات",
+				"اللغة العربية",
+				"تعلم آلي",
+				"تعرف صوتي"
+			],
+			"initiative_type": [
+				"Model",
+				"سكريبت برمجي",
+				"مكتبة برمجية"
+			],
+			"links": [
+				"https://github.com/linuxscout/festival-tts-arabic-voices"
+			]
 		},
 		{
 			"name": "Ar-PHP",
@@ -2035,9 +3012,19 @@
 			"open_source": "Yes",
 			"last_activity": "2025-03-07",
 			"slug": "ar-php",
-			"technologies": ["الخلفية", "PHP", "ويب"],
-			"tags": ["اللغة عربية", "برمجة", "تاريخ وزمن", "تفقيط", "مكتبة"],
-			"initiative_type": ["مكتبة برمجية"],
+			"technologies": [
+				"الواجهة الخلفية",
+				"PHP"
+			],
+			"tags": [
+				"اللغة العربية",
+				"تاريخ وزمن",
+				"تفقيط",
+				"ويب"
+			],
+			"initiative_type": [
+				"مكتبة برمجية"
+			],
 			"links": [
 				"https://ar-php.org/",
 				"https://www.youtube.com/watch?v=P4zV1Iu5QcE"
@@ -2054,9 +3041,20 @@
 			"open_source": "Yes",
 			"last_activity": "2025-09-04",
 			"slug": "arabic-services-versatile-library",
-			"technologies": ["Java", "JavaScript", "TypeScript"],
-			"tags": ["التشكيل", "اللغة عربية", "معالجة اللغة الطبيعية"],
-			"initiative_type": ["تطبيق ويب", "مكتبة برمجية"],
+			"technologies": [
+				"Java",
+				"JavaScript",
+				"TypeScript"
+			],
+			"tags": [
+				"التشكيل",
+				"اللغة العربية",
+				"معالجة اللغات"
+			],
+			"initiative_type": [
+				"تطبيق ويب",
+				"مكتبة برمجية"
+			],
 			"links": [
 				"https://github.com/Seen-Arabic/Arabic-Services-JavaScript/",
 				"https://github.com/Seen-Arabic/Arabic-Services-Java",
@@ -2076,9 +3074,24 @@
 			"open_source": "Yes",
 			"last_activity": "2016-11-24",
 			"slug": "quran-align",
-			"technologies": ["C++", "CMU Sphinx", "Linux", "Python"],
-			"tags": ["أصوات", "إسلام", "القرآن الكريم", "تلاوات"],
-			"initiative_type": ["CLI", "Model", "قاعدة بيانات"],
+			"technologies": [
+				"C++",
+				"CMU Sphinx",
+				"Linux",
+				"Python"
+			],
+			"tags": [
+				"أصوات",
+				"إسلام",
+				"القرآن الكريم",
+				"تلاوات",
+				"لينوكس"
+			],
+			"initiative_type": [
+				"CLI",
+				"Model",
+				"قاعدة بيانات"
+			],
 			"links": [
 				"https://github.com/cpfair/quran-align/releases/tag/release-2016-11-24"
 			]
@@ -2094,10 +3107,22 @@
 			"open_source": "Yes",
 			"last_activity": "2026-05-03",
 			"slug": "dorarnet-hadith-api",
-			"technologies": ["API", "Express.JS", "JSON", "JavaScript", "Node.JS"],
-			"tags": ["الحديث النبوي", "hadith"],
-			"initiative_type": ["RESTful API", "سكريبت برمجي"],
-			"links": ["https://github.com/AhmedElTabarani/dorar-hadith-api"]
+			"technologies": [
+				"Express.JS",
+				"JSON",
+				"JavaScript",
+				"Node.JS"
+			],
+			"tags": [
+				"أحاديث"
+			],
+			"initiative_type": [
+				"API",
+				"سكريبت برمجي"
+			],
+			"links": [
+				"https://github.com/AhmedElTabarani/dorar-hadith-api"
+			]
 		},
 		{
 			"name": "Sunnah Hadith API",
@@ -2110,10 +3135,22 @@
 			"open_source": "Yes",
 			"last_activity": "2025-03-15",
 			"slug": "sunnah-hadith-api",
-			"technologies": ["API", "Express.JS", "JSON", "JavaScript", "Node.JS"],
-			"tags": ["الحديث النبوي", "hadith"],
-			"initiative_type": ["RESTful API", "سكريبت برمجي"],
-			"links": ["https://github.com/AhmedElTabarani/sunnah-hadith-api"]
+			"technologies": [
+				"Express.JS",
+				"JSON",
+				"JavaScript",
+				"Node.JS"
+			],
+			"tags": [
+				"أحاديث"
+			],
+			"initiative_type": [
+				"API",
+				"سكريبت برمجي"
+			],
+			"links": [
+				"https://github.com/AhmedElTabarani/sunnah-hadith-api"
+			]
 		},
 		{
 			"name": "100 دعاء من الكتاب والسنة الصحيحة",
@@ -2126,9 +3163,16 @@
 			"open_source": "Yes",
 			"last_activity": "2026-03-01",
 			"slug": "100",
-			"technologies": ["JSON"],
-			"tags": ["أدعية", "أذكار", "azkar"],
-			"initiative_type": ["كتاب"],
+			"technologies": [
+				"JSON"
+			],
+			"tags": [
+				"أدعية",
+				"أذكار"
+			],
+			"initiative_type": [
+				"كتاب"
+			],
 			"links": [
 				"https://github.com/AhmedElTabarani/100-duaa-from-the-book-and-authentic-sunnah"
 			]
@@ -2144,9 +3188,15 @@
 			"open_source": "Yes",
 			"last_activity": "2026-02-25",
 			"slug": "hadith-checker-extension",
-			"technologies": ["JavaScript"],
-			"tags": ["الحديث النبوي", "hadith"],
-			"initiative_type": ["اضافة للمتصفحات"],
+			"technologies": [
+				"JavaScript"
+			],
+			"tags": [
+				"أحاديث"
+			],
+			"initiative_type": [
+				"اضافة للمتصفحات"
+			],
 			"links": [
 				"https://chromewebstore.google.com/detail/%D8%A7%D9%84%D8%AA%D8%AD%D9%82%D9%82-%D9%85%D9%86-%D8%A7%D9%84%D8%A3%D8%AD%D8%A7%D8%AF%D9%8A%D8%AB-hadith/cfbllcckohbiiplkigbfllfphhakanke"
 			]
@@ -2162,9 +3212,16 @@
 			"open_source": "Yes",
 			"last_activity": "2026-03-24",
 			"slug": "azkar-reminder-extension",
-			"technologies": ["JavaScript"],
-			"tags": ["أدعية", "أذكار", "azkar"],
-			"initiative_type": ["اضافة للمتصفحات"],
+			"technologies": [
+				"JavaScript"
+			],
+			"tags": [
+				"أدعية",
+				"أذكار"
+			],
+			"initiative_type": [
+				"اضافة للمتصفحات"
+			],
 			"links": [
 				"https://chromewebstore.google.com/detail/%D9%85%D8%B0%D9%83%D8%B1-%D8%A7%D9%84%D8%A3%D8%B0%D9%83%D8%A7%D8%B1/fcagcaikgffokonhlfbaainnaknhjkpp"
 			]

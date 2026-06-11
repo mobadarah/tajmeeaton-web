@@ -97,6 +97,60 @@ biome format --write .
 
 This handles indentation (tabs), trailing newlines, and all code style rules automatically. No manual formatting needed.
 
+## Classification Rules
+
+### Technologies vs Tags
+
+**Technologies** — programming languages, frameworks, libraries, tools, protocols, and specific technical topics.
+- e.g. `Python`, `ReactJS`, `Docker`, `TypeScript`, `NLP`, `CSS`
+
+**Tags** — general topics, fields, domains, use cases, non-technical categories, and subject areas.
+- e.g. `القرآن الكريم`, `اللغة العربية`, `تعلم آلي`, `معالجة اللغات`
+
+**Never duplicate a value (or close variant) across both lists.** If a value could fit both, determine whether it is a specific technical tool (→ technologies) or a general domain/topic (→ tags).
+
+### Tags vs Initiative Types Overlap
+
+Tags that overlap with initiative_types (even with slightly different wording) should be removed from tags. Initiative_types are the canonical list for these classifications.
+
+**Current known overlaps removed from tags:**
+- Exact: `تعليم`, `خدمات سحابية`, `قاموس`, `مصادر`, `مكتبة برمجية`, `نظام تشغيل`
+- Near-matches: `أندرويد`, `بوت ديسكورد`, `تطبيق جوال`, `خط`, `درس تعليمي`, `لغة برمجة عربية`, `مجتمع عربي`, `معجم`, `مكتبة`, `منصة تعليمية`, `محتوى تعليمي`
+
+### Renamed Values (Canonical Forms)
+
+When you encounter an old name, use the canonical form:
+
+| Old | New | List |
+|-----|-----|------|
+| `الخلفية` | `الواجهة الخلفية` | technologies |
+| `فهرس` | `تجميعة` | tags (moved from technologies) |
+| `RESTful API` | `API` | initiative_types |
+
+### Merged Values
+
+| Remove | Keep | List |
+|--------|------|------|
+| `تدقيق إملائي` | `إملاء` | tags |
+
+### Removed Values
+
+These values were removed from schemas and should never be used:
+
+- `تقنية` (removed from tags)
+- `API` (removed from technologies — use initiative_type `API` instead)
+
+### Data File Changes
+
+If modifying `projects.json` or `schemas.json`:
+
+1. Always run validation after changes — ensure every value in every project exists in the corresponding schema list.
+2. Re-generate the Supabase seed data after any schema or project changes:
+   ```bash
+   node supabase/scripts/generate-seed.mjs
+   ```
+3. Run `biome format --write .` before committing.
+
 ## Arabic / RTL Content
 
 When writing markdown files that contain Arabic text (issues, comments, docs), wrap Arabic paragraphs in `<div dir=rtl>` to ensure proper rendering on GitHub and other platforms:
