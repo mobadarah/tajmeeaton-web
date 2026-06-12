@@ -190,3 +190,22 @@ When writing markdown files that contain Arabic text (issues, comments, docs), w
 ```
 
 Apply this to any markdown section where Arabic text flows outside of code blocks or inline code (which are LTR by default).
+
+## Hero Section Styles
+
+Hero section CSS (`.hero`, `.hero-content`, `.hero-title`, `.hero-subtitle`) is defined globally in `site/src/layouts/BaseLayout.astro` under `<style is:global>`. **Do not duplicate hero CSS in individual pages.**
+
+- **Inner pages** (dictionary, suggest, privacy, terms, ideas, etc.) — use hero classes directly with no page-level hero CSS. The global styles cover desktop and mobile.
+- **Home page** (`index.astro`) — hero CSS stays **page-local** (it has a unique `.hero-cta` button and differs from the shared style). Never extract it.
+
+When creating a new page that uses a hero header:
+```astro
+<header class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">العنوان</h1>
+    <p class="hero-subtitle">الوصف</p>
+  </div>
+</header>
+```
+No additional CSS needed unless the hero needs special overrides (rare).
+

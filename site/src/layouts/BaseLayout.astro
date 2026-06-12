@@ -313,6 +313,7 @@ const defaultDesc =
       <div class="header-start">
         <a href={base} class="site-logo">التجميعة</a>
         <a href={base + '/dictionary/'} class="nav-link">المعجم</a>
+        <a href={base + '/ideas/'} class="nav-link">أفكار مشاريع</a>
         <a href={base + '/suggest/'} class="nav-link">اقترح مشروعاً</a>
       </div>
       <form class="header-search" action={base} method="GET" role="search">
@@ -565,6 +566,7 @@ const defaultDesc =
       <div class="footer-links">
         <a href={base} class="footer-link">الرئيسية</a>
         <a href={base + '/dictionary/'} class="footer-link">المعجم</a>
+        <a href={base + '/ideas/'} class="footer-link">أفكار مشاريع</a>
         <a href={base + '/suggest/'} class="footer-link">اقترح مشروعاً</a>
         <a href="https://github.com/mobadarah/tajmeeaton-web" class="footer-link" target="_blank" rel="noopener">المصدر على GitHub</a>
         <a href={base + '/privacy/'} class="footer-link">سياسة الخصوصية</a>
@@ -599,6 +601,32 @@ const defaultDesc =
   </div>
 </body>
 <style is:global>
+  .hero {
+    background: var(--warm-rust);
+    color: #fff;
+    padding: var(--space-xxl) var(--space-lg);
+    text-align: center;
+  }
+  .hero-content {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .hero-title {
+    font-size: clamp(1.75rem, 5vw, 3rem);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-sm);
+  }
+  .hero-subtitle {
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: oklch(0.85 0.04 35);
+    max-width: 540px;
+    margin-inline: auto;
+  }
+
   .site-header {
     position: sticky;
     top: 0;
@@ -1005,6 +1033,7 @@ const defaultDesc =
       flex-direction: column;
       gap: var(--space-sm);
     }
+    .hero { padding: var(--space-xl) var(--space-md); }
   }
 </style>
 </html>

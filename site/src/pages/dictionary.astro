@@ -106,35 +106,10 @@ const categories = [
   .hide-entry { display: none !important; }
   .hide-empty { display: none !important; }
 
-  .hero {
-    background: var(--warm-rust);
-    color: #fff;
-    padding: var(--space-xxl) var(--space-lg);
-    text-align: center;
-  }
-  .hero-content {
-    max-width: 720px;
-    margin: 0 auto;
-  }
-  .hero-title {
-    font-size: clamp(1.75rem, 5vw, 3rem);
-    font-weight: 700;
-    line-height: 1.15;
-    letter-spacing: -0.02em;
-    margin-bottom: var(--space-sm);
-  }
-  .hero-subtitle {
-    font-size: clamp(1rem, 2vw, 1.25rem);
-    font-weight: 400;
-    line-height: 1.5;
-    color: oklch(0.85 0.04 35);
-    max-width: 540px;
-    margin: 0 auto;
-  }
 
   .toolbar {
     position: sticky;
-    top: 0;
+    top: 52px;
     z-index: 10;
     background: var(--page);
     border-bottom: 1px solid var(--divider);
@@ -280,9 +255,6 @@ const categories = [
   .footer-spacer { height: 0; }
 
   @media (max-width: 640px) {
-    .hero {
-      padding: var(--space-xl) var(--space-md);
-    }
     .toolbar-inner {
       padding: var(--space-sm) var(--space-md);
     }
