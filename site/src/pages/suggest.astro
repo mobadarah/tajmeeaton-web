@@ -22,10 +22,7 @@ const base = import.meta.env.BASE_URL;
 	</header>
 
 	<main class="main">
-		<div class="suggest-spinner" id="suggest-spinner">
-			<div class="spinner"></div>
-		</div>
-		<div class="suggest-content" id="suggest-content" hidden>
+		<div class="suggest-content" id="suggest-content">
 		<div class="progress-bar" id="progress-bar">
 			<button class="progress-step active" data-step="1" type="button" disabled>
 				<span class="progress-num">1</span>
@@ -459,9 +456,6 @@ const base = import.meta.env.BASE_URL;
 			return;
 		}
 
-		document.getElementById("suggest-spinner")?.setAttribute("hidden", "");
-		document.getElementById("suggest-content")?.removeAttribute("hidden");
-
 		goToStep(1);
 		setupCustomInput("technologies");
 		setupCustomInput("tags");
@@ -869,25 +863,6 @@ const base = import.meta.env.BASE_URL;
 		background: var(--warm-rust-hover);
 		text-decoration: none;
 		color: #fff;
-	}
-
-	.suggest-spinner {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding: var(--space-xxl);
-		min-height: 300px;
-	}
-	.spinner {
-		width: 40px;
-		height: 40px;
-		border: 4px solid var(--divider);
-		border-top-color: var(--warm-rust);
-		border-radius: 50%;
-		animation: spin 0.8s linear infinite;
-	}
-	@keyframes spin {
-		to { transform: rotate(360deg); }
 	}
 
 	@media (max-width: 640px) {
