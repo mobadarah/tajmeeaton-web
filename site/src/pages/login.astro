@@ -20,35 +20,48 @@ const base = import.meta.env.BASE_URL;
 </BaseLayout>
 
 <script>
-	import { supabase } from "../lib/supabase";
+	import { getSupabase } from "../lib/supabase";
 
+	const base = import.meta.env.BASE_URL;
 	const params = new URLSearchParams(location.search);
-	const redirect = params.get("redirect") || "/";
+	const redirect = params.get("redirect") || base + "/";
 
-	supabase.auth.getSession().then(({ data }) => {
-		if (data.session) {
-			location.href = redirect;
-		}
-	});
+	const supabase = getSupabase();
+	if (!supabase) {
+		console.error("Supabase not configured");
+	} else {
+		supabase.auth.getSession().then(({ data }) => {
+			if (data.session) {
+				location.href = redirect;
+			}
+		});
+	}
 
 	document.getElementById("google-btn")?.addEventListener("click", async () => {
+		const s = getSupabase();
+		if (!s) {
+			alert("لم يتم تهيئة الاتصال. تحقق من إعدادات Supabase.");
+			return;
+		}
 		const redirectTo =
 			location.origin +
 			location.pathname +
 			"?redirect=" +
 			encodeURIComponent(redirect);
-		const { error } = await supabase.auth.signInWithOAuth({
+		const { error } = await s.auth.signInWithOAuth({
 			provider: "google",
 			options: { redirectTo },
 		});
 		if (error) alert("خطأ في تسجيل الدخول: " + error.message);
 	});
 
-	supabase.auth.onAuthStateChange((event, session) => {
-		if (session) {
-			location.href = redirect;
-		}
-	});
+	if (supabase) {
+		supabase.auth.onAuthStateChange((event, session) => {
+			if (session) {
+				location.href = redirect;
+			}
+		});
+	}
 </script>
 
 <style>

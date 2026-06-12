@@ -153,7 +153,7 @@ const base = import.meta.env.BASE_URL;
 </BaseLayout>
 
 <script>
-	import { supabase } from "../lib/supabase";
+	import { getSupabase } from "../lib/supabase";
 
 	const base = import.meta.env.BASE_URL;
 
@@ -408,6 +408,12 @@ const base = import.meta.env.BASE_URL;
 	async function submitSuggestion() {
 		if (!session) return;
 
+		const supabase = getSupabase();
+		if (!supabase) {
+			alert("لم يتم تهيئة الاتصال. تحقق من إعدادات Supabase.");
+			return;
+		}
+
 		const payload = {
 			user_id: session.user.id,
 			name: formData.name,
@@ -436,6 +442,9 @@ const base = import.meta.env.BASE_URL;
 	}
 
 	async function init() {
+		const supabase = getSupabase();
+		if (!supabase) return;
+
 		const { data } = await supabase.auth.getSession();
 		session = data.session;
 

@@ -171,7 +171,7 @@ const defaultDesc =
           <a href={base + '/login/'} class="header-login-link" id="header-login-link">تسجيل الدخول</a>
           <div class="header-user" id="header-user" hidden>
             <button class="header-avatar-btn" id="header-avatar-btn" type="button" aria-label="قائمة المستخدم">
-              <img class="header-avatar-img" id="header-avatar-img" src="" alt="" />
+              <img class="header-avatar-img" id="header-avatar-img" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" hidden />
             </button>
             <div class="header-dropdown" id="header-dropdown" hidden>
               <span class="header-dropdown-name" id="header-dropdown-name"></span>
@@ -245,7 +245,9 @@ const defaultDesc =
     })();
   </script>
   <script>
-    import { supabase } from "../lib/supabase";
+    import { getSupabase } from "../lib/supabase";
+
+    const supabase = getSupabase();
 
     const headerLoginLink = document.getElementById("header-login-link");
     const headerUser = document.getElementById("header-user");
@@ -256,13 +258,20 @@ const defaultDesc =
     const headerDropdownLogout = document.getElementById("header-dropdown-logout");
 
     async function updateHeaderAuth() {
+      if (!supabase) return;
       const { data } = await supabase.auth.getSession();
       const user = data.session?.user;
 
       if (user) {
         headerLoginLink?.setAttribute("hidden", "");
         headerUser?.removeAttribute("hidden");
-        headerAvatarImg.src = user.user_metadata?.avatar_url || "";
+        const avatarUrl = user.user_metadata?.avatar_url;
+        if (avatarUrl) {
+          headerAvatarImg.src = avatarUrl;
+          headerAvatarImg.removeAttribute("hidden");
+        } else {
+          headerAvatarImg.setAttribute("hidden", "");
+        }
         headerAvatarImg.alt = user.user_metadata?.full_name || "";
         headerDropdownName.textContent =
           user.user_metadata?.full_name || user.email || "";
@@ -270,6 +279,7 @@ const defaultDesc =
         headerLoginLink?.removeAttribute("hidden");
         headerUser?.setAttribute("hidden", "");
         headerDropdown?.setAttribute("hidden", "");
+        headerAvatarImg?.setAttribute("hidden", "");
       }
     }
 
@@ -289,13 +299,17 @@ const defaultDesc =
 
     headerDropdownLogout?.addEventListener("click", async () => {
       headerDropdown?.setAttribute("hidden", "");
-      await supabase.auth.signOut();
+      if (supabase) {
+        await supabase.auth.signOut();
+      }
       updateHeaderAuth();
     });
 
-    supabase.auth.onAuthStateChange(() => {
-      updateHeaderAuth();
-    });
+    if (supabase) {
+      supabase.auth.onAuthStateChange(() => {
+        updateHeaderAuth();
+      });
+    }
 
     updateHeaderAuth();
   </script>

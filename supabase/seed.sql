@@ -2,109 +2,110 @@
 -- Generated from site/src/data/schemas.json and site/src/data/projects.json
 
 -- Lookup: technologies
-INSERT INTO technologies (name) VALUES ('اسم نطاق') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('أشجار القرار') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('التعرف على الكيانات المسماة') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('الواجهة الخلفية') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('تحليل بيانات') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('تعابير منتظمة') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('تعرف بصري على النصوص') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('لغة البرمجة العربية Phoenix') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('لغة خوارزم') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Angular') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Awk') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('bert') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('C') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('C#') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('C++') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('character-segmentation') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('CMU Sphinx') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('computer-vision') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('CSS') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Dart') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Docker') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Dockerfile') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('electra') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Express.JS') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('farasa') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Flask') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Flutter') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('GRU Architecture') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Gherkin') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Golang') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('gpt2') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('GRU Architecture') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('HTML') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('huggingface-transformer') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('hunspell') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Ionic') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('JSON') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Java') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('JavaFX') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('JavaScript') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('JSON') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Jupyter Notebook') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Kotlin') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Linux') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Makefile') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Markdown') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('mathjax') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Matlab') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Matplotlib') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('Next.JS') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('NLP') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('Next.JS') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Node.JS') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('NumPy') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Objective-C') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('ocr') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('OpenCV') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('opencv-python') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('Perl') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('PHP') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('preprocessing-library') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('Perl') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Python') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('ReactJS') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('reshape') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Ruby') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Rust') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('Scheme') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('scikit-learn') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('SCSS') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('segmentation') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('SQL') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('SQLite') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('Scheme') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Shell') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Shell Script') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Snowball') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('SQL') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('SQLite') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Swift') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('TSQL') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Tailwind CSS') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Tex') ON CONFLICT DO NOTHING;
-INSERT INTO technologies (name) VALUES ('TSQL') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('TypeScript') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('VBA') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('Vue') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('bert') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('character-segmentation') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('computer-vision') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('electra') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('farasa') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('gpt2') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('huggingface-transformer') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('hunspell') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('mathjax') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('ocr') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('opencv-python') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('preprocessing-library') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('reshape') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('scikit-learn') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('segmentation') ON CONFLICT DO NOTHING;
 INSERT INTO technologies (name) VALUES ('word2vec') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('لغة البرمجة العربية Phoenix') ON CONFLICT DO NOTHING;
+INSERT INTO technologies (name) VALUES ('لغة خوارزم') ON CONFLICT DO NOTHING;
 
 -- Lookup: tags
+INSERT INTO tags (name) VALUES ('ALA-LC') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('OCR') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('arabert') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('arabic-classification') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('arabic-nlp') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('nlp-resources') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('أحاديث') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('أدعية') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('أذكار') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('أسس') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('إسلام') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('اسم النطاق') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('أسماء الله الحسنى') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('أسماء النبي') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('إشعارات') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('أشجار القرار') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('أصوات') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('أفكار لمشاريع') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('أنواع الأعيان') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('أنواع الكلمات') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('إسلام') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('إشعارات') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('إملاء') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('اسم النطاق') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('اكتشاف النصوص') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('التشكيل') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('التعرف على الكيانات المسماة') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('التفسير') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('التقويم الهجري') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('القبلة') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('القرآن الكريم') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('اللغة العربية') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('إملاء') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('أنواع الأعيان') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('أنواع الكلمات') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('الواجهة الخلفية') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('ايجاد جزور الكلمات') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('بحث') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('برمجيات حرة') ON CONFLICT DO NOTHING;
@@ -114,6 +115,7 @@ INSERT INTO tags (name) VALUES ('تجميعة') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('تجويد') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('تحديد القبلة') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('تحسين تجربة المستخدم') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('تحليل بيانات') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('تحليل صرفي') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('تدقيق') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('تدويل') ON CONFLICT DO NOTHING;
@@ -122,7 +124,9 @@ INSERT INTO tags (name) VALUES ('ترميز') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('تصحيح') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('تصحيح إملائي') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('تضمينات') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('تعابير منتظمة') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('تعرف بصري') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('تعرف بصري على النصوص') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('تعرف صوتي') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('تعريب') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('تعلم آلي') ON CONFLICT DO NOTHING;
@@ -163,17 +167,10 @@ INSERT INTO tags (name) VALUES ('معالجة الصور') ON CONFLICT DO NOTHIN
 INSERT INTO tags (name) VALUES ('معالجة اللغات') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('مفتوح المصدر') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('مقاطعة') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('مقترحات') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('مواقيت الصلاة 🕋') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('نحو') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('نصوص عربية') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('ويب') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('ALA-LC') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('arabert') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('arabic-classification') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('arabic-nlp') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('nlp-resources') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('OCR') ON CONFLICT DO NOTHING;
 
 -- Lookup: initiative_types
 INSERT INTO initiative_types (name) VALUES ('أداة') ON CONFLICT DO NOTHING;
@@ -284,10 +281,10 @@ ON CONFLICT (slug) DO UPDATE SET
 RETURNING id;
 
 -- Junction: PyQuran -> technologies, tags, initiative_types, links
-INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'تحليل بيانات' FROM projects WHERE slug = 'pyquran' ON CONFLICT DO NOTHING;
 INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'Python' FROM projects WHERE slug = 'pyquran' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'القرآن الكريم' FROM projects WHERE slug = 'pyquran' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'اللغة العربية' FROM projects WHERE slug = 'pyquran' ON CONFLICT DO NOTHING;
+INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تحليل بيانات' FROM projects WHERE slug = 'pyquran' ON CONFLICT DO NOTHING;
 INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT id, 'مكتبة برمجية' FROM projects WHERE slug = 'pyquran' ON CONFLICT DO NOTHING;
 INSERT INTO project_links (project_id, url, sort_order) SELECT id, 'https://hci-lab.github.io/PyQuran-Private/', 0 FROM projects WHERE slug = 'pyquran' ON CONFLICT DO NOTHING;
 INSERT INTO project_links (project_id, url, sort_order) SELECT id, 'https://pypi.org/project/pyquran/', 1 FROM projects WHERE slug = 'pyquran' ON CONFLICT DO NOTHING;
@@ -361,14 +358,14 @@ ON CONFLICT (slug) DO UPDATE SET
 RETURNING id;
 
 -- Junction: quran-tajweed -> technologies, tags, initiative_types, links
-INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'أشجار القرار' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
 INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'Python' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
+INSERT INTO project_tags (project_id, tag_name) SELECT id, 'أشجار القرار' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'القرآن الكريم' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تجويد' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
-INSERT INTO project_tags (project_id, tag_name) SELECT id, 'قواعد لغوية' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
-INSERT INTO project_tags (project_id, tag_name) SELECT id, 'معالجة اللغات' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
-INSERT INTO project_tags (project_id, tag_name) SELECT id, 'مجموعة بيانات' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تعرف صوتي' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
+INSERT INTO project_tags (project_id, tag_name) SELECT id, 'قواعد لغوية' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
+INSERT INTO project_tags (project_id, tag_name) SELECT id, 'مجموعة بيانات' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
+INSERT INTO project_tags (project_id, tag_name) SELECT id, 'معالجة اللغات' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
 INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT id, 'سكريبت برمجي' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
 INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT id, 'قاعدة بيانات' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
 INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT id, 'مصادر' FROM projects WHERE slug = 'quran-tajweed' ON CONFLICT DO NOTHING;
@@ -469,7 +466,7 @@ INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT i
 INSERT INTO project_links (project_id, url, sort_order) SELECT id, 'https://moroclash.github.io/Visualization-Of-Quran/', 0 FROM projects WHERE slug = 'open-source-tool-designed-visualize' ON CONFLICT DO NOTHING;
 
 INSERT INTO projects (name, slug, description_en, description_ar, source_url, license_name, status_name, open_source, last_activity, last_modified)
-VALUES ('tarteel-ml', 'tarteel-ml', 'An open-source project utilizing machine learning to recognize Quranic recitation through voice. The project aims to support the analysis and improvement of Quran recitation using AI, providing tools for verse recognition and error detection.', 'مشروع مفتوح المصدر يستخدم تقنيات تعلم الآلة للتعرف على تلاوة القرآن الكريم من خلال الصوت. يهدف المشروع لدعم تحليل وتحسين تلاوة القرآن باستخدام الذكاء الاصطناعي وتطوير أدوات للتعرف على الآيات والأخطاء.', 'https://github.com/TarteelAI/tarteel-ml', 'MIT', 'ميت ☠️', TRUE, '2021-11-10 (archived)'::date, '2026-06-04 19:52:00+00'::timestamptz)
+VALUES ('tarteel-ml', 'tarteel-ml', 'An open-source project utilizing machine learning to recognize Quranic recitation through voice. The project aims to support the analysis and improvement of Quran recitation using AI, providing tools for verse recognition and error detection.', 'مشروع مفتوح المصدر يستخدم تقنيات تعلم الآلة للتعرف على تلاوة القرآن الكريم من خلال الصوت. يهدف المشروع لدعم تحليل وتحسين تلاوة القرآن باستخدام الذكاء الاصطناعي وتطوير أدوات للتعرف على الآيات والأخطاء.', 'https://github.com/TarteelAI/tarteel-ml', 'MIT', 'ميت ☠️', TRUE, '2021-11-10'::date, '2026-06-04 19:52:00+00'::timestamptz)
 ON CONFLICT (slug) DO UPDATE SET
   name = EXCLUDED.name, description_en = EXCLUDED.description_en, description_ar = EXCLUDED.description_ar, source_url = EXCLUDED.source_url, license_name = EXCLUDED.license_name, status_name = EXCLUDED.status_name, open_source = EXCLUDED.open_source, last_activity = EXCLUDED.last_activity, last_modified = EXCLUDED.last_modified
 RETURNING id;
@@ -484,18 +481,6 @@ INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تعلم آلي' FRO
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تعرف صوتي' FROM projects WHERE slug = 'tarteel-ml' ON CONFLICT DO NOTHING;
 INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT id, 'سكريبت برمجي' FROM projects WHERE slug = 'tarteel-ml' ON CONFLICT DO NOTHING;
 INSERT INTO project_links (project_id, url, sort_order) SELECT id, 'https://tarteel.ai', 0 FROM projects WHERE slug = 'tarteel-ml' ON CONFLICT DO NOTHING;
-
-INSERT INTO projects (name, slug, description_en, description_ar, source_url, license_name, status_name, open_source, last_activity, last_modified)
-VALUES ('أفكار لمشاريع', 'compilation-ideas-proposals-open-source', 'A compilation of ideas and proposals for open-source software projects that serve the Arabic language and Islam.', 'قائمة ومجموعة من الأفكار والمقترحات لمشاريع برمجية مفتوحة المصدر تخدم اللغة العربية والإسلام.', '', 'بدون ترخيص', 'نشط 🚀', FALSE, 'لا يوجد (قائمة أفكار)'::date, '2026-06-04 19:52:00+00'::timestamptz)
-ON CONFLICT (slug) DO UPDATE SET
-  name = EXCLUDED.name, description_en = EXCLUDED.description_en, description_ar = EXCLUDED.description_ar, source_url = EXCLUDED.source_url, license_name = EXCLUDED.license_name, status_name = EXCLUDED.status_name, open_source = EXCLUDED.open_source, last_activity = EXCLUDED.last_activity, last_modified = EXCLUDED.last_modified
-RETURNING id;
-
--- Junction: أفكار لمشاريع -> technologies, tags, initiative_types, links
-INSERT INTO project_tags (project_id, tag_name) SELECT id, 'أفكار لمشاريع' FROM projects WHERE slug = 'compilation-ideas-proposals-open-source' ON CONFLICT DO NOTHING;
-INSERT INTO project_tags (project_id, tag_name) SELECT id, 'مقترحات' FROM projects WHERE slug = 'compilation-ideas-proposals-open-source' ON CONFLICT DO NOTHING;
-INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT id, 'مصادر' FROM projects WHERE slug = 'compilation-ideas-proposals-open-source' ON CONFLICT DO NOTHING;
-INSERT INTO project_links (project_id, url, sort_order) SELECT id, 'https://github.com/KL13NT/AIUX', 0 FROM projects WHERE slug = 'compilation-ideas-proposals-open-source' ON CONFLICT DO NOTHING;
 
 INSERT INTO projects (name, slug, description_en, description_ar, source_url, license_name, status_name, open_source, last_activity, last_modified)
 VALUES ('Pray Times - حساب مواقيت الصلاة', 'pray-times', 'An open-source project that provides accurate prayer times calculation worldwide. It includes various features to adjust prayer times based on geographic location and accommodates different Islamic schools of thought, with libraries available in multiple programming languages.', 'موقع http://praytimes.org/ هو مشروع مفتوح المصدر يقدم حسابات لمواقيت الصلاة للمسلمين حول العالم، ويشمل عدة ميزات لضبط أوقات الصلاة حسب المواقع الجغرافية المختلفة، مع مراعاة الفروق المذهبية المختلفة، ومتوفر مكتبات برمجية للغات مختلفة.', 'http://praytimes.org/, https://github.com/zarrabi/praytime', 'LGPL-3.0', 'نشط 🚀', TRUE, '2025-07-17'::date, '2026-06-04 19:52:00+00'::timestamptz)
@@ -749,7 +734,7 @@ INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT i
 INSERT INTO project_links (project_id, url, sort_order) SELECT id, 'https://github.com/eneserdogan/iftar', 0 FROM projects WHERE slug = 'iftar-cli' ON CONFLICT DO NOTHING;
 
 INSERT INTO projects (name, slug, description_en, description_ar, source_url, license_name, status_name, open_source, last_activity, last_modified)
-VALUES ('KhattSeen خطسين', 'khattseen', 'KhattSeen: Arabic Mathematical Notation Typesetting System', 'خط سين: نظام تنضيد (كتابة) الرياضيات بالعربية Khatt.Seen: Arabic Mathematical Notation Typesetting System أدخل أوامر هنا: الصور الناتجة عن نظام خط.س مرخصة تحت الملكية العامة. Images rendered by Khatt.Seen are under public domain license.', 'https://khatt.org/', 'بدون ترخيص', 'متوقف صيانته 😑', TRUE, '2020'::date, '2026-06-04 19:52:00+00'::timestamptz)
+VALUES ('KhattSeen خطسين', 'khattseen', 'KhattSeen: Arabic Mathematical Notation Typesetting System', 'خط سين: نظام تنضيد (كتابة) الرياضيات بالعربية Khatt.Seen: Arabic Mathematical Notation Typesetting System أدخل أوامر هنا: الصور الناتجة عن نظام خط.س مرخصة تحت الملكية العامة. Images rendered by Khatt.Seen are under public domain license.', 'https://khatt.org/', 'بدون ترخيص', 'متوقف صيانته 😑', TRUE, '2020-01-01'::date, '2026-06-04 19:52:00+00'::timestamptz)
 ON CONFLICT (slug) DO UPDATE SET
   name = EXCLUDED.name, description_en = EXCLUDED.description_en, description_ar = EXCLUDED.description_ar, source_url = EXCLUDED.source_url, license_name = EXCLUDED.license_name, status_name = EXCLUDED.status_name, open_source = EXCLUDED.open_source, last_activity = EXCLUDED.last_activity, last_modified = EXCLUDED.last_modified
 RETURNING id;
@@ -898,7 +883,7 @@ INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT i
 INSERT INTO project_links (project_id, url, sort_order) SELECT id, 'https://github.com/Alusus/Alusus', 0 FROM projects WHERE slug = 'alusus' ON CONFLICT DO NOTHING;
 
 INSERT INTO projects (name, slug, description_en, description_ar, source_url, license_name, status_name, open_source, last_activity, last_modified)
-VALUES ('Phoenix - لغة البرمجة العربية كائنية التوجه', 'phoenix', 'Phoenix is a general-purpose, high-level, imperative, object-oriented, compiled programming language using Arabic as its syntax. It includes features such as strong data types, dynamic arrays, functions, arithmetic operations, and modern programming structures, supporting concepts like inheritance and polymorphism.', 'Phoenix هي لغة برمجة عامة الأغراض وعالية المستوى، تم تصميمها كائنية التوجه وبصيغة تجميعية، وتستخدم اللغة العربية لتطوير التطبيقات البرمجية. تحتوي Phoenix على مميزات مثل المتغيرات ذات الأنواع القوية، المصفوفات الديناميكية، الدوال، وعمليات الحساب، وتدعم الهياكل البرمجية الحديثة مثل الوراثة وتعدد الأشكال.', 'https://arxiv.org/pdf/1907.05871.pdf', 'رخصة خاصة', 'ميت ☠️', TRUE, '2019-07'::date, '2026-06-04 19:52:00+00'::timestamptz)
+VALUES ('Phoenix - لغة البرمجة العربية كائنية التوجه', 'phoenix', 'Phoenix is a general-purpose, high-level, imperative, object-oriented, compiled programming language using Arabic as its syntax. It includes features such as strong data types, dynamic arrays, functions, arithmetic operations, and modern programming structures, supporting concepts like inheritance and polymorphism.', 'Phoenix هي لغة برمجة عامة الأغراض وعالية المستوى، تم تصميمها كائنية التوجه وبصيغة تجميعية، وتستخدم اللغة العربية لتطوير التطبيقات البرمجية. تحتوي Phoenix على مميزات مثل المتغيرات ذات الأنواع القوية، المصفوفات الديناميكية، الدوال، وعمليات الحساب، وتدعم الهياكل البرمجية الحديثة مثل الوراثة وتعدد الأشكال.', 'https://arxiv.org/pdf/1907.05871.pdf', 'رخصة خاصة', 'ميت ☠️', TRUE, '2019-07-01'::date, '2026-06-04 19:52:00+00'::timestamptz)
 ON CONFLICT (slug) DO UPDATE SET
   name = EXCLUDED.name, description_en = EXCLUDED.description_en, description_ar = EXCLUDED.description_ar, source_url = EXCLUDED.source_url, license_name = EXCLUDED.license_name, status_name = EXCLUDED.status_name, open_source = EXCLUDED.open_source, last_activity = EXCLUDED.last_activity, last_modified = EXCLUDED.last_modified
 RETURNING id;
@@ -945,7 +930,7 @@ INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT i
 INSERT INTO project_links (project_id, url, sort_order) SELECT id, 'https://nabdjs.netlify.app/', 0 FROM projects WHERE slug = 'nabdjs' ON CONFLICT DO NOTHING;
 
 INSERT INTO projects (name, slug, description_en, description_ar, source_url, license_name, status_name, open_source, last_activity, last_modified)
-VALUES ('ALB قلب', 'alb', 'ALB is a simple, Scheme-like programming language that you code entirely in Arabic. It is an exploration of the impact of human culture on computer science, the role of tradition in software engineering, and the connection between natural and computer languages.', 'مكتبة قلب: تطبيق ويب للتدقيق اللغوي العربي باستخدام التعلم العميق', 'https://github.com/nasser/---', 'MIT', 'ميت ☠️', TRUE, '2020'::date, '2026-06-04 19:52:00+00'::timestamptz)
+VALUES ('ALB قلب', 'alb', 'ALB is a simple, Scheme-like programming language that you code entirely in Arabic. It is an exploration of the impact of human culture on computer science, the role of tradition in software engineering, and the connection between natural and computer languages.', 'مكتبة قلب: تطبيق ويب للتدقيق اللغوي العربي باستخدام التعلم العميق', 'https://github.com/nasser/---', 'MIT', 'ميت ☠️', TRUE, '2020-01-01'::date, '2026-06-04 19:52:00+00'::timestamptz)
 ON CONFLICT (slug) DO UPDATE SET
   name = EXCLUDED.name, description_en = EXCLUDED.description_en, description_ar = EXCLUDED.description_ar, source_url = EXCLUDED.source_url, license_name = EXCLUDED.license_name, status_name = EXCLUDED.status_name, open_source = EXCLUDED.open_source, last_activity = EXCLUDED.last_activity, last_modified = EXCLUDED.last_modified
 RETURNING id;
@@ -1154,14 +1139,14 @@ ON CONFLICT (slug) DO UPDATE SET
 RETURNING id;
 
 -- Junction: Arabic Named Entity Recognition: What Works and What’s Next -> technologies, tags, initiative_types, links
-INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'التعرف على الكيانات المسماة' FROM projects WHERE slug = 'paper-presents-winning-solution' ON CONFLICT DO NOTHING;
 INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'NLP' FROM projects WHERE slug = 'paper-presents-winning-solution' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'أنواع الأعيان' FROM projects WHERE slug = 'paper-presents-winning-solution' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'أنواع الكلمات' FROM projects WHERE slug = 'paper-presents-winning-solution' ON CONFLICT DO NOTHING;
+INSERT INTO project_tags (project_id, tag_name) SELECT id, 'التعرف على الكيانات المسماة' FROM projects WHERE slug = 'paper-presents-winning-solution' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'اللغة العربية' FROM projects WHERE slug = 'paper-presents-winning-solution' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تحليل صرفي' FROM projects WHERE slug = 'paper-presents-winning-solution' ON CONFLICT DO NOTHING;
-INSERT INTO project_tags (project_id, tag_name) SELECT id, 'معالجة اللغات' FROM projects WHERE slug = 'paper-presents-winning-solution' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تعلم آلي' FROM projects WHERE slug = 'paper-presents-winning-solution' ON CONFLICT DO NOTHING;
+INSERT INTO project_tags (project_id, tag_name) SELECT id, 'معالجة اللغات' FROM projects WHERE slug = 'paper-presents-winning-solution' ON CONFLICT DO NOTHING;
 INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT id, 'ورقة بحثية' FROM projects WHERE slug = 'paper-presents-winning-solution' ON CONFLICT DO NOTHING;
 INSERT INTO project_links (project_id, url, sort_order) SELECT id, 'https://www.aclweb.org/anthology/W19-4607.pdf', 0 FROM projects WHERE slug = 'paper-presents-winning-solution' ON CONFLICT DO NOTHING;
 
@@ -1316,9 +1301,9 @@ RETURNING id;
 
 -- Junction: Arabic Handwriting Recognition Using Neural Network in MATLAB -> technologies, tags, initiative_types, links
 INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'Matlab' FROM projects WHERE slug = 'handwriting-recognition-ability-computer' ON CONFLICT DO NOTHING;
-INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'تعرف بصري على النصوص' FROM projects WHERE slug = 'handwriting-recognition-ability-computer' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'اكتشاف النصوص' FROM projects WHERE slug = 'handwriting-recognition-ability-computer' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'اللغة العربية' FROM projects WHERE slug = 'handwriting-recognition-ability-computer' ON CONFLICT DO NOTHING;
+INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تعرف بصري على النصوص' FROM projects WHERE slug = 'handwriting-recognition-ability-computer' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'خط اليد' FROM projects WHERE slug = 'handwriting-recognition-ability-computer' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'شبكات عصبية' FROM projects WHERE slug = 'handwriting-recognition-ability-computer' ON CONFLICT DO NOTHING;
 INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT id, 'مشروع أكاديمي' FROM projects WHERE slug = 'handwriting-recognition-ability-computer' ON CONFLICT DO NOTHING;
@@ -1332,9 +1317,9 @@ RETURNING id;
 
 -- Junction: Arabic-NER -> technologies, tags, initiative_types, links
 INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'GRU Architecture' FROM projects WHERE slug = 'arabic-ner' ON CONFLICT DO NOTHING;
-INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'التعرف على الكيانات المسماة' FROM projects WHERE slug = 'arabic-ner' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'أنواع الأعيان' FROM projects WHERE slug = 'arabic-ner' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'أنواع الكلمات' FROM projects WHERE slug = 'arabic-ner' ON CONFLICT DO NOTHING;
+INSERT INTO project_tags (project_id, tag_name) SELECT id, 'التعرف على الكيانات المسماة' FROM projects WHERE slug = 'arabic-ner' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'اللغة العربية' FROM projects WHERE slug = 'arabic-ner' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تحليل صرفي' FROM projects WHERE slug = 'arabic-ner' ON CONFLICT DO NOTHING;
 INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT id, 'Model' FROM projects WHERE slug = 'arabic-ner' ON CONFLICT DO NOTHING;
@@ -1440,8 +1425,8 @@ RETURNING id;
 -- Junction: Ghalatawi, Arabic AutoCorrect -> technologies, tags, initiative_types, links
 INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'NLP' FROM projects WHERE slug = 'ghalatawi-arabic-autocorrect' ON CONFLICT DO NOTHING;
 INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'Python' FROM projects WHERE slug = 'ghalatawi-arabic-autocorrect' ON CONFLICT DO NOTHING;
-INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'تعابير منتظمة' FROM projects WHERE slug = 'ghalatawi-arabic-autocorrect' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تصحيح إملائي' FROM projects WHERE slug = 'ghalatawi-arabic-autocorrect' ON CONFLICT DO NOTHING;
+INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تعابير منتظمة' FROM projects WHERE slug = 'ghalatawi-arabic-autocorrect' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'قوالب' FROM projects WHERE slug = 'ghalatawi-arabic-autocorrect' ON CONFLICT DO NOTHING;
 INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT id, 'قواميس وأدوات' FROM projects WHERE slug = 'ghalatawi-arabic-autocorrect' ON CONFLICT DO NOTHING;
 INSERT INTO project_links (project_id, url, sort_order) SELECT id, 'https://github.com/linuxscout/ghalatawi', 0 FROM projects WHERE slug = 'ghalatawi-arabic-autocorrect' ON CONFLICT DO NOTHING;
@@ -1840,7 +1825,6 @@ ON CONFLICT (slug) DO UPDATE SET
 RETURNING id;
 
 -- Junction: اسماء.شبكة -> technologies, tags, initiative_types, links
-INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'اسم نطاق' FROM projects WHERE slug = 'arabic-top-level-domain-initiative' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'اسم النطاق' FROM projects WHERE slug = 'arabic-top-level-domain-initiative' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'ويب' FROM projects WHERE slug = 'arabic-top-level-domain-initiative' ON CONFLICT DO NOTHING;
 INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT id, 'اسم نطاق' FROM projects WHERE slug = 'arabic-top-level-domain-initiative' ON CONFLICT DO NOTHING;
@@ -1854,7 +1838,6 @@ ON CONFLICT (slug) DO UPDATE SET
 RETURNING id;
 
 -- Junction: بالعربي.مصر -> technologies, tags, initiative_types, links
-INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'اسم نطاق' FROM projects WHERE slug = 'domain-arabic-top-level-domain' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'اسم النطاق' FROM projects WHERE slug = 'domain-arabic-top-level-domain' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'ويب' FROM projects WHERE slug = 'domain-arabic-top-level-domain' ON CONFLICT DO NOTHING;
 INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT id, 'اسم نطاق' FROM projects WHERE slug = 'domain-arabic-top-level-domain' ON CONFLICT DO NOTHING;
@@ -1979,9 +1962,9 @@ ON CONFLICT (slug) DO UPDATE SET
 RETURNING id;
 
 -- Junction: Ar-PHP -> technologies, tags, initiative_types, links
-INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'الواجهة الخلفية' FROM projects WHERE slug = 'ar-php' ON CONFLICT DO NOTHING;
 INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'PHP' FROM projects WHERE slug = 'ar-php' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'اللغة العربية' FROM projects WHERE slug = 'ar-php' ON CONFLICT DO NOTHING;
+INSERT INTO project_tags (project_id, tag_name) SELECT id, 'الواجهة الخلفية' FROM projects WHERE slug = 'ar-php' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تاريخ وزمن' FROM projects WHERE slug = 'ar-php' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تفقيط' FROM projects WHERE slug = 'ar-php' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'ويب' FROM projects WHERE slug = 'ar-php' ON CONFLICT DO NOTHING;
