@@ -4,12 +4,13 @@
 	"version": "1.0.0",
 	"scripts": {
 		"dev": "astro dev",
-		"build": "astro build",
+		"build": "node scripts/fetch-data.mjs && astro build",
 		"update-data": "node scripts/fetch-data.mjs",
 		"preview": "astro preview"
 	},
 	"dependencies": {
 		"@supabase/supabase-js": "^2.108.1",
-		"astro": "^5.18.2"
+		"astro": "^5.18.2",
+		"ws": "^8.21.0"
 	}
 }

@@ -191,6 +191,18 @@ When writing markdown files that contain Arabic text (issues, comments, docs), w
 
 Apply this to any markdown section where Arabic text flows outside of code blocks or inline code (which are LTR by default).
 
+## Environment Variables
+
+Env vars are stored in `site/.env` (local) and as GitHub secrets (CI).
+
+To load env vars locally when running scripts manually:
+
+```bash
+export $(sed -e 's/#.*//' -e '/^$/d' site/.env | xargs)
+```
+
+Then run any script (e.g., `npm run update-data`, `npm run build`). The CI workflow passes secrets automatically as step-level env vars.
+
 ## Design Conventions
 
 For design conventions (hero section, content layout, spacing, colors, typography), see [DESIGN.md](../DESIGN.md).
