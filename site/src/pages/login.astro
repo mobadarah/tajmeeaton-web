@@ -37,10 +37,14 @@ const base = import.meta.env.BASE_URL;
 
 	async function init() {
 		if (supabase) {
-			const { data } = await supabase.auth.getSession();
-			if (data.session) {
-				location.href = redirect;
-				return;
+			try {
+				const { data } = await supabase.auth.getSession();
+				if (data.session) {
+					location.href = redirect;
+					return;
+				}
+			} catch {
+				// session check failed; show card
 			}
 		}
 		document.getElementById("login-spinner")?.setAttribute("hidden", "");

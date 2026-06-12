@@ -311,11 +311,18 @@ const defaultDesc =
   <header class="site-header">
     <div class="header-inner">
       <div class="header-start">
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-label="القائمة">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
         <a href={base} class="site-logo">التجميعة</a>
+      </div>
+      <nav class="nav-links" id="nav-links">
         <a href={base + '/dictionary/'} class="nav-link">المعجم</a>
         <a href={base + '/ideas/'} class="nav-link">أفكار مشاريع</a>
         <a href={base + '/suggest/'} class="nav-link">اقترح مشروعاً</a>
-      </div>
+        <a href={base + '/login/'} class="nav-link-mobile-login" id="nav-link-mobile-login">تسجيل الدخول</a>
+        <button class="nav-link-mobile-settings" id="nav-link-mobile-settings" type="button">الإعدادات</button>
+      </nav>
       <form class="header-search" action={base} method="GET" role="search">
         <svg class="header-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
         <input class="header-search-input" type="search" name="q" placeholder="ابحث عن مشروع…" aria-label="ابحث عن مشروع" autocomplete="off" />
@@ -399,11 +406,40 @@ const defaultDesc =
     })();
   </script>
   <script>
+    const navToggle = document.getElementById("nav-toggle");
+    const navLinks = document.getElementById("nav-links");
+    const mobileLoginLink = document.getElementById("nav-link-mobile-login");
+    const mobileSettingsBtn = document.getElementById("nav-link-mobile-settings");
+    const mobileSettingsModal = document.getElementById("settings-modal");
+
+    mobileSettingsBtn?.addEventListener("click", () => {
+      navLinks?.classList.remove("open");
+      navToggle?.classList.remove("open");
+      document.body.classList.remove("nav-open");
+      mobileSettingsModal?.showModal();
+    });
+
+    navToggle?.addEventListener("click", () => {
+      const open = navLinks?.classList.toggle("open");
+      navToggle?.classList.toggle("open", open);
+      document.body.classList.toggle("nav-open", open);
+    });
+
+    document.addEventListener("click", (e) => {
+      if (navLinks?.classList.contains("open") && !navLinks?.contains(e.target) && !navToggle?.contains(e.target)) {
+        navLinks?.classList.remove("open");
+        navToggle?.classList.remove("open");
+        document.body.classList.remove("nav-open");
+      }
+    });
+  </script>
+  <script>
     import { getSupabase } from "../lib/supabase";
 
     const supabase = getSupabase();
 
     const headerLoginLink = document.getElementById("header-login-link");
+    const mobileLoginLink = document.getElementById("nav-link-mobile-login");
     const headerUser = document.getElementById("header-user");
     const headerAvatarImg = document.getElementById("header-avatar-img");
     const headerAvatarBtn = document.getElementById("header-avatar-btn");
@@ -418,6 +454,7 @@ const defaultDesc =
 
       if (user) {
         headerLoginLink?.setAttribute("hidden", "");
+        mobileLoginLink?.setAttribute("hidden", "");
         headerUser?.removeAttribute("hidden");
         const avatarUrl = user.user_metadata?.avatar_url;
         if (avatarUrl) {
@@ -431,6 +468,7 @@ const defaultDesc =
           user.user_metadata?.full_name || user.email || "";
       } else {
         headerLoginLink?.removeAttribute("hidden");
+        mobileLoginLink?.removeAttribute("hidden");
         headerUser?.setAttribute("hidden", "");
         headerDropdown?.setAttribute("hidden", "");
         headerAvatarImg?.setAttribute("hidden", "");
@@ -612,19 +650,19 @@ const defaultDesc =
     margin: 0 auto;
   }
   .hero-title {
-    font-size: clamp(1.75rem, 5vw, 3rem);
-    font-weight: 700;
-    line-height: 1.15;
-    letter-spacing: -0.02em;
-    margin-bottom: var(--space-sm);
+    font-size: clamp(1.75rem, 5vw, 3rem) !important;
+    font-weight: 700 !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.02em !important;
+    margin-bottom: var(--space-sm) !important;
   }
-  .hero-subtitle {
-    font-size: 1.125rem;
-    font-weight: 400;
-    line-height: 1.6;
-    color: oklch(0.85 0.04 35);
-    max-width: 540px;
-    margin-inline: auto;
+  p.hero-subtitle, .hero-subtitle {
+    font-size: 1.125rem !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+    color: #f5e6d6 !important;
+    max-width: 540px !important;
+    margin-inline: auto !important;
   }
 
   .site-header {
@@ -661,6 +699,34 @@ const defaultDesc =
   .site-logo:hover {
     text-decoration: none;
     color: var(--warm-rust);
+  }
+  .nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--ink);
+    cursor: pointer;
+    padding: 4px;
+    border-radius: var(--radius-sm);
+    transition: color 0.2s var(--ease-snappy);
+  }
+  .nav-toggle:hover {
+    color: var(--warm-rust);
+  }
+  .nav-toggle:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+  }
+  .nav-link-mobile-login {
+    display: none;
+  }
+  .nav-link-mobile-settings {
+    display: none;
   }
   .nav-link {
     font-size: 0.875rem;
@@ -1019,6 +1085,72 @@ const defaultDesc =
   @media (max-width: 640px) {
     .header-inner {
       padding: 10px var(--space-md);
+      flex-wrap: wrap;
+    }
+    .nav-toggle {
+      display: flex;
+    }
+    .nav-links {
+      display: none;
+      position: fixed;
+      top: 52px;
+      inset-inline-start: 0;
+      width: 260px;
+      height: calc(100vh - 52px);
+      flex-direction: column;
+      align-items: stretch;
+      background: var(--surface);
+      border-inline-end: 1px solid var(--divider);
+      padding: var(--space-md);
+      gap: var(--space-xs);
+      z-index: 15;
+      overflow-y: auto;
+    }
+    .nav-links.open {
+      display: flex;
+    }
+    .nav-links .nav-link {
+      padding: 10px 12px;
+      border-radius: var(--radius-sm);
+      font-size: 0.9375rem;
+    }
+    .nav-links .nav-link:hover {
+      background: var(--page);
+    }
+    .nav-link-mobile-login {
+      display: block;
+      padding: 10px 12px;
+      margin-top: var(--space-sm);
+      border-top: 1px solid var(--divider);
+      padding-top: var(--space-md);
+      font-size: 0.9375rem;
+      font-weight: 500;
+      color: var(--warm-rust);
+      text-decoration: none;
+    }
+    .nav-link-mobile-login:hover {
+      text-decoration: underline;
+    }
+    .nav-link-mobile-settings {
+      display: block;
+      padding: 10px 12px;
+      font-size: 0.9375rem;
+      font-weight: 500;
+      color: var(--ink-muted);
+      background: none;
+      border: none;
+      text-align: start;
+      cursor: pointer;
+      font-family: var(--font);
+    }
+    .nav-link-mobile-settings:hover {
+      color: var(--ink);
+    }
+    .header-login-link {
+      display: none;
+    }
+    .settings-btn {
+      display: none;
     }
     .header-search {
       max-width: none;

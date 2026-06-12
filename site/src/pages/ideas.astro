@@ -156,7 +156,7 @@ const base = import.meta.env.BASE_URL;
 		font-size: 1rem;
 		color: var(--ink);
 		direction: rtl;
-		padding-top: var(--space-lg);
+		padding: var(--space-xl) var(--space-lg) var(--space-xxl);
 	}
 
 	.ideas-article p {
@@ -213,5 +213,9 @@ const base = import.meta.env.BASE_URL;
 	a {
 		color: var(--warm-rust);
 		word-break: break-all;
+	}
+
+	@media (max-width: 640px) {
+		.ideas-article { padding: var(--space-md) var(--space-md) var(--space-xl); }
 	}
 </style>

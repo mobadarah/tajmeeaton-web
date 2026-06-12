@@ -184,3 +184,50 @@ No components are built yet — the following defines the intended patterns for 
 - **Don't** use uppercase tracked eyebrows above every section. Reserve for short labels only.
 - **Don't** em dashes. Use commas, colons, or periods instead.
 - **Don't** use marketing buzzwords (streamline, empower, supercharge, leverage, etc.).
+
+## 7. Layout Patterns
+
+### 7.1 Hero Section
+
+Hero section CSS (`.hero`, `.hero-content`, `.hero-title`, `.hero-subtitle`) is defined globally in `site/src/layouts/BaseLayout.astro` under `<style is:global>`. **Do not duplicate hero CSS in individual pages.**
+
+- **Inner pages** (dictionary, suggest, privacy, terms, ideas, etc.) — use hero classes directly with no page-level hero CSS. The global styles cover desktop and mobile.
+- **Home page** (`index.astro`) — hero CSS stays **page-local** (it has a unique `.hero-cta` button and differs from the shared style). Never extract it.
+
+When creating a new page that uses a hero header:
+```astro
+<header class="hero">
+  <div class="hero-content">
+    <h1 class="hero-title">العنوان</h1>
+    <p class="hero-subtitle">الوصف</p>
+  </div>
+</header>
+```
+No additional CSS needed unless the hero needs special overrides (rare).
+
+### 7.2 Content Layout
+
+All content pages use a centered wrapper with consistent padding. The standard pattern:
+
+**Desktop:**
+```css
+.main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: var(--space-xl) var(--space-lg) var(--space-xxl);
+}
+```
+
+**Mobile (`max-width: 640px`):**
+```css
+.main { padding: var(--space-md) var(--space-md) var(--space-xl); }
+```
+
+**Consistency rule:** If a page uses a custom wrapper class (e.g. `.ideas-article` instead of `.main`), apply the **same padding values** to preserve horizontal rhythm across all content pages.
+
+**Exceptions:**
+- **dictionary** — uses `max-width: 800px` (wider to accommodate the grid entry layout); padding follows the standard.
+- **suggest** — uses `.main` with the standard pattern.
+- **terms, privacy** — use `.main` with the standard pattern.
+- **ideas** — uses `.ideas-article` (nested inside `.main`); inline padding must match `.main`.
+
