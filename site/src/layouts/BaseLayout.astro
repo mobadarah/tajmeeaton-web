@@ -152,7 +152,154 @@ const defaultDesc =
         transition-duration: 0.01ms !important;
       }
     }
-  </style>
+  .feedback-btn {
+    position: fixed;
+    bottom: 24px;
+    left: 24px;
+    z-index: 30;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--warm-rust);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    transition: transform 0.2s var(--ease-snappy), box-shadow 0.2s var(--ease-snappy);
+  }
+  .feedback-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  }
+  .feedback-btn:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 3px;
+  }
+
+  .feedback-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    background: rgba(0,0,0,0.4);
+  }
+
+  .feedback-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+    width: 90%;
+    max-width: 440px;
+    background: var(--surface);
+    border-radius: var(--radius-md);
+    box-shadow: 0 8px 40px rgba(0,0,0,0.18);
+    direction: rtl;
+  }
+  .feedback-modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--divider);
+  }
+  .feedback-modal-header h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .feedback-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--ink-muted);
+    cursor: pointer;
+    line-height: 1;
+    padding: 0;
+  }
+  .feedback-close:hover {
+    color: var(--ink);
+  }
+  .feedback-modal-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .feedback-modal-body label {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--ink-muted);
+  }
+  .feedback-modal-body input,
+  .feedback-modal-body textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-family: var(--font);
+    font-size: 0.875rem;
+    color: var(--ink);
+    background: var(--bg);
+    border: 1px solid var(--divider);
+    border-radius: var(--radius-sm);
+    resize: vertical;
+    box-sizing: border-box;
+  }
+  .feedback-modal-body input:focus,
+  .feedback-modal-body textarea:focus {
+    outline: none;
+    border-color: var(--warm-rust);
+    box-shadow: 0 0 0 2px rgba(179, 89, 58, 0.15);
+  }
+  .feedback-msg {
+    font-size: 0.8125rem;
+    color: var(--warm-rust);
+    min-height: 1.2em;
+  }
+  .feedback-modal-footer {
+    padding: 12px 20px;
+    border-top: 1px solid var(--divider);
+    display: flex;
+    justify-content: flex-end;
+  }
+  .feedback-submit {
+    padding: 8px 24px;
+    background: var(--warm-rust);
+    color: #fff;
+    font-family: var(--font);
+    font-size: 0.875rem;
+    font-weight: 600;
+    border: none;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: opacity 0.2s var(--ease-snappy);
+  }
+  .feedback-submit:hover {
+    opacity: 0.9;
+  }
+  .feedback-submit:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  .feedback-submit:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+
+  @media (max-width: 640px) {
+    .feedback-btn {
+      bottom: 16px;
+      left: 16px;
+      width: 44px;
+      height: 44px;
+    }
+    .feedback-modal {
+      width: 96%;
+    }
+  }
+</style>
 </head>
 <body>
   <header class="site-header">
@@ -312,6 +459,104 @@ const defaultDesc =
     }
 
     updateHeaderAuth();
+
+    /* ── Feedback button ── */
+    const feedbackBtn = document.getElementById("feedback-btn");
+    const feedbackModal = document.getElementById("feedback-modal");
+    const feedbackOverlay = document.getElementById("feedback-overlay");
+    const feedbackClose = document.getElementById("feedback-close");
+    const feedbackSubmit = document.getElementById("feedback-submit");
+    const feedbackTitle = document.getElementById("feedback-title");
+    const feedbackBody = document.getElementById("feedback-body");
+    const feedbackMsg = document.getElementById("feedback-msg");
+
+    const FEEDBACK_LIMIT_KEY = "feedback_count";
+    const FEEDBACK_RESET_KEY = "feedback_reset";
+    const FEEDBACK_DAILY_LIMIT = 10;
+
+    function feedbackCanSubmit() {
+      const reset = localStorage.getItem(FEEDBACK_RESET_KEY);
+      const today = new Date().toDateString();
+      if (reset !== today) {
+        localStorage.setItem(FEEDBACK_RESET_KEY, today);
+        localStorage.setItem(FEEDBACK_LIMIT_KEY, "0");
+        return true;
+      }
+      const count = parseInt(localStorage.getItem(FEEDBACK_LIMIT_KEY) || "0", 10);
+      return count < FEEDBACK_DAILY_LIMIT;
+    }
+
+    function feedbackIncrement() {
+      const count = parseInt(localStorage.getItem(FEEDBACK_LIMIT_KEY) || "0", 10);
+      localStorage.setItem(FEEDBACK_LIMIT_KEY, String(count + 1));
+    }
+
+    feedbackBtn?.addEventListener("click", () => {
+      feedbackOverlay?.removeAttribute("hidden");
+      feedbackModal?.removeAttribute("hidden");
+      document.body.style.overflow = "hidden";
+    });
+
+    function closeFeedback() {
+      feedbackOverlay?.setAttribute("hidden", "");
+      feedbackModal?.setAttribute("hidden", "");
+      document.body.style.overflow = "";
+      feedbackMsg.textContent = "";
+      feedbackTitle.value = "";
+      feedbackBody.value = "";
+    }
+
+    feedbackClose?.addEventListener("click", closeFeedback);
+    feedbackOverlay?.addEventListener("click", closeFeedback);
+
+    feedbackSubmit?.addEventListener("click", async () => {
+      const title = feedbackTitle.value.trim();
+      const body = feedbackBody.value.trim();
+      if (!title || !body) {
+        feedbackMsg.textContent = "يرجى ملء الحقلين";
+        return;
+      }
+
+      const s = getSupabase();
+      if (!s) {
+        feedbackMsg.textContent = "لم يتم تهيئة الاتصال";
+        return;
+      }
+
+      const { data: { session } } = await s.auth.getSession();
+      if (!session) {
+        feedbackMsg.textContent = "يجب تسجيل الدخول أولاً";
+        return;
+      }
+
+      if (!feedbackCanSubmit()) {
+        feedbackMsg.textContent = "لقد تجاوزت الحد اليومي (١٠)";
+        return;
+      }
+
+      feedbackSubmit.disabled = true;
+      feedbackSubmit.textContent = "جارٍ الإرسال…";
+
+      const { error } = await s.from("suggestions").insert({
+        user_id: session.user.id,
+        name: title,
+        description_ar: body,
+      });
+
+      feedbackSubmit.disabled = false;
+      feedbackSubmit.textContent = "إرسال";
+
+      if (error) {
+        feedbackMsg.textContent = "حدث خطأ: " + error.message;
+        return;
+      }
+
+      feedbackIncrement();
+      feedbackMsg.textContent = "✓ تم الإرسال";
+      feedbackTitle.value = "";
+      feedbackBody.value = "";
+      setTimeout(closeFeedback, 1500);
+    });
   </script>
   <slot />
   <footer class="site-footer">
@@ -331,6 +576,28 @@ const defaultDesc =
       </div>
     </div>
   </footer>
+
+  <button class="feedback-btn" id="feedback-btn" type="button" aria-label="أرسل ملاحظاتك">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+  </button>
+
+  <div class="feedback-overlay" id="feedback-overlay" hidden></div>
+  <div class="feedback-modal" id="feedback-modal" role="dialog" aria-modal="true" aria-labelledby="feedback-modal-title" hidden>
+    <div class="feedback-modal-header">
+      <h3 id="feedback-modal-title">أرسل ملاحظاتك</h3>
+      <button class="feedback-close" id="feedback-close" type="button" aria-label="إغلاق">&times;</button>
+    </div>
+    <div class="feedback-modal-body">
+      <label for="feedback-title">العنوان</label>
+      <input id="feedback-title" type="text" placeholder="عنوان الملاحظة" />
+      <label for="feedback-body">الوصف</label>
+      <textarea id="feedback-body" rows="5" placeholder="اشرح ملاحظاتك أو اقتراحك…"></textarea>
+      <p class="feedback-msg" id="feedback-msg"></p>
+    </div>
+    <div class="feedback-modal-footer">
+      <button class="feedback-submit" id="feedback-submit" type="button">إرسال</button>
+    </div>
+  </div>
 </body>
 <style is:global>
   .site-header {
