@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "astro dev",
 		"build": "npm run update-data && astro build",
-		"update-data": "node site/scripts/fetch-data.mjs",
+		"update-data": "node scripts/fetch-data.mjs",
 		"preview": "astro preview"
 	},
 	"dependencies": {
