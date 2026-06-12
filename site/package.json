@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"scripts": {
 		"dev": "astro dev",
-		"build": "npm run update-data && astro build",
+		"build": "astro build",
 		"update-data": "node scripts/fetch-data.mjs",
 		"preview": "astro preview"
 	},
