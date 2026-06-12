@@ -82,7 +82,7 @@ INSERT INTO tags (name) VALUES ('OCR') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('arabert') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('arabic-classification') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('arabic-nlp') ON CONFLICT DO NOTHING;
-INSERT INTO tags (name) VALUES ('nlp-resources') ON CONFLICT DO NOTHING;
+INSERT INTO tags (name) VALUES ('nlp') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('أحاديث') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('أدعية') ON CONFLICT DO NOTHING;
 INSERT INTO tags (name) VALUES ('أذكار') ON CONFLICT DO NOTHING;
@@ -1027,8 +1027,8 @@ INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'Pytho
 INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'JavaScript' FROM projects WHERE slug = 'arabic-nlp-tools-and-resources-lists' ON CONFLICT DO NOTHING;
 INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'Java' FROM projects WHERE slug = 'arabic-nlp-tools-and-resources-lists' ON CONFLICT DO NOTHING;
 INSERT INTO project_technologies (project_id, technology_name) SELECT id, 'NLP' FROM projects WHERE slug = 'arabic-nlp-tools-and-resources-lists' ON CONFLICT DO NOTHING;
+INSERT INTO project_tags (project_id, tag_name) SELECT id, 'nlp' FROM projects WHERE slug = 'arabic-nlp-tools-and-resources-lists' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'اللغة العربية' FROM projects WHERE slug = 'arabic-nlp-tools-and-resources-lists' ON CONFLICT DO NOTHING;
-INSERT INTO project_tags (project_id, tag_name) SELECT id, 'nlp-resources' FROM projects WHERE slug = 'arabic-nlp-tools-and-resources-lists' ON CONFLICT DO NOTHING;
 INSERT INTO project_tags (project_id, tag_name) SELECT id, 'تجميعة' FROM projects WHERE slug = 'arabic-nlp-tools-and-resources-lists' ON CONFLICT DO NOTHING;
 INSERT INTO project_initiative_types (project_id, initiative_type_name) SELECT id, 'فهرس / قائمة' FROM projects WHERE slug = 'arabic-nlp-tools-and-resources-lists' ON CONFLICT DO NOTHING;
 INSERT INTO project_links (project_id, url, sort_order) SELECT id, 'https://github.com/linuxscout/arabicnlptoolslist', 0 FROM projects WHERE slug = 'arabic-nlp-tools-and-resources-lists' ON CONFLICT DO NOTHING;

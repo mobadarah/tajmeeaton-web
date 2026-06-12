@@ -470,25 +470,16 @@ const defaultDesc =
     const feedbackBody = document.getElementById("feedback-body");
     const feedbackMsg = document.getElementById("feedback-msg");
 
-    const FEEDBACK_LIMIT_KEY = "feedback_count";
-    const FEEDBACK_RESET_KEY = "feedback_reset";
     const FEEDBACK_DAILY_LIMIT = 10;
 
-    function feedbackCanSubmit() {
-      const reset = localStorage.getItem(FEEDBACK_RESET_KEY);
-      const today = new Date().toDateString();
-      if (reset !== today) {
-        localStorage.setItem(FEEDBACK_RESET_KEY, today);
-        localStorage.setItem(FEEDBACK_LIMIT_KEY, "0");
-        return true;
-      }
-      const count = parseInt(localStorage.getItem(FEEDBACK_LIMIT_KEY) || "0", 10);
-      return count < FEEDBACK_DAILY_LIMIT;
-    }
-
-    function feedbackIncrement() {
-      const count = parseInt(localStorage.getItem(FEEDBACK_LIMIT_KEY) || "0", 10);
-      localStorage.setItem(FEEDBACK_LIMIT_KEY, String(count + 1));
+    async function feedbackTodayCount(supabase) {
+      const startOfDay = new Date();
+      startOfDay.setHours(0, 0, 0, 0);
+      const { count } = await supabase
+        .from("suggestions")
+        .select("id", { count: "exact", head: true })
+        .gte("created_at", startOfDay.toISOString());
+      return count || 0;
     }
 
     feedbackBtn?.addEventListener("click", () => {
@@ -529,7 +520,11 @@ const defaultDesc =
         return;
       }
 
-      if (!feedbackCanSubmit()) {
+      const todayCount = await feedbackTodayCount(s);
+      if (todayCount >= FEEDBACK_DAILY_LIMIT) {
+        feedbackMsg.textContent = "لقد تجاوزت الحد اليومي (١٠)";
+        return;
+      }
         feedbackMsg.textContent = "لقد تجاوزت الحد اليومي (١٠)";
         return;
       }
@@ -551,7 +546,6 @@ const defaultDesc =
         return;
       }
 
-      feedbackIncrement();
       feedbackMsg.textContent = "✓ تم الإرسال";
       feedbackTitle.value = "";
       feedbackBody.value = "";

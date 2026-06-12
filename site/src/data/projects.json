@@ -941,7 +941,7 @@
 			"last_activity": "2022-12-17",
 			"slug": "arabic-nlp-tools-and-resources-lists",
 			"technologies": ["Python", "JavaScript", "Java", "NLP"],
-			"tags": ["اللغة العربية", "nlp-resources", "تجميعة"],
+			"tags": ["nlp", "اللغة العربية", "تجميعة"],
 			"initiative_type": ["فهرس / قائمة"],
 			"links": ["https://github.com/linuxscout/arabicnlptoolslist"]
 		},
