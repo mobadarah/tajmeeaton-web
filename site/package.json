@@ -1,13 +1,14 @@
 {
-  "name": "arabic-projects",
-  "type": "module",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview"
-  },
-  "dependencies": {
-    "astro": "^5.18.2"
-  }
+	"name": "arabic-projects",
+	"type": "module",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview"
+	},
+	"dependencies": {
+		"@supabase/supabase-js": "^2.108.1",
+		"astro": "^5.18.2"
+	}
 }

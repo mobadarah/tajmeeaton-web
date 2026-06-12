@@ -160,14 +160,29 @@ const defaultDesc =
       <div class="header-start">
         <a href={base} class="site-logo">التجميعة</a>
         <a href={base + '/dictionary/'} class="nav-link">المعجم</a>
+        <a href={base + '/suggest/'} class="nav-link">اقترح مشروعاً</a>
       </div>
       <form class="header-search" action={base} method="GET" role="search">
         <svg class="header-search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
         <input class="header-search-input" type="search" name="q" placeholder="ابحث عن مشروع…" aria-label="ابحث عن مشروع" autocomplete="off" />
       </form>
-      <button class="settings-btn" id="settings-btn" type="button" aria-label="الإعدادات">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
-      </button>
+      <div class="header-end">
+        <div class="header-auth" id="header-auth">
+          <a href={base + '/login/'} class="header-login-link" id="header-login-link">تسجيل الدخول</a>
+          <div class="header-user" id="header-user" hidden>
+            <button class="header-avatar-btn" id="header-avatar-btn" type="button" aria-label="قائمة المستخدم">
+              <img class="header-avatar-img" id="header-avatar-img" src="" alt="" />
+            </button>
+            <div class="header-dropdown" id="header-dropdown" hidden>
+              <span class="header-dropdown-name" id="header-dropdown-name"></span>
+              <button class="header-dropdown-logout" id="header-dropdown-logout" type="button">تسجيل الخروج</button>
+            </div>
+          </div>
+        </div>
+        <button class="settings-btn" id="settings-btn" type="button" aria-label="الإعدادات">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        </button>
+      </div>
     </div>
   </header>
   <dialog class="settings-modal" id="settings-modal">
@@ -229,6 +244,61 @@ const defaultDesc =
       themeBtns.forEach(b => b.classList.toggle('active', b.dataset.theme === theme));
     })();
   </script>
+  <script>
+    import { supabase } from "../lib/supabase";
+
+    const headerLoginLink = document.getElementById("header-login-link");
+    const headerUser = document.getElementById("header-user");
+    const headerAvatarImg = document.getElementById("header-avatar-img");
+    const headerAvatarBtn = document.getElementById("header-avatar-btn");
+    const headerDropdown = document.getElementById("header-dropdown");
+    const headerDropdownName = document.getElementById("header-dropdown-name");
+    const headerDropdownLogout = document.getElementById("header-dropdown-logout");
+
+    async function updateHeaderAuth() {
+      const { data } = await supabase.auth.getSession();
+      const user = data.session?.user;
+
+      if (user) {
+        headerLoginLink?.setAttribute("hidden", "");
+        headerUser?.removeAttribute("hidden");
+        headerAvatarImg.src = user.user_metadata?.avatar_url || "";
+        headerAvatarImg.alt = user.user_metadata?.full_name || "";
+        headerDropdownName.textContent =
+          user.user_metadata?.full_name || user.email || "";
+      } else {
+        headerLoginLink?.removeAttribute("hidden");
+        headerUser?.setAttribute("hidden", "");
+        headerDropdown?.setAttribute("hidden", "");
+      }
+    }
+
+    headerAvatarBtn?.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isHidden = headerDropdown?.hasAttribute("hidden");
+      if (isHidden) {
+        headerDropdown?.removeAttribute("hidden");
+      } else {
+        headerDropdown?.setAttribute("hidden", "");
+      }
+    });
+
+    document.addEventListener("click", () => {
+      headerDropdown?.setAttribute("hidden", "");
+    });
+
+    headerDropdownLogout?.addEventListener("click", async () => {
+      headerDropdown?.setAttribute("hidden", "");
+      await supabase.auth.signOut();
+      updateHeaderAuth();
+    });
+
+    supabase.auth.onAuthStateChange(() => {
+      updateHeaderAuth();
+    });
+
+    updateHeaderAuth();
+  </script>
   <slot />
   <footer class="site-footer">
     <div class="footer-inner">
@@ -239,6 +309,7 @@ const defaultDesc =
       <div class="footer-links">
         <a href={base} class="footer-link">الرئيسية</a>
         <a href={base + '/dictionary/'} class="footer-link">المعجم</a>
+        <a href={base + '/suggest/'} class="footer-link">اقترح مشروعاً</a>
         <a href="https://github.com/mobadarah/tajmeeaton-web" class="footer-link" target="_blank" rel="noopener">المصدر على GitHub</a>
       </div>
       <div class="footer-copy">
@@ -332,6 +403,119 @@ const defaultDesc =
     border-color: var(--warm-rust);
   }
   .header-search-input:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+
+  .header-end {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    flex-shrink: 0;
+  }
+  .header-auth {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .header-login-link {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--ink-muted);
+    white-space: nowrap;
+    transition: color 0.2s var(--ease-snappy);
+  }
+  .header-login-link:hover {
+    color: var(--warm-rust);
+    text-decoration: none;
+  }
+  .header-login-link:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+    border-radius: var(--radius-sm);
+  }
+  .header-user {
+    position: relative;
+  }
+  .header-user:not([hidden]) {
+    display: flex;
+    align-items: center;
+  }
+  .header-avatar-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    background: transparent;
+    border: 2px solid var(--divider);
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    transition: border-color 0.2s var(--ease-snappy);
+  }
+  .header-avatar-btn:hover {
+    border-color: var(--warm-rust);
+  }
+  .header-avatar-btn:focus-visible {
+    outline: 2px solid var(--warm-rust);
+    outline-offset: 2px;
+  }
+  .header-avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .header-dropdown {
+    position: absolute;
+    top: calc(100% + 8px);
+    inset-inline-end: 0;
+    min-width: 180px;
+    padding: var(--space-sm);
+    background: var(--surface);
+    border: 1px solid var(--divider);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+    z-index: 30;
+  }
+  .header-dropdown:not([hidden]) {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+  }
+  .header-dropdown-name {
+    display: block;
+    padding: var(--space-xs) var(--space-sm);
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--ink);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .header-dropdown-logout {
+    display: block;
+    width: 100%;
+    padding: var(--space-xs) var(--space-sm);
+    background: transparent;
+    color: var(--ink-muted);
+    font-family: var(--font);
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: right;
+    border: none;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: color 0.2s var(--ease-snappy), background 0.2s var(--ease-snappy);
+  }
+  .header-dropdown-logout:hover {
+    color: var(--warm-rust);
+    background: var(--card-hover);
+  }
+  .header-dropdown-logout:focus-visible {
     outline: 2px solid var(--warm-rust);
     outline-offset: 2px;
   }
@@ -530,6 +714,9 @@ const defaultDesc =
     }
     .header-search {
       max-width: none;
+    }
+    .header-end {
+      gap: var(--space-xs);
     }
     .footer-inner {
       padding: var(--space-lg) var(--space-md);

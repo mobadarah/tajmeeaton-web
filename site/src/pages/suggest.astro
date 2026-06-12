@@ -1,0 +1,871 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import {
+	technologies as allTechnologies,
+	tags as allTags,
+	licenses as allLicenses,
+	initiative_types as allInitTypes,
+} from "../data/schemas.json";
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout
+	title="اقترح مشروعاً · التجميعة"
+	description="اقترح إضافة مشروع جديد إلى قائمة التجميعة"
+>
+	<header class="hero">
+		<div class="hero-content">
+			<h1 class="hero-title">اقترح مشروعاً</h1>
+			<p class="hero-subtitle">أضف مشروعاً إلى قائمة التجميعة</p>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="progress-bar" id="progress-bar">
+			<button class="progress-step active" data-step="1" type="button" disabled>
+				<span class="progress-num">1</span>
+				<span class="progress-label">المعلومات</span>
+			</button>
+			<span class="progress-connector"></span>
+			<button class="progress-step" data-step="2" type="button" disabled>
+				<span class="progress-num">2</span>
+				<span class="progress-label">التصنيفات</span>
+			</button>
+			<span class="progress-connector"></span>
+			<button class="progress-step" data-step="3" type="button" disabled>
+				<span class="progress-num">3</span>
+				<span class="progress-label">المراجعة</span>
+			</button>
+		</div>
+
+		<div class="step active" id="step-1">
+			<div class="form-section">
+				<h2 class="form-heading">معلومات المشروع</h2>
+
+				<label class="form-field">
+					<span class="form-label">اسم المشروع *</span>
+					<input class="form-input" type="text" id="project-name" required />
+				</label>
+
+				<label class="form-field">
+					<span class="form-label">الوصف (بالعربية)</span>
+					<textarea class="form-input form-textarea" id="project-desc-ar" rows="3"></textarea>
+				</label>
+
+				<label class="form-field">
+					<span class="form-label">الوصف (بالإنجليزية)</span>
+					<textarea class="form-input form-textarea" id="project-desc-en" rows="3"></textarea>
+				</label>
+
+				<label class="form-field">
+					<span class="form-label">رابط المصدر</span>
+					<input class="form-input" type="url" id="project-url" placeholder="https://github.com/..." />
+				</label>
+
+				<label class="form-field">
+					<span class="form-label">الرخصة</span>
+					<select class="form-input form-select" id="project-license">
+						<option value="">-- اختر --</option>
+						{allLicenses.map(l => <option value={l}>{l}</option>)}
+					</select>
+				</label>
+			</div>
+		</div>
+
+		<div class="step" id="step-2">
+			<div class="form-section">
+				<h2 class="form-heading">التصنيفات</h2>
+
+				<fieldset class="form-field">
+					<legend class="form-label">التقنيات</legend>
+					<div class="chip-group" id="tech-group">
+						{allTechnologies.map(t => (
+							<label class="chip-option">
+								<input type="checkbox" class="chip-cb" name="technologies" value={t} />
+								<span class="chip-label">{t}</span>
+							</label>
+						))}
+					</div>
+					<div class="custom-row">
+						<input class="form-input custom-input" id="custom-tech" placeholder="أضف تقنية جديدة ثم ↵" />
+						<div class="custom-pills" id="custom-tech-pills"></div>
+					</div>
+				</fieldset>
+
+				<fieldset class="form-field">
+					<legend class="form-label">الوسوم</legend>
+					<div class="chip-group" id="tag-group">
+						{allTags.map(t => (
+							<label class="chip-option">
+								<input type="checkbox" class="chip-cb" name="tags" value={t} />
+								<span class="chip-label">{t}</span>
+							</label>
+						))}
+					</div>
+					<div class="custom-row">
+						<input class="form-input custom-input" id="custom-tag" placeholder="أضف وسماً جديداً ثم ↵" />
+						<div class="custom-pills" id="custom-tag-pills"></div>
+					</div>
+				</fieldset>
+
+				<fieldset class="form-field">
+					<legend class="form-label">نوع المبادرة</legend>
+					<div class="chip-group" id="init-type-group">
+						{allInitTypes.map(t => (
+							<label class="chip-option">
+								<input type="checkbox" class="chip-cb" name="initiative_types" value={t} />
+								<span class="chip-label">{t}</span>
+							</label>
+						))}
+					</div>
+					<div class="custom-row">
+						<input class="form-input custom-input" id="custom-init" placeholder="أضف نوعاً جديداً ثم ↵" />
+						<div class="custom-pills" id="custom-init-pills"></div>
+					</div>
+				</fieldset>
+			</div>
+		</div>
+
+		<div class="step" id="step-3">
+			<div class="form-section">
+				<h2 class="form-heading">مراجعة الاقتراح</h2>
+				<div class="summary" id="summary"></div>
+			</div>
+		</div>
+
+		<div class="step" id="step-4">
+			<div class="success-card" id="success-card">
+				<div class="success-icon">
+					<svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+				</div>
+				<h2 class="success-title">تم استلام اقتراحك!</h2>
+				<p class="success-text">سنقوم بمراجعة الاقتراح وإضافته إلى القائمة بعد التأكد من المعلومات.</p>
+				<a href={base} class="success-link">العودة إلى القائمة</a>
+			</div>
+		</div>
+
+		<div class="nav-row" id="nav-row">
+      <button class="nav-btn" id="prev-btn" type="button">▶ السابق</button>
+      <button class="nav-btn nav-next" id="next-btn" type="button">التالي ◀</button>
+		</div>
+	</main>
+</BaseLayout>
+
+<script>
+	import { supabase } from "../lib/supabase";
+
+	const base = import.meta.env.BASE_URL;
+
+	const steps = document.querySelectorAll(".step");
+	const progressSteps = document.querySelectorAll(".progress-step");
+	const prevBtn = document.getElementById("prev-btn");
+	const nextBtn = document.getElementById("next-btn");
+	const navRow = document.getElementById("nav-row");
+
+	const projectName = document.getElementById("project-name");
+	const projectDescAr = document.getElementById("project-desc-ar");
+	const projectDescEn = document.getElementById("project-desc-en");
+	const projectUrl = document.getElementById("project-url");
+	const projectLicense = document.getElementById("project-license");
+
+	const summary = document.getElementById("summary");
+
+	const customInputs = {
+		technologies: document.getElementById("custom-tech"),
+		tags: document.getElementById("custom-tag"),
+		initiative_types: document.getElementById("custom-init"),
+	};
+	const customPillContainers = {
+		technologies: document.getElementById("custom-tech-pills"),
+		tags: document.getElementById("custom-tag-pills"),
+		initiative_types: document.getElementById("custom-init-pills"),
+	};
+
+	let currentStep = 1;
+	let session = null;
+
+	const formData = {
+		name: "",
+		description_ar: "",
+		description_en: "",
+		source_url: "",
+		license_name: "",
+		technologies: [],
+		tags: [],
+		initiative_types: [],
+	};
+
+	const customValues = {
+		technologies: [],
+		tags: [],
+		initiative_types: [],
+	};
+
+	function goToStep(n) {
+		if (n < 1 || n > 4) return;
+		saveCurrentStep(currentStep);
+		currentStep = n;
+		renderStep();
+		updateProgressBar();
+		updateNavButtons();
+	}
+
+	function saveCurrentStep(n) {
+		if (n === 1) {
+			formData.name = projectName.value.trim();
+			formData.description_ar = projectDescAr.value.trim();
+			formData.description_en = projectDescEn.value.trim();
+			formData.source_url = projectUrl.value.trim();
+			formData.license_name = projectLicense.value;
+		} else if (n === 2) {
+			["technologies", "tags", "initiative_types"].forEach((key) => {
+				const cbs = document.querySelectorAll(
+					`input[name="${key}"]:checked`,
+				);
+				formData[key] = Array.from(cbs).map((cb) => cb.value);
+			});
+		}
+	}
+
+	function restoreStep(n) {
+		if (n === 1) {
+			projectName.value = formData.name;
+			projectDescAr.value = formData.description_ar;
+			projectDescEn.value = formData.description_en;
+			projectUrl.value = formData.source_url;
+			projectLicense.value = formData.license_name;
+		} else if (n === 2) {
+			["technologies", "tags", "initiative_types"].forEach((key) => {
+				document.querySelectorAll(`input[name="${key}"]`).forEach((cb) => {
+					cb.checked = formData[key].includes(cb.value);
+				});
+			});
+			renderAllCustomPills();
+		} else if (n === 3) {
+			renderSummary();
+		}
+	}
+
+	function renderStep() {
+		steps.forEach((s) => s.classList.remove("active"));
+		const active = document.getElementById(`step-${currentStep}`);
+		if (active) active.classList.add("active");
+		navRow.hidden = currentStep === 4;
+		restoreStep(currentStep);
+	}
+
+	function updateProgressBar() {
+		progressSteps.forEach((ps) => {
+			const s = Number(ps.dataset.step);
+			ps.classList.toggle("active", s === currentStep);
+			ps.classList.toggle("completed", s < currentStep);
+			ps.disabled = s >= currentStep;
+		});
+	}
+
+	function updateNavButtons() {
+		prevBtn.hidden = currentStep <= 1;
+		if (currentStep === 3) {
+			nextBtn.textContent = "إرسال الاقتراح";
+			nextBtn.className = "nav-btn submit-btn-nav";
+		} else {
+			nextBtn.textContent = "التالي ▶";
+			nextBtn.className = "nav-btn nav-next";
+		}
+	}
+
+	function validateStep(n) {
+		if (n === 1) {
+			saveCurrentStep(1);
+			if (!formData.name) {
+				projectName.focus();
+				alert("يرجى إدخال اسم المشروع");
+				return false;
+			}
+			return true;
+		}
+		if (n === 2) {
+			saveCurrentStep(2);
+			return true;
+		}
+		return true;
+	}
+
+	function renderSummary() {
+		saveCurrentStep(1);
+		saveCurrentStep(2);
+
+		const fields = [
+			{ label: "اسم المشروع", value: formData.name },
+			{ label: "الوصف (بالعربية)", value: formData.description_ar || "—" },
+			{ label: "الوصف (بالإنجليزية)", value: formData.description_en || "—" },
+			{ label: "رابط المصدر", value: formData.source_url || "—" },
+			{ label: "الرخصة", value: formData.license_name || "—" },
+			{
+				label: "التقنيات",
+				value: mergeValues("technologies"),
+				isArray: true,
+			},
+			{ label: "الوسوم", value: mergeValues("tags"), isArray: true },
+			{
+				label: "نوع المبادرة",
+				value: mergeValues("initiative_types"),
+				isArray: true,
+			},
+		];
+
+		summary.innerHTML = fields
+			.map(
+				(f) => `
+			<div class="summary-row">
+				<span class="summary-label">${esc(f.label)}</span>
+				${f.isArray
+					? `<span class="summary-chips">${f.value.map((v) => `<span class="card-tag">${esc(v)}</span>`).join("")}</span>`
+					: `<span class="summary-value">${esc(f.value)}</span>`
+				}
+			</div>
+		`,
+			)
+			.join("");
+	}
+
+	function esc(s) {
+		const d = document.createElement("div");
+		d.textContent = s;
+		return d.innerHTML;
+	}
+
+	function mergeValues(key) {
+		const checked = formData[key] || [];
+		const custom = customValues[key] || [];
+		return [...new Set([...checked, ...custom])];
+	}
+
+	function setupCustomInput(key) {
+		const input = customInputs[key];
+		if (!input) return;
+
+		input.addEventListener("keydown", (e) => {
+			if (e.key === "Enter") {
+				e.preventDefault();
+				const val = input.value.trim();
+				if (!val) return;
+				if (customValues[key].includes(val)) {
+					input.value = "";
+					return;
+				}
+				customValues[key].push(val);
+				input.value = "";
+				renderCustomPills(key);
+			}
+		});
+	}
+
+	function renderCustomPills(key) {
+		const container = customPillContainers[key];
+		if (!container) return;
+		container.innerHTML = customValues[key]
+			.map(
+				(v, i) =>
+					`<span class="custom-pill">${esc(v)}<button class="custom-pill-remove" data-key="${key}" data-index="${i}" type="button">×</button></span>`,
+			)
+			.join("");
+	}
+
+	function renderAllCustomPills() {
+		Object.keys(customValues).forEach(renderCustomPills);
+	}
+
+	document.addEventListener("click", (e) => {
+		const btn = e.target.closest(".custom-pill-remove");
+		if (!btn) return;
+		const key = btn.dataset.key;
+		const idx = Number(btn.dataset.index);
+		customValues[key].splice(idx, 1);
+		renderCustomPills(key);
+	});
+
+	prevBtn?.addEventListener("click", () => goToStep(currentStep - 1));
+
+	nextBtn?.addEventListener("click", () => {
+		if (currentStep === 3) {
+			submitSuggestion();
+			return;
+		}
+		if (!validateStep(currentStep)) return;
+		goToStep(currentStep + 1);
+	});
+
+	progressSteps.forEach((ps) => {
+		ps.addEventListener("click", () => {
+			const n = Number(ps.dataset.step);
+			if (n >= currentStep) return;
+			goToStep(n);
+		});
+	});
+
+	async function submitSuggestion() {
+		if (!session) return;
+
+		const payload = {
+			user_id: session.user.id,
+			name: formData.name,
+			description_ar: formData.description_ar || null,
+			description_en: formData.description_en || null,
+			source_url: formData.source_url || null,
+			license_name: formData.license_name || null,
+			technologies: mergeValues("technologies"),
+			tags: mergeValues("tags"),
+			initiative_types: mergeValues("initiative_types"),
+		};
+
+		nextBtn.disabled = true;
+		nextBtn.textContent = "جارٍ الإرسال…";
+
+		const { error } = await supabase.from("suggestions").insert(payload);
+
+		if (error) {
+			alert("حدث خطأ: " + error.message);
+			nextBtn.disabled = false;
+			nextBtn.textContent = "إرسال الاقتراح";
+			return;
+		}
+
+		goToStep(4);
+	}
+
+	async function init() {
+		const { data } = await supabase.auth.getSession();
+		session = data.session;
+
+		if (!session) {
+			location.href =
+				base + "/login/?redirect=" + encodeURIComponent(location.pathname);
+			return;
+		}
+
+		goToStep(1);
+		setupCustomInput("technologies");
+		setupCustomInput("tags");
+		setupCustomInput("initiative_types");
+	}
+
+	init();
+</script>
+
+<style>
+	.hero {
+		background: var(--warm-rust);
+		color: #fff;
+		padding: var(--space-xxl) var(--space-lg);
+		text-align: center;
+	}
+	.hero-content {
+		max-width: 720px;
+		margin: 0 auto;
+	}
+	.hero-title {
+		font-size: clamp(1.75rem, 5vw, 3rem);
+		font-weight: 700;
+		line-height: 1.15;
+		letter-spacing: -0.02em;
+		margin-bottom: var(--space-sm);
+	}
+	.hero-subtitle {
+		font-size: clamp(1rem, 2vw, 1.25rem);
+		font-weight: 400;
+		line-height: 1.5;
+		color: oklch(0.85 0.04 35);
+		max-width: 540px;
+		margin: 0 auto;
+	}
+
+	.main {
+		max-width: 720px;
+		margin: 0 auto;
+		padding: var(--space-xl) var(--space-lg) var(--space-xxl);
+	}
+
+	.progress-bar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0;
+		margin-bottom: var(--space-xl);
+		padding: var(--space-lg);
+		background: var(--surface);
+		border-radius: var(--radius-md);
+		box-shadow: var(--shadow-sm);
+	}
+	.progress-step {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--space-sm);
+		padding: 4px 12px;
+		background: transparent;
+		color: var(--ink-muted);
+		font-family: var(--font);
+		font-size: 0.8125rem;
+		font-weight: 500;
+		border: none;
+		cursor: default;
+		white-space: nowrap;
+		transition: color 0.2s var(--ease-snappy);
+	}
+	.progress-step.completed {
+		color: var(--warm-rust);
+		cursor: pointer;
+	}
+	.progress-step.completed:hover {
+		color: var(--warm-rust-hover);
+	}
+	.progress-step.active {
+		color: var(--ink);
+		font-weight: 600;
+	}
+	.progress-step:disabled {
+		opacity: 0.5;
+	}
+	.progress-step.completed:disabled {
+		opacity: 1;
+	}
+	.progress-num {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 24px;
+		height: 24px;
+		border-radius: 50%;
+		font-size: 0.75rem;
+		font-weight: 700;
+		line-height: 1;
+		background: var(--divider);
+		color: var(--ink-muted);
+		transition: background 0.2s var(--ease-snappy), color 0.2s var(--ease-snappy);
+	}
+	.progress-step.completed .progress-num {
+		background: var(--warm-rust);
+		color: #fff;
+	}
+	.progress-step.active .progress-num {
+		background: var(--warm-rust);
+		color: #fff;
+	}
+	.progress-label {
+		display: none;
+	}
+	.progress-connector {
+		width: 24px;
+		height: 1px;
+		background: var(--divider);
+		flex-shrink: 0;
+	}
+
+	.step { display: none; }
+	.step.active { display: block; }
+
+	.form-section {
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-md);
+		padding: var(--space-lg);
+		background: var(--surface);
+		border-radius: var(--radius-md);
+		box-shadow: var(--shadow-sm);
+	}
+	.form-heading {
+		font-size: 1rem;
+		font-weight: 600;
+		color: var(--ink);
+		padding-bottom: var(--space-sm);
+		border-bottom: 1px solid var(--divider);
+	}
+
+	.form-field {
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-xs);
+		border: none;
+	}
+	.form-label {
+		font-size: 0.8125rem;
+		font-weight: 600;
+		color: var(--ink-muted);
+	}
+	.form-input {
+		width: 100%;
+		padding: 8px 12px;
+		background: var(--page);
+		color: var(--ink);
+		font-family: var(--font);
+		font-size: 0.9375rem;
+		line-height: 1.5;
+		border: 1px solid var(--divider);
+		border-radius: var(--radius-sm);
+		outline: none;
+		transition: border-color 0.2s var(--ease-snappy);
+	}
+	.form-input::placeholder { color: var(--ink-muted); }
+	.form-input:focus { border-color: var(--warm-rust); }
+	.form-input:focus-visible {
+		outline: 2px solid var(--warm-rust);
+		outline-offset: 2px;
+	}
+	.form-textarea { resize: vertical; min-height: 80px; }
+	.form-select { cursor: pointer; }
+
+	.chip-group {
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--space-xs);
+		max-height: 200px;
+		overflow-y: auto;
+		padding: var(--space-xs) 0;
+	}
+	.chip-option {
+		display: inline-flex;
+		cursor: pointer;
+		user-select: none;
+	}
+	.chip-cb {
+		position: absolute;
+		opacity: 0;
+		pointer-events: none;
+	}
+	.chip-label {
+		display: inline-flex;
+		align-items: center;
+		padding: 4px 12px;
+		background: var(--surface);
+		color: var(--ink-muted);
+		font-size: 0.8125rem;
+		font-weight: 500;
+		line-height: 1.4;
+		border: 1px solid var(--divider);
+		border-radius: var(--radius-pill);
+		transition: background 0.2s var(--ease-snappy), color 0.2s var(--ease-snappy), border-color 0.2s var(--ease-snappy);
+	}
+	.chip-label:hover {
+		border-color: var(--warm-rust);
+		color: var(--warm-rust);
+	}
+	.chip-cb:checked + .chip-label {
+		background: var(--warm-rust);
+		color: #fff;
+		border-color: var(--warm-rust);
+	}
+	.chip-cb:focus-visible + .chip-label {
+		outline: 2px solid var(--warm-rust);
+		outline-offset: 2px;
+	}
+
+	.custom-row {
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-xs);
+		margin-top: var(--space-sm);
+		padding-top: var(--space-sm);
+		border-top: 1px dashed var(--divider);
+	}
+	.custom-input {
+		font-size: 0.875rem;
+		padding: 6px 10px;
+	}
+	.custom-input::placeholder {
+		color: var(--ink-muted);
+		font-style: italic;
+		font-size: 0.8125rem;
+	}
+	.custom-pills {
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--space-xs);
+	}
+	.custom-pill {
+		display: inline-flex;
+		align-items: center;
+		gap: 2px;
+		padding: 2px 8px;
+		background: var(--warm-rust-tint);
+		color: var(--warm-rust);
+		font-size: 0.8125rem;
+		font-weight: 500;
+		line-height: 1.4;
+		border-radius: var(--radius-pill);
+	}
+	.custom-pill-remove {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 16px;
+		height: 16px;
+		padding: 0;
+		background: transparent;
+		color: var(--warm-rust);
+		font-size: 0.875rem;
+		font-weight: 700;
+		line-height: 1;
+		border: none;
+		border-radius: 50%;
+		cursor: pointer;
+		transition: background 0.15s var(--ease-snappy);
+	}
+	.custom-pill-remove:hover {
+		background: oklch(0 0 0 / 0.1);
+	}
+
+	.summary {
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-sm);
+	}
+	.summary-row {
+		display: flex;
+		flex-direction: column;
+		gap: var(--space-xs);
+		padding: var(--space-sm) 0;
+		border-bottom: 1px solid var(--divider);
+	}
+	.summary-row:last-child { border-bottom: none; }
+	.summary-label {
+		font-size: 0.75rem;
+		font-weight: 600;
+		color: var(--ink-muted);
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+	}
+	.summary-value {
+		font-size: 0.9375rem;
+		color: var(--ink);
+		word-break: break-word;
+	}
+	.summary-chips {
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--space-xs);
+	}
+	.card-tag {
+		display: inline-flex;
+		align-items: center;
+		padding: 2px 10px;
+		background: var(--warm-rust-tint);
+		color: var(--warm-rust);
+		font-size: 0.75rem;
+		font-weight: 500;
+		line-height: 1.4;
+		border-radius: var(--radius-pill);
+	}
+
+	.nav-row {
+		display: flex;
+		justify-content: space-between;
+		gap: var(--space-sm);
+		margin-top: var(--space-lg);
+		padding-top: var(--space-lg);
+		border-top: 1px solid var(--divider);
+	}
+	.nav-btn {
+		display: inline-flex;
+		align-items: center;
+		padding: 10px 24px;
+		background: var(--surface);
+		color: var(--ink);
+		font-family: var(--font);
+		font-size: 0.9375rem;
+		font-weight: 600;
+		line-height: 1.4;
+		border: 1px solid var(--divider);
+		border-radius: var(--radius-sm);
+		cursor: pointer;
+		user-select: none;
+		transition: color 0.2s var(--ease-snappy), border-color 0.2s var(--ease-snappy), background 0.2s var(--ease-snappy);
+	}
+	.nav-btn:hover:not(:disabled) {
+		border-color: var(--warm-rust);
+		color: var(--warm-rust);
+	}
+	.nav-btn:focus-visible {
+		outline: 2px solid var(--warm-rust);
+		outline-offset: 2px;
+	}
+	.nav-btn:disabled {
+		opacity: 0.4;
+		cursor: default;
+	}
+	.nav-next {
+		background: var(--warm-rust);
+		color: #fff;
+		border-color: var(--warm-rust);
+	}
+	.nav-next:hover:not(:disabled) {
+		background: var(--warm-rust-hover) !important;
+		color: #fff !important;
+		border-color: var(--warm-rust-hover) !important;
+	}
+	.submit-btn-nav {
+		background: var(--green, oklch(0.55 0.12 150)) !important;
+		color: #fff !important;
+		border-color: var(--green, oklch(0.55 0.12 150)) !important;
+	}
+	.submit-btn-nav:hover:not(:disabled) {
+		background: oklch(0.48 0.12 150) !important;
+		border-color: oklch(0.48 0.12 150) !important;
+	}
+
+	.success-card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: var(--space-md);
+		padding: var(--space-xxl);
+		background: var(--surface);
+		border-radius: var(--radius-md);
+		box-shadow: var(--shadow-sm);
+		text-align: center;
+	}
+	.success-icon {
+		color: var(--green);
+	}
+	.success-title {
+		font-size: 1.5rem;
+		font-weight: 700;
+		color: var(--ink);
+	}
+	.success-text {
+		font-size: 1rem;
+		color: var(--ink-muted);
+		max-width: 400px;
+	}
+	.success-link {
+		display: inline-flex;
+		padding: 10px 24px;
+		background: var(--warm-rust);
+		color: #fff;
+		font-family: var(--font);
+		font-size: 0.9375rem;
+		font-weight: 600;
+		line-height: 1.4;
+		border-radius: var(--radius-sm);
+	}
+	.success-link:hover {
+		background: var(--warm-rust-hover);
+		text-decoration: none;
+		color: #fff;
+	}
+
+	@media (max-width: 640px) {
+		.hero { padding: var(--space-xl) var(--space-md); }
+		.main { padding: var(--space-md) var(--space-md) var(--space-xl); }
+		.progress-bar { padding: var(--space-md); gap: 0; }
+		.progress-label { display: none; }
+		.form-section { padding: var(--space-md); }
+		.nav-row { flex-direction: column-reverse; }
+		.nav-btn { justify-content: center; }
+	}
+
+	@media (min-width: 641px) {
+		.progress-label { display: inline; }
+		.progress-connector { width: 40px; }
+	}
+</style>
